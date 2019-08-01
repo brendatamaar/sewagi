@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<!-- @import "_header.kit" -->
+
+<body class="property-detail">
+
+    <!-- @import "./navbar/_property-detail-sticky.kit" -->
+    <div class="main-content pt-30">
+        <!-- @import "./components/_property-title.kit" -->
+        <!-- @import "./components/_main-menu.kit" -->
+        <!-- @import "./components/_slider-header.kit" -->
+
+        <!-- @import "./components/_mid-content.kit" -->
+
+        <!-- @import "./components/_neighborhood-section.kit" -->
+        <!-- @import "./components/_similar-listing-section.kit" -->
+        <!-- @import "./modal/_lets-nego.kit" -->
+    </div>
+
+    <script>
+        function closeCookie() {
+            $('.cookie-policy').remove();
+        }
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <!-- @import "./footer/_footer.kit" -->
+    <!-- @import "_footer.kit" -->
+    <script>
+        $(function() {
+            $.fn.popover.Constructor.Default.whiteList.table = [];
+            $.fn.popover.Constructor.Default.whiteList.tr = [];
+            $.fn.popover.Constructor.Default.whiteList.td = [];
+            $.fn.popover.Constructor.Default.whiteList.th = [];
+            $.fn.popover.Constructor.Default.whiteList.div = [];
+            $.fn.popover.Constructor.Default.whiteList.button = [];
+            $.fn.popover.Constructor.Default.whiteList.tbody = [];
+            $.fn.popover.Constructor.Default.whiteList.thead = [];
+            $("[data-toggle=popover]").each(function(i, obj) {
+                $(this).popover({
+                    html: true,
+                    content: function() {
+                        var id = $(this).attr("id");
+                        return $("#popover-content-" + id).html();
+                    }
+                });
+            });
+            $(document).on('click','.close-popover',function(){
+                $('.popover').popover('hide');
+            });
+
+            
+        });
+        // $('[data-toggle="popover"]').popover();
+
+      // Sticky wrapper
+        var resizeSticky = function () {
+            var elements = document.querySelectorAll('.sticky-wrapper, .sticky-sm-wrapper, .sticky-md-wrapper');
+            for (var i = 0; i < elements.length; i++) {
+                const wrapper = elements[i].closest('.main-content');
+                if (wrapper) elements[i].style.top = wrapper.offsetTop + "px";
+            };
+        }
+        resizeSticky();
+        window.addEventListener('resize', resizeSticky);
+    </script>
+</body>
+
+</html>

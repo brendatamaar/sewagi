@@ -1,0 +1,1232 @@
+id|page|key|id_desc|en_desc
+1|home|link-about|Tentang|About
+2|home|link-login|Masuk|Log In
+3|home|link-list-your-property|Iklankan properti Anda|List your property
+4|home|link-discover|Jelajahi|Discover
+5|home|link-logout|Keluar|Log Out
+6|home|link-myprofile|Profil|My Profile
+7|home|placeholder-search|Masukkan lokasi, nama properti, perusahaan, atau pendidikan|Enter location, property name, company or education ...
+8|home|label-recent-search|Pencarian terbaru|Recent searches
+9|home|label-property-recommend|Properti Rekomendasi Kami|Properties Recommended By Us
+10|home|label-see-more|Lihat Lainnya|See More
+11|home|label-we-provide|Apa Yang Kami Sediakan|What We Provide
+12|home|label-we-provide-1-title|Pembayaran bulanan|Monthly payments
+13|home|label-we-provide-1-content|Bayar sesuai pemakaian|Pay as you go
+14|home|label-we-provide-2-title|Fleksibilitas|Flexibility
+15|home|label-we-provide-2-content|Pilih pembayaran dan durasi sewa Anda sesuai keinginan Anda|Choose your payment and staying terms Rent the way you want
+16|home|label-we-provide-3-title|Lokasi yang Anda inginkan|Preferred locations
+17|home|label-we-provide-3-content|Gunakan fitur perjalanan kami agar Anda tetap dekat dengan tempat kerja Anda|Use our commute feature to be close to your activity hubs
+18|home|label-we-provide-3-1-content|Gunakan|Use our
+19|home|label-we-provide-3-2-content|fitur perjalanan|commute feature
+20|home|label-we-provide-3-3-content|untuk tetap dekat dengan tempat aktivitas|to be close to your activity hubs.
+21|home|label-we-provide-4-title|Bisa dijadikan hunian bersama|Co-living compatibility
+22|home|label-we-provide-4-content|Kami mencocokkan Anda dengan orang yang sepemikiran dengan Anda|We match you with like minded housemates
+23|home|label-we-provice-5-title|Santai|Peace of mind
+24|home|label-we-provide-5-content|Dashboard lengkap dipadukan dengan layanan pelanggan untuk pengalaman menyewa yang menyenangkan|Unified dashboard paired with customer support for a seamless renting experience
+25|home|label-about-us|Tentang Sewagi|What is Sewagi
+26|home|p-about-us-1|SEWAGI memungkinkan Anda menyewa properti sesuai keinginan Anda & iklankan properti Anda secara gratis|SEWAGI lets you rent on your terms & list your property for free
+27|home|p-about-us-2|Marketplace kami memberikan fleksibilitas dalam menyewa, kedekatan, dan dapat menyewa bersama-sama|Our marketplace provides you with rental flexibility, proximity & shareability
+28|home|p-about-us-3|Lebih cepat, unggul, dan aman dalam menyewakan properti Anda|While giving your property the edge in leasing out faster & safe
+29|home|label-how-sewagi-1|Bagaimana Sewagi membantu Anda sebagai|How Sewagi Helps You as a
+30|home|label-how-sewagi-2|Penyewa|Renter
+31|home|label-how-sewagi-3|Penyewa rumah|Co-Living Renter
+32|home|label-how-sewagi-4|Pemilik Properti|Property Lister
+33|home|label-how-sewagi-2-1-title|Cari dan simpan daftar katalog yang Anda suka|Find and collect the listings you like
+34|home|label-how-sewagi-2-1-content|Jelajahi katalog kami dan atur pencarian untuk mendapatkan penawaran terbaik|Check out our listing and refine your filters to get the best match
+35|home|label-how-sewagi-2-2-title|Jadwalkan kunjungan|Schedule for a room tour
+36|home|label-how-sewagi-2-2-content|Lihat dan kenali dulu calon tempat tinggal Anda. Tidak ada ikatan|Have a closer look at your future home. No strings attached
+37|home|label-how-sewagi-2-2-1-content|Kapanpun Anda melihat logo ini di atas iklan kami, Anda dapat menjadwalkan|Whenever you see this logo on our listing, you may schedule a
+38|home|label-how-sewagi-2-2-2-content|kunjungan virtual langsung|Live Virtual Tour
+39|home|label-how-sewagi-2-2-3-content|dan bertemu dengan kawan seruangan yang potensial|and meet with your potential roommates
+40|home|label-how-sewagi-2-3-title|Siapkan identitas digital Anda|Set up your digital identity
+41|home|label-how-sewagi-2-3-content|Anda suka? Tandatangani kontrak secara digital dan tempat tersebut jadi milik Anda|Like what you see? Sign the contract digitally and the place is yours
+42|home|label-how-sewagi-2-4-title|PINDAH!|MOVE IN!
+43|home|label-how-sewagi-2-4-content|Kini Anda telah siap! Pindah dan jadilah bagian dari komunitas|You are all set! Move in and be part of the community
+44|home|label-how-sewagi-3-1-title|Cari dan simpan daftar katalog yang Anda suka|Find and collect the listings you like
+45|home|label-how-sewagi-3-1-content|Cari dan simpan daftar hunian kami dan atur pencarian untuk mendapatkan yang cocok.|Check out our co-living listing and refine your filters to get the best match
+46|home|label-how-sewagi-3-2-title|Terhubung dengan penyewa lain|Connect with the existing renters
+47|home|label-how-sewagi-3-2-content|Cari tahu apakah Anda cocok dengan penyewa lain saat mengunjungi calon tempat tinggal Anda|See if you could get along well with the existing renters while visiting your future home
+48|home|label-how-sewagi-3-3-title|Siapkan identitas digital Anda|Set up your digital identity
+49|home|label-how-sewagi-3-3-content|Anda suka? Tandatangani kontrak secara digital dan tempat tersebut jadi milik Anda|Like what you see? Sign the contract digitally and the place is yours
+50|home|label-how-sewagi-3-4-title|PINDAH!|MOVE IN!
+51|home|label-how-sewagi-3-4-content|Kini Anda telah siap! Pindah dan jadilah bagian dari komunitas|You are all set! Move in and be part of the community
+52|home|label-how-sewagi-4-1-title|Beritahu kami tentang properti Anda|Tell us about your property
+53|home|label-how-sewagi-4-1-content|Beritahu kami tentang detail properti Anda. Makin lengkap makin baik|Give us your property details. The more details the better
+54|home|label-how-sewagi-4-2-title|Biarkan kami melakukan ini untuk Anda|Let us do the heavy lifting
+55|home|label-how-sewagi-4-2-content|Sewagi membantu Anda dalam menentukan harga, memasarkan ke prospek yang tepat, dan mengurus semua surat-surat.|Sewagi will help you price it right, market it to the right prospects and take care of the paperwork
+56|home|label-how-sewagi-4-3-title|Sahkan dan tandatangani kontrak digital|Prove and sign the digital contract
+57|home|label-how-sewagi-4-3-content|Tidak perlu repot, cukup tandatangani secara digital|Safe yourself the hassle, sign your contract digitally
+58|home|label-how-sewagi-4-4-title|Dapatkan pasif income|Get your passive income
+59|home|label-how-sewagi-4-4-content|Tinggal santai dan lihat pendapatan Anda makin tumbuh|Kick back and see your income grow
+60|home|label-how-sewagi-4-4-2-content|Kapanpun Anda lihat logo ini di atas iklan Anda, Anda bisa melihat dalam|Whenever you see this logo on our listing you may check it out in
+61|home|label-how-sewagi-5-1-title|Cari dan simpan daftar katalog yang Anda suka|Find and collect the listings you like
+62|home|label-how-sewagi-5-1-1-content|Jelajahi katalog kami dan atur pencarian untuk mendapatkan penawaran terbaik|Check out our listing and refine your filters to get the best match
+63|home|label-how-sewagi-5-1-2-content|Kapanpun Anda lihat logo ini di atas iklan Anda, Anda bisa melihat dalam|Whenever you see this logo on our listing, you may check it out in
+64|home|label-what-is-coliving|Apakah hunian bersama itu|What is co-living?
+65|home|label-do-it|Lanjutkan!|Let's do it!
+66|home|label-discover-fit|Jelajahi daftar yang paling cocok dengan Anda|Discover listings that fit you the most
+67|home|label-discover-fit-1-1|Hunian Bersama|Co-Living
+68|home|label-discover-fit-1-2|Bersedia berbagi tempat tinggal dengan orang lain?|Willing to share living space with others?
+69|home|label-discover-fit-1-3|Kami dapat membantumu menemukan teman serumah yang paling cocok|We can help you find the best housemates match
+70|home|label-discover-fit-1-4|Carikan saya hunian|Find me a co-living
+71|home|label-discover-fit-2-1|Pekerja|Active Worker
+72|home|label-discover-fit-2-2|Tidak bisa menemukan tempat tinggal dekat kantor?|Can’t find a living space near your office area?
+73|home|label-discover-fit-2-3|Kami punya daftar yang dekat dengan kantor Anda, cukup jalan kaki saja|We have listings within walking distance near your office
+74|home|label-discover-fit-2-4|Cari tempat tinggal dekat kantor|Find a pad near my office
+75|home|label-discover-fit-3-1|Ramah Keluarga|Family Friendly
+76|home|label-discover-fit-3-2|Perlu tempat tinggal dekat anak-anak Anda?|Need a living area for your kids?
+77|home|label-discover-fit-3-3|Tak perlu khawatir. Kami menyediakan daftar dekat dengan sekolah|Worry no more. We can provide listings with school nearby
+78|home|label-discover-fit-3-4|Cari tempat tinggal dekat sekolah|Find a pad near school
+79|home|label-as-role-1|APAKAH ANDA SEORANG PEMILIK PROPERTI?|ARE YOU A PROPERTY LISTER?
+80|home|label-as-role-2|Lanjutkan penyewaan yang mudah sebagai|Go for effortless leasing as a
+81|home|label-as-role-3|Pemilik rumah|Homeowner
+82|home|label-as-role-4|Agen properti|Property agent
+83|home|label-as-role-5|Manajemen gedung|Building management
+84|home|label-as-role-6|Teman Serumah|House mate
+85|home|label-work-with-us-1|Bekerjasama Bersama Kami|Work With Us
+86|home|label-work-with-us-2|Mulai dapatkan penghasilan dari transaksi properti di waktu luang Anda|Start earning income from real estate deals on your free time
+87|home|label-work-with-us-3|Menjadi agen|Become a showing agent
+88|home|label-work-with-us-4|Tingkatkan efiseinsi dengan menempatkan karyawan Anda dekat kantor atau proyek|Increase efficiency by placing your fellow workers near your office or project locations
+89|home|label-work-with-us-5|Tempatkan staf perusahaan saya|Start placing my company staff
+90|home|label-cookie|Dengan menggunakan situs ini, Anda setuju terhadap|By using this website you agree to
+91|home|link-cookie|kebijakan kuki kami|our cookie policy
+92|home|label-testimoni|Apa kata pengguna Sewagi|What Sewagi Users Say
+93|home|label-starting-from|Mulai dari|Starting from
+94|home|label-permonth|/ Bulan|/ Month
+95|home|label-perroom-month|/ Ruangan / Bulan|/ Room / Month
+96|home|link-close|Tutup|Close
+97|home|link-interest-1|Saya tertarik dengan|I'm interested in
+98|home|link-interest-2|Hunian Bersama|Co-Living
+99|home|link-interest-3|Dihuni Sendiri|Entire Space
+100|home|link-filter-1|Jika Anda memiliki permintaan khusus, mari kita menyaring kebutuhan Anda|If you have specific requests, let's filter out your needs
+101|home|link-filter-2|Jenis Properti|Property Type
+102|home|link-filter-3|Apartemen|Apartment
+103|home|link-filter-4|Rumah|House
+104|home|link-filter-5|Kamar tidur|Bedroom
+105|home|link-filter-6|Tambahkan waktu tempuh|Add commute time
+106|home|link-minute|menit|min
+107|home|label-loc-detail|Menambahkan detail lokasi|Add detail location
+108|home|label-to|Ke|To
+109|home|label-by-short|dg|by
+110|home|label-car|Mobil|Car
+111|home|label-motorbike|Sepeda motor|Motorbike
+112|home|label-walking|Berjalan|Walking
+113|home|lebel-walking|Berjalan|Walking
+114|home|link-filter-7|atau <i>landmark</i>|or a Landmark
+115|home|label-direction-b|Area Bisnis|Business District
+116|home|label-direction-c|Jakarta Pusat|Central Jakarta
+117|home|label-direction-n|Jakarta Utara|North Jakarta
+118|home|label-direction-s|Jakarta Selatan|South Jakarta
+119|home|label-direction-w|Jakarta Barat|West Jakarta
+120|home|label-direction-e|Jakarta Timur|East Jakarta
+121|home|link-filter-8|Syarat|Terms
+122|home|link-filter-9|Lama tinggal|Length of stay
+123|home|link-month|Bulan|Month
+124|home|link-year|Tahun|Year
+125|home|link-filter-10|Opsi pembayaran|Payment options
+126|home|link-monthly|Bulanan|Monthly
+127|home|link-quarterly|Triwulanan|Quarterly
+128|home|link-twice|Dua kali|Twice
+129|home|link-once|Sekali|Once
+130|home|link-filter-11|Kisaran anggaran per bulan|Range budget per month
+131|home|label-idr|RP|IDR
+132|_partials/modalbox|label-modal-login-1|Hi, selamat datang kembali ke Sewagi|Hi, welcome back to Sewagi
+133|_partials/modalbox|label-modal-login-2|Alamat email|Email address
+134|_partials/modalbox|label-modal-login-3|Kata sandi|Password
+135|_partials/modalbox|label-modal-login-4|Biarkan saya tetap masuk|Keep me signed in
+136|_partials/modalbox|label-modal-login-5|Lupa kata sandi|Forgot Password
+137|_partials/modalbox|label-modal-login-6|Masuk|Log In
+138|home|link-or|atau|or
+139|home|link-login-with|Masuk dengan|Login with
+140|_partials/modalbox|label-modal-login-7|Belum jadi anggota Sewagi? Mari mendaftar|Not a Sewagi member yet? let's be one
+141|_partials/modalbox|label-modal-login-8|Buat sebuah akun|Create an account
+142|_partials/modalbox|label-modal-login-9|Lupa kata sandi Anda|Forgot Your Password
+143|_partials/modalbox|label-modal-login-10|Beritahu kami email Anda yang terdaftar di Sewagi dan kami akan mengirimi Anda link untuk mengatur ulang password|Tell us your registed email with sewagi and we will send you a link to reset your password
+144|_partials/modalbox|label-modal-login-11|VIA NOMOR TELEPON TERDAFTAR|VIA REGISTERED PHONE
+145|_partials/modalbox|label-modal-login-12|VIA EMAIL TERDAFTAR|VIA REGISTERED EMAIL
+146|_partials/modalbox|label-modal-login-13|Kirimkan saya link|Send me a link
+147|_partials/modalbox|label-modal-login-14|Beritahu kami nomor telepon Anda yang terdaftar di Sewagi dan kami akan mengirimi Anda link untuk mengatur ulang password|Tell us your registed phone number with sewagi and well send you a link to reset your password
+148|_partials/modalbox|label-modal-login-15|Nomor telepon|Phone number
+149|_partials/modalbox|label-modal-login-16|Jadilah anggota kami untuk menemukan rumah sesuai selera Anda & iklankan properti Anda secara gratis!|Become our member to find your kind of home & list your property for free!
+150|home|link-signup|Daftar|Sign up
+151|home|link-and|dan|and
+152|_partials/modalbox|label-modal-login-17|Dengan mendaftar, Anda setuju terhadap|By signing up, your agree to
+153|_partials/modalbox|label-modal-login-18|syarat penggunaan|terms of use
+154|_partials/modalbox|label-modal-login-19|kebijakan privasi|privacy policy
+155|_partials/modalbox|label-modal-login-20|Sudah memiliki akun Sewagi?|Already have a Sewagi account?
+156|_partials/modalbox|label-modal-login-21|Kembali|Go back
+157|_partials/modalbox|label-modal-login-22|Mendaftar untuk menemukan rumah Anda, Hotel & daftar properti Anda secara gratis|Sign up to find your home, <br> & list your property for free
+158|_partials/modalbox|label-modal-login-23|Mendaftar sebagai|Sign up as
+159|_partials/modalbox|label-modal-login-24|INDIVIDU|INDIVIDUAL
+160|_partials/modalbox|label-modal-login-25|PERUSAHAAN|COMPANY
+161|home|link-signup-with|Mendaftar dengan|Sign up with
+162|home|label-firstname|Nama depan|First Name
+163|home|label-lastname|Nama belakang|Last Name
+164|home|label-password-invalid|sandi Anda harus setidaknya enam karakter dengan kombinasi angka dan huruf|Your password should be at least six characters long with combination of numbers and letters
+165|home|label-confirm-password|Konfirmasi password Anda|Confirm your password
+166|home|label-wa|Sebaiknya masukkan nomor WhatsApp yang valid untuk kenyamanan negosiasi dan kunjungan|Preferably input a valid WhatsApp phone number for tour and negotiation convenience
+167|home|label-nationality|Kebangsaan|Nationality
+168|_partials/modalbox|label-modal-login-26|Anda harus berusia 18 tahun atau lebih.|You must be 18 years old or older.
+169|_partials/modalbox|label-modal-login-27|Informasi ini tidak akan dibagikan kepada orang lain|This information won't be shared to others
+170|home|label-male|Pria|Male
+171|home|label-female|Wanita|Female
+172|home|label-back-toall|Kembali ke semua pilihan pendaftaran|Back to all sign up option
+173|home|label-continue|Lanjutkan|Continue
+174|_partials/modalbox|label-modal-login-28|Detail Perusahaan|Company details
+175|_partials/modalbox|label-modal-login-29|Masukkan nama perusahaan|Enter company name
+176|_partials/modalbox|label-modal-login-30|Masukkan alamat jalan|Enter street address
+177|_partials/modalbox|label-modal-login-31|Masukkan nomor alamat|Enter address number
+178|_partials/modalbox|label-modal-login-32|Masukkan rincian|Enter details
+179|_partials/modalbox|label-modal-login-33|Masukkan kota|Enter city
+180|_partials/modalbox|label-modal-login-34|Masukkan kecamatan|Enter district
+181|_partials/modalbox|label-modal-login-35|Masukkan kode pos|Enter post code
+182|_partials/modalbox|label-modal-login-36|Saya ingin Sewagi untuk membantu|I want Sewagi's help to
+183|_partials/modalbox|label-modal-login-37|Mencari rumah|Find a home
+184|_partials/modalbox|label-modal-login-38|Mengiklankan properti sebagai pemilik rumah|List property as a homeowner
+185|_partials/modalbox|label-modal-login-39|Mengiklankan properti sebagai agen properti|List property as a property agent
+186|_partials/modalbox|label-modal-login-40|Mengiklankan properti/kamar sebagai teman serumah|List property / bedrooms as a housemate
+187|home|label-email-sent|Email terkirim!|Email sent!
+188|_partials/modalbox|label-modal-login-41|Kami mengirim email ke|We sent an email to
+189|home|link-back|Kembali|Back
+190|_partials/modalbox|label-modal-login-42|dengan link untuk memverifikasi akun Anda|with a link to verify your account
+191|_partials/modalbox|label-modal-login-43|dengan link untuk mereset password Anda|with a link to reset your password
+192|home|label-sms-sent|SMS terkirim!|SMS sent!
+193|_partials/modalbox|label-modal-login-44|Kami mengirim teks ke|We sent a text to
+194|_partials/modalbox|label-modal-login-45|Penanggung jawab akun ini|Person in charge of this account
+195|_partials/modalbox|label-modal-login-46|Email ini sudah digunakan|That email is already taken
+196|_partials/modalbox|label-modal-login-47|Ups! password baru Anda tidak cocok. Silakan coba lagi|Oops! Your new password don't match. Please try again
+197|_partials/modalbox|label-modal-login-48|Cari rumah untuk team saya/ rekan kerja/ karyawan|Find a home for my team / co-workers / employees
+198|_partials/modalbox|label-modal-login-49|Iklankan properti sebagai perusahaan manajemen gedung|List properties as a Building Management
+199|_partials/modalbox|label-modal-login-50|Iklankan properti sebagai perusahaan real estate|List properties as a Real Estate Company
+200|_partials/modalbox|label-modal-login-51|Iklankan properti sebagai agen real estate|List properties as a Real Estate Agency
+201|_partials/modalbox|label-modal-login-52|Terima kasih untuk sign-up|Thank you for signing-up
+202|_partials/modalbox|label-modal-login-53|Silakan mencari rumah sesuai keinginan Anda dan iklankan properti Anda secara gratis|Enjoy finding home on your terms and listing your property for free
+203|_partials/modalbox|label-modal-login-54|Tidak dapat memverifikasi nomor|Unable to verify number
+204|home|label-sorry|Maaf|Sorry
+205|_partials/modalbox|label-modal-login-56|Kami tidak bisa memverifikasi|We couldn't verify the
+206|_partials/modalbox|label-modal-login-57|Kirim ulang OTP|Resend OTP
+207|home|label-change|Ubah|Change
+208|_partials/modalbox|label-modal-login-59|Kirim OTP|Send OTP
+209|_partials/modalbox|label-modal-login-60|Kode verifikasi|Verification code
+210|_partials/modalbox|label-modal-login-61|Sebuah pesan dengan kode verifikasi telah dikirim|A message with verification code has been sent
+211|_partials/modalbox|label-modal-login-62|VERIFIKASI KODE|VERIFY CODE
+212|_partials/modalbox|label-modal-login-63|Tidak mendapatkan kode|Didn't get the code
+213|_partials/modalbox|label-modal-login-64|Kirim kode baru|Send a new code
+214|home|label-got-id|Mengerti|Go it
+215|_partials/modalbox|label-modal-renter-1|Apakah yang dimaksud tempat tinggal bersama?|What is co-living?
+216|_partials/modalbox|label-modal-renter-2|Tempat tinggal bersama artinya berbagi rumah dengan ruangan yang ada, antara individu-individu yang cocok dengan gaya hidup perkotaan|Co-living means sharing a home along with common spaces, amidst individuals whom are compatible with urban community lifestyle
+217|_partials/modalbox|label-modal-renter-3|Dengan ruangan pribadi dan teman serumah, Anda akan berbagi biaya akomodasi,  memperbaiki kualitas hidup, menjelajahi kegiatan baru, dan lakukan hal yang lebih banyak lagi|With your private room and live-in housemates, you’ll split accommodation costs, foster lifelong connections, discover new activities and do so much more
+218|_partials/modalbox|label-modal-renter-4|Pada dasarnya, Anda dapat lebih fleksibel melakukan banyak hal yang Anda suka|Essentially it means more flexibility to do more of what you like
+219|_partials/modalbox|label-modal-join-1|Gabung komunitas|Join the community
+220|_partials/modalbox|label-modal-join-2|Dalam rangka mengakses pendaftaran Anda menjadi agen, mohon isikan detail tentang Anda dengan mengisi formulir di bawah ini|In order to assess your candidacy in becoming a showing agent, please give us some details about you by filling out the form below
+221|_partials/modalbox|label-modal-join-3|Dimana Anda tinggal?|Which area do you live in?
+222|_partials/modalbox|label-modal-join-4|Dimana Anda bekerja?|Which area do you practice your profession?
+223|_partials/modalbox|label-modal-join-5|Status pekerjaan|Current employment status
+224|_partials/modalbox|label-modal-join-6|Karyawan|Employee
+225|_partials/modalbox|label-modal-join-7|Belum bekerja|Unemployed
+226|_partials/modalbox|label-modal-join-8|Pekerja paruh waktu|Freelancer
+227|_partials/modalbox|label-modal-join-9|Pengusaha|Entrepreneur
+228|_partials/modalbox|label-modal-join-10|Siswa/Mahasiswa|Student
+229|_partials/modalbox|label-modal-join-11|Pensiunan/Purnawirawan|Retired
+230|_partials/modalbox|label-modal-join-12|Pegawai Pemerintah (Non ASN/ASN/TNI/POLRI)|Civil servant
+231|_partials/modalbox|label-modal-join-13|Bidang pekerjaan|Working field
+232|_partials/modalbox|label-modal-join-14|Pendidikan terakhir|Latest education
+233|_partials/modalbox|label-modal-join-15|SMA sederajat|Highschool
+234|_partials/modalbox|label-modal-join-16|Diploma (D3)|Diploma (D3)
+235|_partials/modalbox|label-modal-join-17|Sarjana (S1)|Bachelor (S1)
+236|_partials/modalbox|label-modal-join-18|Magister (S2)|Master (S2)
+237|_partials/modalbox|label-modal-join-19|Doktor (S3)|Doctorate (S3)
+238|_partials/modalbox|label-modal-join-20|Kemampuan Bahasa Inggris|English proficiency
+239|_partials/modalbox|label-modal-join-21|Aktif|SPOKEN
+240|_partials/modalbox|label-modal-join-22|Pasif|WRITTEN
+241|_partials/modalbox|label-modal-join-23|Pemula|Beginner
+242|_partials/modalbox|label-modal-join-24|Menegah|Intermediate
+243|_partials/modalbox|label-modal-join-25|Fasih|Fluent
+244|_partials/modalbox|label-modal-join-26|Beritahu kami tentang Anda sedikit lagi|Tell us a bit more about yourself
+245|_partials/modalbox|label-modal-join-27|Dibatasi sampai 180 karakter|(Limited to 180 Characters)
+246|_partials/modalbox|label-modal-join-28|Masukkan URL profil linkedIn Anda|Submit your linkedIn profile URL link
+247|home|label-success|Berhasil|Success
+248|home|label-submit|Kirim|Submit
+249|home|label-success-submit|Terimakasih telah mengirimkan formulir, kami akan melakukan yang terbaik untuk menghubungi Anda kembali sebelum 24 jam|Thank you for submitting your form, we will do our best to get back to you in under 24 hours
+250|home|label-thanks|Terima kasih|Thank you
+251|home|label-save|Simpan|Save
+252|_partials/modalbox|label-modal-schedule-1|Pilih tanggal|Select your date
+253|_partials/modalbox|label-modal-schedule-2|Select Your Time|Pilih waktu
+254|_partials/modalbox|label-modal-schedule-3|Kirim penawaran harga|Submit Rate Offer
+255|_partials/modalbox|label-modal-schedule-4|Penawaran harga telah dikirimkan. Team kami akan menghubungi Anda dalam 24 jam.|Your price offering has been submitted. Our team member will contact you within 24 hours
+256|_partials/modalbox|label-modal-schedule-5|Jadwalkan kunjungan|Schedule onsite tour
+257|_partials/modalbox|label-modal-schedule-6|Pilih sampai 3 tanggal yang berbeda, dan 2 waktu yang berbeda|Select up to 3 different dates, and 2 times per date
+258|_partials/modalbox|label-modal-share-1|Menemukan rumah yang anda sukai tetapi tidak sesuai ketentuan yang anda inginkan?|Found a home you like but not on the terms you want?
+259|_partials/modalbox|label-modal-share-2|Kami tahu Anda belum menemukan apa yang Anda cari.<br>Mungkin Anda menemukannya di suatu tempat tapi tidak sesuai keinginan Anda?<br>Jika demikian mohon bagikan kami tautan, dan kami akan berusaha membuatnya lebih bisa diterima.|We noticed you’ve haven't found what you are looking for.<br>Perhaps you may have found it somewhere else, but not on rental terms you are comfortable with?<br><p style='font-size: 0.85rem;'>In that case, please share the link below, and we’ll look into making it more acceptable</p>
+260|_partials/modalbox|label-modal-share-3|Kirimkan tautan|Submit URL
+261|_partials/modalbox|label-modal-share-4|Jangan lupa beritahu kami dengan email dan atau nomor telepon Anda sehingga kami dapat menghubungi Anda.|Don't forget to provide us with your phone number and/or email, so that we may reach you.
+262|_partials/modalbox|label-modal-share-5|Email|Email
+263|_partials/modalbox|label-modal-share-6|Nomor telepon|Phone number
+264|_partials/modalbox|label-modal-share-7|Lebih disukai jika memasukkan nomor Whatsapp yang aktif untuk kenyamanan kunjungan dan tawar menawar|Preferably input a valid WhatsApp phone number for tour and negotiation convenience
+265|home|label-modal-close|Tutup|Close
+266|_partials/footer|label-service-1|Layanan|Services
+267|_partials/footer|label-service-2|Penyewaan yang fleksibel|Flexible renting
+268|_partials/footer|label-service-3|Manajemen dan Pemasaran Properti|Property Marketing & Management
+269|_partials/footer|label-service-4|Asuransi Properti|Realty Insurance
+270|_partials/footer|label-service-5|Broker Properti|Co-Brokerage
+271|_partials/footer|label-company-1|Perusahaan|Company
+272|_partials/footer|label-company-2|Tentang Kami|About
+273|_partials/footer|label-information-1|Informasi|FYI
+274|_partials/footer|label-information-2|PSD|FAQ
+275|_partials/footer|label-information-3|Syarat Penggunaan|Terms of use
+276|_partials/footer|label-information-4|Kepercayaan & Keamanan|Trust & Safety
+277|_partials/footer|label-information-5|Kode Etik|Code of Conduct
+278|_partials/footer|label-footer-right-1|MENEMUKAN RUMAH YANG ANDA SUKAI TETAPI TIDAK SESUAI KETENTUAN YANG ANDA INGINKAN?|FOUND A HOME YOU LIKE BUT NOT ON THE TERMS YOU WANT?
+279|_partials/footer|label-footer-right-2|Beritahu kami dan kami akan bantu wujudkan|Share it here and we'll make it happen
+280|_partials/footer|label-footer-right-3|Berlangganan buletin!|Subscribe to our newsletter!
+281|_partials/footer|label-footer-right-4|Alamat email Anda?|What's your email?
+282|_partials/footer|label-footer-right-5|Langganan|Subscribe
+283|search|label-title-1|Kondisi Hunian|Living Condition
+284|search|label-title-2|Jenis Properti|Property Type
+285|search|label-title-3|Waktu Tempuh|Commute Time
+286|search|label-title-4|Ketentuan|Terms
+287|search|label-title-5|Budget Bulanan|Monthly Budget
+288|search|label-title-6|Filter Lainnya|+ More Filter
+289|search|label-title-7|Urutkan Berdasar|Sort By
+290|search|label-apply|Terapkan|Apply
+291|search|label-reset|Atur ulang|Reset
+292|search|label-sub-title-1|Tambahkan kondisi|Add condition
+293|search|label-sub-title-2|Pilih jenis properti|Select property type
+294|search|label-sub-title-3|Tambahkan waktu tempuh|Add commute time
+295|search|label-sub-title-4|Pilih ketentuan|Select terms
+296|search|label-sub-title-5|Pilih kisaran budget|Select budget range
+297|search|label-search-1-1|Hunian bersama|Co-living
+298|search|label-search-1-2|Dihuni sendiri|Entire-space
+299|search|label-search-2-1|Apartemen|Apartment
+300|search|label-search-2-2|Rumah|House
+301|search|label-search-3-1|Ke|To
+302|search|label-search-3-2|Dg|By
+303|search|label-search-3-3|Jalan|Walk
+304|search|label-search-3-4|Lari|Run
+305|search|label-search-4-1|Lama tinggal|Length of stay
+306|search|label-search-4-2|Bulan|months
+307|search|label-search-4-3|Tahun|Year
+308|search|label-search-4-4|Pembayaran|Payment terms
+309|search|label-search-4-5|Bulanan|Monthly
+310|search|label-search-4-6|Triwulanan|Quarterly
+311|search|label-search-4-7|Dua kali|Twice
+312|search|label-search-4-8|Sekali|Once
+313|search|label-search-7-1|Paling banyak dilihat|Most Viewed
+314|search|label-search-7-2|Paling baru|Latest
+315|search|label-search-7-3|Peringkat terendah|Lowest rate
+316|search|label-search-7-4|Peringkat tertinggi|Highest rate
+317|search|label-search-7-5|Paling banyak di-review|Most Reviewed
+318|search|label-search-other-1|Saat ini, kami hanya melayani Kota|At this time, we only serve the city of
+319|search|label-search-other-2|Ups! Kami tidak menemukan apapun|Oops! We didn't find anything matching your search
+320|search|label-search-other-3|Anda dapat menyesuaikan filter Anda|you can adjust your filter
+321|search|label-search-other-4|disini|here
+322|search|label-search-other-5|atau mungkin Anda telah menemukan rumah yang Anda suka di tempat lain|Or Perhaps you've found a home you like somewhere else
+323|search|label-search-other-6|tetapi Anda tidak nyaman dengan ketentuannya?|but not on rental terms you are comfortable with?
+324|search|label-discover-fit-1-1|Hunian Bersama|Co-Living
+325|search|label-discover-fit-1-2|Bersedia berbagi tempat tinggal dengan orang lain?|Willing to share living space with others?
+326|search|label-discover-fit-1-3|Kami dapat membantumu menemukan teman serumah yang paling cocok|We can help you find the best housemates match
+327|search|label-discover-fit-1-4|Carikan saya hunian|Find me a co-living
+328|search|label-discover-fit-2-1|Pekerja|Active Worker
+329|search|label-discover-fit-2-2|Tidak bisa menemukan tempat tinggal dekat kantor?|Can’t find a living space near your office area?
+330|search|label-discover-fit-2-3|Kami punya daftar yang dekat dengan kantor Anda, cukup jalan kaki saja|We have listings within walking distance near your office
+331|search|label-discover-fit-2-4|Cari tempat tinggal dekat kantor|Find a pad near my office
+332|search|label-discover-fit-3-1|Ramah Keluarga|Family Friendly
+333|search|label-discover-fit-3-2|Perlu tempat tinggal dekat anak-anak Anda?|Need a living area for your kids?
+334|search|label-discover-fit-3-3|Tak perlu khawatir. Kami menyediakan daftar dekat dengan sekolah|Worry no more. We can provide listings with school nearby
+335|search|label-discover-fit-3-4|Cari tempat tinggal dekat sekolah|Find a pad near school
+336|search|label-from|Dari|From
+337|search|label-search-detail-1|Pilihan tampilan|Viewing Preference
+338|search|label-search-detail-2|Hanya tampilkan yang mendukung tampilan 360°|Only show 360° Viewing enabled properties
+339|search|label-search-detail-3|Pilihan desain|Design Preferences
+340|search|label-search-detail-4|Jumlah lantai|Floor Level
+341|search|label-search-detail-5|Dibawah 5 lantai|Below 5 stories
+342|search|label-search-detail-6|Antara 5-10 lantai|Between 5-10 stories
+343|search|label-search-detail-7|Diatas 10 lantai|Above 10 stories
+344|search|label-search-detail-8|Area|Land Area
+345|search|label-search-detail-9|Tempat tinggal|Residental
+346|search|label-search-detail-10|Bukan tempat tinggal|Non-residental
+347|search|label-search-detail-11|Penataan properti|Property Arrangement
+348|search|label-search-detail-12|Perumahan cluster|Townhouse
+349|search|label-search-detail-13|Perumahan mandiri|Standalone
+350|search|label-search-detail-14|Penataan Furnitur|Furniture Arrangement
+351|search|label-search-detail-15|Perabot lengkap|Furnished
+352|search|label-search-detail-16|Semi berperabot|Semi Furnished
+353|search|label-search-detail-17|Tanpa perabot|Unfurnished
+354|search|label-search-detail-18|Kelengkapan|Amenities
+355|search|label-search-detail-19|Fasilitas Rumah|Facilities
+356|search|label-search-detail-20|Aturan|Property Rules
+357|search|label-search-detail-21|Boleh membawa hewan|Pet Friendly
+358|search|label-search-detail-22|Tipe Kamar|Bedroom Type
+359|search|label-search-detail-23|Kamar tidur utama|Master Bedroom
+360|search|label-search-detail-24|Kamar tidur standard|Standard Bedroom
+361|search|label-search-detail-25|Kamar mini|Pocket Bedroom
+362|search|label-search-detail-26|Penataan Perabot Kamar|Bedroom Furniture Arrangement
+363|search|label-search-detail-27|Perabot lengkap|Furnished
+364|search|label-search-detail-28|Semi berperabot|Semi Furnished
+365|search|label-search-detail-29|Tanpa perabot|Unfurnished
+366|search|label-search-detail-30|Kelengkapan Kamar|Bedroom Amenities
+367|search|label-search-detail-31|Kamar mandi dalam|Ensuite bathroom
+368|search|label-search-detail-32|Pilihan Teman Serumah|Housemates Preferences
+369|search|label-search-detail-33|Jenis Kelamin|Gender
+370|search|label-search-detail-34|Mayoritas Pria|Mostly Male
+371|search|label-search-detail-35|Mayoritas Wanita|Mostly Female
+372|search|label-search-detail-36|Hobi|Hobbies
+373|search|label-search-detail-37|Gaya Hidup|Lifestyle & Character
+374|search|label-search-detail-38|Asal daerah|Where they come from
+375|search|label-search-detail-39|Masukkan daerah asal, kota atau negara|Enter your hometown, preferred city or country
+376|search|label-search-detail-40|Pilihan profesi|Preferred Professions
+377|search|label-search-detail-41|Usia|Age
+378|search|link-cancel|BATAL|CANCEL
+379|search|link-reset|RESET|RESET
+380|search|link-show|TAMPILKAN|SHOW
+381|search|link-listing|DAFTAR|LISTING
+382|search|link-min|menit|min
+383|home|link-previous|SEBELUMNYA|PREVIOUS
+384|home|link-next|SELANJUTNYA|NEXT
+385|home|link-found|DAFTAR DITEMUKAN|LISTINGS FOUND
+386|working/showing_agent|label-jumbotron-1|Gabung komunitas kami|Join our community
+387|working/showing_agent|label-jumbotron-2|Mulai dapatkan penghasilan dari perumahan dengan membantu pengiklan properti|Start earning income from real estate by helping property listers
+388|working/showing_agent|label-jumbotron-3|di waktu luang Anda|on your own time
+389|working/showing_agent|label-jumbotron-4|Hasilkan sampai Rp100.000 tiap kali Anda|Make up to 100,000 IDR each time you
+390|working/showing_agent|label-jumbotron-5|menampilkan atau menyurvei properti dan & dapatkan|show or survey a property & get
+391|working/showing_agent|label-jumbotron-6|bonus jika ada transaksi berhasil|premiums on successful leasing deals
+392|working/showing_agent|label-jumbotron-7|Mendaftar Sekarang|Enroll Now
+393|working/showing_agent|label-jumbotron2-1|Jadilah seorang agen dan mulai hasilkan pendapatan|Become a showing agent and start earning
+394|working/showing_agent|label-jumbotron2-2|Bantu agen penjual memamerkan atau menyurvei properti dekat tempat tinggal Anda untuk menghasilkan lebih banyak pendapatan|Help realtors show or survey properties near your activity hubs to start making more income
+395|working/showing_agent|label-jumbotron2-3|Pilih daerah Anda|Select your sector
+396|working/showing_agent|label-jumbotron2-4|Masukkan ketersediaan Anda|Input your availabilities
+397|working/showing_agent|label-jumbotron2-5|Gunakan platform E-Properti kami|Use our proptech platform
+398|working/showing_agent|label-jumbotron2-6|Mulai hasilkan pendapatan|Start earning more income
+399|working/showing_agent|label-jumbotron2-7|Anda mungkin lebih nyaman menampilkan atau menyurvei dekat rumah atau tempat kerja Anda.|You’re probably more comfortable showing or surveying properties near your home or workplace.
+400|working/showing_agent|label-jumbotron2-8|Kami menghargai fleksibilitas Anda. Beritahu kami kapan Anda nyaman bekerja.|We value your flexibility. Tell us when you’re comfortable making money.
+401|working/showing_agent|label-jumbotron2-9|Alat digital canggih di genggaman Anda! Anda bisa fokus menghasilkan uang.|A state of the art digital tool in the palm of your hands! So you can focus on making money.
+402|working/showing_agent|label-jumbotron2-10|Dapatkan sampai Rp100.000 per kunjungan! Capai batu loncatan untuk membuka bonus setiap transaksi penyewaan. Sistem pembayaran instan kami memungkinkan Anda menarik penghasilan Anda kapanpun dimanapun Anda mau.|Earn up to 100,000 IDR per visit! Achieve milestones to unlock premiums on leasing deals. Our instant payment system means you can withdraw your earnings whenever and wherever you want.
+403|working/showing_agent|label-jumbotron2-11|Mendaftar Sekarang|Apply Now
+404|working/showing_agent|label-jumbotron3-1|Gabung komunitas|JOIN THE COMMUNITY
+405|working/showing_agent|label-jumbotron3-2|Dapatkan informasi pelatihan|Get in touch for an information training session
+406|working/showing_agent|label-jumbotron3-3|Mendaftar Sekarang|REGISTER NOW
+407|working/recommend_us|label1|Mereka merekomendasikan kami|They recommend us
+408|working/recommend_us|label2|Sewagi memungkinkan saya mengurus properti saya dari mana saja. Tak perlu menghabiskan waktu di jalan cuma buat tandatangan kontrak.|Sewagi allows me to handle my property from anywhere. No more spending time in traffic just to sign lease contract.
+409|working/recommend_us|label3|Pemilik rumah|Homeowner
+410|working/question|label1|Beberapa pertanyaan yang mungkin Anda pikirkan|Few questions you might have in mind
+411|working/question|label2|Bagaimana sistem pembayaran Sewagi bekerja?|How do Sewagi payments work?
+412|working/question|label3|Bagaimana caranya saya memberi harga terhadap iklan saya di Sewagi?|How should I price my listing on Sewagi?
+413|working/question|label4|Apakah Sewagi menyediakan asuransi untuk pemilik properti?|Does Sewagi provide any insurance for property owner?
+414|working/question|label5|Tidak menjawab pertanyaan Anda?|Not answering your question?
+415|working/question|label6|Lihat lebih banyak|See more
+416|working/question|label7|Hubungi kami|Contact Us
+417|working/question|content1|Konten untuk diisi|Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+418|working/question|content2|Konten untuk diisi|Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+419|working/question|content3|Konten untuk diisi|Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+420|property-lister/homeowner|label-jumbotron-1|Tawarkan karyawan Anda perasaan jauh dari rumah|Offer your employees the home away from home feeling.
+421|working/company_client|label-jumbotron-1|Tawarkan karyawan Anda perasaan jauh dari rumah|Offer your employees the home away from home feeling.
+422|working/company_client|label-jumbotron-2|Platform kami membantu perusahaan Anda menemukan akomodasi yang tepat untuk karyawan Anda|Our platform helps your company find the right accommodation for your employees
+423|working/company_client|label-jumbotron-3|tanpa mengorbankan fleksibilitas atau arus keuangan|without sacrificing flexibility or cash flow
+424|working/company_client|label-jumbotron-4|Mendaftar Sekarang|Register Now
+425|working/company_client|label-jumbotron2-1|Rumah dinas untuk kebutuhan bisnis Anda|Corporate homes for your business needs
+426|working/company_client|label-jumbotron2-2|Biaya hotel yang mahal dalam jangka panjang, properti yang kelewat mahal, frustasi karena kemacetan lalu lintas|Costly long term hotel stays, overpriced properties on yearly down payment, frustrating daily commutes due to traffic.
+427|working/company_client|label-jumbotron2-3|Perusahaan dan karyawan Anda layak dapat lebih baik!|Your company and employees deserve better!
+428|working/company_client|label-jumbotron2-4|Izinkan kami membantu Anda menemukan akomodasi yang sesuai kebutuhan Anda.|Let us help you find accommodations fitting your needs.
+429|working/company_client|label-jumbotron2-5|Karyawan lapangan|On-site employees
+430|working/company_client|label-jumbotron2-6|Karyawan berorientasi proyek & pelatihan|Project & Training oriented employees
+431|working/company_client|label-jumbotron2-7|Pelatihan team & pameran|Team building & trade fairs
+432|working/company_client|label-jumbotron2-8|Susah menemukan rumah untuk karyawan asing atau tenaga ahli Anda? Tidak masalah! Kami akan membantu Anda menemukan akomodasi yang tepat untuk karyawan Anda sesuai keinginan.|Trouble finding homes for your expats or on-location experts? No problem! We’ll help you find the right accommodation for your employees and on your terms.
+433|working/company_client|label-jumbotron2-9|Ingin karyawan Anda lebih dekat ke hal yang terpenting? Jangan khawatir,|Want your employees close to what matters most? No worries,
+434|working/company_client|label-jumbotron2-10|fitur waktu perjalanan kami|our commute time feature
+435|working/company_client|label-jumbotron2-11|akan membantu Anda menemukan akomodasi dekat proyek Anda dengan fleksibilitas aturan jangka pendek-menengah.|will help you find accomodations near your project areas with short to middle terms flexibility you need.
+436|working/company_client|label-jumbotron2-12|Perlu rumah untuk pelatihan team? Tak perlu bilang! Kami disini membantu Anda menemukan lingkungan yang sempurna untuk kebutuhan team Anda.|Need nice homes for team building? Say no more! We’re here to help you find the perfect environment your team needs.
+437|working/company_client|label-jumbotron2-13|MENDAFTAR SEKARANG|REGISTER NOW
+438|working/company_client|label-jumbotron3-1|Fitur bisnis proses kami membuat pekerjaan Anda lebih mudah|Our business process features makes your life at work easier
+439|working/company_client|label-jumbotron3-2|Menyewa tanpa hambatan|Seamless renting
+440|working/company_client|label-jumbotron3-3|Pembayaran online yang aman|Secure online payment
+441|working/company_client|label-jumbotron3-4|Alat manajemen sederhana|Simple management tool
+442|working/company_client|label-jumbotron3-5|Layanan dan dukungan pelanggan yang cerdas|Intelligent customer support and services
+443|working/company_client|label-jumbotron3-6|Jelajahi properti, pilih ketentuan, kunjungi properti di waktu yang diinginkan, tandatangani kontrak digital, tempatkan karyawan Anda. Pesan kembali dengan mudah.|Browse properties Select terms Visit properties on preferred time Sign contracts digitally Place your employees Re-book properties easily.
+444|working/company_client|label-jumbotron3-7|Penagihan 30 hari? Tidak masalah! Pembayaran kami dibangun dengan fleksibilitas.|30 days invoicing? No problem! Our payment gateway is built with your flexibility in mind.
+445|working/company_client|label-jumbotron3-8|Dashboard yang terhubung, lacak penagihan dan pengeluaran antar alamat penagihan dengan mudah. Membedakan penagihan dari apa yang dipakai karyawan Anda dan apa yang Anda tanggung.|Unified user dashboard Track invoices and expenses accross several billing addresses easily. Differentiate billing from what your employees comsume and what you've agreed to cover.
+446|working/company_client|label-jumbotron3-9|Satu plaftorm untuk dukungan purna jual dan kebutuhan rumah pegawai. Hidup yang terjamin, tak perlu khawatir terhadap kesejahteraan karyawan Anda. Agen kami yang berdedikasi akan selalu di atas standard Anda.|One platform for after sales support and employees home needs. Insured living means you don’t need worry for your employees welfare. Our dedicated customer agents will always be on top of your standards.
+447|working/company_client|label-jumbotron3-10|PESAN DEMO SEKARANG|BOOK A DEMO
+448|working/company_client|label-jumbotron4-1|SEWA AKOMODASI KARYAWAN TANPA HAMBATAN|RENT EMPLOYEE ACCOMMODATIONS EFFORTLESSLY
+449|working/company_client|label-jumbotron4-2|Jelajahi properti kami yang berorientasi pekerja|Discover our employee oriented homes
+450|working/company_client|label-jumbotron4-3|Jelajahi|Discover
+451|property/index|label-jumbotron-1|MULAI|GET STARTED
+452|property/index|label-jumbotron2-title|Sewakan properti Anda tanpa hambatan dalam 4 langkah|Lease your property effortlessly in 4 steps
+453|property/index|label-jumbotron2-1|Online-kan iklan Anda|Create your listing online
+454|property/index|label-jumbotron2-2|Tampilkan properti Anda|Show your property
+455|property/index|label-jumbotron2-3|Tandatangani kontrak secara digital|Sign your contract digitally
+456|property/index|label-jumbotron2-4|Dapatkan pendapatan pasif tanpa berkeringat|Receive your passive income without a sweat
+457|property/index|label-jumbotron2-content-1|Halaman iklan kami yang diatur secara efisien, kemampuan menampilkan peta, dan foto akan membantu Anda menghasilkan prospek berkualitas. Antarmuka daftar properti yang mulus membuat proses unggah konten dan media jadi mudah|Our efficiently organised listing page, map capability and picture viewing will help you generate quality leads. Seamless property listing interface makes uploading content and media a breeze.
+458|property/index|label-jumbotron2-content-2|Posting iklan ke media sosial dan portal properti secara otomatis. Bagikan secara profesional dengan format HTML/PDF. Selalu tersedia untuk dikunjungi dengan bantuan agen kami.|Auto post your listings on social media and realty portals. Share them professionally with pre-formatted HTML/PDF view. Always be available for on-site visits with the help of our showing agents.
+459|property/index|label-jumbotron2-content-3|Perbarui detail iklan, daftar keinginan, template perjanjian kapan saja dimana saja. Validasi ketentuan sewa secara online dan selesaikan proses sewa hanya dalam beberapa kali klik.|Update listing details, wishlist, agreement templates and upload relevant documents anytime, anywhere. Validate rental terms online and finish leasing your property in a couple of clicks.
+460|property/index|label-jumbotron2-content-4|Dashboard online memungkinkan Anda melacak faktur, pembayaran, tanggal masuk, tanggal keluar, dan perbarui detail properti Anda 24 jam 7 hari. Program asuransi properti kami memberi Anda ketenangan saat ada kegagalan bayar, perbaikan aset, atau kerusakan yang terjadi pada peralatan dan perabotan.|Online dashboard lets you track invoices, payments, move-in move-out dates and update your property details 24/7. Our rental insurance program will give you peace of mind in case of payment defaults, sset maintenance needing repairs or important damages made to your equipment and furniture.
+461|property/index|label-jumbotron2-content-5|Sebuah gambar bicara lebih banyak dari 1000 kata|A picture says a 1000 words!
+462|property/index|label-jumbotron2-content-6|Kagumlah dengan|Be amazed by our
+463|property/index|label-jumbotron2-content-7|kemampuan pandang 360°|360° Viewing capabilities
+464|property/index|label-jumbotron2-content-8|Kunjungan Virtual|Live Virtual Tour visits
+465|property/index|label-jumbotron2-content-9|Membantu Anda menampilkan properti Anda bahkan tanpa kesana!|Helping you show your property without ever being there!
+466|property/index|label-jumbotron2-content-10|Selalu tersedia untuk kunjungan langsung dengan bantuan agen kami|Always be available for on-site visits with the help of our showing agents
+467|property/index|label-jumbotron3-title|Apa yang akan membuat Anda menyukai kami|What will make you love us
+468|property/index|label-jumbotron3-1|Platform yang berorientasi penyewa|A renter oriented platform
+469|property/index|label-jumbotron3-2|Dapatkan penyewa yang prospektif dan terpercaya|Get trusted prospective renters
+470|property/index|label-jumbotron3-3|Atur inventaris properti dimana saja kapan saja|Organise property inventory anywhere anytime
+471|property/index|label-jumbotron3-4|Selalu siap untuk properti Anda|Always be available for your property
+472|property/index|label-jumbotron3-5|Penyewaan bebas resiko dengan program asuransi sewa kami|Risk free renting via our rental insurance program
+473|property/index|label-jumbotron3-6|Pemasaran yang lebih baik dipadukan dengan platform gratis|Better marketing paired with a free platform
+474|property/index|label-jumbotron3-content1-1|Fitur kami membantu mencocokkan Anda dengan penyewa yang memenuhi syarat & menyetujui ketentuan sewa dari pemilik properti|Our features help you match with adequate renters accepting your property owner’s leasing terms.
+475|property/index|label-jumbotron3-content1-2|Fitur kami membantu mencocokkan Anda dengan penyewa yang memenuhi syarat & menyetujui ketentuan sewa dari Andaemilik propertiA|Our features help you match with adequate renters accepting your leasing terms.
+476|property/index|label-jumbotron3-content2-1|Setiap penyewa sudah memberi kami identitas asli yang sesuai dengan database pemerintah dan sah. Dapat digunakan sebagai tandatangan digital.|Every renter provides us with a genuine identity document, which we then digitally match to Government database and authenticate. Unlocking digital signature capability.
+477|property/index|label-jumbotron3-content3-1|Perbarui harga, ketentuan sewa, lama tinggal, peralatan, dan kelengkapan 24 jam 7 hari tanpa hambatan. Sunting dan validasi <i>smart contract</i> Anda, lacak faktur dan pembayaran online, tetap awasi periode sewa dengan fitur alarm, membantu Anda mengatur penawaran dan perpanjangan kontrak dengan mudah.|Update your rate, payment terms, staying periods, equipment and amenities seamlessly 24/7. Edit and validate your smart contract, track invoices and payments online. Stay on top of renting periods with alarm feature, helping you better adjust your offer and manage contract extensions easily.
+478|property/index|label-jumbotron3-content3-2|Perbarui harga properti, ketentuan sewa, lama tinggal, peralatan, dan kelengkapan 24 jam 7 hari tanpa hambatan. Lihat status <i>smart contract</i> diantara penyewa dan pemilik properti, lacak faktur dan pembayaran online, tetap awasi periode sewa dengan fitur alarm, membantu Anda mengatur penawaran dan perpanjangan kontrak dengan mudah.|Update property rates, payment terms, staying periods, equipment and amenities seamlessly 24/7. View smart contracts status between renters and property owners, track invoices and payments online. Stay on top of renting periods with alarm feature, helping you better adjust your offer and manage contract extensions easily.
+479|property/index|label-jumbotron3-content3-3|Perbarui harga properti, ketentuan sewa, lama tinggal, peralatan, dan kelengkapan 24 jam 7 hari tanpa hambatan. Sunting dan validasi <i>smart contract</i> Anda, lacak faktur dan pembayaran online, tetap awasi periode sewa dengan fitur alarm, membantu Anda mengatur penawaran dan perpanjangan kontrak dengan mudah.|Update property rates, payment terms, staying periods, equipment and amenities seamlessly 24/7. Edit and validate your smart contracts, track invoices and payments online. Stay on top of renting periods with alarm feature, helping you better adjust your offer and manage contract extensions easily.
+480|property/index|label-jumbotron3-content4-1|Agen kami bertugas menampilkan properti Anda saat Anda tidak bisa. Begitu kunjungan selesai, umpan balik dari penyewa dan daftar keinginan akan ter-update secara otomatis ke dashboard Anda dengan demikian Anda dapat merespon tanpa mengorbankan waktu Anda yang berharga.|Our showing agents are at your service for property viewings when you’re not. Once on-site visits are done, renter feedback and wishlist will be directly updated to your dashboard, so you may respond accordingly without sacrificing valuable time.
+481|property/index|label-jumbotron3-content4-2|Mengatur jadwal kunjungan Anda dengan lebih baik dengan mengelompokkan mereka dalam satu platform. Sebaliknya agen kami bertugas menampilkan properti Anda saat Anda tidak bisa. Begitu kunjungan selesai, umpan balik dari penyewa dan daftar keinginan akan ter-update secara otomatis ke dashboard Anda dengan demikian Anda dapat merespon tanpa mengorbankan waktu Anda yang berharga.|Better manage your visit schedules by organising them on one platform. Otherwise our showing agents are at your service for property viewings when you’re not. Once on-site visits are done, renter feedback and wishlist will be directly updated to your dashboard, so you may respond accordingly without sacrificing valuable time.
+482|property/index|label-jumbotron3-content5-1|Tak perlu khawatir tentang sewa yang telat/tidak dibayar, asuransi sewa kami akan menalanginya. Perbaikan akan ditangani tanpa Anda perlu mengeluarkan uang. Peralatan yang rusak tidak akan jadi beban lagi saat memindah barang.|Never worry about late or unpaid rent, our rental insurance program will cover that for you. Maintenance needing repairs will be taken care of without you spending a dime. Damaged equipment and furniture will no longer be a burden when handling moving-out inventory.
+483|property/index|label-jumbotron3-content5-2|Tak perlu khawatir tentang sewa yang telat/tidak dibayar, asuransi sewa kami akan menalanginya. Perbaikan akan ditangani tanpa Anda perlu mengeluarkan uang. Peralatan yang rusak tidak akan jadi beban lagi saat memindah barang-barang.|NULL
+484|property/index|label-jumbotron3-content6-1|Survei properti kami akan membantu Anda memposisikan properti Anda dengan lebih baik. Dapatkan keunggulan dengan menyewakan hunian bersama, berbagi email iklan, berbagi iklan via Whatsapp cukup dengan klik tombol dan posting properti Anda otomatis ke media sosial dan portal properti lainnya. Komisi 5% kami cukup dibayarkan ketika Anda berhasil menyewakan properti Anda dan hanya jika Anda dibayar.|Our property survey will help you better position your property. Get the edge by applying Co-living rental, email sharing formatted listing card, Whatsapp sharing your property with a click of a button and auto-posting your estate on social media platforms and other performing realty portals. Our 5% net commission fee is only applied when we’ve successfully rented your property and only when you’ve got payed.
+485|property/index|label-jumbotron3-content6-2|Survei properti kami akan membantu Anda memposisikan properti Anda dengan lebih baik. Dapatkan keunggulan dengan menyewakan hunian bersama, berbagi email iklan, berbagi iklan via Whatsapp cukup dengan klik tombol dan posting properti Anda otomatis ke media sosial dan portal properti lainnya. Terhubung dengan mudah ke profesional properti lainnya untuk dimakelarkan secara efisien. Biaya kami cukup dibayarkan saat kami sukses membantu Anda menyewakan properti Anda dan hanya jika Anda dibayar.|Our property survey will help you better position your property inventory. Get the edge by applying Co-living rental, email sharing formatted listing cards to your clients, Whatsapp sharing your listings with a click of a button and auto-posting your listings on social media platforms and other performing realty portals. Connect seamlessly with other realty professionals to start co-brokering efficiently. Our fee is only applied when we’ve successfully helped you rent your client’s properties and only when you’ve got payed.
+486|property/index|label-jumbotron3-content6-3|Survei properti kami akan membantu Anda memposisikan properti Anda dengan lebih baik. Dapatkan keunggulan dengan menyewakan hunian bersama, berbagi email iklan, berbagi iklan via Whatsapp cukup dengan klik tombol dan posting properti Anda otomatis ke media sosial dan portal properti lainnya. Terhubung dengan kami untuk bisa dimakelarkan secara efisien. Komisi 5% kami cukup dibayarkan ketika Anda berhasil menyewakan properti Anda dan hanya jika Anda dibayar.|Our property survey will help you better position your property inventory. Get the edge by applying Co-living rental, email sharing formatted listing cards to your clients, Whatsapp sharing your listings with a click of a button and auto-posting your listings on social media platforms and other performing realty portals. Connect with us to start co-brokering efficiently. Our 5% net commission fee is only applied when we’ve successfully rented your property and only when you’ve got payed.
+487|property/index|label-jumbotron4-1|Mulai hasilkan prospek berkualitas|Start generating quality leads
+488|property/index|label-jumbotron4-2|Sewakan properti saya tanpa kesulitan|Lease my property effortlessly
+489|property/index|label-jumbotron4-3|Mulai|Get Started
+490|working/company_staff|label-jumbotron-1|Tawarkan karyawan Anda perasaan jauh dari rumah|Offer your employees the home away from home feeling.
+491|working/company_staff|label-jumbotron-2|Platform kami membantu perusahaan Anda menemukan akomodasi yang tepat untuk karyawan Anda|Our platform helps your company find the right accommodation for your employees
+492|working/company_staff|label-jumbotron-3|tanpa mengorbankan fleksibilitas atau arus keuangan|without sacrificing flexibility or cash flow
+493|working/company_staff|label-jumbotron-4|Mendaftar Sekarang|Register Now
+494|working/company_staff|label-jumbotron2-1|Rumah dinas untuk kebutuhan bisnis Anda|Corporate homes for your business needs
+495|working/company_staff|label-jumbotron2-2|Biaya hotel yang mahal dalam jangka panjang, properti yang kelewat mahal, frustasi karena kemacetan lalu lintas|Costly long term hotel stays, overpriced properties on yearly down payment, frustrating daily commutes due to traffic.
+496|working/company_staff|label-jumbotron2-3|Perusahaan dan karyawan Anda layak dapat lebih baik!|Your company and employees deserve better!
+497|working/company_staff|label-jumbotron2-4|Izinkan kami membantu Anda menemukan akomodasi yang sesuai kebutuhan Anda.|Let us help you find accommodations fitting your needs.
+498|working/company_staff|label-apply|Mendaftar Sekarang|Apply Now
+499|working/company_staff|label-jumbotron4-4|Fitur bisnis proses kami membuat pekerjaan Anda lebih mudah|Our business process features makes your life at work easier
+500|working/company_staff|label-jumbotron4-5|PESAN DEMO SEKARANG|BOOK A DEMO
+501|working/company_staff|label-recommend-1|Mereka merekomendasikan kami|They recommend us
+502|working/company_staff|label-recommend-2|Sewagi memungkinkan saya mengurus properti saya dari mana saja. Tak perlu menghabiskan waktu di jalan cuma buat tandatangan kontrak.|Sewagi allows me to handle my property from anywhere. No more spending time in traffic just to sign lease contract.
+503|working/company_staff|label-recommend-3|Pemilik rumah|Homeowner
+504|working/company_staff|label-question-1|Beberapa pertanyaan yang mungkin Anda pikirkan|Few questions you might have in mind
+505|working/company_staff|label-question-2|Bagaimana sistem pembayaran Sewagi bekerja?|How do Sewagi payments work?
+506|working/company_staff|label-question-3|Bagaimana caranya saya memberi harga terhadap iklan saya di Sewagi?|How should I price my listing on Sewagi?
+507|working/company_staff|label-question-4|Apakah Sewagi menyediakan asuransi untuk pemilik properti?|Does Sewagi provide any insurance for property owner?
+508|working/company_staff|label-answer-2|Konten untuk diisi|Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+509|working/company_staff|label-answer-3|Konten untuk diisi|Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+510|working/company_staff|label-answer-4|Konten untuk diisi|Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+511|working/company_staff|label-jumbotron4-1|SEWA AKOMODASI KARYAWAN TANPA HAMBATAN|RENT EMPLOYEE ACCOMMODATIONS EFFORTLESSLY
+512|working/company_staff|label-jumbotron4-2|Jelajahi properti kami yang berorientasi pekerja|Discover our employee oriented homes
+513|working/company_staff|label-jumbotron4-3|Jelajahi|Discover
+514|_partials/card_3|label-jumbotron3-1|Menyewa tanpa hambatan|Seamless renting
+515|_partials/card_3|label-jumbotron3-2|Pembayaran online yang aman|Secure online payment
+516|_partials/card_3|label-jumbotron3-3|Alat manajemen sederhana|Simple management tool
+517|_partials/card_3|label-jumbotron3-sub-1|Susah menemukan rumah untuk karyawan asing atau tenaga ahli Anda? Tidak masalah! Kami akan membantu Anda menemukan akomodasi yang tepat untuk karyawan Anda sesuai keinginan.|Trouble finding homes for your expats or on-location experts? No problem! We’ll help you find the right accommodation for your employees and on your terms.
+518|_partials/card_3|label-jumbotron3-sub-2|Ingin karyawan Anda lebih dekat ke hal yang terpenting? Jangan khawatir,|Want your employees close to what matters most? No worries,
+519|_partials/card_3|label-jumbotron3-sub-3|fitur waktu perjalanan kami|our commute time feature
+520|_partials/card_3|label-jumbotron3-sub-4|akan membantu Anda menemukan akomodasi dekat proyek Anda dengan fleksibilitas aturan jangka pendek-menengah.|will help you find accomodations near your project areas with short to middle terms flexibility you need.
+521|_partials/card_3|label-jumbotron3-sub-5|Perlu rumah untuk pelatihan team? Tak perlu bilang! Kami disini membantu Anda menemukan lingkungan yang sempurna untuk kebutuhan team Anda.|Need nice homes for team building? Say no more! We’re here to help you find the perfect environment your team needs.
+522|_partials/card_4|label-jumbotron4-2|Online-kan iklan Anda|Create your listing online
+523|_partials/card_4|label-jumbotron4-3|Tandatangani kontrak secara digital|Sign your contract digitally
+524|_partials/card_4|label-jumbotron4-4|Dapatkan pendapatan pasif tanpa berkeringat|No sweat, get your passive income
+525|_partials/card_4|label-jumbotron4-5|Layanan dan dukungan pelanggan yang cerdas|Intelligent customer support and services
+526|_partials/card_4|label-jumbotron4-2-content|Jelajahi properti, pilih ketentuan, kunjungi properti di waktu yang diinginkan, tandatangani kontrak digital, tempatkan karyawan Anda. Pesan kembali dengan mudah.|Browse properties Select terms Visit properties on preferred time Sign contracts digitally Place your employees Re-book properties easily.
+527|_partials/card_4|label-jumbotron4-3-content|Tidak masalah! Pembayaran kami dibangun dengan fleksibilitas.|No problem! Our payment gateway is built with your flexibility in mind.
+528|_partials/card_4|label-jumbotron4-4-content|Tidak masalah! Pembayaran kami dibangun dengan fleksibilitas.|No problem! Our payment gateway is built with your flexibility in mind.
+529|_partials/card_4|label-jumbotron4-5-content|Satu plaftorm untuk dukungan purna jual dan kebutuhan rumah pegawai. Hidup yang terjamin, tak perlu khawatir terhadap kesejahteraan karyawan Anda. Agen kami yang berdedikasi akan selalu di atas standard Anda.|One platform for after sales support and employees home needs. Insured living means you don’t need worry for your employees welfare. Our dedicated customer agents will always be on top of your standards.
+530|rent_details|label-title|Detail Sewa|Rent Details
+531|rent_details|label-left-1|LAMA TINGGAL|LENGTH OF STAY
+532|rent_details|label-left-2|OPSI PEMBAYARAN|PAYMENT OPTION
+533|rent_details|label-left-3|JENIS RUANGAN|ROOM TYPE
+534|rent_details|label-left-4|JUMLAH TAMU|NUMBER OF GUEST
+535|rent_details|label-left-5|TANGGAL PINDAH|MOVE IN DATE
+536|rent_details|label-left-6|Asuransi|Insurance
+537|rent_details|label-left-7|bulan rencana angsuran|months installment plan
+538|rent_details|label-left-8|CATATAN TAMBAHAN|ADDITIONAL WISHLIST
+539|rent_details|label-left-9|Contoh : karena saya alergi, mohon jauhkan karpet bulu dari ruang keluarga|e.g. Due to my dust allergy, please take out the fur carpet in the living room.
+540|rent_details|label-left-10|LANJUTKAN|CONTINUE
+541|rent_details|label-left-11|Tahun|Year
+542|rent_details|label-left-12|Tahun dan seterusnya|Year in advance
+543|rent_details|label-left-13|Kamar tidur utama|Master Bedroom
+544|rent_details|label-left-14|Orang|Person
+545|rent_details|label-right-1|DETAIL HARGA|PRICE DETAILS
+546|rent_details|label-right-2|tahun dan seterusnya|year in advance
+547|rent_details|label-right-3|RP|IDR
+548|rent_details|label-right-4|bulan|months
+549|rent_details|label-right-5|Total Harga|Total Price
+550|property/detail|label-title-tab-1|Tentang|About
+551|property/detail|label-title-tab-2|Layanan Umum|Inclusive Service
+552|property/detail|label-title-tab-3|Kelengkapan|Amenities
+553|property/detail|label-title-tab-4|Fasilitas|Facilities
+554|property/detail|label-title-tab-5|Pengaturan Ruangan|Rooms Arrangements
+555|property/detail|label-title-tab-6|Aturan Rumah & Pembatalan|House Rules & Cancellation
+556|property/detail|label-title-tab-7|Lingkungan|Neighborhood
+557|property/detail|link-1|Lihat semua kelengkapan|See all amenities
+558|property/detail|link-2|Lihat semua fasilitas|See all facilities
+559|property/detail|link-3|Temui teman serumah|Meet your housemate
+560|property/detail|link-4|Lokasi|Location
+561|property/detail|link-5|Check-in|Check-in
+562|property/detail|link-6|Kebersihan|Cleanliness
+563|property/detail|link-7|Komunikasi|Communications
+564|property/detail|label-title-1|Layanan dan biaya umum|Inclusive services & charges
+565|property/detail|label-title-2|Kelengkapan|Amenities
+566|property/detail|label-title-3|Fasilitas|Facilities
+567|property/detail|label-title-4|Pengaturan Ruangan|Rooms Arrangements
+568|property/detail|label-title-5|Aturan Rumah & Pembatalan|House Rules & Cancellation
+569|property/detail|label-title-6|Daftar Serupa|Similar listings
+570|property/detail|label-title-5-1|Aturan umum|General rules
+571|property/detail|label-title-5-2|Yang perlu Anda tahu|You must acknowledge
+572|property/detail|label-title-5-3|Kebijakan pembatalan|Cancellation policy
+573|property/detail|link-title-5-1|Lihat semua peraturan umum|See all general rules
+574|property/detail|link-title-5-2|Lihat semua peraturan|See all rules
+575|property/detail|link-title-5-3|Lihat detail pembatalan|See cancelation details
+576|property/detail|link-content-5-1-1|Tidak aman/ tidak cocok untuk balita di bawah 2 tahun|Not safe or suitable for infants (Under 2 years)
+577|property/detail|link-content-5-1-2|Tidak cocok untuk peliharaan|Not suitable for pets
+578|property/detail|link-content-5-1-3|Check-in kapanpun setelah jam 2 siang|Check-in is anytime after 2PM
+579|property/detail|link-content-5-1-4|Check-in mandiri dengan staf gedung|Self check-in with building staff
+580|property/detail|link-content-5-1-5|Tidak aman/ tidak cocok untuk balita di bawah 2 tahun|Not safe or suitable for infants (Under 2 years)
+581|property/detail|link-content-5-1-6|Tidak cocok untuk peliharaan|Not suitable for pets
+582|property/detail|link-content-5-1-7|Check-in kapanpun setelah jam 2 siang|Check-in is anytime after 2PM
+583|property/detail|link-content-5-1-8|Check-in mandiri dengan staf gedung|Self check-in with building staff
+584|property/detail|link-content-5-2-1|Hanya untuk perempuan|House for female only
+585|property/detail|link-content-5-2-2|Jika Anda merusak rumah, Anda dapat dikenai dendansampai Rp6933600|If you damage the home, you may be charged up to Rp 6933600
+586|property/detail|link-content-5-2-3|Suara keras bisa mengganggu tetangga|Loud noise would be disrespectful to neighbours
+587|property/detail|link-content-5-2-4|Gunakan ASBAK saat merokok dan dilarang merokok di kamar|Use ASHTRAYS for cigarettes and no smoking inside bedrooms.
+588|property/detail|link-content-5-2-5|Hanya untuk perempuan|House for female only
+589|property/detail|link-content-5-2-6|Jika Anda merusak rumah, Anda dapat dikenai dendansampai Rp6933600|If you damage the home, you may be charged up to Rp 6933600
+590|property/detail|link-content-5-2-7|Suara keras bisa mengganggu tetangga|Loud noise would be disrespectful to neighbours
+591|property/detail|link-content-5-2-8|Gunakan ASBAK saat merokok dan dilarang merokok di kamar|Use ASHTRAYS for cigarettes and no smoking inside bedrooms.
+592|property/detail|link-content-5-3-1|Pembatalan 5 hari sebelum check in dan dapatkan pengembalian dana penuh (minus biaya layanan). Pembatalan dalam 5 hari dari pembayaran Anda dan biaya malam pertama tidak dapat dikembalikan tetapi 50% biaya untuk malam yang tersisa akan dikembalikan. Biaya layanan akan dikembalikan saat pembatalan dilakukan sebelum check in dalam jangka waktu 48 jam setelah booking.|Cancel up to 5 days before check in and get a full refund (minus service fees). Cancel within 5 days of your trip and the first night is non-refundable, but 50% of the cost for the remaining nights will be refunded. Service fees are refunded when cancellation happens before check in and within 48 hours of booking.
+593|property/detail|link-content-5-3-2|Pembatalan 5 hari sebelum check in dan dapatkan pengembalian dana penuh (minus biaya layanan). Pembatalan dalam 5 hari dari pembayaran Anda dan biaya malam pertama tidak dapat dikembalikan tetapi 50% biaya untuk malam yang tersisa akan dikembalikan. Biaya layanan akan dikembalikan saat pembatalan dilakukan sebelum check in dalam jangka waktu 48 jam setelah booking.|NULL
+594|property/detail|link-tab-below-1|Sekolah|Schools
+595|property/detail|link-tab-below-2|Hiburan|Entertainment
+596|property/detail|link-similar-listing|Lihat daftar serupa lebih bayak|See more similar listing
+597|property/detail|link-box-1|Tidak puas dengan harganya?|Not Satisfied with the price?
+598|property/detail|link-box-2|Mari bernegosiasi|Let's Negotiate
+599|property/detail|link-box-3|JADWALKAN KUNJUNGAN|SCHEDULE A TOUR
+600|property/detail|link-box-4|PESEN SEKARANG TANPA BERKUNJUNG|BOOK NOW WITHOUT A TOUR
+601|property/detail|label-year|Tahun|Years
+602|property/detail|label-month|Bulan|Month
+603|property/detail|label-months|Bulan|Months
+604|property/detail|label-share|BERBAGI|SHARE IT
+605|property/detail|label-save|SIMPAN|SAVE IT
+606|property/detail|label-favourites|FAVORITKAN|FAVOURITES
+607|property/detail|label-idr|RP|IDR
+608|property/detail|label-select|Pilih|Select
+609|property/detail|label-mate-1|Rapi|Neat
+610|property/detail|label-mate-2|Mahasiswa|College student
+611|property/detail|label-mate-3|Penyayang hewan|Pet lovers
+612|property/detail|label-mate-4|Suka ngobrol|Talkative
+613|property/detail|label-mate-5|Musisi|Musician
+614|property/detail|label-starting-from|Mulai dari|Starting from
+615|property/detail|label-installment-1|LIHAT CICILAN BULANAN|VIEW MONTHLY INSTALLMENT RATE
+616|property/detail|label-installment-2|TUTUP CICILAN BULANAN|CLOSE MONTHLY INSTALLMENT RATES
+617|property/detail|label-installment-3|PEMBAYARAN BULANAN|PAID MONTHLY
+618|property/detail|label-installment-4|Jadwal pembayaran|Payment schedule
+619|property/detail|label-installment-5|JADWALKAN|SCHEDULE
+620|property/detail|label-installment-6|KUNJUNGAN LANGSUNG|ONSITE TOUR
+621|property/detail|label-installment-7|KUNJUNGAN VIRTUAL|LIVE VIRTUAL TOUR
+622|property/detail|label-installment-8|PESAN SEKARANG|BOOK NOW
+623|property/detail|label-installment-9|Lebih lanjut mengenai harga yang tampil|Read more about published rates
+624|property/detail|label-installment-10|Lebih lanjut mengenai harga yang tampil|More about published rates
+625|property/detail|label-installment-11|Tidak termasuk dalam harga yang tampil|Non inclusive in published rates
+626|property/detail|label-installment-12|Biaya tempat tinggal Rp|Residence charge IDR
+627|property/detail|label-installment-13|Asuransi penyewa|Renter's insurance fee
+628|property/detail|label-neighourhood-1|Makan & Minum|F&B
+629|property/detail|label-neighourhood-2|Hiburan|Entertaiment
+630|property/detail|label-neighourhood-3|Rumah sakit|Hospitals
+631|property/detail|label-neighourhood-4|Stasiun|Stations
+632|property/detail|label-neighourhood-5|Pendidikan|Education
+633|property/detail|label-neighourhood-6|Olahraga|Sports
+634|property/detail|label-neighourhood-7|Rumah ibadah|House of worship
+635|property/detail|label-neighourhood-8|Lihat peta penuh|View full map
+636|property/detail|label-nego-1|Negosiasikan hargamu|Negotiate your rate
+637|property/detail|label-nego-2|LAMA TINGGAL|LENGTH OF STAY
+638|property/detail|label-nego-3|OPSI PEMBAYARAN|PAYMENT OPTION
+639|property/detail|label-nego-4|Terbayar|Paid
+640|property/detail|label-nego-5|triwulanan|quarterly
+641|property/detail|label-nego-6|SARAN HARGA|RATE PROPOSITION
+642|property/detail|label-nego-7|MASUKKAN SARAN SECARA MANUAL|INPUT RATE PROPOSITION MANUALLY
+643|property/detail|label-nego-8|ATAU masukan harga yang Anda inginkan secara manual|OR manually input your desired rate
+644|property/detail|label-nego-9|Kirim penawaran harga|Submit Rate Offer
+645|property/detail|label-visit-1|Kami benar-benar menganjurkan Anda untuk mengunjungi bangunan langsung sebelum memesan untuk meyakinkan bahwa bangunan tersebut sesuai bayangan Anda.|We strongly advise you to visit this property before booking it, to ensure that it meets all your expectations.
+646|property/detail|label-visit-2|JADWALKAN|SCHEDULE
+647|property/detail|label-visit-3|KUNJUNGAN LANGSUNG|ONSITE TOUR
+648|property/detail|label-visit-4|KUNJUNGAN VIRTUAL|LIVE VIRTUAL TOUR
+649|property/detail|label-visit-5|PESAN SEKARANG|BOOK ANYWAY
+650|auth/password/reset|label1|Atur ulang kata sandi|Reset password
+651|auth/password/reset|label2|Password Anda harus minimal 6 karakter dengan kombinasi huruf dan angka|Your password should be at least six character long with combination of number and letter
+652|auth/password/reset|label3|Kata Kunci|Password
+653|auth/password/reset|label4|Konfirmasi Kata Kunci|Confirm Password
+654|auth/password/reset|label5|ATUR ULANG KATA SANDI|RESET MY PASSWORD
+655|detail|link-review|ulasan|reviews
+656|detail|link-detail-1|TENTANG|ABOUT
+657|detail|link-detail-2|KELENGKAPAN|AMENITIES
+658|detail|link-detail-3|FASILITAS|FACILITIES
+659|detail|link-detail-4|PENGATURAN RUANGAN|ROOMS ARRANGEMENTS
+660|detail|link-detail-5|ATURAN RUMAH & PEMBATALAN|HOUSE RULES & CANCELLATION
+661|detail|link-detail-6|ULASAN|REVIEWS
+662|detail|link-detail-7|LINGKUNGAN|NEIGHBORHOOD
+663|detail|link-detail-8|Lihat semua kelengkapan|See all amenities
+664|detail|link-detail-9|Lihat semua fasilitas|See all facilities
+665|detail|link-detail-10|Temui teman serumah|Meet your housemate
+666|detail|link-detail-11|Lihat semua peraturan umum|See all general rules
+667|detail|link-detail-12|Lihat semua peraturan|See all rules
+668|detail|link-detail-13|Lihat detail pembatalan|See cancelation details
+669|detail|link-detail-14|Lokasi|Location
+670|detail|link-detail-15|Check-in|Check-in
+671|detail|link-detail-16|Kebersihan|Cleanliness
+672|detail|link-detail-17|Komunikasi|Communications
+673|detail|link-detail-title-1|Tentang|About
+674|detail|link-detail-title-2|Kelengkapan|Amenities
+675|detail|link-detail-title-3|Fasilitas|Facilities
+676|detail|link-detail-title-4|Pengaturan Ruangan|Rooms Arrangements
+677|detail|link-detail-title-5|Aturan Rumah & Pembatalan|House Rules & Cancellation
+678|detail|link-detail-title-6|Ulasan|Reviews
+679|detail|link-detail-title-7|Lingkungan|Neighborhood
+680|detail|link-detail-title-8|Aturan umum|General rules
+681|detail|link-detail-title-9|Yang perlu Anda tahu|You must acknowledge
+682|detail|link-detail-title-10|Kebijakan pembatalan|Cancellation policy
+683|detail|link-detail-title-11|Apa yang orang katakan tentang rumah ini|What people say about this house
+684|detail|link-based-on|Berdasarkan|Based on
+685|detail|link-select|Pilih|Select
+686|detail|link-school|Sekolah|Schools
+687|detail|link-entertainment|Hiburan|Entertainment
+688|detail|link-box-1|Hunian Bersama|Co-Living
+689|detail|link-box-2|Dihuni sendiri|Entire house
+690|detail|link-box-3|Kamar tidur utama|Master Bedroom
+691|detail|link-box-4|Tidak puas dengan harganya?|Not Satisfied with the price?
+692|detail|link-box-5|Mari bernegosiasi|Let's Negotiate
+693|detail|link-box-6|JADWALKAN KUNJUNGAN|SCHEDULE A TOUR
+694|detail|link-box-7|PESEN SEKARANG TANPA BERKUNJUNG|BOOK NOW WITHOUT A TOUR
+695|detail|label-year|TAHUN|YEARS
+696|detail|label-month|BULAN|MONTH
+697|detail|label-share|BERBAGI|SHARE IT
+698|detail|label-save|SIMPAN|SAVE IT
+699|detail|label-favourites|FAVORITKAN|FAVOURITES
+700|detail|link-negotiate-1|Negosiasikan hargamu|Negotiate your price
+701|detail|link-negotiate-2|Lama tinggal|Length of stay
+702|detail|link-negotiate-3|Biaya sewa setahun|Rent for a year
+703|detail|link-negotiate-4|Ketentuan pembayaran|Payment terms
+704|detail|link-negotiate-5|Bayar sekali saat perpanjangan|Paid once in advance
+705|detail|link-negotiate-6|JUMLAH YANG ANDA TAWAR|YOUR OFFER AMOUNT WILL BE
+706|detail|link-negotiate-7|Kirim penawaran harga|Submit Rate Offer
+707|detail|link-negotiate-8|Terima kasih|Thank you!
+708|detail|link-negotiate-9|Penawaran harga telah dikirimkan. Team kami akan menghubungi Anda dalam 24 jam.|Your price offering has been submitted. Our team member will contact you within 24 hours
+709|detail|link-negotiate-10|Kembali|Back to Home
+710|detail|link-schedule-1|JADWALKAN KUNJUNGAN|SCHEDULE A TOUR
+711|detail|link-schedule-2|Pilih tanggal|Select your date
+712|detail|li1|Khusus perempuan|Female only
+713|detail|li2|penyewa|renters
+714|detail|li3|kamar tidur|bedrooms
+715|detail|li4|tempat tidur|beds
+716|detail|li5|kamar mandi|bathrooms
+717|detail|desc1|Cipete Utara adalah tempat para pemimpi untuk beristirahat, merenung, berkreasi. Didesain agar santai, harapan kami Anda menikmati setiap momen Anda tinggal, dari membuat kopi di pagi hari, memilih lagu yang sempurna didengarkan saat senja, atau berendam di bak air hangat dikelilingi oleh langit berbintang.|Cipete Utara is a place for dreamers to reset, reflect, and create. Designed with a 'slow' pace in mind, our hope is that you enjoy every part of your stay; from making local coffee by drip in the morning, choosing the perfect record to put on as the sun sets, or by relaxing in the hot tub surrounded by a starry night sky.
+718|detail|amenities1|TV|Television
+719|detail|amenities2|Pengering rambut|Hair dryer
+720|detail|amenities3|WiFi supercepat|Superfast Wifi
+721|detail|amenities4|Binatu|Laundry
+722|detail|amenities5|Peralatan dapur|Kitchenware
+723|detail|amenities6|Setrika|Flatiron
+724|detail|amenities7|Lift|Elevator
+725|detail|amenities8|Gym|Gymnasium
+726|detail|amenities9|Parkir gratis|Free parking
+727|detail|facilities1|Lift|Elevator
+728|detail|facilities2|Gym|Gymnasium
+729|detail|facilities3|Parkir gratis|Free parking
+730|detail|room1|Kamar tidur utama|Master Bedroom
+731|detail|room2|Ranjang ganda|double bed
+732|detail|room3|kamar mandi pribadi|private bathroom
+733|detail|label-mate-1|Rapi|Neat
+734|detail|label-mate-2|Mahasiswa|College student
+735|detail|label-mate-3|Penyayang hewan|Pet lovers
+736|detail|label-mate-4|Suka ngobrol|Talkative
+737|detail|label-mate-5|Musisi|Musician
+738|detail|label-map|Lihat peta ukuran penuh|View full map
+739|detail|label-excellent|Sanget Bagus|Very Excellent
+740|detail|label-days-ago|hari yang lalu|days ago
+741|detail|label-testimoni1|Lokasinya menakjubkan! Kami bisa jalan kemana aja, tetangga juga baik. Dekorasinya bagus.|Location was wonderful! We were able to walk every where, and the neighborhood was adorable. Well decorated and beautiful.
+742|detail|label-testimoni2|Lokasinya menakjubkan! Kami bisa jalan kemana aja, tetangga juga baik. Dekorasinya bagus. Lokasinya bagus untuk kami sekeluarga berlima. Ruangannya sempurna. Stafnya baik. Dekorasinya bikin kami merasa seperti di rumah sendiri. Kami yakin suatu saat akan tinggal lagi di salah satu villa Roby|Location was wonderful We were able to walk every where, and the neighborhood was adorable. The location first of all  prime for our family of 5. The space was perfect. The staff excellent. Robyn's decor here gave the cozy feeling to make ourselves at home. Will for sure return to one of Robyn's villas.
+743|detail|label-testimoni3|Lokasinya menakjubkan! Kami bisa jalan kemana aja, tetangga juga baik. Dekorasinya bagus. Lokasinya bagus untuk kami sekeluarga berlima. Ruangannya sempurna.|Location was wonderful! We were able to walk every where, and the neighborhood was adorable. The location first of all was prime for our family of 5. The space was perfect.
+744|detail|link-content-5-1-1|Tidak aman/ tidak cocok untuk balita di bawah 2 tahun|Not safe or suitable for infants (Under 2 years)
+745|detail|link-content-5-1-2|Tidak cocok untuk peliharaan|Not suitable for pets
+746|detail|link-content-5-1-3|Check-in kapanpun setelah jam 2 siang|Check-in is anytime after 2PM
+747|detail|link-content-5-1-4|Check-in mandiri dengan staf gedung|Self check-in with building staff
+748|detail|link-content-5-1-5|Tidak aman/ tidak cocok untuk balita di bawah 2 tahun|Not safe or suitable for infants (Under 2 years)
+749|detail|link-content-5-1-6|Tidak cocok untuk peliharaan|Not suitable for pets
+750|detail|link-content-5-1-7|Check-in kapanpun setelah jam 2 siang|Check-in is anytime after 2PM
+751|detail|link-content-5-1-8|Check-in mandiri dengan staf gedung|Self check-in with building staff
+752|detail|link-content-5-2-1|Hanya untuk perempuan|House for female only
+753|detail|link-content-5-2-2|Jika Anda merusak rumah, Anda dapat dikenai dendansampai Rp6933600|If you damage the home, you may be charged up to Rp 6933600
+754|detail|link-content-5-2-3|Suara keras bisa mengganggu tetangga|Loud noise would be disrespectful to neighbours
+755|detail|link-content-5-2-4|Gunakan ASBAK saat merokok dan dilarang merokok di kamar|Use ASHTRAYS for cigarettes and no smoking inside bedrooms.
+756|detail|link-content-5-2-5|Hanya untuk perempuan|House for female only
+757|detail|link-content-5-2-6|Jika Anda merusak rumah, Anda dapat dikenai dendansampai Rp6933600|If you damage the home, you may be charged up to Rp 6933600
+758|detail|link-content-5-2-7|Suara keras bisa mengganggu tetangga|Loud noise would be disrespectful to neighbours
+759|detail|link-content-5-2-8|Gunakan ASBAK saat merokok dan dilarang merokok di kamar|Use ASHTRAYS for cigarettes and no smoking inside bedrooms.
+760|detail|link-content-5-3-1|Pembatalan 5 hari sebelum check in dan dapatkan pengembalian dana penuh (minus biaya layanan). Pembatalan dalam 5 hari dari pembayaran Anda dan biaya malam pertama tidak dapat dikembalikan tetapi 50% biaya untuk malam yang tersisa akan dikembalikan. Biaya layanan akan dikembalikan saat pembatalan dilakukan sebelum check in dalam jangka waktu 48 jam setelah booking.|Cancel up to 5 days before check in and get a full refund (minus service fees). Cancel within 5 days of your trip and the first night is non-refundable, but 50% of the cost for the remaining nights will be refunded. Service fees are refunded when cancellation happens before check in and within 48 hours of booking.
+761|detail|link-content-5-3-2|Pembatalan 5 hari sebelum check in dan dapatkan pengembalian dana penuh (minus biaya layanan). Pembatalan dalam 5 hari dari pembayaran Anda dan biaya malam pertama tidak dapat dikembalikan tetapi 50% biaya untuk malam yang tersisa akan dikembalikan. Biaya layanan akan dikembalikan saat pembatalan dilakukan sebelum check in dalam jangka waktu 48 jam setelah booking.|NULL
+762|user/_partials/sidemenu|sidebar1|Dasbor|Dashboard
+763|user/_partials/sidemenu|sidebar2|Sewa saya|My Rent
+764|user/_partials/sidemenu|sidebar3|Aktifitas sekarang|Ongoing Activities
+765|user/_partials/sidemenu|sidebar4|Tempat saya|My Place
+766|user/_partials/sidemenu|sidebar5|Riwayat|History
+767|user/_partials/sidemenu|sidebar6|Favorit saya|My favourites
+768|user/_partials/sidemenu|sidebar7|Notifikasi|Notifications
+769|user/_partials/sidemenu|sidebar8|Aktifitas dan layanan|Activities and services
+770|user/_partials/sidemenu|sidebar9|Metode pembayaran|Payment methods
+771|user/_partials/sidemenu|sidebar10|Daftar properti saya|List my property
+772|user/_partials/sidemenu|sidebar11|Akun|Link Account
+773|user/_partials/sidemenu|sidebar12|Aktifitas sekarang|Ongoing Activities
+774|user/_partials/sidemenu|sidebar13|Tempat saya|My Place
+775|user/_partials/sidemenu|sidebar14|Riwayat|History
+776|user/_partials/sidemenu|sidebar15|Bantuan dan dukungan|Help and support
+777|user/_partials/sidemenu|sidebar16|Profil|Profile
+778|user/_partials/sidemenu|sidebar17|Identitas digital|Digital identity
+779|user/_partials/sidemenu|sidebar18|Dokumen resmi|Legal documents
+780|user/_partials/sidemenu|sidebar19|Setelan akun|Account settings
+781|user/profile|title-1|Profile|Profile
+782|user/profile|title-2|Identitas digital|Digital identity
+783|user/profile|title-3|Dokumen resmi|Legal documents
+784|user/profile|title-4|Setelan akun|Account settings
+785|user/profile|title-5|Tipe akun|User Account Type
+786|user/profile|label-1-1|Tentang Anda|About You
+787|user/profile|label-1-2|NAMA DEPAN|FIRST NAME
+788|user/profile|label-1-3|NAMA BELAKANG|LAST NAME
+789|user/profile|label-1-4|EMAIL|EMAIL
+790|user/profile|label-1-5|NOMOR TELEPON|PHONE NUMBER
+791|user/profile|label-1-6|JENIS KELAMIN|GENDER
+792|user/profile|label-1-7|KEBANGSAAN|NATIONALITY
+793|user/profile|label-1-8|TANGGAL LAHIR|BIRTHDAY DATE
+794|user/profile|label-1-9|DESKRIPSIKAN DIRI ANDA|DESCRIBE YOURSELF
+795|user/profile|label-1-10|HOBI|HOBBIES
+796|user/profile|label-1-11|STATUS|STATUS
+797|user/profile|label-1-12|GAYA HIDUP|LIFESTYLE
+798|user/profile|label-1-13|Informasi Tambahan|Additional Information
+799|user/profile|label-1-14|BAHASA|LANGUAGE
+800|user/profile|label-1-15|Tambahkan bahasa yang Anda kuasai|Add any languages you speak.
+801|user/profile|label-1-16|KONTAK DARURAT|EMERGENCY CONTACT
+802|user/profile|label-1-17|Tambahkan kontak darurat untuk situasi genting sehingga tim kami bisa tetap kontak dengan Anda|Add a contact for any urgent situations which our team can get in touch with.
+803|user/profile|label-1-18|Email terkirim|Email sent
+804|user/profile|label-1-19|Mohon verifikasi dengan klik link yang kami kirimkan ke email Anda yang terdaftar|Please verify by clicking on the link we’ve sent to your registered email
+805|user/profile|button-1-1|UNGGAH GAMBAR BARU|UPLOAD NEW PICTURE
+806|user/profile|button-1-2|HAPUS|DELETE
+807|user/profile|button-1-3|VERIFIKASIKAN EMAIL|VERIFY EMAIL
+808|user/profile|button-1-4|Terverifikasi|Verified
+809|user/profile|button-1-5|VERIFIKASIKAN NOMOR TELEPON|VERIFY YOUR PHONE NUMBER
+810|user/profile|button-1-6|Terverifikasi|Verified
+811|user/profile|button-1-7|Pria|Male
+812|user/profile|button-1-8|Wanita|Female
+813|user/profile|button-1-9|Tambahkan deskripsi|Add Description
+814|user/profile|button-1-10|Tambahkan bahasa|Add Language
+815|user/profile|button-1-11|Tambahkan kontak|Add Contact
+816|_partials/master_solid_nosearch|label-1|Apa Anda yakin ingin meninggalkan halaman ini?|Are you sure you want to leave this page?
+817|_partials/master_solid_nosearch|label-2|Anda mungkin akan kehilangan semua informasi yang dimasukkan.|You might lose all inputted information.
+818|_partials/master_solid_nosearch|label-3|Ya|Yes
+819|_partials/master_solid_nosearch|label-4|Simpan sebagai draft|Save As Draft
+820|_partials/navbar_list_property|label-1|Informasi properti dasar|Basic property information
+821|_partials/navbar_list_property|label-2|Beritahu kami detailnya|Tell us the details
+822|_partials/navbar_list_property|label-3|Pilihan pembayaran|Payment preferences
+823|_partials/navbar_list_property|label-4|Tinjau & Kirim|Review & Submit
+824|_partials/navbar_list_property|label-5|Simpan sebagai draft|Save As Draft
+825|_partials/sidebar_list_property|label-1|TIPE & KONDISI RUMAH|ESTATE TYPE & LIVING CONDITION
+826|_partials/sidebar_list_property|label-2|KAMAR TIDUR & KAMAR MANDI|BEDROOM & BATHROOM
+827|_partials/sidebar_list_property|label-3|LOKASI|LOCATION
+828|_partials/sidebar_list_property|label-4|DESKRIPSI & ATURAN RUMAH|DESCRIPTION & HOUSE RULES
+829|_partials/sidebar_list_property|label-5|KELENGKAPAN & FASILITAS|AMENITIES & FACILITIES
+830|_partials/sidebar_list_property|label-6|GAMBAR|PHOTOS
+831|_partials/sidebar_list_property|label-7|DETAIL KEABSAHAN|LEGAL DETAILS
+832|_partials/sidebar_list_property|label-8|PILIHAN PEMBAYARAN UNTUK TINGGAL SENDIRI|PAYMENT PREFERENCE FOR ENTIRE SPACE
+833|_partials/sidebar_list_property|label-9|PILIHAN PEMBAYARAN UNTUK HUNIAN BERSAMA|PAYMENT PREFERENCE FOR CO-LIVING
+834|add-property/form-1|label-1|Apa tipe tempat tinggal?|What is the estate type?
+835|add-property/form-1|label-2|Pilih jenis tempat tinggal|Select estate type
+836|add-property/form-1|label-3|UKURAN UNIT|UNIT SIZE
+837|add-property/form-1|label-4|Apa kondisi ideal tempat tinggal?|What is the ideal living condition?
+838|add-property/form-1|label-5|Anda dapat memilih lebih dari satu|You can choose more than one.
+839|add-property/form-1|label-co-1|Hunian Bersama|Co-Living
+840|add-property/form-1|label-co-2|Anda menerima beberapa penyewa menyewa kamar-kamar dan berbagi area umum. Opsi ini juga berguna untuk mencari kawan serumah untuk properti Anda.|You accept multiple renters leasing your property bedrooms and sharing the common areas. This option is also useful when seeking a housemate for your property
+841|add-property/form-1|label-co-3|Dengan memilih hunian bersama, Anda setuju untuk menyewakan properti Anda dengan berbasis ruang, untuk selanjutnya disebut penyewaan progresif.|By selecting co-living, you agree to rent your property on room by room basis, forgoing leasing all bedrooms at once. We call this progressive leasing.
+842|add-property/form-1|label-co-4|Terhubung dengan kami untuk info lebih lanjut.|Connect with us for more info.
+843|add-property/form-1|label-entire-1|Tinggal Sendiri|Entire Space
+844|add-property/form-1|label-entire-2|Sewakan properti hanya ke satu penyewa|Classic practice of leasing your property to one renter.
+845|add-property/form-1|label-entire-3|Penyewa berhak menyewa keseluruhan properti untuk dirinya.|He is entitled to renting your entire property space for him or herself.
+846|add-property/form-1|label-type-1|Kami akan mempublikasikan properti Anda sebagai hunian bersama atau tempat tinggal sendiri, memberi Anda kesempatan untuk lebih cepat menyewakan.|We will publish your property as co-living friendly and as an entire space. Giving you more opportunities to lease faster.
+847|add-property/form-1|label-type-2|Dalam kasus dimana properti Anda disewa sebagai hunian bersama, Anda setuju untuk tidak menyewakan properti untuk ditempati sendiri selama kontrak hunian bersama berjalan.|In the case where your property is rented-out as a co-living, you agree to forfeit entire space leasing for the duration of the contracted length of stay.
+848|add-property/form-1|label-type-3|Aturan penggunaan|Terms Of Use
+849|add-property/form-1|label-next|Selanjutnya|Next
+850|add-property/form-2|label-1|Isi kamar|Bedrooms inventory
+851|add-property/form-2|label-2|TAMBAHKAN KAMAR BARU|ADD NEW BEDROOM
+852|add-property/form-2|label-3|Berapa kamar mandi?|How many bathrooms are there?
+853|add-property/form-2|label-4|Total kamar mandi|Total bathroom
+854|add-property/form-2|label-5|Total kamar terdaftar|Total listed bedrooms
+855|add-property/form-2|label-previous|Sebelumnya|Previous
+856|add-property/form-2|label-next|Selanjutnya|Next
+857|add-property/form-2|label-bedroom-inv-1|Tipe kamar|Bedroom type
+858|add-property/form-2|label-bedroom-inv-1-1|Kamar yang memiliki paling banyak kelengkapan, biasanya kamar terbesar di rumah.|Bedroom containing the most amenities, typically the largest in your property
+859|add-property/form-2|label-bedroom-inv-1-2|Kamar yang lebih kecil dari kamar utama, dengan kelengkapan lebih sedikin|Bedroom smaller in size than your master bedroom, with less amenities
+860|add-property/form-2|label-bedroom-inv-1-3|Kamar yang cocok untuk budget terbatas, dengan kelengkapan yang lebih sedikit|Bedroom fit for the budget conscious renter, typically smaller in size than your standard bedroom, with fewer amenities
+861|add-property/form-2|label-bedroom-inv-1-4|Kamar utama|Master Bedroom
+862|add-property/form-2|label-bedroom-inv-1-5|Kamar standard|Standard Bedroom
+863|add-property/form-2|label-bedroom-inv-1-6|Kamar sederhana|Pocket Bedroom
+864|add-property/form-2|label-bedroom-inv-2|Ukuran Kamar|Bedroom Size
+865|add-property/form-2|label-bedroom-inv-3|Jumlah kamar|Bedroom quantity
+866|add-property/form-2|label-bedroom-inv-4|Penomoran Kamar|Room Numbering
+867|add-property/form-2|label-bedroom-inv-5|Penataan furnitur kamar|Bedroom furniture arrangement
+868|add-property/form-2|label-bedroom-inv-5-1|Perabot lengkap|Furnished
+869|add-property/form-2|label-bedroom-inv-5-2|Semi berperabot|Semi Furnished
+870|add-property/form-2|label-bedroom-inv-5-3|Tanpa perabot|Unfurnished
+871|add-property/form-2|label-bedroom-inv-6|Penataan kamar|Bed arrangement
+872|add-property/form-2|label-bedroom-inv-6-1|Tempat tidur 2 orang|Twin Bed
+873|add-property/form-2|label-bedroom-inv-6-2|Tempat tidur single|Single Size Bed
+874|add-property/form-2|label-bedroom-inv-6-3|Tempat tidur ukuran Queen|Queen Size Bed
+875|add-property/form-2|label-bedroom-inv-6-4|Tempat tidur ukuran King|King Size Bed
+876|add-property/form-2|label-bedroom-inv-7|Layout kamar|Bedroom Layout
+877|add-property/form-2|label-bedroom-inv-8|Kelengkapan kamar|Bedroom Amenities
+878|add-property/form-2|label-modal-numbering-1|Mohon masukkan nama/nomor kamar Anda.|Please input your bedrooms Number / Name.
+879|add-property/form-2|label-modal-numbering-2|Selesai|Done
+880|add-property/form-2|label-not-available|Tidak Tersedia|Not Available
+881|add-property/form-2|label-modal-decrease-1|Apa anda yakin akan mengurangi kuantitas kamar?|Are you sure want to decrease the bedroom quantity ?
+882|add-property/form-2|label-modal-decrease-2|jika Anda mengurangi, hal ini akan memperbarui nomor/nama kamar|if you decrease, it will update bedrooms Number/Name.
+883|add-property/form-2|label-modal-decrease-3|YA|YES
+884|add-property/form-2|label-modal-decrease-4|TIDAK|NO
+885|add-property/form-2|label-modal-increase-1|Dengan menambah kuantitas kamar, Anda harus|By increasing the bedroom quantity you will need to
+886|add-property/form-2|label-modal-increase-2|memperbarui nomor/nama kamar|update the bedrooms Number/Name.
+887|add-property/form-2|label-modal-increase-3|MENGERTI|GOT IT
+888|add-property/form-2|label-modal-availability-1|Dengan memilih OFF, Anda akan mengatur ulang jumlah|Toggling OFF the bedroom, will readjust the number of
+889|add-property/form-2|label-modal-availability-2|kamar yang tersedia untuk mencocokan dengan jenis kamar dan|available bedroom for the corresponding bedroom type, and
+890|add-property/form-2|label-modal-availability-3|tidak akan mempublikasikan kamar tersebut.|won't be publish it.
+891|add-property/form-2|label-modal-availability-4|Setelah itu Anda akan bisa memilih ON di|Later, you will be able to toggle ON the bedroom in your
+892|add-property/form-2|label-modal-availability-5|dashboard Anda untuk mempublikasikan kamar tersebut agar bisa disewa.|dashboard, in order to publish and make it available for rent
+893|add-property/form-2|label-modal-availability-6|MENGERTI|GOT IT
+894|add-property/form-3|label-1|Dimana lokasinya?|Where is the location?
+895|add-property/form-3|label-2|Alamat lengkap Anda hanya akan diberikan kepada penyewa yang tertarik berkunjung atau memesan.|Your exact address will only be shared with prospective renters engaged in a tour or booking request
+896|add-property/form-3|placeholder-1|Masukkan nomor properti|Enter property number
+897|add-property/form-3|placeholder-2|Masukkan detail properti|Enter property details
+898|add-property/form-3|placeholder-3|Masukkan kota|Enter city
+899|add-property/form-3|placeholder-4|Masukkan distrik/kecamatan|Enter district
+900|add-property/form-3|placeholder-5|Masukkan desa/kelurahan|Enter village
+901|add-property/form-3|placeholder-6|Masukkan provinsi|Enter province
+902|add-property/form-3|placeholder-7|Masukkan kode pos|Enter post code
+903|add-property/form-3|label-3|Apakah pin-nya menunjuk lokasi yang benar?|Is the pin in the right location?
+904|add-property/form-3|label-4|Pin perlu diarahkan ke posisi yang benar. Klik tombol “ATUR” untuk mengarahkan pin ke lokasi properti yang benar.|The pin need to be precisely pointed to the location of your property. Press the adjust button to correct the pin point’s location.
+905|add-property/form-3|label-5|ATUR|ADJUST
+906|add-property/form-3|label-previous|Sebelumnya|Previous
+907|add-property/form-3|label-next|Selanjutnya|Next
+908|add-property/form-4|label-1|Beri judul yang mendeskripsikan properti Anda|Give a title describing your property
+909|add-property/form-4|label-2|Cantumkan lebih banyak detail mengenai properti Anda|Give more details to better describe your property
+910|add-property/form-4|label-3|Pilih desain yang paling mendeskripsikan properti Anda|Select design preferences best describing your property
+911|add-property/form-4|label-4|Anda boleh memilih sampai 2 opsi|You may select up to 2 styles
+912|add-property/form-4|label-5|Pilih jenis lahan properti Anda|Select your property land area type
+913|add-property/form-4|label-6|Pilih penataan properti|Select your property arrangement
+914|add-property/form-4|label-7|Properti Anda ada di lantai berapa?|On which floor is your property?
+915|add-property/form-4|label-8|Ada aturan di properti Anda?|Do you have any property rules?
+916|add-property/form-4|label-9|Boleh membawa hewan peliharaan|Pet Friendly
+917|add-property/form-4|label-previous|Sebelumnya|Previous
+918|add-property/form-4|label-next|Selanjutnya|Next
+919|add-property/form-5|label-1|Bagaimana penataan perabotan Anda?|What is your property furniture arrangement?
+920|add-property/form-5|label-2|Kelengkapan apa yang Anda sediakan?|What amenities do you provide?
+921|add-property/form-5|label-3|Tambahkan|Add
+922|add-property/form-5|label-4|Fasilitas apa saja yang tersedia|What are the available facilities?
+923|add-property/form-5|label-previous|Sebelumnya|Previous
+924|add-property/form-5|label-next|Selanjutnya|Next
+925|add-property/form-6|label-1|Bagaimana kalau mengunggah beberapa foto?|How about uploading some photos?
+926|add-property/form-6|label-2|Unggah sampai 6 foto per kategori|Upload up to 6 photos per category
+927|add-property/form-6|label-3|Eksterior bangunan|Building exterior
+928|add-property/form-6|label-4|Ruang keluarga|Living room
+929|add-property/form-6|label-5|Dapur|Kitchen
+930|add-property/form-6|label-6|Kamar mandi|Bathroom
+931|add-property/form-6|label-7|Berkas PDF|PDF File
+932|add-property/form-6|label-8|Tambahkan lebih banyak kategori|Add More Category
+933|add-property/form-6|label-9|Tambahkan foto|Add Photos
+934|add-property/form-6|label-10|Tambahkan berkas|Add File
+935|add-property/form-6|label-11|Gambar kecil & Sorotan|Thumbnail & Highlights
+936|add-property/form-6|label-12|KATEGORI|CATEGORY
+937|add-property/form-6|label-13|Tambahkan dokumen|Add Document
+938|add-property/form-6|label-14|Jatuhkan berkas disini untuk mengunggah|Drop files here to upload
+939|add-property/form-6|label-15|Foto terunggah|Photos Uploaded
+940|add-property/form-6|label-16|Templat|Template
+941|add-property/form-6|label-previous|Sebelumnya|Previous
+942|add-property/form-6|label-next|Selanjutnya|Next
+943|add-property/form-7|label-1|Kepemilikan Properti|Property Ownership
+944|add-property/form-7|label-2|Untuk proses penandatanganan kontrak yang lebih transparan dan cepat, mohon sertakan detail resmi properti Anda. Jangan khawatir, kami tidak akan membaginya dengan siapapun.|For more transparency and faster contract signing process, please provide us with your property's legal details. Don't worry, we won't share them with anyone.
+945|add-property/form-7|label-3|Properti ini atas nama siapa?|To whom does this property belong?
+946|add-property/form-7|label-4|Properti ini atas nama saya|This property is under my name
+947|add-property/form-7|label-5|Saya punya kuasa resmi atas properti ini|I have legal rights to represent this property
+948|add-property/form-7|label-6|Saya punya hak menyewakan kamar di dalam properti ini|I have rights to sublease bedrooms inside this property
+949|add-property/form-7|label-7|Sertakan dokumen yang menyatakan bahwa Anda punya hak secara legal untuk memasarkan properti ini|Provide a document naming you as the rightful appointee to legally market this property
+950|add-property/form-7|label-8|Tambahkan berkas|Add File
+951|add-property/form-7|label-9|Apakah properti ini diasuransikan?|Is the property insured?
+952|add-property/form-7|label-10|Dokumen asuransi properti|Property Insurance Document
+953|add-property/form-7|label-11|Kami menyarankan dengan sangat untuk mengasuransikan properti Anda untuk menghindari hal-hal yang tidak diinginkan seperti kerusakan, kecelakaan, pencurian yang dapat mengganggu pemasaran properti Anda.|We strongly suggest that you insure the property in order to avoid unexpected events (i.e damages, accidents, theft) hindering you from marketing or leasing the property effectively.
+954|add-property/form-7|label-12|Dalam rangka perhitungan asuransi properti Anda, mohon sertakan beberapa detail|In order to process the insurance quotation for your property, please provide us the following detail?
+955|add-property/form-7|label-13|Masukkan perkiraan harga properti|Input your estimated property price
+956|add-property/form-7|label-14|Asuransikan properti saya sekarang|Insure my property now
+957|add-property/form-7|label-15|Bagaimana properti ini akan disewakan?|How will this property be leased?
+958|add-property/form-7|label-16|Disewakan atas nama saya pribadi|Leased under private ownership
+959|add-property/form-7|label-17|Disewakan atas nama perusahaan|Leased under enterprise ownership
+960|add-property/form-7|label-18|Akta kepemilikan properti|Property ownership certificate
+961|add-property/form-7|label-idr|RP|IDR
+962|add-property/form-7|label-previous|Sebelumnya|Previous
+963|add-property/form-7|label-next|Selanjutnya|Next
+964|add-property/form-8|label-1|Siapkan pilihan pembayaran|Set up your preferred payment options
+965|add-property/form-8|label-2|Seluruh|Entire
+966|add-property/form-8|label-3|LAMA TINGGAL|LENGTH OF STAY
+967|add-property/form-8|label-4|Simpan|Save
+968|add-property/form-8|label-5|Sunting|Edit
+969|add-property/form-8|label-6|tahun|year
+970|add-property/form-8|label-7|bulan|months
+971|add-property/form-8|label-8|ATURAN PEMBAYARAN|PAYMENT TERMS
+972|add-property/form-8|label-9|Pilih semua|Select all
+973|add-property/form-8|label-10|Harga di bawah ini sudah harus termasuk PAJAK|The following rates must include TAX
+974|add-property/form-8|label-11|Dibayar sekali|Paid once
+975|add-property/form-8|label-12|RP|IDR
+976|add-property/form-8|label-13|Masukkan harga|Input your rate
+977|add-property/form-8|label-14|Saya bersedia tawar-menawar dengan penyewa|I'm open to negotiate my rate with the prospective renter
+978|add-property/form-8|label-15|Dibayar dua kali|Paid twice
+979|add-property/form-8|label-16|Dibayar triwulanan|Paid quarterly
+980|add-property/form-8|label-17|Dibayar bulanan|Paid monthly
+981|add-property/form-8|label-18|TAMBAHKAN DURASI TINGGAL|ADD MORE LENGTH OF STAY
+982|add-property/form-8|label-19|APAKAH HARGA DI ATAS SUDAH TERMASUK TAGIHAN BULANAN?|DO MY RATES ABOVE INCLUDE THE FOLLOWING MONTHLY CHARGES?
+983|add-property/form-8|label-20|TAGIHAN LAYANAN LINGKUNGAN|RESIDENCE SERVICE CHARGE FEE
+984|add-property/form-8|label-21|Saya ingin agar tagihan layanan bulanan dibayar oleh penyewa|I would rather have the residence service charge fee paid by my renter?
+985|add-property/form-8|label-22|Pernyataan|Disclaimer
+986|add-property/form-8|label-23|Pengiklan properti bertanggungjawab penuh atas pernyataan pajak dan pembayaran|Property lister is responsible for all tax declaration and payment
+987|add-property/form-8|label-24|Sewagi tidak bertanggungjawab untuk pernyataan non-pajak dan pembayaran yang berasal dari properti yang diiklankan di platform kami|Sewagi cannot be held responsible for non tax declaration and payment emanating from properties perceiving revenue and listed on our platform
+988|add-property/form-8|label-25|Informasi lebih lanjut|More information
+989|add-property/form-8|label-26|Masukkan nilai pajak atau 0 jika nihil|Input value or 0 if none
+990|add-property/form-8|label-previous|Sebelumnya|Previous
+991|add-property/form-8|label-send|TINJAU DAN KIRIM IKLAN SAYA|REVIEW & SUBMIT MY LISTING
+992|add-property/form-8|label-next|Selanjutnya|Next
+993|property/create|label-1|Siapkan pilihan pembayaran|Set up your preferred payment options
+994|property/create|label-2|Seluruh|Entire
+995|property/create|label-3|LAMA TINGGAL|LENGTH OF STAY
+996|property/create|label-4|Simpan|Save
+997|property/create|label-5|Sunting|Edit
+998|property/create|label-6|tahun|year
+999|property/create|label-7|bulan|months
+1000|property/create|label-8|ATURAN PEMBAYARAN|PAYMENT TERMS
+1001|property/create|label-9|Pilih semua|Select all
+1002|property/create|label-10|Harga di bawah ini sudah harus termasuk PAJAK|The following rates must include TAX
+1003|property/create|label-11|Dibayar sekali|Paid once
+1004|property/create|label-12|RP|IDR
+1005|property/create|label-13|Masukkan harga|Input your rate
+1006|property/create|label-14|Saya bersedia tawar-menawar dengan penyewa|I'm open to negotiate my rate with the prospective renter
+1007|property/create|label-15|Dibayar dua kali|Paid twice
+1008|property/create|label-16|Dibayar triwulanan|Paid quarterly
+1009|property/create|label-17|Dibayar bulanan|Paid monthly
+1010|property/create|label-18|TAMBAHKAN DURASI TINGGAL|ADD MORE LENGTH OF STAY
+1011|property/create|label-19|APAKAH HARGA DI ATAS SUDAH TERMASUK TAGIHAN BULANAN?|DO MY RATES ABOVE INCLUDE THE FOLLOWING MONTHLY CHARGES?
+1012|property/create|label-20|TAGIHAN LAYANAN LINGKUNGAN|RESIDENCE SERVICE CHARGE FEE
+1013|property/create|label-21|Saya ingin agar tagihan layanan bulanan dibayar oleh penyewa|I would rather have the residence service charge fee paid by my renter?
+1014|property/create|label-22|Pernyataan|Disclaimer
+1015|property/create|label-23|Pengiklan properti bertanggungjawab penuh atas pernyataan pajak dan pembayaran|Property lister is responsible for all tax declaration and payment
+1016|property/create|label-24|Sewagi tidak bertanggungjawab untuk pernyataan non-pajak dan pembayaran yang berasal dari properti yang diiklankan di platform kami|Sewagi cannot be held responsible for non tax declaration and payment emanating from properties perceiving revenue and listed on our platform
+1017|property/create|label-25|Informasi lebih lanjut|More information
+1018|property/create|label-26|Masukkan nilai pajak atau 0 jika nihil|Input value or 0 if none
+1019|property/create|label-27|Masukkan opsi pembayaran|Set up your preferred payment options
+1020|property/create|label-previous|Sebelumnya|Previous
+1021|property/create|label-next|Selanjutnya|Next
+1022|property/create|label-submit|Kirim|Submit
+1023|add-property/form-9|label-1|Siapkan pilihan pembayaran|Set up your preferred payment options
+1024|add-property/form-9|label-2|Seluruh|Entire
+1025|add-property/form-9|label-3|LAMA TINGGAL|LENGTH OF STAY
+1026|add-property/form-9|label-4|Simpan|Save
+1027|add-property/form-9|label-5|Sunting|Edit
+1028|add-property/form-9|label-6|tahun|year
+1029|add-property/form-9|label-7|bulan|months
+1030|add-property/form-9|label-8|ATURAN PEMBAYARAN|PAYMENT TERMS
+1031|add-property/form-9|label-9|Pilih semua|Select all
+1032|add-property/form-9|label-10|Harga di bawah ini sudah harus termasuk PAJAK|The following rates must include TAX
+1033|add-property/form-9|label-11|Dibayar sekali|Paid once
+1034|add-property/form-9|label-12|RP|IDR
+1035|add-property/form-9|label-13|Masukkan harga|Input your rate
+1036|add-property/form-9|label-14|Saya bersedia tawar-menawar dengan penyewa|I'm open to negotiate my rate with the prospective renter
+1037|add-property/form-9|label-15|Dibayar dua kali|Paid twice
+1038|add-property/form-9|label-16|Dibayar triwulanan|Paid quarterly
+1039|add-property/form-9|label-17|Dibayar bulanan|Paid monthly
+1040|add-property/form-9|label-18|TAMBAHKAN DURASI TINGGAL|ADD MORE LENGTH OF STAY
+1041|add-property/form-9|label-19|APAKAH HARGA DI ATAS SUDAH TERMASUK TAGIHAN BULANAN?|DO MY RATES ABOVE INCLUDE THE FOLLOWING MONTHLY CHARGES?
+1042|add-property/form-9|label-20|TAGIHAN LAYANAN LINGKUNGAN|RESIDENCE SERVICE CHARGE FEE
+1043|add-property/form-9|label-21|Saya ingin agar tagihan layanan bulanan dibayar oleh penyewa|I would rather have the residence service charge fee paid by my renter?
+1044|add-property/form-9|label-22|Pernyataan|Disclaimer
+1045|add-property/form-9|label-23|Pengiklan properti bertanggungjawab penuh atas pernyataan pajak dan pembayaran|Property lister is responsible for all tax declaration and payment
+1046|add-property/form-9|label-24|Sewagi tidak bertanggungjawab untuk pernyataan non-pajak dan pembayaran yang berasal dari properti yang diiklankan di platform kami|Sewagi cannot be held responsible for non tax declaration and payment emanating from properties perceiving revenue and listed on our platform
+1047|add-property/form-9|label-25|Informasi lebih lanjut|More information
+1048|add-property/form-9|label-26|Masukkan nilai pajak atau 0 jika nihil|Input value or 0 if none
+1049|add-property/form-9|label-27|Pembayaran bulanan membantu Anda lebih cepat menyewakan kamar Anda.|Monthly payments help you lease your bedrooms faster
+1050|add-property/form-9|label-28|Jangan pasang harga terlalu mahal hanya karena sewanya bulanan.|Don’t overprice them just because it’s on monthly terms
+1051|add-property/form-9|label-previous|Sebelumnya|Previous
+1052|add-property/form-9|label-next|Selanjutnya|Next
+1053|add-property/form-10|label-edit|Sunting|Edit
+1054|add-property/form-10|label-1|Mari mereview iklan Anda|Let's review your listing
+1055|add-property/form-10|label-2|LIHAT MAKET IKLAN|VIEW LISTING MOCKUP
+1056|add-property/form-10|label-3|LANGKAH 1|STEP 1
+1057|add-property/form-10|label-4|Informasi dasar properti|Basic property information
+1058|add-property/form-10|label-5|Tipe & kondisi rumah|Property type & living condition
+1059|add-property/form-10|label-6|Kamar & kamar mandi|Bedroom & bathroom
+1060|add-property/form-10|label-7|Lokasi|Location
+1061|add-property/form-10|label-8|LANGKAH 2|STEP 2
+1062|add-property/form-10|label-9|Beritahu kami detailnya|Tell us the details
+1063|add-property/form-10|label-10|Deskripsi & aturan rumah|Description & house rules
+1064|add-property/form-10|label-11|Kelengkapan & fasilitas|Amenities & facilities
+1065|add-property/form-10|label-12|Foto|Photos
+1066|add-property/form-10|label-13|Detail keabsahan|Legal details
+1067|add-property/form-10|label-14|LANGKAH 3|STEP 3
+1068|add-property/form-10|label-15|Pilihan pembayaran|Payment preference
+1069|add-property/form-10|label-16|Pilihan pembayaran untuk hunian bersama|Payment preference for co-living
+1070|add-property/form-10|label-17|Pilihan pembayaran untuk tinggal sendiri|Payment preference for entire space
+1071|add-property/form-10|label-18|Dokumen resmi|Legal documents
+1072|add-property/form-10|label-19|Anda bisa melewati langkah ini sekarang, namun Anda harus mengunggah dokumen resmi saat Anda menandatangani kesepakatan dengan penyewa|You may skip uploading the required document for now. However, you will need to upload them when signing the lease contract with the renter
+1073|add-property/form-10|label-20|Unggah sekarang|Upload now
+1074|add-property/form-10|label-21|Sertifikat/Akta Kepemilikan|Property ownership certificate
+1075|add-property/form-10|label-22|Dokumen asuransi properti|Property Insurance Document
+1076|add-property/form-10|label-23|Dengan mengirim ke Sewagi, saya memahami hal-hal berikut|By submitting my listing to Sewagi, I understand and agree to honor the following
+1077|add-property/form-10|label-24|Ketentuan Umum Kemitraan|General Terms of Partnership
+1078|add-property/form-10|label-25|dan mematuhi platform Sewagi|and abide by the Sewagi platform
+1079|add-property/form-10|label-26|Ketentuan Penggunaan|Terms of Use
+1080|add-property/form-10|label-27|dan|and
+1081|add-property/form-10|label-28|Kebijakan Privasi|Privacy Policy
+1082|add-property/form-10|label-29|TOLAK|DECLINE
+1083|add-property/form-10|label-30|SETUJU|AGREE
+1084|add-property/form-10|label-31|Yes! Iklan Anda telah dikirim|Yeay! Your listing has been submitted
+1085|add-property/form-10|label-32|Kami akan mereview iklan Anda untuk memastikan bahwa semuanya baik sebelum mempublikasikannya dalam 1 hari kerja|We will review your listing to check if all is tip-top before publishing it online within one working day
+1086|add-property/form-10|label-33|KE HALAMAN UTAMA|GO TO DASHBOARD
+1087|add-property/form-10|label-34|Keamanan Pembayaran|Default Payment Safe
+1088|add-property/form-10|label-35|Asuransi keamanan pembayaran Anda hanya akan aktif saat Anda berhasil menyewakan properti atau kamar via Sewagi.|Your Default Payment Safe insurance coverage, will only activate once you’ve successfully leased a property or bedroom via Sewagi.
+1089|add-property/form-10|label-previous|Sebelumnya|Previous
+1090|add-property/form-10|label-next|Selanjutnya|Next
+1091|add-property/form-10|label-submit|Kirim|Submit
+1092|user/profile|label-modal-image-1|Bagaimana Anda akan menambahkan foto?|How do you want to add your picture?
+1093|user/profile|label-modal-image-2|Gunakan kamera|Use device camera
+1094|user/profile|label-modal-image-3|Ambil dari berkas lokal|Browse from file
+1095|user/profile|label-modal-image-4|Ambil foto profil|Take your profile picture
+1096|user/profile|label-modal-image-5|Ambil lagi|Retake
+1097|user/profile|label-modal-image-6|KIRIM FOTO|SUBMIT PICTURE
+1098|user/profile|label-modal-email-1|Mohon masukkan alamat email baru|Please input your new email
+1099|user/profile|label-modal-email-2|Kami telah mengirim tautan verifikasi ke|We've sent a verification link to
+1100|user/profile|label-modal-phone-1|Mohon masukkan nomor telepon yang baru|Please input your new phone number
+1101|user/profile|label-modal-phone-2|Lebih disukai jika memasukkan nomor Whatsapp yang aktif untuk kenyamanan kunjungan dan tawar menawar|Preferably input a valid WhatsApp phone number for tour and negotiation convenience
+1102|user/profile|label-modal-phone-3|Kode verifikasi|Verification code
+1103|user/profile|label-modal-phone-4|Pesan dengan kode verifikasi telah dikirim|A message with verification code has been sent
+1104|user/profile|label-modal-phone-5|VERIFIKASIKAN KODE|VERIFY CODE
+1105|user/profile|label-modal-phone-6|Tidak mendapatkan kode?|Didn't get the code?
+1106|user/profile|label-modal-phone-7|Kirimkan kode baru?|Send a new code?
+1107|user/profile|label-modal-phone-8|Tidak dapat memverifikasi kode|Unable to verify number
+1108|user/profile|label-modal-phone-9|Kami tidak dapat memverifikasi nomor telepon|we couldn't verify the phone number
+1109|user/profile|label-modal-phone-10|Kirim ulang OTP|Resend OTP
+1110|user/profile|label-modal-phone-11|Ganti nomor telepon|Change phone number
+1111|user/profile|label-digital-identity-1|Agar Sewagi tetap aman, dapat menggunakan tandatangan kontrak digital, memproses permintaan cicilan, kami butuh Anda agar menyediakan foto|To keep Sewagi secure, enable digital contract signatures and process installment requests, we’ll need you to provide us with a picture of your
+1112|user/profile|label-digital-identity-2|Kami tidak akan memberikan dokumen tersebut ke pihak ketiga tanpa sepengetahuan Anda.|Your digital identity and all related documents are classified and protected. We won’t be communicating them to any third party without your consent
+1113|user/profile|label-digital-identity-3|DOKUMEN IDENTITAS|IDENTITY DOCUMENT
+1114|user/profile|label-digital-identity-4|Unggah kartu identitas/paspor|Upload your identity card/passport
+1115|user/profile|label-digital-identity-5|Unggah swafoto/foto terbaru|Upload your selfie / current photo
+1116|user/profile|label-digital-identity-6|KONFIRMASI IDENTITAS|CONFIRM IDENTITY
+1117|user/profile|label-digital-identity-7|Maaf, peramban Anda tidak mendukung format SVG|Sorry, your browser does not support inline SVG
+1118|user/profile|label-digital-identity-8|Kami sedang meninjau|We're reviewing your
+1119|user/profile|label-digital-identity-9|Silakan duduk dan santai saja. Proses ini mungkin hanya sebentar.|Now sit back and relax. This process may take awhile
+1120|user/profile|label-digital-identity-10|Silakan berselancar, Anda akan mendapatkan email notifikasi saat proses ini selesai.|Feel free to browse, you'll receive a dashboard and email notifications when it's done
+1121|user/profile|label-digital-identity-11|Profil terkonfirmasi|Profile confirmed
+1122|user/profile|label-digital-identity-12|Identitas digital Anda siap!|Your digital ID is all set!
+1123|user/profile|label-digital-identity-13|DOKUMEN IDENTITAS|IDENTITY DOCUMENT
+1124|user/profile|label-digital-identity-14|Kartu identitas/paspor|Identity card/passport
+1125|user/profile|label-digital-identity-15|LAKUKAN LAGI|DO IT AGAIN
+1126|user/profile|label-digital-identity-16|Bermasalah saat mengunggah dokumen verifikasi Anda?|Problems uploading your documents for verification?
+1127|user/profile|label-digital-identity-17|Bagaimana Anda akan mengunggah KTP?|How do you want to upload your ID?
+1128|user/profile|label-digital-identity-18|Gunakan kamera|Use device camera
+1129|user/profile|label-digital-identity-19|Ambil foto KTP|Take a photo of your ID card
+1130|user/profile|label-digital-identity-20|Mohon pastikan gambarnya tidak kabur serta dapat menampilkan wajah Anda dengan jelas|Please make sure that the image isn't blurry and clearly shows your face
+1131|user/profile|label-digital-identity-21|Bagaimana Anda akan menambahkan swafoto?|How do you want to upload your selfie?
+1132|user/profile|label-legal-doc-1|Dokumen legal|Legal documents
+1133|user/profile|label-legal-doc-2|Untuk memperoses uji kelayakan, status pajak, faktur yang sesuai, atau layanan lain, kami harap Anda menyediakan dokumen legal di bawah ini|To process due diligence, tax status, compatible invoicing or us btn-inputing other value added services/partnership we need you to provide btn-inputus with the following legal documents
+1134|user/profile|label-legal-doc-3|Semua dokumen terkait yang Anda berikan ke kami dirahasiakan dan dilindungi. Kami tidak akan memberitahukannya ke pihak ketiga manapun tanpa sepengetahuan Anda|Any related documents you provide us with are classified and protected. We won’t be communicating them to any third party without your consent
+1135|user/profile|label-legal-doc-4|AKTA PERUSAHAAN|INCORPORATION CERTIFICATE
+1136|user/profile|label-legal-doc-5|Masukkan nomor NIB|Enter NIB number
+1137|user/profile|label-legal-doc-6|NPWP PERUSAHAAN|COMPANY NPWP
+1138|user/profile|label-legal-doc-7|Masukkan NPWP perusahaan|Enter Company NPWP number
+1139|user/profile|label-legal-doc-8|NPWP PENDIRI|FOUNDER NPWP
+1140|user/profile|label-legal-doc-9|Masukkan NPWP pendiri|Enter Founder NPWP number
+1141|user/profile|label-legal-doc-10|Masukkan NPWP|Enter NPWP number
+1142|user/profile|label-legal-doc-11|IZIN TINGGAL (KHUSUS WNA)|STAY PERMIT (FOR FOREIGNER ONLY)
+1143|user/profile|label-legal-doc-12|KARTU KELUARGA UNTUK WNI|KARTU KELUARGA FOR WNI
+1144|user/profile|label-legal-doc-13|Keuangan|Financial
+1145|user/profile|label-legal-doc-14|Dalam rangka memproses pengembalian dan atau penggantian deposti, mohon cantumkan rekening bank Anda|In order to process your deposit return and / or other reimbursements, please provide your bank account details
+1146|user/profile|label-legal-doc-15|REKENING BANK ASING|FOREIGN BANK ACCOUNT
+1147|user/profile|label-legal-doc-16|NAMA PEMEGANG REKENING|ACCOUNT HOLDER NAME
+1148|user/profile|label-legal-doc-17|Masukkan nama pemegang rekening|Enter account holder name
+1149|user/profile|label-legal-doc-18|BANK|BANKING ESTABLISHMENT
+1150|user/profile|label-legal-doc-19|NOMOR REKENING BANK|BANK ACCOUNT NUMBER
+1151|user/profile|label-legal-doc-20|Masukkan nomor rekening bank|Enter bank account number
+1152|user/profile|label-legal-doc-21|NAMA PEMEGANG REKENING|ACCOUNT HOLDER NAME
+1153|user/profile|label-legal-doc-22|Masukkan nama pemegang rekening|Enter account holder name
+1154|user/profile|label-legal-doc-23|MATA UANG|CURRENCY
+1155|user/profile|label-legal-doc-24|NEGARA ASAL BANK|BANK COUNTRY
+1156|user/profile|label-legal-doc-25|KOTA ASAL BANK|BANK CITY
+1157|user/profile|label-legal-doc-26|Masukkan kota asal bank|Enter bank city
+1158|user/profile|label-legal-doc-27|Maksimal 35 angka IBAN, contoh|Max 35 digit IBAN, example
+1159|user/profile|label-legal-doc-28|Masukkan IBAN|Enter IBAN
+1160|user/profile|label-legal-doc-29|NAMA PENERIMA|BENEFICIARY NAME
+1161|user/profile|label-legal-doc-30|Masukkan nama penerima|Enter beneficiary name
+1162|user/profile|label-legal-doc-31|Kode SWIFT bank|BANK SWIFT CODE
+1163|user/profile|label-legal-doc-32|Masukkan kode SWIFT bank|Enter bank SWIFT code
+1164|user/profile|label-legal-doc-33|NAMA BANK|BANK NAME
+1165|user/profile|label-legal-doc-34|Masukkan nama bank|Enter bank name
+1166|user/profile|label-legal-doc-35|Detail perusahaan|Company details
+1167|user/profile|label-legal-doc-36|Untuk proses kontrak yang lebih baik & sarana untuk memfasilitasi, mohon cantumkan detail perusahaan|In order to better process contracts and facilitate communications, please provide your company details
+1168|user/profile|label-legal-doc-37|Nama perusahaan|Company name
+1169|user/profile|label-legal-doc-38|Masukkan alamat jalan|Enter the street address
+1170|user/profile|label-legal-doc-39|Masukkan nomor alamat|Enter address number
+1171|user/profile|label-legal-doc-40|Masukkan detail (e.g Blok, Unit)|Enter details (e.g. Block, Building unit)
+1172|user/profile|label-legal-doc-41|Masukkan kota/kabupaten|Enter city
+1173|user/profile|label-legal-doc-42|Masukkan distrik/kecamatan|Enter district
+1174|user/profile|label-legal-doc-43|Masukkan kode pos|Enter post code
+1175|user/profile|label-legal-doc-44|Nomor telepon kantor|Office phone number
+1176|user/profile|label-setting-user-1|Keamanan & Log In|Security & Log in
+1177|user/profile|label-setting-user-2|Ubah password|Change password
+1178|user/profile|label-setting-user-3|Password Anda berhasil diganti|Your password has been successfully changed
+1179|user/profile|label-setting-user-4|PASSWORD LAMA|OLD PASSWORD
+1180|user/profile|label-setting-user-5|Password lama|Old password
+1181|user/profile|label-setting-user-6|Ups! Anda memasukkan password yang salah|Oops! You have inputted the wrong password
+1182|user/profile|label-setting-user-7|Lupa password|Forgot password
+1183|user/profile|label-setting-user-8|PASSWORD BARU|NEW PASSWORD
+1184|user/profile|label-setting-user-9|Password Anda sepanjang minimal 6 karakter dengan kombisasi angka dan huruf|Your password should be at least six characters long with combination of numbers and letters
+1185|user/profile|label-setting-user-10|Password baru|New password
+1186|user/profile|label-setting-user-11|KONFIRMASI PASSWORD BARU|CONFIRM NEW PASSWORD
+1187|user/profile|label-setting-user-12|Konfirmasi password baru|Confirm new password
+1188|user/profile|label-setting-user-13|Ups! Password baru Anda tidak cocok. Silakan ulangi|Oops! Your new password don’t match. Please try again
+1189|user/profile|label-setting-user-14|Ubah password|Change password
+1190|user/profile|label-setting-user-15|Notifikasi|Notifications
+1191|user/profile|label-setting-user-16|TERIMA NOTIFIKASI PADA|RECEIVE NOTIFICATIONS ON
+1192|user/profile|label-setting-user-17|SAYA BERLANGGANAN KE|SUBSCRIBE ME TO
+1193|user/profile|label-setting-user-18|Buletin Sewagi|Sewagi Newsletter
+1194|user/profile|label-setting-user-19|Akun tertaut|Linked Accounts
+1195|user/profile|label-setting-user-20|HAPUS AKUN|DELETE ACCOUNT
+1196|user/profile|label-setting-user-21|Anda perlu memilih paling tidak satu pilihan|You need to enable at least one option
+1197|user/profile|label-setting-user-22|MENGERTI|GOT IT
+1198|user/profile|label-setting-user-23|Lupa password|Forgot your password
+1199|user/profile|label-setting-user-24|Jangan khawatir, beritahu kami dengan apa Anda akan menyetel ulang password|Don't worry. Tell us how you want to reset your password
+1200|user/profile|label-setting-user-25|VIA NOMOR TELEPON|VIA REGISTERED PHONE
+1201|user/profile|label-setting-user-26|VIA EMAIL|VIA REGISTERED EMAIL
+1202|user/profile|label-setting-user-27|SMS terkirim!|SMS sent!
+1203|user/profile|label-setting-user-28|Kami mengirim SMS ke|We sent a text to
+1204|user/profile|label-setting-user-29|dengan sebuah link untuk mengatur ulang password|with a link to reset your password
+1205|user/profile|label-setting-user-30|Email terkirim!|Email sent!
+1206|user/profile|label-setting-user-31|Kami mengirim email ke|We sent an email to
+1207|user/profile|label-setting-user-32|dengan sebuah link untuk mengatur ulang password|with a link to reset your password
+1208|user/profile|label-setting-user-33|Anda tidak bisa menghapus akun Anda karena seseorang tinggal di properti Anda|You can’t delete your account because someone is living in one of your listed properties
+1209|user/profile|label-setting-user-34|Menghapus akun akan membatalkan seluruh jadwal kunjungan, negosiasi yang berlangsung, dan seluruh iklan properti Anda. Anda yakin untuk melanjutkan?|Deleting your account will cancel any scheduled tours / ongoing negotiations and delete all of your property listings. Are you sure you want to proceed?
+1210|user/profile|label-setting-user-35|Terimakasih telah menggunakan Sewagi untuk kebutuhan properti Anda, semoga bisa bertemu lagi dalam waktu dekat. Mungkin Anda ingin mengirimi kami|We thank you for using Sewagi for your property needs, we hope to see you again in the near future. Perhaps you might want to drop us a
+1211|user/profile|label-setting-user-36|supaya layanan kami lebih baik untuk Anda dan konsumen lain kami nantinya|in order to better our services for you and our future customers
+1212|user/profile|label-setting-user-37|Jangan khawatir, semua data pribadi tidak akan dibagi kepada pihak ketiga manapun tanpa sepengetahuan Anda|Don’t worry, all of your personal data will not be shared to any third party without your consent
+1213|user/profile|label-setting-user-38|untuk menghapus secara permanen|to request deleting them permanently
+1214|user/dashboard|label-1|Sewa saya – aktivitas yang berlangsung|My rent - Ongoing activities
+1215|user/dashboard|label-2|Lihat semua aktifitas yang berlangsung|See all ongoing activities
+1216|user/dashboard|label-3|SELURUH APARTEMEN|ENTIRE APARTMENT
+1217|user/dashboard|label-4|KUNJUNGAN LAPANGAN|ONSITE TOUR
+1218|user/dashboard|label-5|PENGIKLAN PROPERTI|PROPERTY LISTER
+1219|user/dashboard|label-6|TANGGAL KUNJUNGAN|VISIT DATE
+1220|user/dashboard|label-7|Menunggu konfirmasi|Awaiting confirmation
+1221|user/dashboard|label-8|Favorit saya|My favourites
+1222|user/dashboard|label-9|Lihat semua favorit saya|See all my favourites
+1223|user/dashboard|label-10|Properti yang baru dilihat|Recently viewed property
+1224|user/dashboard|label-11|Lihat semua properti yang baru dilihat|See all recently viewed
+1225|user/dashboard|label-12|Di dekat saya|Near me / Geolocation
+1226|user/dashboard|label-13|Lihat semua di dekat saya|See all near me
+1227|user/dashboard|label-14|Jadwalkan ulang kunjungan|Reschedule tour
+1228|user/dashboard|label-15|GANTI TANGGAL & JAM|CHANGE YOUR DATE & TIME
+1229|user/dashboard|label-16|JADWALKAN ULANG|RESCHEDULE
+1230|user/dashboard|link-previous|SEBELUMNYA|PREVIOUS
+1231|user/dashboard|link-next|SELANJUTNYA|NEXT

@@ -1,0 +1,74 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: "Poppins",
+sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$modal:#f5f8f8;
+$blue: #3490dc;
+$indigo: #6574cd;
+$pink: #f66D9b;
+$red: #e3342f;
+$green: #38c172;
+$green-1: #37958A;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$primary-turqoise: #6dc7be !default;
+$primary-orange: #f0b492 !default;
+$primary-dark: #013240 !default;
+$white-color: #fff !default;
+$white-color-2: #fafafa !default;
+$dark: #1d5060 !default;
+$aqua: #f7f9fa !default;
+$yellow: #ffe98a !default;
+$purple: #d1bcf4 !default;
+$orange: #ffd1b6 !default;
+$orange-2: #FFF4ED !default;
+$gray-1: #424242 !default;
+$gray-2: #8a8989 !default;
+$gray-3: #bdbdbd !default;
+$gray-4: #dcdbdb !default;
+$gray-5: #e9e9e9 !default;
+$gray-6: #a6b2b8 !default;
+$gray-7: #a0a1a3 !default;
+$gray-8: #9b9a9a !default;
+$dark-text-1: #242c3d !default;
+$gradient-1-start: #f0e7e1 !default;
+$gradient-1-end: $white-color !default;
+$gradient-2-start: #050505 !default;
+$gradient-2-end: $white-color !default;
+$gradient-3-start: #ecf0f4 !default;
+$gradient-4-end: $white-color !default;
+
+//Animations
+$transparent-bg: transparent !default;
+$general-transition-time: 300ms !default;
+$transition-linear: linear !default;
+$transition-bezier: cubic-bezier(0.34, 1.61, 0.7, 1) !default;
+$transition-ease: ease 0s;
+
+$spacer:10px;
+$white: #fff;
+
+$black: #000;
+$main-dark: #414142;
+$main-border: #A0A1A3;
+$border : #a0a1a3;
+$dark-grey: #2D2D2E;
+$light-brown: #8A8989;
+$light-orange: #fef3ed;
+$modal-white-form: #f3f3f3;
+
+$bg-gray: #dbe0e3;
+$bg-teal: #DCEEEC;
+$hexagon: #ffebdf;
+$border-dashboard: #F2F4F5;
+$bg-gray-switch: #d9d5d4;
+
+// font
+$font-mono: 'PT Mono',
+monospace;

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<!-- @import "_list-property-header.kit" -->
+
+<body id="list-property">
+
+    <!-- @import "./navbar/_list-property-navbar.kit" -->
+    <div class="list-property-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <!-- @import "./sidebar/_sidebar-list-property-bedroom.kit" -->
+                </div>
+                <div class="col-md-10">
+                    <!-- @import "_list-property-content-bedroom.kit" -->
+                </div>
+            </div>
+        </div>
+        <div class="modal fade modal-dashboard" id="modalConfirmation" tabindex="-1" role="dialog">
+            <div class="modal-dialog from-right" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <div class="modal-body text-center">
+                        <p class="font-weight-bolder">Are you sure you want to leave this page?</p>
+                        <p class="font-weight-bolder">You might lose all inputted information.</p>
+                        <div class="button-group">
+                            <a class="btn btn-primary mr-2" data-dismiss="modal" href="https://sewagi-web.inspira.web.id">Yes</a>
+                            <a class="btn btn-primary" href="#">Save As Draft</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade modal-dashboard modal-room-numbering" id="modalRoomNumbering" tabindex="-1" role="dialog">
+            <div class="modal-dialog from-right" role="document">
+                <div class="modal-content bg-white">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="form-group">
+                            <label class="required font-weight-bolder">Please input your bedrooms Number / Name.</label>
+                            <label class="text-muted d-block">E.g. 1A, 1B, 1C, 101, 102, Jasmin 1</label>
+                            <div class="row mt-5">
+                                <div class="col-md-6 d-flex align-items-center mb-4">
+                                    <input class="form-control form-control-dashboard text-center input-room-numbering" type="text" placeholder="1A">
+                                    <div class="custom-control custom-switch custom-switch-available">
+                                        <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                                        <label class="custom-control-label" for="customSwitch1">
+                                            <span>
+                                                Not Available
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 d-flex align-items-center mb-4">
+                                    <input class="form-control form-control-dashboard text-center input-room-numbering" type="text" placeholder="1A">
+                                    <div class="custom-control custom-switch custom-switch-available">
+                                        <input type="checkbox" class="custom-control-input" id="customSwitch2">
+                                        <label class="custom-control-label" for="customSwitch2">
+                                            <span>
+                                                Not Available
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 d-flex align-items-center mb-4">
+                                    <input class="form-control form-control-dashboard text-center input-room-numbering" type="text" placeholder="1A">
+                                    <div class="custom-control custom-switch custom-switch-available">
+                                        <input type="checkbox" class="custom-control-input" id="customSwitch3">
+                                        <label class="custom-control-label" for="customSwitch3">
+                                            <span>
+                                                Not Available
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 d-flex align-items-center mb-4">
+                                    <input class="form-control form-control-dashboard text-center input-room-numbering" type="text" placeholder="1A">
+                                    <div class="custom-control custom-switch custom-switch-available">
+                                        <input type="checkbox" class="custom-control-input" id="customSwitch4">
+                                        <label class="custom-control-label" for="customSwitch4">
+                                            <span>
+                                                Not Available
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button-group d-flex justify-content-end">
+                            <a id="btn-room-numbering-done" class="btn btn-primary disabled" href="#">Done</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- @import "_footer.kit" -->
+</body>
+
+</html>

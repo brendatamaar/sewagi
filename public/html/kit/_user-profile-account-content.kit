@@ -1,0 +1,310 @@
+<div class="row mb-5">
+    <div class="col-md-8">
+    	<h3 class="py-4 mb-5">Security & Log in</h3>
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">Change password</label>
+                <a href="#" class="btn btn-link">Edit</a>
+            </div>
+        </div>
+
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">OLD PASSWORD</label>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="input-group input-password-group">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-transparent" type="button">
+                                <img src="../img/dashboard/twoColor/lock.svg" alt="">
+                            </button>
+                        </div>
+                        <input type="password" class="form-control form-control-dashboard form-password bg-white is-invalid" placeholder="Old password">
+                        <div class="input-group-append">
+                            <button class="btn btn-transparent btn-show-pass" type="button">
+                                <i class="far fa-eye-slash"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="invalid-feedback d-flex">
+                        Oops! You have inputted the wrong password.
+                        <a class="ml-auto" data-dismiss="modal" data-toggle="modal" data-target="#modalForgotPassword" href="#">Forgot password</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">NEW PASSWORD</label>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="input-group input-password-group">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-transparent" type="button">
+                                <img src="../img/dashboard/twoColor/lock.svg" alt="">
+                            </button>
+                        </div>
+                        <input type="password" class="form-control form-control-dashboard form-password bg-white" placeholder="New password">
+                        <div class="input-group-append">
+                            <button class="btn btn-transparent btn-show-pass" type="button">
+                                <i class="far fa-eye-slash"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">CONFIRM NEW PASSWORD</label>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="input-group input-password-group">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-transparent" type="button">
+                                <img src="../img/dashboard/twoColor/lock.svg" alt="">
+                            </button>
+                        </div>
+                        <input type="password" class="form-control form-control-dashboard form-password bg-white" placeholder="Confirm new password">
+                        <div class="input-group-append">
+                            <button class="btn btn-transparent btn-show-pass" type="button">
+                                <i class="far fa-eye-slash"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn btn-primary disabled">CHANGE PASSWORD</a>
+        <hr class="my-5">
+    </div>
+</div>
+
+<div class="row mb-5">
+    <div class="col-md-8">
+        <h3 class="py-4 mb-5">Notifications</h3>
+        <div class="form-group mb-5 notif-switch-group">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">RECEIVE NOTIFICATIONS ON</label>
+            </div>
+            <div class="row mb-3">
+                <div class="offset-md-3 col-md-3">
+                    Email
+                </div>
+                <div class="col-md-6">
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="email-switch" checked>
+                        <label class="custom-control-label" for="email-switch"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="offset-md-3 col-md-3">
+                    SMS
+                </div>
+                <div class="col-md-6">
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="sms-switch" checked>
+                        <label class="custom-control-label" for="sms-switch"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="offset-md-3 col-md-3">
+                    WhatsApp
+                </div>
+                <div class="col-md-6">
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="WhatsApp-switch" checked>
+                        <label class="custom-control-label" for="WhatsApp-switch"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">SUBSCRIBE ME TO</label>
+            </div>
+            <div class="row mb-3">
+                <div class="offset-md-3 col-md-3">
+                    Sewagi Newsletter
+                </div>
+                <div class="col-md-6">
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="newsletter-switch" checked>
+                        <label class="custom-control-label" for="newsletter-switch"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+    </div>
+</div>
+
+<div class="row mb-5">
+    <div class="col-md-8">
+        <h3 class="py-4 mb-5">Linked Accounts</h3>
+        <div class="form-group mb-4 d-flex justify-content-between align-items-center">
+            <div class="social-holder d-flex align-items-center">
+                <img class="social-img" src="../img/social-img/fb.png" alt="">
+                <h6 class="mx-3 mb-0">Facebook</h6>
+            </div>
+            <a href="#" class="btn btn-link">Link account</a>
+        </div>
+        <div class="form-group mb-4 d-flex justify-content-between align-items-center">
+            <div class="social-holder d-flex align-items-center">
+                <img class="social-img" src="../img/social-img/linkedin.png" alt="">
+                <h6 class="mx-3 mb-0">Linkedin</h6>
+            </div>
+           
+            <a href="#" class="btn btn-link">Link account</a>
+        </div>
+        <div class="form-group mb-4 d-flex justify-content-between align-items-center">
+            <div class="social-holder d-flex align-items-center">
+                <img class="social-img" src="../img/social-img/google.png" alt="">
+                <h6 class="mx-3 mb-0">Google</h6>
+                <img src="../img/ic_check.svg" alt="">
+            </div>
+            <a href="#" class="btn btn-link">Unlink</a>
+        </div>
+        <hr class="my-5">
+        <a class="btn btn-outline-primary" href="#" data-dismiss="modal" data-toggle="modal" data-target="#modalDeleteAccount">DELETE ACCOUNT</a>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalToggleWarning" tabindex="-1" role="dialog">
+    <div class="modal-dialog from-right" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" id="stop-camera2" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+                <img class="mb-5" height="200" src="../img/notif.png" alt="">
+                <p>You need to enable at least one option.</p>
+                <div class="d-flex justify-content-center">
+                    <a class="btn btn-primary my-4" href="#">GOT IT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalCantDeleteAccount" tabindex="-1" role="dialog">
+    <div class="modal-dialog from-right" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" id="stop-camera2" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+                <img class="mb-5" height="200" src="../img/warning.png" alt="">
+                <p>You can’t delete your account because someone is living in one of your listed properties.</p>
+                <div class="d-flex justify-content-center">
+                    <a class="btn btn-primary my-4" href="#" data-dismiss="modal">GOT IT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalDeleteAccount" tabindex="-1" role="dialog">
+    <div class="modal-dialog from-right" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" id="stop-camera2" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+                <img class="mb-5" height="200" src="../img/warning.png" alt="">
+                <p>Deleting your account will cancel any scheduled tours / ongoing negotiations and delete all of your property listings. Are you sure you want to proceed?</p>
+                <div class="d-flex justify-content-center">
+                    <a class="btn btn-primary my-4 mr-4" href="#" data-dismiss="modal" data-toggle="modal" data-target="#modalThankYouAccount">YES</a>
+                    <a class="btn btn-primary my-4" data-dismiss="modal" data-toggle="modal" data-target="#modalCantDeleteAccount" href="#">NO</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalThankYouAccount" tabindex="-1" role="dialog">
+    <div class="modal-dialog from-right" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" id="stop-camera2" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+                <img class="mb-5" height="200" src="../img/thank-you.png" alt="">
+                <p>
+                    We thank you for using Sewagi for your property needs, we hope to see you again in the near future. Perhaps you might want to drop us a <a href="#">message</a> in order to better our services for you and our future customers.
+                </p>
+                <p>Don’t worry, all of your personal data will not be shared to any third party without your consent. Click <a href="#">here</a> to request deleting them permanently.</p>
+                <div class="d-flex justify-content-center">
+                    <a class="btn btn-primary my-4" href="#" data-dismiss="modal">UNDERSTOOD</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalForgotPassword" tabindex="-1" role="dialog">
+    <div class="modal-dialog from-right" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" id="stop-camera2" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+                <h3 class="mb-4">Forgot your password</h3>
+                <p class="mb-5">Don't worry. Tell us how you want to reset your password.</p>
+               
+                <a class="btn btn-outline-primary my-4 btn-block" href="#" data-dismiss="modal" data-toggle="modal" data-target="#modalForgotSMSSent">
+                    <img class="mr-2" src="../img/dashboard/twoColor/phone.svg" alt="">
+                    VIA REGISTERED PHONE
+                </a>
+                <a class="btn btn-outline-primary my-4 btn-block" href="#" data-dismiss="modal" data-toggle="modal" data-target="#modalForgotEmailSent">
+                    <img class="mr-2" src="../img/dashboard/twoColor/email.svg" alt="">
+                    VIA REGISTERED EMAIL
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalForgotSMSSent" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+
+                <img class="img-fluid" src="../img/sms.png" alt="">
+                
+                <h4 class="mb-4">SMS sent!</h4>
+                <p>We sent a text to <strong>08122392123</strong> with a link to reset <br>your password.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalForgotEmailSent" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+
+                <img class="img-fluid" src="../img/email.png" alt="">
+                
+                <h4 class="mb-4">Email sent!</h4>
+                <p>We sent an email to <strong>daniel.rki@gmail.com</strong> with<br>a link to reset your password.</p>
+            </div>
+        </div>
+    </div>
+</div>

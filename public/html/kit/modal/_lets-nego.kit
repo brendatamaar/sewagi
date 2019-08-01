@@ -1,0 +1,117 @@
+<div class="modal modal-styled fade" id="modalLetsNego" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-btn-close" data-dismiss="modal" aria-label="Close">
+                <img src="../img/close-big.png" alt="">
+            </div>
+            <div class="modal-body">
+                <div class="modal-title">
+                    Negotiate your rate
+                </div>
+                <form action="">
+                    <div class="form-group">
+                        <label class="text-muted">LENGTH OF STAY</label>
+                        <select class="select2 js-select2" placeholder="Select year">
+                            <option value=""></option>
+                            <option value="1 year">1 year</option>
+                            <option value="9 months">9 months</option>
+                            <option value="6 months">6 months</option>
+                            <option value="3 months">3 months</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="text-muted">PAYMENT OPTION</label>
+                        <select class="select2 js-select2" placeholder="Select payment option">
+                            <option value=""></option>
+                            <option value="Paid quarterly">Paid quarterly</option>
+                            <option value="Paid quarterly">Paid quarterly</option>
+                            <option value="Paid quarterly">Paid quarterly</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="text-muted">RATE PROPOSITION</label>
+                        <div id="rate-proposition-slider" class="mb-10 mt-70"></div> 
+                        <div class="d-flex mb-5">
+                              <span class="mr-auto" id="rate-proposition-text-1">IDR 20.000.000</span>
+                              <span id="rate-proposition-text-2">IDR 35.000.000</span>
+                          </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="text-muted">INPUT RATE PROPOSITION MANUALLY</label>
+                        <div class="input-group">
+                            <div class="input-group-append border-right-custom">
+                                <span class="font-weight-bolder">IDR</span>
+                            </div>
+                            <input type="number" class="form-control form-control-noborder form-control-styled" placeholder="OR manually input your desired rate">
+                        </div>
+                    </div>
+                </form>
+                <div class="d-flex justify-content-center">
+                    <a href="#" class="btn btn-primary btn-block" data-dismiss="modal" data-toggle="modal" data-target="#modalThankYouNego">SUBMIT RATE OFFER</a>    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal modal-styled fade" id="modalThankYouNego" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-btn-close" data-dismiss="modal" aria-label="Close">
+                <img src="../img/close-big.png" alt="">
+            </div>
+            <div class="modal-body text-center">
+                <img class="pb-30" src="../img/thank-you-icon.svg" alt="">
+                <div class="modal-title">
+                    Thank you!
+                </div>
+                <p class="py-15">Your rate offering has been submitted. Expect an answer within 24 hours.</p>
+                <div>
+                    <a href="#" class="btn btn-primary btn-block mb-10" data-dismiss="modal">VIEW STATUS</a> 
+                    <p>Or schedule an <a href="#">onsite</a> or <a href="#">live virtual tour</a> now</p>   
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal modal-styled fade" id="modalVisitThisProperty" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-btn-close" data-dismiss="modal" aria-label="Close">
+                <img src="../img/close-big.png" alt="">
+            </div>
+            <div class="modal-body">
+                <div class="modal-title mt-30 mb-30">
+                    <h5>
+                        We strongly advise you to visit this property before booking it, to ensure that it meets all your expectations.
+                    </h5>
+                </div>
+                <div class="row">
+                    <div class="col-lg-7 mx-auto">
+                        <div class="form-group">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a href="#" class="btn btn-primary btn-block px-0">
+                                        SCHEDULE<br>ONSITE TOUR
+                                    </a>
+                                </div>
+                                <div class="col-md-6">
+                                    <a href="#" class="btn btn-primary btn-block px-0">
+                                        SCHEDULE<br>LIVE VIRTUAL TOUR
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <a href="#" class="btn btn-outline-primary btn-block">
+                                BOOK NOW
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

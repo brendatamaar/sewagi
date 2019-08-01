@@ -1,0 +1,72 @@
+.home-asset-1{
+    width: 613px;
+    height: 419px;
+    background-image: url('../img/home-asset-1.png');
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -18rem;
+    top: 22vh
+}
+.polygon-2-copy-4 {
+    height: 193.53px;
+    width: 173.15px;
+    position: absolute;
+    left: -3rem;
+    bottom: 3rem;
+    background-image: url('../img/Polygon\ 2\ Copy\ 4.svg');
+    background-repeat: no-repeat;
+    background-size: contain
+}
+.pot-brick{
+    height: 60vh;
+    width: 528px;
+    background-image: url('../img/pot-brick-asset.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    left: 0;
+    @media(max-width: 767px) {
+      top: unset;
+      bottom: 0;
+    }
+}
+
+.woman-shoes{
+    height: 161px;
+    width: 252px;
+    background-image: url('../img/woman-shoes-asset.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    right: 0
+}
+.polygon-dots{
+    height: 138px;
+    width: 99px;
+    background-image: url('../img/polygon-dots.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 5rem;
+    right: 0
+}
+.polygon-brick{
+    height: 338px;
+    width: 284px;
+    background-image: url('../img/brick-polygon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 2rem;
+    left: -8rem
+}
+
+.background-shadow {
+    height: 304px;
+    width: 100%;
+    background-color: rgba(240,180,146,0.08);
+    position: absolute;
+    bottom: 30px;
+}

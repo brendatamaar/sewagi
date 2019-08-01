@@ -1,0 +1,46 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=PT+Mono|Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+// Variables
+@import 'variables';
+@import 'mixins';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-select/sass/bootstrap-select';
+
+// Fonts
+/*
+
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Mono', monospace;
+
+
+*/
+
+//Plugins
+@import 'plugins/_plugin-nouislider';
+@import 'plugins/_plugin-fullcalendar';
+@import 'plugins/_icomoon';
+@import 'plugins/_customicon';
+@import 'plugins/_select2';
+@import 'plugins/_owl-carousel';
+@import 'plugins/_owl-theme-default';
+@import 'plugins/_fancybox';
+@import 'plugins/_fancybox-thumbs';
+
+//Components
+@import 'important_custom';
+@import 'sections';
+@import 'typography';
+@import 'buttons';
+@import 'navbar';
+@import 'tabs';
+@import 'inputs';
+@import 'background';
+@import 'modals';
+@import 'search';
+
+
+@import 'custom_bootstrap';

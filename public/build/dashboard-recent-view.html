@@ -1,0 +1,819 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Sewagi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+
+<body>
+    <div id="dashboard">
+        <div id="page-wrapper" class="d-flex">
+            <div id="sidebar">
+    <nav class="sidebar-nav">
+        <div class="sidebar-brand py-4">
+            <a class="navbar-brand" href="#" style="background-image: url('../images/Logo.svg');">Navbar</a>
+        </div>
+        <div id="sidebar-inner">
+            <ul class="navbar-nav nav-main flex-column w-100">
+                <li class="nav-item active">
+                    <a class="nav-link d-flex align-items-center" href="#">
+                        <span class="sidebar-icon">
+                            <img src="../img/dashboard/home.svg" alt="">
+                        </span>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="#">
+                        <span class="sidebar-icon">
+                            <img src="../img/dashboard/home.svg" alt="">
+                        </span>
+                        <span>My Rent</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="#">
+                        <span class="sidebar-icon">
+                            <img src="../img/dashboard/heart.svg" alt="">
+                        </span>
+                        <span>My favourites</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="#">
+                        <span class="sidebar-icon">
+                            <img src="../img/dashboard/notif.svg" alt="">
+                        </span>
+                        <span>Notifications</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="#">
+                        <span class="sidebar-icon">
+                            <img src="../img/dashboard/activities.svg" alt="">
+                        </span>
+                        <span>Activities & services</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="#">
+                        <span class="sidebar-icon">
+                            <img src="../img/dashboard/payment.svg" alt="">
+                        </span>
+                        <span>Payment methods</span>
+                    </a>
+                </li>
+                <li class="nav-item py-4 mt-4 border-top border-bottom">
+                    <a class="nav-link d-flex align-items-center" href="#">
+                        <span class="sidebar-icon">
+                            <img src="../img/dashboard/list-property.svg" alt="">
+                        </span>
+                        <span>List your property</span>
+                    </a>
+                </li>
+                <li class="nav-item py-4">
+                    <a class="nav-link d-flex align-items-center" href="#">
+                        <span class="sidebar-icon">
+                            <img src="../img/dashboard/help.svg" alt="">
+                        </span>
+                        <span>Help and support</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav nav-profile">
+                <li class="nav-item py-4">
+                    <a class="nav-link d-flex align-items-center" href="#">
+                        <span class="sidebar-icon mr-3">
+                            <img src="../img/dashboard/profile-pic.png" alt="">
+                        </span>
+                        <span>Daniel Ricki</span>
+                    </a>
+                </li>
+            </ul>
+            <button class="btn-chat background-primary">
+                <i class="fas fa-comment-alt"></i>
+            </button>
+        </div>
+    </nav>
+</div>            <div id="page-container">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="d-flex justify-content-between align-items-center mb-5">
+                            <h3 class="mb-0">My ongoing activities</h3>
+                            <div class="filter-recent">
+                                <div class="row align-items-center">
+                                    <div class="col">
+                                        <label class="mb-0 text-muted mr-5">FILTER BY</label>
+                                    </div>
+                                    <div class="col">
+                                        <select class="select2 js-select2" name="" placeholder="All listings">
+                                            <option value=""></option>
+                                            <option value="Furnished">Furnished</option>
+                                            <option value="Semi-Furnished">Semi-Furnished</option>
+                                        </select>
+                                    </div>
+                                    <div class="col">
+                                        <select class="select2 js-select2" name="" placeholder="Status">
+                                            <option value=""></option>
+                                            <option value="Furnished">Furnished</option>
+                                            <option value="Semi-Furnished">Semi-Furnished</option>
+                                        </select>
+                                    </div>
+                                    <div class="col">
+                                        <select class="select2 js-select2" name="" placeholder="August">
+                                            <option value=""></option>
+                                            <option value="Furnished">Furnished</option>
+                                            <option value="Semi-Furnished">Semi-Furnished</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="favourite-holder">
+                            <h4 class="mb-4">Menteng</h4>
+                            <div class="grid mb-4">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="grid-item">
+                                            <a class="card" style="min-height:100% !important">
+                                                <div id="carousel-search-item-0" class="card-img-top carousel slide" data-ride="carousel">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="carousel-indicators">
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="0" class="active"></li>
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="1" class=""></li>
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="2" class=""></li>
+                                                    </ol>
+                                                    <div class="tag-info-bottom">#INIHASTAG</div>
+                                                </div>
+                                                <div class="tag-info">Female Only</div>
+                                                <button class="btn btn-icon-small btn-favorite"><i class="far fa-heart icon icon-small text-color-dark"></i></button>
+                                                <div class="card-body box-container-card" style="z-index:10">
+                                                    <div class="tags mb-2">
+                                                        <span class="card-tag fox-btn-left">Co Living</span>
+                                                        <span class="card-tag fox-btn-right card-tag-outline">Entire House</span>
+                                                    </div>
+                                                    <div class="box-container-card-info-left is-show-card">
+                                                        <h4 class="card-title">Gading Icon</h4>
+                                                        <p class="font-size-14 mb-0">Kebayoran Baru, South Jakarta</p>
+                                                        <p class="font-size-14 mb-0">Starting from <span class="font-weight-bold">Rp 20,070,000 per Month</span></p>
+                                                        <hr />
+                                                        <span class="d-flex">
+                                                            <span class="font-size-12 mr-auto mb-0"><span class="font-weight-bold">45</span> <i class="fas fa-star text-color-orange"></i> (35)</span>
+                                                            <div>
+                                                                <span class="font-size-12 mr-auto mb-0"><img class="icon-img if-img-big" src="../img/pp-landsize.jpg" alt="Room"></i> 169.4ddm<sup>2</sup> </span>
+                                                                <span class="font-size-12 mb-0"> <img class="icon-img" src="../img/pp-room.jpg" alt="Room"></i> <span class="font-weight-bold">2</span> / 8</span>
+                                                            </div>
+                                                        </span>
+                                                    </div>
+                                                    <div class="box-container-card-info-right">
+                                                        <h4 class="card-title">bukan gading baru</h4>
+                                                        <p class="font-size-14 mb-0">kebayoran lama</p>
+                                                        <p class="font-size-14 mb-0">Starting from <span class="font-weight-bold">Rp 5000</span></p>
+                                                        <hr />
+                                                        <span class="d-flex align-items-center">
+                                                            <span class="font-size-12 mr-auto mb-0"><span class="font-weight-bold">45</span> <i class="fas fa-star text-color-orange"></i> (35)</span>
+                                                            <span class="font-size-12 mr-auto mb-0"><img class="icon-img if-img-big" src="../img/pp-landsize.jpg" alt="Room"></i> 169.4ddm<sup>2</sup> </span>
+                                                            <span class="font-size-12 mb-0"> <img class="icon-img" src="../img/pp-room.jpg" alt="Room"> <span class="font-weight-bold">2</span> / 8</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="grid-item">
+                                            <a class="card" style="min-height:100% !important">
+                                                <div id="carousel-search-item-0" class="card-img-top carousel slide" data-ride="carousel">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="carousel-indicators">
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="0" class="active"></li>
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="1" class=""></li>
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="2" class=""></li>
+                                                    </ol>
+                                                    <div class="tag-info-bottom">#INIHASTAG</div>
+                                                </div>
+                                                <div class="tag-info">Female Only</div>
+                                                <button class="btn btn-icon-small btn-favorite"><i class="far fa-heart icon icon-small text-color-dark"></i></button>
+                                                <div class="card-body box-container-card" style="z-index:10">
+                                                    <div class="tags mb-2">
+                                                        <span class="card-tag fox-btn-left">Co Living</span>
+                                                        <span class="card-tag fox-btn-right card-tag-outline">Entire House</span>
+                                                    </div>
+                                                    <div class="box-container-card-info-left is-show-card">
+                                                        <h4 class="card-title">Gading Icon</h4>
+                                                        <p class="font-size-14 mb-0">Kebayoran Baru, South Jakarta</p>
+                                                        <p class="font-size-14 mb-0">Starting from <span class="font-weight-bold">Rp 20,070,000 per Month</span></p>
+                                                        <hr />
+                                                        <span class="d-flex">
+                                                            <span class="font-size-12 mr-auto mb-0"><span class="font-weight-bold">45</span> <i class="fas fa-star text-color-orange"></i> (35)</span>
+                                                            <div>
+                                                                <span class="font-size-12 mr-auto mb-0"><img class="icon-img if-img-big" src="../img/pp-landsize.jpg" alt="Room"></i> 169.4ddm<sup>2</sup> </span>
+                                                                <span class="font-size-12 mb-0"> <img class="icon-img" src="../img/pp-room.jpg" alt="Room"></i> <span class="font-weight-bold">2</span> / 8</span>
+                                                            </div>
+                                                        </span>
+                                                    </div>
+                                                    <div class="box-container-card-info-right">
+                                                        <h4 class="card-title">bukan gading baru</h4>
+                                                        <p class="font-size-14 mb-0">kebayoran lama</p>
+                                                        <p class="font-size-14 mb-0">Starting from <span class="font-weight-bold">Rp 5000</span></p>
+                                                        <hr />
+                                                        <span class="d-flex align-items-center">
+                                                            <span class="font-size-12 mr-auto mb-0"><span class="font-weight-bold">45</span> <i class="fas fa-star text-color-orange"></i> (35)</span>
+                                                            <span class="font-size-12 mr-auto mb-0"><img class="icon-img if-img-big" src="../img/pp-landsize.jpg" alt="Room"></i> 169.4ddm<sup>2</sup> </span>
+                                                            <span class="font-size-12 mb-0"> <img class="icon-img" src="../img/pp-room.jpg" alt="Room"> <span class="font-weight-bold">2</span> / 8</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="grid-item">
+                                            <a class="card" style="min-height:100% !important">
+                                                <div id="carousel-search-item-0" class="card-img-top carousel slide" data-ride="carousel">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="carousel-indicators">
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="0" class="active"></li>
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="1" class=""></li>
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="2" class=""></li>
+                                                    </ol>
+                                                    <div class="tag-info-bottom">#INIHASTAG</div>
+                                                </div>
+                                                <div class="tag-info">Female Only</div>
+                                                <button class="btn btn-icon-small btn-favorite"><i class="far fa-heart icon icon-small text-color-dark"></i></button>
+                                                <div class="card-body box-container-card" style="z-index:10">
+                                                    <div class="tags mb-2">
+                                                        <span class="card-tag fox-btn-left">Co Living</span>
+                                                        <span class="card-tag fox-btn-right card-tag-outline">Entire House</span>
+                                                    </div>
+                                                    <div class="box-container-card-info-left is-show-card">
+                                                        <h4 class="card-title">Gading Icon</h4>
+                                                        <p class="font-size-14 mb-0">Kebayoran Baru, South Jakarta</p>
+                                                        <p class="font-size-14 mb-0">Starting from <span class="font-weight-bold">Rp 20,070,000 per Month</span></p>
+                                                        <hr />
+                                                        <span class="d-flex">
+                                                            <span class="font-size-12 mr-auto mb-0"><span class="font-weight-bold">45</span> <i class="fas fa-star text-color-orange"></i> (35)</span>
+                                                            <div>
+                                                                <span class="font-size-12 mr-auto mb-0"><img class="icon-img if-img-big" src="../img/pp-landsize.jpg" alt="Room"></i> 169.4ddm<sup>2</sup> </span>
+                                                                <span class="font-size-12 mb-0"> <img class="icon-img" src="../img/pp-room.jpg" alt="Room"></i> <span class="font-weight-bold">2</span> / 8</span>
+                                                            </div>
+                                                        </span>
+                                                    </div>
+                                                    <div class="box-container-card-info-right">
+                                                        <h4 class="card-title">bukan gading baru</h4>
+                                                        <p class="font-size-14 mb-0">kebayoran lama</p>
+                                                        <p class="font-size-14 mb-0">Starting from <span class="font-weight-bold">Rp 5000</span></p>
+                                                        <hr />
+                                                        <span class="d-flex align-items-center">
+                                                            <span class="font-size-12 mr-auto mb-0"><span class="font-weight-bold">45</span> <i class="fas fa-star text-color-orange"></i> (35)</span>
+                                                            <span class="font-size-12 mr-auto mb-0"><img class="icon-img if-img-big" src="../img/pp-landsize.jpg" alt="Room"></i> 169.4ddm<sup>2</sup> </span>
+                                                            <span class="font-size-12 mb-0"> <img class="icon-img" src="../img/pp-room.jpg" alt="Room"> <span class="font-weight-bold">2</span> / 8</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mb-3">
+                                <a href="#" class="btn btn-link">
+                                    See all ongoing activities
+                                    <img src="../img/long-arrow-right.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="favourite-holder">
+                            <h4 class="mb-4">Grogol</h4>
+                            <div class="grid mb-4">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="grid-item">
+                                            <a class="card" style="min-height:100% !important">
+                                                <div id="carousel-search-item-0" class="card-img-top carousel slide" data-ride="carousel">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="carousel-indicators">
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="0" class="active"></li>
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="1" class=""></li>
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="2" class=""></li>
+                                                    </ol>
+                                                    <div class="tag-info-bottom">#INIHASTAG</div>
+                                                </div>
+                                                <div class="tag-info">Female Only</div>
+                                                <button class="btn btn-icon-small btn-favorite"><i class="far fa-heart icon icon-small text-color-dark"></i></button>
+                                                <div class="card-body box-container-card" style="z-index:10">
+                                                    <div class="tags mb-2">
+                                                        <span class="card-tag fox-btn-left">Co Living</span>
+                                                        <span class="card-tag fox-btn-right card-tag-outline">Entire House</span>
+                                                    </div>
+                                                    <div class="box-container-card-info-left is-show-card">
+                                                        <h4 class="card-title">Gading Icon</h4>
+                                                        <p class="font-size-14 mb-0">Kebayoran Baru, South Jakarta</p>
+                                                        <p class="font-size-14 mb-0">Starting from <span class="font-weight-bold">Rp 20,070,000 per Month</span></p>
+                                                        <hr />
+                                                        <span class="d-flex">
+                                                            <span class="font-size-12 mr-auto mb-0"><span class="font-weight-bold">45</span> <i class="fas fa-star text-color-orange"></i> (35)</span>
+                                                            <div>
+                                                                <span class="font-size-12 mr-auto mb-0"><img class="icon-img if-img-big" src="../img/pp-landsize.jpg" alt="Room"></i> 169.4ddm<sup>2</sup> </span>
+                                                                <span class="font-size-12 mb-0"> <img class="icon-img" src="../img/pp-room.jpg" alt="Room"></i> <span class="font-weight-bold">2</span> / 8</span>
+                                                            </div>
+                                                        </span>
+                                                    </div>
+                                                    <div class="box-container-card-info-right">
+                                                        <h4 class="card-title">bukan gading baru</h4>
+                                                        <p class="font-size-14 mb-0">kebayoran lama</p>
+                                                        <p class="font-size-14 mb-0">Starting from <span class="font-weight-bold">Rp 5000</span></p>
+                                                        <hr />
+                                                        <span class="d-flex align-items-center">
+                                                            <span class="font-size-12 mr-auto mb-0"><span class="font-weight-bold">45</span> <i class="fas fa-star text-color-orange"></i> (35)</span>
+                                                            <span class="font-size-12 mr-auto mb-0"><img class="icon-img if-img-big" src="../img/pp-landsize.jpg" alt="Room"></i> 169.4ddm<sup>2</sup> </span>
+                                                            <span class="font-size-12 mb-0"> <img class="icon-img" src="../img/pp-room.jpg" alt="Room"> <span class="font-weight-bold">2</span> / 8</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="grid-item">
+                                            <a class="card" style="min-height:100% !important">
+                                                <div id="carousel-search-item-0" class="card-img-top carousel slide" data-ride="carousel">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="carousel-indicators">
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="0" class="active"></li>
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="1" class=""></li>
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="2" class=""></li>
+                                                    </ol>
+                                                    <div class="tag-info-bottom">#INIHASTAG</div>
+                                                </div>
+                                                <div class="tag-info">Female Only</div>
+                                                <button class="btn btn-icon-small btn-favorite"><i class="far fa-heart icon icon-small text-color-dark"></i></button>
+                                                <div class="card-body box-container-card" style="z-index:10">
+                                                    <div class="tags mb-2">
+                                                        <span class="card-tag fox-btn-left">Co Living</span>
+                                                        <span class="card-tag fox-btn-right card-tag-outline">Entire House</span>
+                                                    </div>
+                                                    <div class="box-container-card-info-left is-show-card">
+                                                        <h4 class="card-title">Gading Icon</h4>
+                                                        <p class="font-size-14 mb-0">Kebayoran Baru, South Jakarta</p>
+                                                        <p class="font-size-14 mb-0">Starting from <span class="font-weight-bold">Rp 20,070,000 per Month</span></p>
+                                                        <hr />
+                                                        <span class="d-flex">
+                                                            <span class="font-size-12 mr-auto mb-0"><span class="font-weight-bold">45</span> <i class="fas fa-star text-color-orange"></i> (35)</span>
+                                                            <div>
+                                                                <span class="font-size-12 mr-auto mb-0"><img class="icon-img if-img-big" src="../img/pp-landsize.jpg" alt="Room"></i> 169.4ddm<sup>2</sup> </span>
+                                                                <span class="font-size-12 mb-0"> <img class="icon-img" src="../img/pp-room.jpg" alt="Room"></i> <span class="font-weight-bold">2</span> / 8</span>
+                                                            </div>
+                                                        </span>
+                                                    </div>
+                                                    <div class="box-container-card-info-right">
+                                                        <h4 class="card-title">bukan gading baru</h4>
+                                                        <p class="font-size-14 mb-0">kebayoran lama</p>
+                                                        <p class="font-size-14 mb-0">Starting from <span class="font-weight-bold">Rp 5000</span></p>
+                                                        <hr />
+                                                        <span class="d-flex align-items-center">
+                                                            <span class="font-size-12 mr-auto mb-0"><span class="font-weight-bold">45</span> <i class="fas fa-star text-color-orange"></i> (35)</span>
+                                                            <span class="font-size-12 mr-auto mb-0"><img class="icon-img if-img-big" src="../img/pp-landsize.jpg" alt="Room"></i> 169.4ddm<sup>2</sup> </span>
+                                                            <span class="font-size-12 mb-0"> <img class="icon-img" src="../img/pp-room.jpg" alt="Room"> <span class="font-weight-bold">2</span> / 8</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="grid-item">
+                                            <a class="card" style="min-height:100% !important">
+                                                <div id="carousel-search-item-0" class="card-img-top carousel slide" data-ride="carousel">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="carousel-indicators">
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="0" class="active"></li>
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="1" class=""></li>
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="2" class=""></li>
+                                                    </ol>
+                                                    <div class="tag-info-bottom">#INIHASTAG</div>
+                                                </div>
+                                                <div class="tag-info">Female Only</div>
+                                                <button class="btn btn-icon-small btn-favorite"><i class="far fa-heart icon icon-small text-color-dark"></i></button>
+                                                <div class="card-body box-container-card" style="z-index:10">
+                                                    <div class="tags mb-2">
+                                                        <span class="card-tag fox-btn-left">Co Living</span>
+                                                        <span class="card-tag fox-btn-right card-tag-outline">Entire House</span>
+                                                    </div>
+                                                    <div class="box-container-card-info-left is-show-card">
+                                                        <h4 class="card-title">Gading Icon</h4>
+                                                        <p class="font-size-14 mb-0">Kebayoran Baru, South Jakarta</p>
+                                                        <p class="font-size-14 mb-0">Starting from <span class="font-weight-bold">Rp 20,070,000 per Month</span></p>
+                                                        <hr />
+                                                        <span class="d-flex">
+                                                            <span class="font-size-12 mr-auto mb-0"><span class="font-weight-bold">45</span> <i class="fas fa-star text-color-orange"></i> (35)</span>
+                                                            <div>
+                                                                <span class="font-size-12 mr-auto mb-0"><img class="icon-img if-img-big" src="../img/pp-landsize.jpg" alt="Room"></i> 169.4ddm<sup>2</sup> </span>
+                                                                <span class="font-size-12 mb-0"> <img class="icon-img" src="../img/pp-room.jpg" alt="Room"></i> <span class="font-weight-bold">2</span> / 8</span>
+                                                            </div>
+                                                        </span>
+                                                    </div>
+                                                    <div class="box-container-card-info-right">
+                                                        <h4 class="card-title">bukan gading baru</h4>
+                                                        <p class="font-size-14 mb-0">kebayoran lama</p>
+                                                        <p class="font-size-14 mb-0">Starting from <span class="font-weight-bold">Rp 5000</span></p>
+                                                        <hr />
+                                                        <span class="d-flex align-items-center">
+                                                            <span class="font-size-12 mr-auto mb-0"><span class="font-weight-bold">45</span> <i class="fas fa-star text-color-orange"></i> (35)</span>
+                                                            <span class="font-size-12 mr-auto mb-0"><img class="icon-img if-img-big" src="../img/pp-landsize.jpg" alt="Room"></i> 169.4ddm<sup>2</sup> </span>
+                                                            <span class="font-size-12 mb-0"> <img class="icon-img" src="../img/pp-room.jpg" alt="Room"> <span class="font-weight-bold">2</span> / 8</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mb-3">
+                                <a href="#" class="btn btn-link">
+                                    See all ongoing activities
+                                    <img src="../img/long-arrow-right.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="favourite-holder">
+                            <h4 class="mb-4">Kebayoran Baru</h4>
+                            <div class="grid mb-4">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="grid-item">
+                                            <a class="card" style="min-height:100% !important">
+                                                <div id="carousel-search-item-0" class="card-img-top carousel slide" data-ride="carousel">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="carousel-indicators">
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="0" class="active"></li>
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="1" class=""></li>
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="2" class=""></li>
+                                                    </ol>
+                                                    <div class="tag-info-bottom">#INIHASTAG</div>
+                                                </div>
+                                                <div class="tag-info">Female Only</div>
+                                                <button class="btn btn-icon-small btn-favorite"><i class="far fa-heart icon icon-small text-color-dark"></i></button>
+                                                <div class="card-body box-container-card" style="z-index:10">
+                                                    <div class="tags mb-2">
+                                                        <span class="card-tag fox-btn-left">Co Living</span>
+                                                        <span class="card-tag fox-btn-right card-tag-outline">Entire House</span>
+                                                    </div>
+                                                    <div class="box-container-card-info-left is-show-card">
+                                                        <h4 class="card-title">Gading Icon</h4>
+                                                        <p class="font-size-14 mb-0">Kebayoran Baru, South Jakarta</p>
+                                                        <p class="font-size-14 mb-0">Starting from <span class="font-weight-bold">Rp 20,070,000 per Month</span></p>
+                                                        <hr />
+                                                        <span class="d-flex">
+                                                            <span class="font-size-12 mr-auto mb-0"><span class="font-weight-bold">45</span> <i class="fas fa-star text-color-orange"></i> (35)</span>
+                                                            <div>
+                                                                <span class="font-size-12 mr-auto mb-0"><img class="icon-img if-img-big" src="../img/pp-landsize.jpg" alt="Room"></i> 169.4ddm<sup>2</sup> </span>
+                                                                <span class="font-size-12 mb-0"> <img class="icon-img" src="../img/pp-room.jpg" alt="Room"></i> <span class="font-weight-bold">2</span> / 8</span>
+                                                            </div>
+                                                        </span>
+                                                    </div>
+                                                    <div class="box-container-card-info-right">
+                                                        <h4 class="card-title">bukan gading baru</h4>
+                                                        <p class="font-size-14 mb-0">kebayoran lama</p>
+                                                        <p class="font-size-14 mb-0">Starting from <span class="font-weight-bold">Rp 5000</span></p>
+                                                        <hr />
+                                                        <span class="d-flex align-items-center">
+                                                            <span class="font-size-12 mr-auto mb-0"><span class="font-weight-bold">45</span> <i class="fas fa-star text-color-orange"></i> (35)</span>
+                                                            <span class="font-size-12 mr-auto mb-0"><img class="icon-img if-img-big" src="../img/pp-landsize.jpg" alt="Room"></i> 169.4ddm<sup>2</sup> </span>
+                                                            <span class="font-size-12 mb-0"> <img class="icon-img" src="../img/pp-room.jpg" alt="Room"> <span class="font-weight-bold">2</span> / 8</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="grid-item">
+                                            <a class="card" style="min-height:100% !important">
+                                                <div id="carousel-search-item-0" class="card-img-top carousel slide" data-ride="carousel">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="carousel-indicators">
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="0" class="active"></li>
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="1" class=""></li>
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="2" class=""></li>
+                                                    </ol>
+                                                    <div class="tag-info-bottom">#INIHASTAG</div>
+                                                </div>
+                                                <div class="tag-info">Female Only</div>
+                                                <button class="btn btn-icon-small btn-favorite"><i class="far fa-heart icon icon-small text-color-dark"></i></button>
+                                                <div class="card-body box-container-card" style="z-index:10">
+                                                    <div class="tags mb-2">
+                                                        <span class="card-tag fox-btn-left">Co Living</span>
+                                                        <span class="card-tag fox-btn-right card-tag-outline">Entire House</span>
+                                                    </div>
+                                                    <div class="box-container-card-info-left is-show-card">
+                                                        <h4 class="card-title">Gading Icon</h4>
+                                                        <p class="font-size-14 mb-0">Kebayoran Baru, South Jakarta</p>
+                                                        <p class="font-size-14 mb-0">Starting from <span class="font-weight-bold">Rp 20,070,000 per Month</span></p>
+                                                        <hr />
+                                                        <span class="d-flex">
+                                                            <span class="font-size-12 mr-auto mb-0"><span class="font-weight-bold">45</span> <i class="fas fa-star text-color-orange"></i> (35)</span>
+                                                            <div>
+                                                                <span class="font-size-12 mr-auto mb-0"><img class="icon-img if-img-big" src="../img/pp-landsize.jpg" alt="Room"></i> 169.4ddm<sup>2</sup> </span>
+                                                                <span class="font-size-12 mb-0"> <img class="icon-img" src="../img/pp-room.jpg" alt="Room"></i> <span class="font-weight-bold">2</span> / 8</span>
+                                                            </div>
+                                                        </span>
+                                                    </div>
+                                                    <div class="box-container-card-info-right">
+                                                        <h4 class="card-title">bukan gading baru</h4>
+                                                        <p class="font-size-14 mb-0">kebayoran lama</p>
+                                                        <p class="font-size-14 mb-0">Starting from <span class="font-weight-bold">Rp 5000</span></p>
+                                                        <hr />
+                                                        <span class="d-flex align-items-center">
+                                                            <span class="font-size-12 mr-auto mb-0"><span class="font-weight-bold">45</span> <i class="fas fa-star text-color-orange"></i> (35)</span>
+                                                            <span class="font-size-12 mr-auto mb-0"><img class="icon-img if-img-big" src="../img/pp-landsize.jpg" alt="Room"></i> 169.4ddm<sup>2</sup> </span>
+                                                            <span class="font-size-12 mb-0"> <img class="icon-img" src="../img/pp-room.jpg" alt="Room"> <span class="font-weight-bold">2</span> / 8</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="grid-item">
+                                            <a class="card" style="min-height:100% !important">
+                                                <div id="carousel-search-item-0" class="card-img-top carousel slide" data-ride="carousel">
+                                                    <div class="carousel-inner">
+                                                        <div class="carousel-item active">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                        <div class="carousel-item">
+                                                            <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
+                                                        </div>
+                                                    </div>
+                                                    <ol class="carousel-indicators">
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="0" class="active"></li>
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="1" class=""></li>
+                                                        <li data-target="#carousel-search-item-0" data-slide-to="2" class=""></li>
+                                                    </ol>
+                                                    <div class="tag-info-bottom">#INIHASTAG</div>
+                                                </div>
+                                                <div class="tag-info">Female Only</div>
+                                                <button class="btn btn-icon-small btn-favorite"><i class="far fa-heart icon icon-small text-color-dark"></i></button>
+                                                <div class="card-body box-container-card" style="z-index:10">
+                                                    <div class="tags mb-2">
+                                                        <span class="card-tag fox-btn-left">Co Living</span>
+                                                        <span class="card-tag fox-btn-right card-tag-outline">Entire House</span>
+                                                    </div>
+                                                    <div class="box-container-card-info-left is-show-card">
+                                                        <h4 class="card-title">Gading Icon</h4>
+                                                        <p class="font-size-14 mb-0">Kebayoran Baru, South Jakarta</p>
+                                                        <p class="font-size-14 mb-0">Starting from <span class="font-weight-bold">Rp 20,070,000 per Month</span></p>
+                                                        <hr />
+                                                        <span class="d-flex">
+                                                            <span class="font-size-12 mr-auto mb-0"><span class="font-weight-bold">45</span> <i class="fas fa-star text-color-orange"></i> (35)</span>
+                                                            <div>
+                                                                <span class="font-size-12 mr-auto mb-0"><img class="icon-img if-img-big" src="../img/pp-landsize.jpg" alt="Room"></i> 169.4ddm<sup>2</sup> </span>
+                                                                <span class="font-size-12 mb-0"> <img class="icon-img" src="../img/pp-room.jpg" alt="Room"></i> <span class="font-weight-bold">2</span> / 8</span>
+                                                            </div>
+                                                        </span>
+                                                    </div>
+                                                    <div class="box-container-card-info-right">
+                                                        <h4 class="card-title">bukan gading baru</h4>
+                                                        <p class="font-size-14 mb-0">kebayoran lama</p>
+                                                        <p class="font-size-14 mb-0">Starting from <span class="font-weight-bold">Rp 5000</span></p>
+                                                        <hr />
+                                                        <span class="d-flex align-items-center">
+                                                            <span class="font-size-12 mr-auto mb-0"><span class="font-weight-bold">45</span> <i class="fas fa-star text-color-orange"></i> (35)</span>
+                                                            <span class="font-size-12 mr-auto mb-0"><img class="icon-img if-img-big" src="../img/pp-landsize.jpg" alt="Room"></i> 169.4ddm<sup>2</sup> </span>
+                                                            <span class="font-size-12 mb-0"> <img class="icon-img" src="../img/pp-room.jpg" alt="Room"> <span class="font-weight-bold">2</span> / 8</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between mb-3">
+                                <a href="#" class="btn btn-link">
+                                    See all ongoing activities
+                                    <img src="../img/long-arrow-right.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- start: footer -->
+<footer class="section-content footer background-primary-dark pt-65 pb-33">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-2 col-md-6 col-12 footer-links mr-xl-30 mb-15">
+        <p class="text-footer-header mb-30">Services</p>
+        <ul class="list-unstyled link-item">
+          <li class="mb-10">
+            <a href="#" class="color-white">Flexible renting</a>
+          </li>
+          <li class="mb-10">
+            <a href="#" class="color-white">Property Marketing & Management</a>
+          </li>
+          <li class="mb-10">
+            <a href="#" class="color-white">Co-living</a>
+          </li>
+          <li class="mb-10">
+            <a href="#" class="color-white">Careers</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xl-2 col-md-6 col-12 footer-links mr-xl-30 mb-15">
+        <p class="text-footer-header mb-30">Company</p>
+        <ul class="list-unstyled link-item">
+          <li class="mb-10">
+            <a href="#" class="color-white">About us</a>
+          </li>
+          <li class="mb-10">
+            <a href="#" class="color-white">Ambassadors</a>
+          </li>
+          <li class="mb-10">
+            <a href="#" class="color-white">Careers</a>
+          </li>
+          <li class="mb-10">
+            <a href="#" class="color-white">Contact us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xl-2 col-md-6 col-12 footer-links mr-xl-30 mb-15">
+        <p class="text-footer-header mb-30">FYI</p>
+        <ul class="list-unstyled link-item">
+          <li class="mb-10">
+            <a href="#" class="color-white">FAQ</a>
+          </li>
+          <li class="mb-10">
+            <a href="#" class="color-white">Terms Of Use</a>
+          </li>
+          <li class="mb-10">
+            <a href="#" class="color-white">Trust & Safety</a>
+          </li>
+          <li class="mb-10">
+            <a href="#" class="color-white">Code Of Conduct</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xl-5 col-12 d-flex flex-column flex-wrap justify-content-start align-items-end footer-links pl-xl-50 mb-15">
+        <div class="stay-connected w-100">
+          <p class="text-footer-header mb-30">FOUND A HOME YOU LIKE BUT NOT ON THE TERMS YOU WANT?</p>
+          <a class="btn btn-primary btn-block" href="#">Share it here and we'll make it happen</a>
+          <div class="mt-30 opacity-box">
+            <p class="text-footer-header py-5 mb-0">Subscribe to our newsletter!</p>
+            <div class="form-subscribe input-group mb-10">
+              <input type="text" class="form-control" placeholder="What's your email?" aria-label="Text input with segmented dropdown button">
+              <div class="input-group-prepend">
+                <button type="button" class="btn btn-primary">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row footer-bottom pt-35">
+      <div class="col-md-7 col-12">
+        <ul class="list-inline link-item footer-bottom-list mb-md-0">
+          <li class="list-inline-item mr-50">
+            <i class="fas fa-globe-asia color-white font-size-22 mr-10"></i> <a href="#" class="color-white font-weight-light mr-15">Id</a> <a href="#" class="color-white font-weight-light">En</a>
+          </li>
+          <li class="list-inline-item">
+            <i class="fas fa-coins color-white font-size-22 mr-10"></i> <a href="#" class="color-white font-weight-light mr-15">IDR</a> <a href="#" class="color-white font-weight-light">USD</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-5 col-12 copyright color-white" id="copyright">
+        <div class="row">
+          <div class="col-6">
+            <ul class="list-inline social-items text-left mb-0">
+              <li class="list-inline-item">
+                <a href="#" class="mr-10 no-style icon icon-med">
+                  <i class="fab fa-facebook-square color-white"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="mr-10 no-style icon icon-med">
+                  <i class="fab fa-twitter color-white"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="mr-10 no-style icon icon-med">
+                  <i class="fab fa-instagram color-white"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <img class="sewagi-copy" src="../img/sewagi-logo-only.png" alt="Sewagi Brand"> Sewagi &copy; 2019
+            <!-- <script>
+                document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+            </script> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- end: footer -->
+    
+<script type="text/javascript" src="../js/sewagi.js"></script>
+
+<script>
+$('#modalLogin').modal('show');
+</script>
+</body>
+
+</html>

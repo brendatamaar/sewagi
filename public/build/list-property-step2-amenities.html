@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Sewagi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+
+<body id="list-property">
+
+    <!-- start: navbar -->
+<nav id="list-property-navbar" class="navbar navbar-expand-lg navbar-light bg-white nav-border fixed-top navbar-transparent py-4"
+    solid-on-scroll>
+    <div class="container">
+        <a class="navbar-brand" href="#" data-toggle="modal" data-target="#modalConfirmation" style="background-image: url('../images/Logo.svg');">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarListPropertyContent"
+            aria-controls="navbarListPropertyContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarListPropertyContent">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="#">
+                            <span>1</span>
+                            Basic property information
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                        <a href="#">
+                            <span>2</span>
+                            Tell us the details
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item" aria-current="page">
+                        <a class="disabled" href="#">
+                            <span>3</span>
+                            Payment preferences
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item" aria-current="page">
+                        <a class="disabled" href="#">
+                            <span>4</span>
+                            Review & Submit
+                        </a>
+                    </li>
+                </ol>
+            </nav>
+            <a class="save-draft-link" href="#">
+                Save as Draft
+            </a>
+
+
+        </div>
+    </div>
+</nav>
+<!-- end: navbar -->
+    <div class="list-property-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <!-- Sidebar List Property -->
+<nav class="navbar-vertical navbar-light">
+
+    <ul class="navbar-nav flex-column">
+        <li class="nav-item">
+            <a class="btn" href="#">
+                DESCRIPTION & HOUSE RULES
+            </a>
+        </li>
+        <li class="nav-item active">
+            <a class="btn" href="#">
+                AMENITIES & FACILITIES
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="btn disabled" href="#">
+                PHOTOS
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="btn disabled" href="#">
+                LEGAL DETAILS
+            </a>
+        </li>
+    </ul>
+
+    <a href="#" id="btn-chat">
+        <img src="../img/btn-chat.png" alt="">
+    </a>
+
+</nav>
+<!-- End Sidebar List Property -->
+                </div>
+                <div class="col-md-10">
+                    <div class="list-property-content">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="mb-5">
+                <h4 class="mb-4 required">What is your property furniture arrangement?</h4>
+                <div class="form-group">
+                    <select class="select2 select2-list-property" name="" id="furniture-arrangement">
+                        <option value=""></option>
+                        <option value="Furnished">Furnished</option>
+                        <option value="Semi-Furnished">Semi-Furnished</option>
+                        <option value="Unfurnished">Unfurnished</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mb-5">
+                <div class="d-flex justify-content-between mb-4">
+                    <h4 class="required">What amenities do you provide?</h4>
+                    <button class="btn btn-link">Add</button>
+                </div>
+                <div id="amenities-provide">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Wi-fi enabled
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ TV
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Air conditioner
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Water heater
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Fridge
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Washing Machine
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Cooking appliances
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Kitchen Set
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Dining set
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Water dispenser
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Linen set
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Dryer machine
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Workspace
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Deposit box
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Bathtub
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Maid quarter
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-5">
+                <div class="d-flex justify-content-between mb-4">
+                    <h4 class="required">What are the available facilities?</h4>
+                    <button class="btn btn-link">Add</button>
+                </div>
+                <div id="available-facilities">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ 24 hrs security
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Pool
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Gym
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Shopping mall
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Garden
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Laundry
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Mini mart
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Parking space
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Nursery / Kindergarten
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Business center / Co-working space
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Sport court
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Multi function hall
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Concierge
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                    <input type="checkbox">+ Playground
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 border-top py-5 justify-content-between d-flex">
+            <a class="btn btn-link btn-prev-list-property d-flex align-items-center" href="#">
+                <i class="fas fa-long-arrow-alt-left mr-2"></i>
+                Previous
+            </a>
+            <a class="btn btn-primary btn-next-list-property" href="#">
+                Next
+                <i class="fas fa-long-arrow-alt-right ml-2"></i>
+            </a>
+        </div>
+    </div>
+</div>                </div>
+            </div>
+        </div>
+    </div>
+
+    
+<script type="text/javascript" src="../js/sewagi.js"></script>
+
+<script>
+$('#modalLogin').modal('show');
+</script>
+</body>
+
+</html>

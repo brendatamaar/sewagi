@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Sewagi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+
+<body id="list-property">
+
+    <!-- start: navbar -->
+<nav id="list-property-navbar" class="navbar navbar-expand-lg navbar-light bg-white nav-border fixed-top navbar-transparent py-4"
+    solid-on-scroll>
+    <div class="container">
+        <a class="navbar-brand" href="#" data-toggle="modal" data-target="#modalConfirmation" style="background-image: url('../images/Logo.svg');">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarListPropertyContent"
+            aria-controls="navbarListPropertyContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarListPropertyContent">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active">
+                        <a href="#">
+                            <span>1</span>
+                            Basic property information
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item" aria-current="page">
+                        <a class="disabled" href="#">
+                            <span>2</span>
+                            Tell us the details
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item" aria-current="page">
+                        <a class="disabled" href="#">
+                            <span>3</span>
+                            Payment preferences
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item" aria-current="page">
+                        <a class="disabled" href="#">
+                            <span>4</span>
+                            Review & Submit
+                        </a>
+                    </li>
+                </ol>
+            </nav>
+            <a class="save-draft-link" href="#">
+                Save as Draft
+            </a>
+
+
+        </div>
+    </div>
+</nav>
+<!-- end: navbar -->
+    <div class="list-property-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <!-- Sidebar List Property -->
+<nav class="navbar-vertical navbar-light">
+
+    <ul class="navbar-nav flex-column">
+        <li class="nav-item">
+            <a class="btn" href="list-property.html">
+                ESTATE TYPE & LIVING CONDITION
+            </a>
+        </li>
+        <li class="nav-item active">
+            <a class="btn" href="#">
+                BEDROOM & BATHROOM
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="btn disabled" href="#">
+                LOCATION
+            </a>
+        </li>
+    </ul>
+
+    <a href="#" id="btn-chat">
+        <img src="../img/btn-chat.png" alt="">
+    </a>
+
+</nav>
+<!-- End Sidebar List Property -->
+                </div>
+                <div class="col-md-10">
+                    <div class="list-property-content">
+    <div class="row">
+        <div class="col-md-10">
+            <div class="mb-5" id="bedroom-wrapper">
+                <h4 class="mb-4">Bedrooms inventory</h4> 
+                <div id="bedroom-wrapper-content">
+                    <div class="card mb-4 template-bedroom">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between bedroom-title-wrap">
+                                    <h5 class="mb-5 bedroom-title"></h5>
+                                    <div class="button-group">
+                                        <button class="mr-3 btn btn-link">Save</button>
+                                        <button class="bedroom-row-reset btn btn-link">
+                                            <i class="fas fa-trash-alt"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="bedType" class="required">Bedroom type</label>
+                                        <select class="select2 select2-list-property bed-type" name="bedType" id="">
+                                            <option value=""></option>
+                                            <option value="Master Bedroom" title="Bedroom containing the most amenities, typically the largest in your property">Master Bedroom</option>
+                                            <option value="Standard Bedroom" title="Bedroom smaller in size than your master bedroom, with less amenities">Standard Bedroom</option>
+                                            <option value="Pocket Bedroom" title="Bedroom fit for the budget conscious renter, typically smaller in size than your standard bedroom, with fewer amenities">Pocket Bedroom</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label class="required" for="">Bedroom Size</label>
+                                        <div class="d-flex align-items-center">
+                                            <input class="form-control form-control-dashboard bedroom-size" id="unit-size-input" type="number" placeholder="0" min="0">
+                                            <span class="ml-2 fs-12">m<sup>2</sup></span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <label class="required" for="">Bedroom quantity</label>
+                                        <input class="form-control form-control-dashboard mb-2 bedroom-quantity" type="number" placeholder="1" value="1" min="1">
+                                        <a href="#" data-toggle="modal" data-target="#modalRoomNumbering" class="required">Room Numbering</a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="form-group">
+                                        <label for="bedType" class="required">Bedroom furniture arrangement</label>
+                                        <select class="select2 select2-list-property bed-furniture" name="bedFurniture" id="">
+                                            <option value=""></option>
+                                            <option value="Furnished">Furnished</option>
+                                            <option value="Semi-Furnished">Semi-Furnished</option>
+                                            <option value="Unfurnished">Unfurnished</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="" class="row bed-arrangement-wrapper" style="display: none">
+                                <div class="col-md-8">
+                                    <div class="form-group">
+                                        <label for="bedArrangement" class="required">Bed arrangement</label>
+                                        <select class="select2 select2-list-property bed-arrangement" name="bedArrangement" id="">
+                                            <option value=""></option>
+                                            <option value="Twin Bed">Twin Bed</option>
+                                            <option value="Single Size Bed">Single Size Bed</option>
+                                            <option value="Queen Size Bed">Queen Size Bed</option>
+                                            <option value="King Size Bed">King Size Bed</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8">
+                                    <div class="form-group">
+                                        <label for="bedLayout">Bedroom Layout</label>
+                                        <div class="btn-group-toggle" data-toggle="buttons">
+                                            <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+                                                <input type="checkbox">+ Loft
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="bedAmenities">Bedroom Amenities</label>
+                                        <div class="btn-group-toggle" data-toggle="buttons">
+                                            <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+                                                <input type="checkbox">+ Ensuite Bathroom
+                                            </label>
+                                            <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10 checkbox-furnished" style="display: none;">
+                                                <input type="checkbox">+ Ensuite kitchen
+                                            </label>
+                                            <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+                                                <input type="checkbox">+ Ensuite living room
+                                            </label>
+                                            <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+                                                <input type="checkbox">+ Walk-in closet
+                                            </label>
+                                            <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10 checkbox-furnished" style="display: none;">
+                                                <input type="checkbox">+ Deposit box
+                                            </label>
+                                            <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10 checkbox-furnished" style="display: none;">
+                                                <input type="checkbox">+ TV
+                                            </label>
+                                            <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10 checkbox-furnished" style="display: none;">
+                                                <input type="checkbox">+ Desk
+                                            </label>
+                                            <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+                                                <input type="checkbox">+ Balcony
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                    </div>
+                </div>
+               
+                <button id="btn-add-newbedroom" class="btn btn-primary btn-outline-primary">
+                    ADD NEW BEDROOM
+                </button>
+            </div>
+
+            <div class="mb-5">
+                <h4 class="mb-4">How many bathrooms are there?</h4> 
+                <div class="form-group form-inline">
+                    <label class="mr-5">Total bathroom</label>
+                    <div class='btn-counter'>
+                        <button class='down_count' href="#" title='Down'>
+                            <i class="fas fa-minus"></i>
+                        </button>
+                        <input class='counter' type="text" placeholder="value..." value='0' />    
+                        <button class='up_count' href="#" title='Up'>
+                            <i class="fas fa-plus"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-5">
+                <h4 class="mb-4">Total listed bedrooms: <span class="ml-4" id="total-listed-bedroom"></span></h4> 
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-10 border-top py-5 justify-content-between d-flex">
+            <a class="btn btn-link btn-prev-list-property d-flex align-items-center" href="list-property.html">
+                <i class="fas fa-long-arrow-alt-left mr-2"></i>
+                Previous
+            </a>
+            <a class="btn btn-primary btn-next-list-property disabled" href="list-property-location.html">
+                Next
+                <i class="fas fa-long-arrow-alt-right ml-2"></i>
+            </a>
+        </div>
+    </div>
+</div>                </div>
+            </div>
+        </div>
+        <div class="modal fade modal-dashboard" id="modalConfirmation" tabindex="-1" role="dialog">
+            <div class="modal-dialog from-right" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <div class="modal-body text-center">
+                        <p class="font-weight-bolder">Are you sure you want to leave this page?</p>
+                        <p class="font-weight-bolder">You might lose all inputted information.</p>
+                        <div class="button-group">
+                            <a class="btn btn-primary mr-2" data-dismiss="modal" href="https://sewagi-web.inspira.web.id">Yes</a>
+                            <a class="btn btn-primary" href="#">Save As Draft</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade modal-dashboard modal-room-numbering" id="modalRoomNumbering" tabindex="-1" role="dialog">
+            <div class="modal-dialog from-right" role="document">
+                <div class="modal-content bg-white">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <div class="modal-body text-center">
+                        <div class="form-group">
+                            <label class="required font-weight-bolder">Please input your bedrooms Number / Name.</label>
+                            <label class="text-muted d-block">E.g. 1A, 1B, 1C, 101, 102, Jasmin 1</label>
+                            <div class="row mt-5">
+                                <div class="col-md-6 d-flex align-items-center mb-4">
+                                    <input class="form-control form-control-dashboard text-center input-room-numbering" type="text" placeholder="1A">
+                                    <div class="custom-control custom-switch custom-switch-available">
+                                        <input type="checkbox" class="custom-control-input" id="customSwitch1">
+                                        <label class="custom-control-label" for="customSwitch1">
+                                            <span>
+                                                Not Available
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 d-flex align-items-center mb-4">
+                                    <input class="form-control form-control-dashboard text-center input-room-numbering" type="text" placeholder="1A">
+                                    <div class="custom-control custom-switch custom-switch-available">
+                                        <input type="checkbox" class="custom-control-input" id="customSwitch2">
+                                        <label class="custom-control-label" for="customSwitch2">
+                                            <span>
+                                                Not Available
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 d-flex align-items-center mb-4">
+                                    <input class="form-control form-control-dashboard text-center input-room-numbering" type="text" placeholder="1A">
+                                    <div class="custom-control custom-switch custom-switch-available">
+                                        <input type="checkbox" class="custom-control-input" id="customSwitch3">
+                                        <label class="custom-control-label" for="customSwitch3">
+                                            <span>
+                                                Not Available
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 d-flex align-items-center mb-4">
+                                    <input class="form-control form-control-dashboard text-center input-room-numbering" type="text" placeholder="1A">
+                                    <div class="custom-control custom-switch custom-switch-available">
+                                        <input type="checkbox" class="custom-control-input" id="customSwitch4">
+                                        <label class="custom-control-label" for="customSwitch4">
+                                            <span>
+                                                Not Available
+                                            </span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="button-group d-flex justify-content-end">
+                            <a id="btn-room-numbering-done" class="btn btn-primary disabled" href="#">Done</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+<script type="text/javascript" src="../js/sewagi.js"></script>
+
+<script>
+$('#modalLogin').modal('show');
+</script>
+</body>
+
+</html>

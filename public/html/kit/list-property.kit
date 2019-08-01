@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<!-- @import "_list-property-header.kit" -->
+
+<body id="list-property">
+
+    <!-- @import "./navbar/_list-property-navbar.kit" -->
+    <div class="list-property-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <!-- @import "./sidebar/_sidebar-list-property.kit" -->
+                </div>
+                <div class="col-md-10">
+                    <!-- @import "_list-property-content.kit" -->
+                </div>
+            </div>
+        </div>
+        <div class="modal fade modal-dashboard" id="modalConfirmation" tabindex="-1" role="dialog">
+            <div class="modal-dialog from-right" role="document">
+                <div class="modal-content">
+                    <div class="modal-body text-center">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <p class="font-weight-bolder">Are you sure you want to leave this page?</p>
+                        <p class="font-weight-bolder">You might lose all inputted information.</p>
+                        <div class="button-group">
+                            <a class="btn btn-primary mr-2" data-dismiss="modal" href="https://sewagi-web.inspira.web.id">Yes</a>
+                            <a class="btn btn-primary" href="#">Save As Draft</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- @import "_footer.kit" -->
+</body>
+
+</html>

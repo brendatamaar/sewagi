@@ -1,0 +1,32 @@
+.fc.fc-ltr .fc-basic-view {
+    line-height: 1;
+    .fc-day-top {
+        text-align: center;
+        .fc-day-number {
+            float: none;
+        }
+    }
+}
+.fc-day-header, .fc .fc-row .fc-content-skeleton .fc-day-top:not(.fc-other-month) {
+    &.fc-sun {
+        background: #DCADF8;
+    }
+    &.fc-mon {
+        background: #FF9294;
+    }
+    &.fc-tue {
+        background: #FFD5B0;
+    }
+    &.fc-wed {
+        background: #FEFEB6;
+    }
+    &.fc-thu {
+        background: #CEFEDA;
+    }
+    &.fc-fri {
+        background: #A4D6FB;
+    }
+    &.fc-sat {
+        background: #D6D6FB;
+    }
+}

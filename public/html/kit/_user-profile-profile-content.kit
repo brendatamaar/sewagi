@@ -1,0 +1,807 @@
+<div class="row mb-5">
+	<div class="col-md-12">
+		<h3>About You</h3>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-8">
+		<div class="row align-items-center mb-5">
+			<div class="col-md-auto col-12 mb-md-0 mb-3">
+				<img class="img-profile" src="../img/dashboard/profile-pic.png" alt="">
+			</div>
+			<div class="col-md-auto col-12 mb-md-0 mb-3">
+				<a class="btn btn-primary" href="#" data-toggle="modal" data-target="#modalAddPicture">
+					UPLOAD NEW PICTURE
+				</a>
+			</div>
+			<div class="col-md-auto col-12 mb-md-0 mb-3">
+				<a class="btn btn-outline-primary" href="#">
+					DELETE
+				</a>
+			</div>
+		</div>
+
+		<form>
+			<div class="row mb-3">
+				<div class="col-md-6">
+				  	<div class="form-group">
+						<label class="text-muted required">FIRST NAME</label>
+						<input type="text" class="form-control form-control-dashboard" placeholder="">
+					</div>
+				</div>
+				<div class="col-md-6">
+				  	<div class="form-group">
+						<label class="text-muted required">LAST NAME</label>
+						<input type="text" class="form-control form-control-dashboard" placeholder="">
+					</div>
+				</div>
+			</div>
+			<div class="row mb-3">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label class="text-muted required">EMAIL</label>
+						<div class="input-group mb-3">
+							<input type="email" class="form-control form-control-dashboard" placeholder="" readonly>
+							<div class="input-group-append">
+								<button class="btn btn-transparent" type="button" data-toggle="modal" data-target="#modalChangeEmail">
+					                <img src="../img/close-big.png" alt="">
+					            </button>
+							</div>
+							<div class="input-group-append">
+								<a href="#" class="btn btn-primary">VERIFY YOUR EMAIL</a>
+							</div>
+						</div>
+					</div>
+					<div class="notif bg-orange-2 p-3 mb-3">
+						<strong>Email sent!</strong> Please verify by clicking on the link we’ve sent to your registered email
+					</div>
+				</div>
+			</div>
+			<div class="row mb-3">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label class="text-muted required">PHONE NUMBER</label>
+						<div class="row">
+							<div class="input-group align-items-center col" style="max-width: 140px;flex: 0 0 140px;">
+								<i class="fab fa-whatsapp mr-3"></i>
+								<span class="input-group-prepend form-control-dashboard pl-3">
+						        	<img src="../img/flag-indonesia.svg" alt="">
+						      	</span>
+							    <input type="text" class="form-control form-control-dashboard" value="+62">
+							</div>
+
+							<div class="input-group col pl-0">
+					
+								<input type="number" class="form-control form-control-dashboard" readonly>
+								<div class="input-group-append">
+									<button class="btn btn-transparent" type="button" data-toggle="modal" data-target="#modalNewPhoneNumber">
+						                <img src="../img/close-big.png" alt="">
+						            </button>
+								</div>
+								<div class="input-group-append">
+									<span class="input-group-text bg-white">
+										<img src="../img/ic_check.svg" class="mr-3" alt="">
+										<span>Verified</span>
+									</span>
+								</div>
+						
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mb-3">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label class="text-muted required">GENDER</label>
+						<div class="input-group mb-3">
+							<select class="select2 select2-list-property" id="gender">
+								<option value=""></option>
+								<option value="Office room">Male</option>
+								<option value="Laundry room">Female</option>			
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mb-3">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label class="text-muted required">NATIONALITY</label>
+						<div class="input-group mb-3">
+							<select class="select2 select2-list-property" id="nationality">
+								<option value=""></option>
+								<option value="Office room">Male</option>
+								<option value="Laundry room">Female</option>			
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mb-3">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label class="text-muted required">BIRTHDAY DATE</label>
+						<div class="input-group">
+					        <input type="text" class="form-control form-control-dashboard" data-toggle="modal" data-target="#modalChangeBirthday" data-dismiss="modal"/>
+					    </div>
+					</div>
+				</div>
+			</div>
+			<div class="row mb-3">
+				<div class="col-md-12">
+					<div class="form-group">
+						<div class="d-flex justify-content-between">
+							<label class="text-muted">DESCRIBE YOURSELF</label>
+							<a href="#" class="btn btn-link" data-toggle="modal" data-target="#modalAddDescription">+ Add Description</a>
+						</div>
+						<div class="bg-white p-4">
+							<div class="row mb-3">
+								<div class="col-md-2">
+									<label class="text-muted mb-0">HOBBIES</label>
+								</div>
+								<div class="col-md-9">
+									<h6 class="font-weight-600">Drawing</h6>
+								</div>
+							</div>
+							<div class="row mb-3">
+								<div class="col-md-2">
+									<label class="text-muted mb-0">STATUS</label>
+								</div>
+								<div class="col-md-9">
+									<h6 class="font-weight-600">Student</h6>
+								</div>
+							</div>
+							<div class="row mb-3">
+								<div class="col-md-2">
+									<label class="text-muted mb-0">LIFESTYLE</label>
+								</div>
+								<div class="col-md-9">
+									<h6 class="d-flex align-items-center font-weight-600">Neat <span class="dot"></span> Quiet <span class="dot"></span> Workaholic</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr class="my-5">
+			<div class="row mb-3">
+				<div class="col-md-12">
+					<h3 class="py-4">Additional Information</h3>
+					<div class="form-group mb-5">
+						<div class="d-flex justify-content-between">
+							<label class="text-muted">LANGUAGE</label>
+							<a href="#" class="btn btn-link" data-dismiss="modal" data-toggle="modal" data-target="#modalAddLang">+ Add Language</a>
+						</div>
+						<p>Add any languages you speak.</p>
+						<h6 class="d-flex align-items-center font-weight-600 ">Bahasa Indonesia <span class="dot"></span> English <span class="dot"></span> Bahasa Melayu</h6>
+					</div>
+					<div class="form-group mb-5">
+						<div class="d-flex justify-content-between">
+							<label class="text-muted">EMERGENCY CONTACT</label>
+							<a href="#" class="btn btn-link"  data-dismiss="modal" data-toggle="modal" data-target="#modalAddEmergency">+ Add Contact</a>
+						</div>
+						<p>Add a contact for any urgent situations which our team can get in touch with.</p>
+						<ul class="list-unstyled">
+							<li class="d-flex align-items-center mb-3">
+								<img class="mr-3" src="../img/dashboard/twoColor/profile.svg" alt="">
+								<h6 class="font-weight-600 mb-0">Fabrice Ricki</h6>
+							</li>
+							<li class="d-flex align-items-center mb-3">
+								<img class="mr-3" src="../img/dashboard/twoColor/phone.svg" alt="">
+								<h6 class="font-weight-600 mb-0">+62 812 567 432 67</h6>
+							</li>
+							<li class="d-flex align-items-center mb-3">
+								<img class="mr-3" src="../img/dashboard/twoColor/email.svg" alt="">
+								<h6 class="font-weight-600 mb-0">Fabrice.ricki@gmail.com</h6>
+							</li>
+							<li class="d-flex align-items-center mb-3">
+								<img class="mr-3" src="../img/dashboard/twoColor/relationship.svg" alt="">
+								<h6 class="font-weight-600 mb-0">Father</h6>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalAddPicture" tabindex="-1" role="dialog">
+    <div class="modal-dialog from-right" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+                <p class="font-weight-bolder">How do you want to add your picture?</p>
+                <div class="button-group">
+                    <a class="btn btn-primary mr-2" id="use-camera" data-dismiss="modal" href="#" data-toggle="modal" data-target="#modalTakePicture">Use device camera</a>
+                    <a class="btn btn-primary btn-input" href="#">
+						Browse from file <input type="file" class="custom-file-input">
+					</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalTakePicture" tabindex="-1" role="dialog">
+    <div class="modal-dialog from-right" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" id="stop-camera" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+                <p class="font-weight-bolder">Take your profile picture</p>
+                <div id="picture-camera-wrap" class="mb-3">
+            	 	<video id="player" width=320 height=240 autoplay></video>
+					<canvas id="snapshot" width=320 height=240></canvas>
+					<div class="btn-camera-wrapper">
+						<button id="capture" class="btn btn-circle-icon">
+							<i class="fas fa-camera"></i>
+						</button>
+						<button role="button" class="btn btn-pill btn-sm" id="retake">Retake</button>
+					</div>
+                </div>
+                <div class="button-group">
+                	<div>
+                		<a id="submit-picture" class="btn btn-primary disabled mb-3" href="#">SUBMIT PICTURE</a>
+                	</div>
+                    
+                    <div>
+                    	or <a class="btn btn-link btn-input" href="#">
+							Browse from file <input type="file" class="custom-file-input">
+						</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalAddDescription" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+
+				<h3>Add description</h3>
+				<div>
+					<h4 class="my-4">Hobbies</h4>
+					<div class="btn-group-toggle" data-toggle="buttons">
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Music
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Movie
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Reading
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Travelling
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Sport & Outdoors
+	                    </label>
+	                </div>
+				</div>
+
+				<hr class="my-4">
+				
+				<div>
+					<h4 class="my-4">Lifestyle & Character</h4>
+					<div class="btn-group-toggle" data-toggle="buttons">
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Socializer
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Workaholic
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Outdoor enthusiast
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Foodie
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Health conscius
+	                    </label>
+	                </div>
+				</div>
+
+				<hr class="my-4">
+                
+                <div>
+                	<h4 class="my-4">Profession status</h4>
+					<div class="btn-group-toggle" data-toggle="buttons">
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Student
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Entrepreneur
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Civil servant
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Employee
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Freelancer
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Retiree
+	                    </label>
+	                </div>
+                </div>
+
+                <hr class="my-4">
+				
+				<div class="d-flex justify-content-end">
+					<a class="btn btn-primary my-4 disabled" href="#">ADD</a>
+				</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalChangeEmail" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+
+				<p class="text-center">Please input your new email</p>
+				<form action="">
+					<div class="form-group">
+						<div class="input-group mb-3">
+							<div class="input-group-append">
+								<button class="btn btn-transparent-color" type="button">
+					                <img class="mr-2" src="../img/dashboard/twoColor/email.svg" alt="">
+					            </button>
+							</div>
+							<input type="email" class="form-control form-control-dashboard pl-0" placeholder="Email Address">
+						</div>
+					</div>
+					<div class="d-flex justify-content-center">
+						<a class="btn btn-primary disabled" href="" data-dismiss="modal" data-toggle="modal" data-target="#modalEmailSent">SUBMIT</a>
+					</div>
+				</form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalEmailSent" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+
+				<img class="img-fluid" src="../img/email.png" alt="">
+				
+				<h3 class="mb-4">Email sent!</h3>
+				<p>We've sent a verification link to <strong>david.dupond@gmail.com</strong></p>
+				<div class="d-flex justify-content-center">
+					<button class="btn btn-primary" data-dismiss="modal">OK</button>
+				</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalNewPhoneNumber" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+				
+				<p class="text-center">Please input your new phone number:</p>
+
+				<p>Preferably input a valid WhatsApp phone number for tour and negotiation convenience.</p>
+				<div class="form-group">
+					<div class="row">
+						<div class="input-group align-items-center col" style="max-width: 160px;flex: 0 0 160px;">
+							<i class="fab fa-whatsapp mr-3"></i>
+							<span class="input-group-prepend form-control-dashboard pl-3">
+					        	<select class="input-text flag-select" name="phone">
+									<option value="+62" data-img="https://previews.123rf.com/images/taesmileland/taesmileland1201/taesmileland120100083/12100646-england-flag-drawing-by-pastel-on-charcoal-paper.jpg">Indonesia +62</option>
+									<option value="+00" data-img="https://previews.123rf.com/images/taesmileland/taesmileland1201/taesmileland120100083/12100646-england-flag-drawing-by-pastel-on-charcoal-paper.jpg">Amerika Latin yang +00</option>
+									<option value="+00" data-img="https://previews.123rf.com/images/taesmileland/taesmileland1201/taesmileland120100083/12100646-england-flag-drawing-by-pastel-on-charcoal-paper.jpg">Amerika +00</option>
+								</select>
+					      	</span>
+						</div>
+
+						<div class="input-group col pl-0">
+							<input type="number" placeholder="Phone number" class="form-control form-control-dashboard">
+						</div>
+					</div>
+				</div>
+				
+				<div class="d-flex justify-content-center">
+					<a class="btn btn-primary disabled" href="#" data-dismiss="modal" data-toggle="modal" data-target="#modalVerification">Submit</a>
+				</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalVerification" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+				
+				<h3 class="mb-4">Verification code</h3>
+				<p>A message with verification code has been sent <br>to ****-****-*<span>123</span></p>
+				<div class="form-group py-4">
+					<div class="row">
+						<div class="col-3">
+							<input type="number" class="w-100 text-center font-size-20 border-0 py-2" maxlength="2" size="2">
+						</div>
+						<div class="col-3">
+							<input type="number" class="w-100 text-center font-size-20 border-0 py-2" maxlength="2" size="2">
+						</div>
+						<div class="col-3">
+							<input type="number" class="w-100 text-center font-size-20 border-0 py-2" maxlength="2" size="2">
+						</div>
+						<div class="col-3">
+							<input type="number" class="w-100 text-center font-size-20 border-0 py-2" maxlength="2" size="2">
+						</div>
+					</div>
+				</div>
+				
+				<div class="d-flex justify-content-center mb-4">
+					<a href="#" class="btn btn-primary disabled w-100" data-dismiss="modal" data-toggle="modal">VERIFY CODE</a>
+				</div>
+				<h6>00:00</h6>
+				<p class="d-flex align-items-center fs-13">Didn't get the code?
+					<span class="ml-2">
+						<a class="btn btn-link d-flex align-items-center text-capitalize" href="#" data-toggle="modal" data-target="#modalUnableVerification" data-dismiss="modal">Send a new code? <i class="fas fa-long-arrow-alt-right ml-2"></i></a>
+					</span>
+				</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalUnableVerification" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+				
+				<h3 class="mb-4">Unable to verify number</h3>
+				<div class="bg-orange-2 p-3 mb-4">
+					<p class="mb-0">
+						<strong>Sorry</strong>, we couldn't verify the phone number<br> +62 *** *** *** 76
+					</p>
+				</div>
+				<a class="btn btn-link d-flex align-items-center fs-15 text-capitalize" href="#">Resend OTP <i class="fas fa-long-arrow-alt-right ml-2"></i></a>
+				<a class="btn btn-link d-flex align-items-center fs-15 text-capitalize" href="#">Change phone number <i class="fas fa-long-arrow-alt-right ml-2"></i></a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalAddLang" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+				
+				<h3 class="mb-5">Language</h3>
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="bahasaIndo" required>
+							<label class="custom-control-label" for="bahasaIndo">Bahasa Indonesia</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="bahasaMelayu" required>
+							<label class="custom-control-label" for="bahasaMelayu">Bahasa Melayu</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Bengali" required>
+							<label class="custom-control-label" for="Bengali">Bengali</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Dansk" required>
+							<label class="custom-control-label" for="Dansk">Dansk</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Deutsch" required>
+							<label class="custom-control-label" for="Deutsch">Deutsch</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="English" required>
+							<label class="custom-control-label" for="English">English</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Español" required>
+							<label class="custom-control-label" for="Español">Español</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Français" required>
+							<label class="custom-control-label" for="Français">Français</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Hindi" required>
+							<label class="custom-control-label" for="Hindi">Hindi</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Italiano" required>
+							<label class="custom-control-label" for="Italiano">Italiano</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Nederlands" required>
+							<label class="custom-control-label" for="Nederlands">Nederlands</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Polski" required>
+							<label class="custom-control-label" for="Polski">Polski</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Portugues" required>
+							<label class="custom-control-label" for="Portugues">Portugues</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Punjabi" required>
+							<label class="custom-control-label" for="Punjabi">Punjabi</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Russian" required>
+							<label class="custom-control-label" for="Russian">Russian</label>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="signLanguage" required>
+							<label class="custom-control-label" for="signLanguage">Sign Language</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Suomi" required>
+							<label class="custom-control-label" for="Suomi">Suomi</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Tagalog" required>
+							<label class="custom-control-label" for="Tagalog">Tagalog</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Vietnamese" required>
+							<label class="custom-control-label" for="Vietnamese">Vietnamese</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Türkçe" required>
+							<label class="custom-control-label" for="Türkçe">Türkçe</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Čeština" required>
+							<label class="custom-control-label" for="Čeština">Čeština</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="greek" required>
+							<label class="custom-control-label" for="greek">ελληνικά</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="ibrani" required>
+							<label class="custom-control-label" for="ibrani">עִבְרִית</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="arabic" required>
+							<label class="custom-control-label" for="arabic">العربية</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="thailand" required>
+							<label class="custom-control-label" for="thailand">ภาษาไทย</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="chinese" required>
+							<label class="custom-control-label" for="chinese">中文</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="japan" required>
+							<label class="custom-control-label" for="japan">日本国</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="korea" required>
+							<label class="custom-control-label" for="korea">한국어</label>
+						</div>						
+					</div>
+				</div>
+				
+				<hr class="my-4">
+				
+				<div class="d-flex justify-content-end">
+					<a class="btn btn-primary my-4 disabled" href="#">ADD</a>
+				</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalAddEmergency" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+				
+				<h3 class="mb-5">Add emergency contact</h3>
+
+				<div class="row mb-3">
+					<div class="col-md-6">
+					  	<div class="form-group">
+					  		<div class="input-group">
+					  			<div class="input-group-append">
+									<button class="btn btn-transparent-color" type="button">
+						                <img class="img-fluid" src="../img/dashboard/twoColor/profile.svg" alt="">
+						            </button>
+								</div>
+								<input type="text" class="form-control form-control-dashboard pl-0" placeholder="First name">
+					  		</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+					  	<div class="form-group">
+							<input type="text" class="form-control form-control-dashboard" placeholder="Last name">
+						</div>
+					</div>
+				</div>
+
+				<div class="row mb-3">
+					<div class="col-md-4 pr-0">
+						<div class="form-group">
+							<div class="input-group align-items-center">
+								<i class="fab fa-whatsapp mr-3"></i>
+								<span class="input-group-prepend form-control-dashboard pl-3">
+						        	<select class="input-text flag-select" name="phone">
+										<option value="+62" data-img="https://previews.123rf.com/images/taesmileland/taesmileland1201/taesmileland120100083/12100646-england-flag-drawing-by-pastel-on-charcoal-paper.jpg">Indonesia +62</option>
+										<option value="+00" data-img="https://previews.123rf.com/images/taesmileland/taesmileland1201/taesmileland120100083/12100646-england-flag-drawing-by-pastel-on-charcoal-paper.jpg">Amerika Latin yang +00</option>
+										<option value="+00" data-img="https://previews.123rf.com/images/taesmileland/taesmileland1201/taesmileland120100083/12100646-england-flag-drawing-by-pastel-on-charcoal-paper.jpg">Amerika +00</option>
+									</select>
+						      	</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<div class="form-group">
+							<div class="input-group">
+								<input type="number" placeholder="Phone number" class="form-control form-control-dashboard">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row mb-3">
+					<div class="col-md-12">
+						<div class="form-group">
+							<div class="input-group mb-3">
+								<div class="input-group-append">
+									<button class="btn btn-transparent-color" type="button">
+						                <img class="img-fluid" src="../img/dashboard/twoColor/email.svg" alt="">
+						            </button>
+								</div>
+								<input type="email" class="form-control form-control-dashboard pl-0" placeholder="Email Address">
+							</div>
+						</div>
+					</div>
+					
+				</div>
+
+				<div class="row mb-3">
+					<div class="col-md-12">
+						<div class="form-group">
+							<div class="input-group mb-3">
+								<div class="input-group-append">
+									<button class="btn btn-transparent-color" type="button">
+						                <img class="img-fluid" src="../img/dashboard/twoColor/relationship.svg" alt="">
+						            </button>
+								</div>
+								<input type="text" class="form-control form-control-dashboard pl-0" placeholder="Relationship">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<hr class="my-4">
+				
+				<div class="d-flex justify-content-end">
+					<a class="btn btn-primary my-4 disabled" href="#">ADD</a>
+				</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalChangeBirthday" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-sm from-right" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+                <p class="font-weight-bolder">Change birthday date:</p>
+                <div class="input-group date" id="date-picker" data-target-input="nearest">
+			        <input type="text" class="form-control form-control-dashboard datetimepicker-input" data-target="#date-picker" data-toggle="datetimepicker" placeholder="dd/mm/yyyy" />
+			    </div>
+                <div class="d-flex justify-content-center">
+					<a class="btn btn-primary my-4 disabled" href="#">SUBMIT</a>
+				</div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+	var player = document.getElementById('player');
+	var snapshotCanvas = document.getElementById('snapshot');
+	var captureButton = document.getElementById('capture');
+	var stopButton = document.getElementById('stop-camera');
+	var useCamera = document.getElementById('use-camera');
+	var retakeCamera = document.getElementById('retake');
+	var submitPic = document.getElementById('submit-picture');
+	var videoTracks;
+
+	var handleSuccess = function(stream) {
+		// Attach the video stream to the video element and autoplay.
+		player.srcObject = stream;
+		videoTracks = stream.getVideoTracks();
+	};
+
+	captureButton.addEventListener('click', function() {
+		var context = snapshot.getContext('2d');
+		context.drawImage(player, 0, 0, snapshotCanvas.width, snapshotCanvas.height);
+		snapshotCanvas.style.display = 'block';
+		retakeCamera.style.display = 'block';
+		captureButton.style.display = 'none';
+		submitPic.classList.remove('disabled');
+	});
+
+	stopButton.addEventListener('click', function() {
+		// Stop all video streams.
+		videoTracks.forEach(function(track) {track.stop()});
+	});
+
+
+	retake.addEventListener('click', function() {
+		snapshotCanvas.style.display = 'none';
+		retakeCamera.style.display = 'none';
+		captureButton.style.display = 'block';
+		submitPic.classList.add('disabled');
+	});
+
+	useCamera.addEventListener('click', function() {
+		navigator.mediaDevices.getUserMedia({video: true})
+		.then(handleSuccess);
+	});
+</script>

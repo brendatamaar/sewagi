@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<!-- @import "_list-property-header.kit" -->
+
+<body>
+    <div id="dashboard">
+        <div id="page-wrapper" class="d-flex">
+            <!-- @import "_sidebar-dashboard.kit" -->
+            <div id="page-container">
+                <div class="nav-dashboard d-flex align-items-center justify-content-between">
+                    <ul class="nav" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="true">PROFILE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="digital-id-tab" data-toggle="tab" href="#digital-id" role="tab" aria-controls="digital-id" aria-selected="false">DIGITAL IDENTITY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="legal-doc-tab" data-toggle="tab" href="#legal-doc" role="tab" aria-controls="legal-doc" aria-selected="false">LEGAL DOCUMENTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="acc-setting-tab" data-toggle="tab" href="#acc-setting" role="tab" aria-controls="acc-setting" aria-selected="false">ACCOUNT SETTINGS</a>
+                        </li>
+                    </ul>
+
+                    <div id="account-switch" class="d-flex justify-content-between align-items-center px-4">
+                        <p id="account-type-switch-label" class="text-muted mb-0 mr-5">USER ACCOUNT TYPE</p>
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" id="account-type-switch">
+                            <label class="custom-control-label" for="account-type-switch"></label>
+                        </div>   
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="dashboard-tab-content">
+                    <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <!-- @import "_user-profile-profile-content.kit" -->
+                    </div>
+                    <div class="tab-pane fade" id="digital-id" role="tabpanel" aria-labelledby="digital-id-tab">
+                        <!-- @import "_user-profile-digital-content.kit" -->
+                    </div>
+                    <div class="tab-pane fade" id="legal-doc" role="tabpanel" aria-labelledby="legal-doc-tab">
+                        <!-- @import "_user-profile-legal-content.kit" -->
+                    </div>
+                    <div class="tab-pane fade" id="acc-setting" role="tabpanel" aria-labelledby="acc-setting-tab">
+                        <!-- @import "_user-profile-account-content.kit" -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- @import "footer/_footer.kit" -->
+    <!-- @import "_footer.kit" -->
+</body>
+
+</html>

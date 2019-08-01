@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Sewagi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+
+<body id="list-property">
+
+    <!-- start: navbar -->
+<nav id="list-property-navbar" class="navbar navbar-expand-lg navbar-light bg-white nav-border fixed-top navbar-transparent py-4"
+    solid-on-scroll>
+    <div class="container">
+        <a class="navbar-brand" href="#" data-toggle="modal" data-target="#modalConfirmation" style="background-image: url('../images/Logo.svg');">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarListPropertyContent"
+            aria-controls="navbarListPropertyContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarListPropertyContent">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active">
+                        <a href="#">
+                            <span>1</span>
+                            Basic property information
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item" aria-current="page">
+                        <a class="disabled" href="#">
+                            <span>2</span>
+                            Tell us the details
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item" aria-current="page">
+                        <a class="disabled" href="#">
+                            <span>3</span>
+                            Payment preferences
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item" aria-current="page">
+                        <a class="disabled" href="#">
+                            <span>4</span>
+                            Review & Submit
+                        </a>
+                    </li>
+                </ol>
+            </nav>
+            <a class="save-draft-link" href="#">
+                Save as Draft
+            </a>
+
+
+        </div>
+    </div>
+</nav>
+<!-- end: navbar -->
+    <div class="list-property-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <!-- Sidebar List Property -->
+<nav class="navbar-vertical navbar-light">
+
+    <ul class="navbar-nav flex-column">
+        <li class="nav-item active">
+            <a class="btn" href="#">
+                ESTATE TYPE & LIVING CONDITION
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="btn disabled" href="#">
+                BEDROOM & BATHROOM
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="btn disabled" href="#">
+                LOCATION
+            </a>
+        </li>
+    </ul>
+
+    <a href="#" id="btn-chat">
+        <img src="../img/btn-chat.png" alt="">
+    </a>
+
+</nav>
+<!-- End Sidebar List Property -->
+                </div>
+                <div class="col-md-10">
+                    <div class="list-property-content">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="mb-5">
+                <h4 class="mb-4 required">What is the estate type?</h4>
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="form-group">
+                            <select id="estate-type" class="select2 select2-list-property">
+                                <option value="" selected>Select estate type</option>
+                                <option value="Apartment">Apartment</option>
+                                <option value="House">House</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group d-flex align-items-center">
+                            <label class="label-special text-muted fs-12" for="">UNIT SIZE</label>
+                            <input class="form-control form-control-dashboard" id="unit-size-input" type="number" placeholder="0">
+                            <span class="ml-2 fs-12">m<sup>2</sup></span>
+                        </div>
+                        
+                    </div>
+                </div>     
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="mb-5">
+                <h4 class="mb-4 required">What is the ideal living condition?</h4>
+                <p class="text-muted fs-12">You can choose more than one.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card card-list-property">
+                        <div class="card-header">
+                            <img class="mb-4" src="../img/list-property-coliving.svg" alt="Co-living" />
+                            <h5>Co-living</h5>
+                        </div>
+                        <div class="card-body justify-content-between d-flex flex-column">
+                            <div class="card-text">
+                                <p>
+                                    You accept multiple renters leasing your property bedrooms and sharing the common areas. This option is also useful when seeking a housemate for your property
+                                </p>
+                                <p>
+                                    By selecting co-living, you agree to rent your property on room by room basis, forgoing leasing all bedrooms at once. We call this progressive leasing.
+                                </p>
+                                <a href="#">Connect with us for more info.</a>
+                            </div>
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-checkbox btn-rounded btn-outline-primary mr-10 mb-10">
+                                    <input type="checkbox">+ Select
+                                </label>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card card-list-property">
+                        <div class="card-header">
+                            <img class="mb-4" src="../img/list-property-entirespace.svg" alt="Co-living" />
+                            <h5>Entire Space</h5>
+                        </div>
+                        <div class="card-body justify-content-between d-flex flex-column">
+                            <div class="card-text">
+                                <p>Classic practice of leasing your property to one renter.</p>
+                                <p>He is entitled to renting your entire property space for him or herself.</p>
+                            </div>
+                            <div class="btn-group-toggle" data-toggle="buttons">
+                                <label class="btn btn-checkbox btn-rounded btn-outline-primary mr-10 mb-10">
+                                    <input type="checkbox">+ Select
+                                </label>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="info-estate-type">
+                        <p>We will publish your property as co-living friendly and as an entire space. Giving you more opportunities to lease faster.</p>
+                        <p>In the case where your property is rented-out as a co-living, you agree to forfeit entire space leasing for the duration of the contracted length of stay.</p>
+                        <a class="fs-12" href="#">Terms Of Use</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 border-top py-5 justify-content-end d-flex">
+            <a class="btn btn-primary btn-next-list-property disabled" href="list-property-bedroom.html">
+                Next
+                <i class="fas fa-long-arrow-alt-right ml-2"></i>
+            </a>
+        </div>
+    </div>
+</div>                </div>
+            </div>
+        </div>
+        <div class="modal fade modal-dashboard" id="modalConfirmation" tabindex="-1" role="dialog">
+            <div class="modal-dialog from-right" role="document">
+                <div class="modal-content">
+                    <div class="modal-body text-center">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <i class="fas fa-times"></i>
+                        </button>
+                        <p class="font-weight-bolder">Are you sure you want to leave this page?</p>
+                        <p class="font-weight-bolder">You might lose all inputted information.</p>
+                        <div class="button-group">
+                            <a class="btn btn-primary mr-2" data-dismiss="modal" href="https://sewagi-web.inspira.web.id">Yes</a>
+                            <a class="btn btn-primary" href="#">Save As Draft</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+<script type="text/javascript" src="../js/sewagi.js"></script>
+
+<script>
+$('#modalLogin').modal('show');
+</script>
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+.tabs-navigator {
+    cursor: pointer;
+    color: $primary-turqoise;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 1px solid $gray-4;
+    > * {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    &:first-child > * {
+        // border-right: 1px solid $gray-4;
+    }
+    &:last-child > * {
+        // border-left: 1px solid $gray-4;
+    }
+}
+
+.tabs {
+  .nav-tabs.tabs-default {
+    margin-bottom: 3rem;
+  }
+}
+
+.nav-tabs.tabs-default {
+    border-bottom: 1px solid $gray-4;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    padding: 0;
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    > .nav-item{
+        // flex: 0 0 auto;
+        width: 100%;
+        > .nav-link{
+            &.btn {
+                font-weight: 400;
+                input[type="radio"], input[type="checkbox"] {
+                    display: none;
+                }
+            }
+            cursor: pointer;
+            position: relative;
+            color: $gray-3;
+            margin: 0;
+            // margin-right: 40px;
+            background-color: $transparent-bg;
+            border: 1px solid $transparent-bg;
+            font-size: $font-size-base;
+            padding: 17px 0 5px;
+            line-height: 1.5;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+            &:hover {
+                background-color: $transparent-bg;
+            }
+
+            &.active{
+                background-color: transparent;
+                color: $primary-turqoise;
+                font-weight: 500;
+                &:after {
+                    position: absolute;
+                    content: '';
+                    height: 6px;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    margin: 0 auto;
+                    background-color: $primary-turqoise;
+                }
+            }
+        }
+    }
+    &.tabs-fill > .nav-item {
+        flex: 1 0 auto;
+        > .nav-link {
+            margin: 0;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+}

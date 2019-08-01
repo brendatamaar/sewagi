@@ -1,0 +1,446 @@
+.mar-left-20{margin-left: 20px !important;}
+.btn-circle{
+  text-align: center;
+  font-size: 13px !important;
+  /* line-height: 2; */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 10px 10px;
+}
+.fox-select-custom-container{
+  .select2{
+    .select2-selection{background-color: transparent}
+    .select2-selection{border: none !important; padding-left: 0 !important}
+    .select2-selection__arrow b{
+      border-color: $primary-turqoise transparent transparent transparent !important;border-width: 8px 6px 0 6px !important;
+    }
+  }
+}
+.cols-discover-lists{
+  flex-direction: column !important;
+  .width-max{
+    width: 100% !important;min-width: 100% !important;
+  }
+}
+.filter-modal-custom{
+  position: absolute !important;
+  top: 0 !important;
+  width: 100% !important;
+}
+.map {
+  #search-map {
+    padding: 15px;
+    width: 100%;
+    height: 100%
+  }
+  /* The popup bubble styling. */
+  .popup-bubble {
+      /* Position the bubble centred-above its parent. */
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: translate(-50%, -100%);
+      /* Style the bubble. */
+      background-color: #fff;
+      padding: 5px 10px;
+      border-radius: 2px;
+      overflow-y: auto;
+      max-height: 60px;
+      color: #1D5060;
+      border: #1D5060 1px solid;
+      font-weight: 500;
+      font-size: 12px;
+  }
+
+  .popup-bubble:hover, .popup-bubble-hovered {
+    background-color: #1D5060;
+    color: #FFF;
+}
+
+   .popup-bubble-detail {
+      background-color: #FFF !important;
+      padding: 0 !important;
+      max-height: inherit !important;
+      color: rgb(33, 37, 41) !important;
+      width: 300px !important;
+      border: none;
+  }
+
+  /* The parent of the bubble. A zero-height div at the top of the tip. */
+  .popup-bubble-anchor {
+      /* Position the div a fixed distance above the tip. */
+      position: absolute;
+      width: 100%;
+      bottom: /* TIP_HEIGHT= */ 8px;
+      left: 0;
+  }
+
+  /* This element draws the tip. */
+  .popup-bubble-anchor::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      /* Center the tip horizontally. */
+      transform: translate(-50%, 0);
+      /* The tip is a https://css-tricks.com/snippets/css/css-triangle/ */
+      width: 0;
+      height: 0;
+      /* The tip is 8px high, and 12px wide. */
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: /* TIP_HEIGHT= */ 8px solid #1D5060;
+  }
+
+  .popup-bubble-anchor-detail{
+      z-index: 9;
+  }
+
+  .popup-bubble-anchor-detail::after {
+      border-top: 8px solid #FFF !important;
+      top: -2px;
+  }
+
+  /* JavaScript will position this div at the bottom of the popup tip. */
+  .popup-container {
+      cursor: auto;
+      height: 0;
+      position: absolute;
+      /* The max width of the info window. */
+      width: 200px;
+  }
+  .close-popup {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    padding: 1rem;
+    color: #fff;
+    cursor: pointer;
+  }
+}
+.custom-input-group{
+  height: 80px !important;
+}
+.box-container-card{
+  .box-container-card-info-left{
+    display: none;
+  }
+  .box-container-card-info-right{
+    display: none;
+  }
+  .is-show-card{
+    display: block !important;
+  }
+}
+.map-fixed{
+    position: fixed !important;
+    width: 48.75% !important;
+    // height: auto !important;
+    // top: 150px;
+    bottom: 0;
+    right: 0;
+
+    &.on-bottom {
+      position: absolute !important;
+      top: auto;
+      left: 0;
+      right: auto;
+      width: 100% !important;
+    }
+
+  @media (max-width:1299px ){
+    padding-top: 263px !important;
+  }
+  @media (max-width: 991px){
+    padding-top: 10px !important;
+    width: 100%;position: relative !important;
+  }
+}
+.btn-dropdown-nav{
+  background-color: transparent;
+  padding-left: 0;
+
+}
+.fox-search-custom{height: 55px; cursor: pointer;}
+.fox-search-custom,.fox-custom-box-search{
+  .search-box-container{
+    height: 50px;
+    padding: 0;
+    box-shadow: none;
+  }
+  .flexis{
+      display: flex;flex-direction: row;
+  }
+  .input-group.input-homepage {
+      margin-bottom: 35px;
+      background-color: #f7f9fa;
+      box-shadow: none;-webkit-box-shadow: none;
+  }
+  .input-group.input-homepage *{
+    background-color: transparent;
+  }
+  .input-group.input-homepage .btn-grey.btn-target{
+    background-color: #A6B2B8;
+    border-color: #A6B2B8;
+    color: #fff;
+  }
+  .search-boxes{
+    background-color: #f7f9fa;
+    height: 50px;
+    padding: 10px 10px;
+  }
+  .search-boxes-text{
+    height: 50px;
+    padding: 10px 10px;
+  }
+  .custom-input-group{
+    height: 50px !important;
+  }
+  .custom-btn-group{
+    flex-wrap: unset;
+    flex-direction: row;
+    display: flex;
+  }
+  .btn-group-title{
+     margin-bottom: 15px;
+  }
+
+  .fox-dropdown-nav{
+    position: relative;
+    .form-control {
+        font-weight: 600 !important;
+    }
+    .btn-dropdown-nav{
+      // background-color: transparent !important;
+      display: flex;
+      align-items: center;
+      /* font-weight: bold; */
+      border: none;
+      // padding-left: 0;
+      padding: 0;
+      color: #444;
+      line-height: 28px;
+      font-size: 12px;
+      position: relative;
+      max-width: 100%;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      .icon-arrow{
+        color: #70c8bf;
+        margin-left: 1rem;
+        font-size: 14px;
+      }
+    }
+    .flying-dropdown{
+        box-shadow: 0 0 10px rgba(3, 3, 3, 0.1);
+        border-radius: 0;
+        padding: 15px;
+        margin-top: 16px;
+        border: 1px solid $primary-turqoise;
+        left: -12px;
+        background-color: $aqua;
+        min-width: 187px;
+        cursor: initial;
+    }
+  }
+
+}
+.fox-search-custom .isShowFly{
+  display: inline !important;
+}
+
+.fox-search-custom .fox-dropdown-nav.show .fa-caret-down:before {
+    content: "\f0d8";
+}
+
+.fox-search-img-container{
+  width: 100%; margin: 0;
+  .fox-search-img{
+    position: relative;
+    img{
+      width: 192px;
+      height: 76px;
+      max-width: 100%;
+      object-fit: cover;
+    }
+  }
+  input[type="radio"], input[type="checkbox"] {
+    display: none;
+  }
+}
+
+.search-body-box {
+    .fox-search-img-container{
+        .btn-rounded {
+            padding-left: 10px !important;
+            padding-right: 10px !important;
+        }
+    }
+}
+.search-header-box,.search-foot-box{
+  background-color: transparent;
+  .btn-rounded{
+    padding: 8px 20px !important;border-radius: 100px !important;
+  }
+  .btn-rounded-plus{
+    position: relative !important;padding-left: 30px !important;
+  }
+  .btn-rounded-plus::after{
+    content: '+'; position: absolute; left: 13px; font-size: 1.3em; top: 7px;
+  }
+}
+.search-body-box{
+  background-color: #fff;
+  padding: 20px 0;
+  min-height: 600px;
+  .btn-rounded{
+    padding: 9px 20px !important;
+    border-radius: 24px !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 13px !important;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    height: 40px;
+    line-height: 20px;
+  }
+  .auto-height {
+    height: auto !important;
+  }
+  .btn-rounded-plus{
+    position: relative !important;padding-left: 30px !important;
+  }
+  .btn-rounded-plus::after{
+    content: '+'; position: absolute; left: 13px; font-size: 1.3em; top: 7px;
+  }
+}
+.search-not-found-box{
+  text-align: center; justify-content: center;
+  .search-not-found-text-yellow{
+    color: $primary-orange;
+  }
+}
+.fox-btn-right,.fox-btn-left{cursor: pointer;}
+
+.select-styled {
+    height: 50px !important;
+    background-color: $aqua !important;
+    border: none !important;
+    .select2-selection__arrow {
+        height: 50px !important;
+        b {
+            border-color: $primary-turqoise transparent transparent transparent !important;
+        }
+    }
+    .select2-selection__rendered {
+        line-height: 50px !important;
+        font-size: 14px;
+        font-weight: 600;
+        color: $primary-dark !important;
+        letter-spacing: -0.09px;
+    }
+    .select2-selection__placeholder {
+        color: $gray-6 !important;
+    }
+}
+
+.dropdown-menu {
+    .select-styled {
+        background-color: $white !important;
+    }
+    &.dropdown-menu-lg {
+        min-width: 300px !important;
+
+    }
+}
+
+.select2-container--open .select-styled .select2-selection__arrow b {
+    border-color: transparent transparent $primary-turqoise transparent !important;
+    border-width: 0 4px 5px 4px !important;
+}
+
+.select-styled-dropdown {
+    border: none;
+    background-color: $aqua;
+    .select2-results__option--highlighted[aria-selected] {
+        background-color: $primary-turqoise;
+    }
+}
+
+// .searchbox-slider-text-1,
+// .searchbox-slider-text-2 {
+//     color: $dark-text-1;
+//     font-weight: 600;
+//     letter-spacing: 1.15px;
+//     line-height: 23px;
+// }
+
+// .search-filterbox:nth-of-type(3) {
+//     flex: 1 0 150px;
+// }
+
+// .search-filterbox:nth-of-type(4) {
+//     flex: 1 0 120px;
+// }
+
+// .search-filterbox:nth-of-type(5) {
+//     flex: 1 0 160px;
+// }
+
+// .search-filterbox:nth-of-type(6) {
+//     flex: 1 0 110px;
+// }
+
+.morefilter-trigger {
+    font-weight: 600;
+}
+.dropdown-menu-item {
+    font-weight: 600;
+    border: none;
+    color: #444;
+    line-height: 28px;
+    font-size: 13px !important;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#searchbox-slider-text-1, #searchbox-slider-text-2 {
+    font-weight: 600;
+    color: #242C3D;
+    line-height: 23px;
+}
+
+#searchbox-slider-3-text-1, #searchbox-slider-3-text-2 {
+    font-weight: 600;
+}
+
+.result-count-found-text {
+    height: 17px;
+    width: 151px;
+    color: #A6B2B8;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1.8px;
+    line-height: 18px;
+    margin-top: 2.25rem;
+    margin-left: 1rem;
+}
+
+#results {
+    .pagination-wrapper {
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+    }
+}
+
+#searchbox.form-control {
+  &:focus {
+    box-shadow: none !important;
+  }
+}

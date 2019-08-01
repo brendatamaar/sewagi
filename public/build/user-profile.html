@@ -1,0 +1,2141 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Sewagi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+
+<body>
+    <div id="dashboard">
+        <div id="page-wrapper" class="d-flex">
+            <div id="sidebar">
+    <nav class="sidebar-nav">
+        <div class="sidebar-brand py-4">
+            <a class="navbar-brand" href="#" style="background-image: url('../images/Logo.svg');">Navbar</a>
+        </div>
+        <div id="sidebar-inner">
+            <ul class="navbar-nav nav-main flex-column w-100">
+                <li class="nav-item active">
+                    <a class="nav-link d-flex align-items-center" href="#">
+                        <span class="sidebar-icon">
+                            <img src="../img/dashboard/home.svg" alt="">
+                        </span>
+                        <span>Home</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="#">
+                        <span class="sidebar-icon">
+                            <img src="../img/dashboard/home.svg" alt="">
+                        </span>
+                        <span>My Rent</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="#">
+                        <span class="sidebar-icon">
+                            <img src="../img/dashboard/heart.svg" alt="">
+                        </span>
+                        <span>My favourites</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="#">
+                        <span class="sidebar-icon">
+                            <img src="../img/dashboard/notif.svg" alt="">
+                        </span>
+                        <span>Notifications</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="#">
+                        <span class="sidebar-icon">
+                            <img src="../img/dashboard/activities.svg" alt="">
+                        </span>
+                        <span>Activities & services</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link d-flex align-items-center" href="#">
+                        <span class="sidebar-icon">
+                            <img src="../img/dashboard/payment.svg" alt="">
+                        </span>
+                        <span>Payment methods</span>
+                    </a>
+                </li>
+                <li class="nav-item py-4 mt-4 border-top border-bottom">
+                    <a class="nav-link d-flex align-items-center" href="#">
+                        <span class="sidebar-icon">
+                            <img src="../img/dashboard/list-property.svg" alt="">
+                        </span>
+                        <span>List your property</span>
+                    </a>
+                </li>
+                <li class="nav-item py-4">
+                    <a class="nav-link d-flex align-items-center" href="#">
+                        <span class="sidebar-icon">
+                            <img src="../img/dashboard/help.svg" alt="">
+                        </span>
+                        <span>Help and support</span>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="navbar-nav nav-profile">
+                <li class="nav-item py-4">
+                    <a class="nav-link d-flex align-items-center" href="#">
+                        <span class="sidebar-icon mr-3">
+                            <img src="../img/dashboard/profile-pic.png" alt="">
+                        </span>
+                        <span>Daniel Ricki</span>
+                    </a>
+                </li>
+            </ul>
+            <button class="btn-chat background-primary">
+                <i class="fas fa-comment-alt"></i>
+            </button>
+        </div>
+    </nav>
+</div>            <div id="page-container">
+                <div class="nav-dashboard d-flex align-items-center justify-content-between">
+                    <ul class="nav" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="true">PROFILE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="digital-id-tab" data-toggle="tab" href="#digital-id" role="tab" aria-controls="digital-id" aria-selected="false">DIGITAL IDENTITY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="legal-doc-tab" data-toggle="tab" href="#legal-doc" role="tab" aria-controls="legal-doc" aria-selected="false">LEGAL DOCUMENTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="acc-setting-tab" data-toggle="tab" href="#acc-setting" role="tab" aria-controls="acc-setting" aria-selected="false">ACCOUNT SETTINGS</a>
+                        </li>
+                    </ul>
+
+                    <div id="account-switch" class="d-flex justify-content-between align-items-center px-4">
+                        <p id="account-type-switch-label" class="text-muted mb-0 mr-5">USER ACCOUNT TYPE</p>
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" id="account-type-switch">
+                            <label class="custom-control-label" for="account-type-switch"></label>
+                        </div>   
+                    </div>
+                </div>
+                
+                <div class="tab-content" id="dashboard-tab-content">
+                    <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="row mb-5">
+	<div class="col-md-12">
+		<h3>About You</h3>
+	</div>
+</div>
+
+<div class="row">
+	<div class="col-md-8">
+		<div class="row align-items-center mb-5">
+			<div class="col-md-auto col-12 mb-md-0 mb-3">
+				<img class="img-profile" src="../img/dashboard/profile-pic.png" alt="">
+			</div>
+			<div class="col-md-auto col-12 mb-md-0 mb-3">
+				<a class="btn btn-primary" href="#" data-toggle="modal" data-target="#modalAddPicture">
+					UPLOAD NEW PICTURE
+				</a>
+			</div>
+			<div class="col-md-auto col-12 mb-md-0 mb-3">
+				<a class="btn btn-outline-primary" href="#">
+					DELETE
+				</a>
+			</div>
+		</div>
+
+		<form>
+			<div class="row mb-3">
+				<div class="col-md-6">
+				  	<div class="form-group">
+						<label class="text-muted required">FIRST NAME</label>
+						<input type="text" class="form-control form-control-dashboard" placeholder="">
+					</div>
+				</div>
+				<div class="col-md-6">
+				  	<div class="form-group">
+						<label class="text-muted required">LAST NAME</label>
+						<input type="text" class="form-control form-control-dashboard" placeholder="">
+					</div>
+				</div>
+			</div>
+			<div class="row mb-3">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label class="text-muted required">EMAIL</label>
+						<div class="input-group mb-3">
+							<input type="email" class="form-control form-control-dashboard" placeholder="" readonly>
+							<div class="input-group-append">
+								<button class="btn btn-transparent" type="button" data-toggle="modal" data-target="#modalChangeEmail">
+					                <img src="../img/close-big.png" alt="">
+					            </button>
+							</div>
+							<div class="input-group-append">
+								<a href="#" class="btn btn-primary">VERIFY YOUR EMAIL</a>
+							</div>
+						</div>
+					</div>
+					<div class="notif bg-orange-2 p-3 mb-3">
+						<strong>Email sent!</strong> Please verify by clicking on the link we’ve sent to your registered email
+					</div>
+				</div>
+			</div>
+			<div class="row mb-3">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label class="text-muted required">PHONE NUMBER</label>
+						<div class="row">
+							<div class="input-group align-items-center col" style="max-width: 140px;flex: 0 0 140px;">
+								<i class="fab fa-whatsapp mr-3"></i>
+								<span class="input-group-prepend form-control-dashboard pl-3">
+						        	<img src="../img/flag-indonesia.svg" alt="">
+						      	</span>
+							    <input type="text" class="form-control form-control-dashboard" value="+62">
+							</div>
+
+							<div class="input-group col pl-0">
+					
+								<input type="number" class="form-control form-control-dashboard" readonly>
+								<div class="input-group-append">
+									<button class="btn btn-transparent" type="button" data-toggle="modal" data-target="#modalNewPhoneNumber">
+						                <img src="../img/close-big.png" alt="">
+						            </button>
+								</div>
+								<div class="input-group-append">
+									<span class="input-group-text bg-white">
+										<img src="../img/ic_check.svg" class="mr-3" alt="">
+										<span>Verified</span>
+									</span>
+								</div>
+						
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mb-3">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label class="text-muted required">GENDER</label>
+						<div class="input-group mb-3">
+							<select class="select2 select2-list-property" id="gender">
+								<option value=""></option>
+								<option value="Office room">Male</option>
+								<option value="Laundry room">Female</option>			
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mb-3">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label class="text-muted required">NATIONALITY</label>
+						<div class="input-group mb-3">
+							<select class="select2 select2-list-property" id="nationality">
+								<option value=""></option>
+								<option value="Office room">Male</option>
+								<option value="Laundry room">Female</option>			
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mb-3">
+				<div class="col-md-12">
+					<div class="form-group">
+						<label class="text-muted required">BIRTHDAY DATE</label>
+						<div class="input-group">
+					        <input type="text" class="form-control form-control-dashboard" data-toggle="modal" data-target="#modalChangeBirthday" data-dismiss="modal"/>
+					    </div>
+					</div>
+				</div>
+			</div>
+			<div class="row mb-3">
+				<div class="col-md-12">
+					<div class="form-group">
+						<div class="d-flex justify-content-between">
+							<label class="text-muted">DESCRIBE YOURSELF</label>
+							<a href="#" class="btn btn-link" data-toggle="modal" data-target="#modalAddDescription">+ Add Description</a>
+						</div>
+						<div class="bg-white p-4">
+							<div class="row mb-3">
+								<div class="col-md-2">
+									<label class="text-muted mb-0">HOBBIES</label>
+								</div>
+								<div class="col-md-9">
+									<h6 class="font-weight-600">Drawing</h6>
+								</div>
+							</div>
+							<div class="row mb-3">
+								<div class="col-md-2">
+									<label class="text-muted mb-0">STATUS</label>
+								</div>
+								<div class="col-md-9">
+									<h6 class="font-weight-600">Student</h6>
+								</div>
+							</div>
+							<div class="row mb-3">
+								<div class="col-md-2">
+									<label class="text-muted mb-0">LIFESTYLE</label>
+								</div>
+								<div class="col-md-9">
+									<h6 class="d-flex align-items-center font-weight-600">Neat <span class="dot"></span> Quiet <span class="dot"></span> Workaholic</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr class="my-5">
+			<div class="row mb-3">
+				<div class="col-md-12">
+					<h3 class="py-4">Additional Information</h3>
+					<div class="form-group mb-5">
+						<div class="d-flex justify-content-between">
+							<label class="text-muted">LANGUAGE</label>
+							<a href="#" class="btn btn-link" data-dismiss="modal" data-toggle="modal" data-target="#modalAddLang">+ Add Language</a>
+						</div>
+						<p>Add any languages you speak.</p>
+						<h6 class="d-flex align-items-center font-weight-600 ">Bahasa Indonesia <span class="dot"></span> English <span class="dot"></span> Bahasa Melayu</h6>
+					</div>
+					<div class="form-group mb-5">
+						<div class="d-flex justify-content-between">
+							<label class="text-muted">EMERGENCY CONTACT</label>
+							<a href="#" class="btn btn-link"  data-dismiss="modal" data-toggle="modal" data-target="#modalAddEmergency">+ Add Contact</a>
+						</div>
+						<p>Add a contact for any urgent situations which our team can get in touch with.</p>
+						<ul class="list-unstyled">
+							<li class="d-flex align-items-center mb-3">
+								<img class="mr-3" src="../img/dashboard/twoColor/profile.svg" alt="">
+								<h6 class="font-weight-600 mb-0">Fabrice Ricki</h6>
+							</li>
+							<li class="d-flex align-items-center mb-3">
+								<img class="mr-3" src="../img/dashboard/twoColor/phone.svg" alt="">
+								<h6 class="font-weight-600 mb-0">+62 812 567 432 67</h6>
+							</li>
+							<li class="d-flex align-items-center mb-3">
+								<img class="mr-3" src="../img/dashboard/twoColor/email.svg" alt="">
+								<h6 class="font-weight-600 mb-0">Fabrice.ricki@gmail.com</h6>
+							</li>
+							<li class="d-flex align-items-center mb-3">
+								<img class="mr-3" src="../img/dashboard/twoColor/relationship.svg" alt="">
+								<h6 class="font-weight-600 mb-0">Father</h6>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalAddPicture" tabindex="-1" role="dialog">
+    <div class="modal-dialog from-right" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+                <p class="font-weight-bolder">How do you want to add your picture?</p>
+                <div class="button-group">
+                    <a class="btn btn-primary mr-2" id="use-camera" data-dismiss="modal" href="#" data-toggle="modal" data-target="#modalTakePicture">Use device camera</a>
+                    <a class="btn btn-primary btn-input" href="#">
+						Browse from file <input type="file" class="custom-file-input">
+					</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalTakePicture" tabindex="-1" role="dialog">
+    <div class="modal-dialog from-right" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" id="stop-camera" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+                <p class="font-weight-bolder">Take your profile picture</p>
+                <div id="picture-camera-wrap" class="mb-3">
+            	 	<video id="player" width=320 height=240 autoplay></video>
+					<canvas id="snapshot" width=320 height=240></canvas>
+					<div class="btn-camera-wrapper">
+						<button id="capture" class="btn btn-circle-icon">
+							<i class="fas fa-camera"></i>
+						</button>
+						<button role="button" class="btn btn-pill btn-sm" id="retake">Retake</button>
+					</div>
+                </div>
+                <div class="button-group">
+                	<div>
+                		<a id="submit-picture" class="btn btn-primary disabled mb-3" href="#">SUBMIT PICTURE</a>
+                	</div>
+                    
+                    <div>
+                    	or <a class="btn btn-link btn-input" href="#">
+							Browse from file <input type="file" class="custom-file-input">
+						</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalAddDescription" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+
+				<h3>Add description</h3>
+				<div>
+					<h4 class="my-4">Hobbies</h4>
+					<div class="btn-group-toggle" data-toggle="buttons">
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Music
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Movie
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Reading
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Travelling
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Sport & Outdoors
+	                    </label>
+	                </div>
+				</div>
+
+				<hr class="my-4">
+				
+				<div>
+					<h4 class="my-4">Lifestyle & Character</h4>
+					<div class="btn-group-toggle" data-toggle="buttons">
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Socializer
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Workaholic
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Outdoor enthusiast
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Foodie
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Health conscius
+	                    </label>
+	                </div>
+				</div>
+
+				<hr class="my-4">
+                
+                <div>
+                	<h4 class="my-4">Profession status</h4>
+					<div class="btn-group-toggle" data-toggle="buttons">
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Student
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Entrepreneur
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Civil servant
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Employee
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Freelancer
+	                    </label>
+	                    <label class="btn btn-sm btn-checkbox btn-outline-primary mr-10 mb-10">
+	                        <input type="checkbox">+ Retiree
+	                    </label>
+	                </div>
+                </div>
+
+                <hr class="my-4">
+				
+				<div class="d-flex justify-content-end">
+					<a class="btn btn-primary my-4 disabled" href="#">ADD</a>
+				</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalChangeEmail" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+
+				<p class="text-center">Please input your new email</p>
+				<form action="">
+					<div class="form-group">
+						<div class="input-group mb-3">
+							<div class="input-group-append">
+								<button class="btn btn-transparent-color" type="button">
+					                <img class="mr-2" src="../img/dashboard/twoColor/email.svg" alt="">
+					            </button>
+							</div>
+							<input type="email" class="form-control form-control-dashboard pl-0" placeholder="Email Address">
+						</div>
+					</div>
+					<div class="d-flex justify-content-center">
+						<a class="btn btn-primary disabled" href="" data-dismiss="modal" data-toggle="modal" data-target="#modalEmailSent">SUBMIT</a>
+					</div>
+				</form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalEmailSent" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+
+				<img class="img-fluid" src="../img/email.png" alt="">
+				
+				<h3 class="mb-4">Email sent!</h3>
+				<p>We've sent a verification link to <strong>david.dupond@gmail.com</strong></p>
+				<div class="d-flex justify-content-center">
+					<button class="btn btn-primary" data-dismiss="modal">OK</button>
+				</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalNewPhoneNumber" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+				
+				<p class="text-center">Please input your new phone number:</p>
+
+				<p>Preferably input a valid WhatsApp phone number for tour and negotiation convenience.</p>
+				<div class="form-group">
+					<div class="row">
+						<div class="input-group align-items-center col" style="max-width: 160px;flex: 0 0 160px;">
+							<i class="fab fa-whatsapp mr-3"></i>
+							<span class="input-group-prepend form-control-dashboard pl-3">
+					        	<select class="input-text flag-select" name="phone">
+									<option value="+62" data-img="https://previews.123rf.com/images/taesmileland/taesmileland1201/taesmileland120100083/12100646-england-flag-drawing-by-pastel-on-charcoal-paper.jpg">Indonesia +62</option>
+									<option value="+00" data-img="https://previews.123rf.com/images/taesmileland/taesmileland1201/taesmileland120100083/12100646-england-flag-drawing-by-pastel-on-charcoal-paper.jpg">Amerika Latin yang +00</option>
+									<option value="+00" data-img="https://previews.123rf.com/images/taesmileland/taesmileland1201/taesmileland120100083/12100646-england-flag-drawing-by-pastel-on-charcoal-paper.jpg">Amerika +00</option>
+								</select>
+					      	</span>
+						</div>
+
+						<div class="input-group col pl-0">
+							<input type="number" placeholder="Phone number" class="form-control form-control-dashboard">
+						</div>
+					</div>
+				</div>
+				
+				<div class="d-flex justify-content-center">
+					<a class="btn btn-primary disabled" href="#" data-dismiss="modal" data-toggle="modal" data-target="#modalVerification">Submit</a>
+				</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalVerification" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+				
+				<h3 class="mb-4">Verification code</h3>
+				<p>A message with verification code has been sent <br>to ****-****-*<span>123</span></p>
+				<div class="form-group py-4">
+					<div class="row">
+						<div class="col-3">
+							<input type="number" class="w-100 text-center font-size-20 border-0 py-2" maxlength="2" size="2">
+						</div>
+						<div class="col-3">
+							<input type="number" class="w-100 text-center font-size-20 border-0 py-2" maxlength="2" size="2">
+						</div>
+						<div class="col-3">
+							<input type="number" class="w-100 text-center font-size-20 border-0 py-2" maxlength="2" size="2">
+						</div>
+						<div class="col-3">
+							<input type="number" class="w-100 text-center font-size-20 border-0 py-2" maxlength="2" size="2">
+						</div>
+					</div>
+				</div>
+				
+				<div class="d-flex justify-content-center mb-4">
+					<a href="#" class="btn btn-primary disabled w-100" data-dismiss="modal" data-toggle="modal">VERIFY CODE</a>
+				</div>
+				<h6>00:00</h6>
+				<p class="d-flex align-items-center fs-13">Didn't get the code?
+					<span class="ml-2">
+						<a class="btn btn-link d-flex align-items-center text-capitalize" href="#" data-toggle="modal" data-target="#modalUnableVerification" data-dismiss="modal">Send a new code? <i class="fas fa-long-arrow-alt-right ml-2"></i></a>
+					</span>
+				</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalUnableVerification" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+				
+				<h3 class="mb-4">Unable to verify number</h3>
+				<div class="bg-orange-2 p-3 mb-4">
+					<p class="mb-0">
+						<strong>Sorry</strong>, we couldn't verify the phone number<br> +62 *** *** *** 76
+					</p>
+				</div>
+				<a class="btn btn-link d-flex align-items-center fs-15 text-capitalize" href="#">Resend OTP <i class="fas fa-long-arrow-alt-right ml-2"></i></a>
+				<a class="btn btn-link d-flex align-items-center fs-15 text-capitalize" href="#">Change phone number <i class="fas fa-long-arrow-alt-right ml-2"></i></a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalAddLang" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+				
+				<h3 class="mb-5">Language</h3>
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="bahasaIndo" required>
+							<label class="custom-control-label" for="bahasaIndo">Bahasa Indonesia</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="bahasaMelayu" required>
+							<label class="custom-control-label" for="bahasaMelayu">Bahasa Melayu</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Bengali" required>
+							<label class="custom-control-label" for="Bengali">Bengali</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Dansk" required>
+							<label class="custom-control-label" for="Dansk">Dansk</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Deutsch" required>
+							<label class="custom-control-label" for="Deutsch">Deutsch</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="English" required>
+							<label class="custom-control-label" for="English">English</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Español" required>
+							<label class="custom-control-label" for="Español">Español</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Français" required>
+							<label class="custom-control-label" for="Français">Français</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Hindi" required>
+							<label class="custom-control-label" for="Hindi">Hindi</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Italiano" required>
+							<label class="custom-control-label" for="Italiano">Italiano</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Nederlands" required>
+							<label class="custom-control-label" for="Nederlands">Nederlands</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Polski" required>
+							<label class="custom-control-label" for="Polski">Polski</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Portugues" required>
+							<label class="custom-control-label" for="Portugues">Portugues</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Punjabi" required>
+							<label class="custom-control-label" for="Punjabi">Punjabi</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Russian" required>
+							<label class="custom-control-label" for="Russian">Russian</label>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="signLanguage" required>
+							<label class="custom-control-label" for="signLanguage">Sign Language</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Suomi" required>
+							<label class="custom-control-label" for="Suomi">Suomi</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Tagalog" required>
+							<label class="custom-control-label" for="Tagalog">Tagalog</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Vietnamese" required>
+							<label class="custom-control-label" for="Vietnamese">Vietnamese</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Türkçe" required>
+							<label class="custom-control-label" for="Türkçe">Türkçe</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="Čeština" required>
+							<label class="custom-control-label" for="Čeština">Čeština</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="greek" required>
+							<label class="custom-control-label" for="greek">ελληνικά</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="ibrani" required>
+							<label class="custom-control-label" for="ibrani">עִבְרִית</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="arabic" required>
+							<label class="custom-control-label" for="arabic">العربية</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="thailand" required>
+							<label class="custom-control-label" for="thailand">ภาษาไทย</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="chinese" required>
+							<label class="custom-control-label" for="chinese">中文</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="japan" required>
+							<label class="custom-control-label" for="japan">日本国</label>
+						</div>
+						<div class="custom-control custom-checkbox circle-custom-checkbox mb-3">
+							<input type="checkbox" class="custom-control-input" id="korea" required>
+							<label class="custom-control-label" for="korea">한국어</label>
+						</div>						
+					</div>
+				</div>
+				
+				<hr class="my-4">
+				
+				<div class="d-flex justify-content-end">
+					<a class="btn btn-primary my-4 disabled" href="#">ADD</a>
+				</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalAddEmergency" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+				
+				<h3 class="mb-5">Add emergency contact</h3>
+
+				<div class="row mb-3">
+					<div class="col-md-6">
+					  	<div class="form-group">
+					  		<div class="input-group">
+					  			<div class="input-group-append">
+									<button class="btn btn-transparent-color" type="button">
+						                <img class="img-fluid" src="../img/dashboard/twoColor/profile.svg" alt="">
+						            </button>
+								</div>
+								<input type="text" class="form-control form-control-dashboard pl-0" placeholder="First name">
+					  		</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+					  	<div class="form-group">
+							<input type="text" class="form-control form-control-dashboard" placeholder="Last name">
+						</div>
+					</div>
+				</div>
+
+				<div class="row mb-3">
+					<div class="col-md-4 pr-0">
+						<div class="form-group">
+							<div class="input-group align-items-center">
+								<i class="fab fa-whatsapp mr-3"></i>
+								<span class="input-group-prepend form-control-dashboard pl-3">
+						        	<select class="input-text flag-select" name="phone">
+										<option value="+62" data-img="https://previews.123rf.com/images/taesmileland/taesmileland1201/taesmileland120100083/12100646-england-flag-drawing-by-pastel-on-charcoal-paper.jpg">Indonesia +62</option>
+										<option value="+00" data-img="https://previews.123rf.com/images/taesmileland/taesmileland1201/taesmileland120100083/12100646-england-flag-drawing-by-pastel-on-charcoal-paper.jpg">Amerika Latin yang +00</option>
+										<option value="+00" data-img="https://previews.123rf.com/images/taesmileland/taesmileland1201/taesmileland120100083/12100646-england-flag-drawing-by-pastel-on-charcoal-paper.jpg">Amerika +00</option>
+									</select>
+						      	</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-8">
+						<div class="form-group">
+							<div class="input-group">
+								<input type="number" placeholder="Phone number" class="form-control form-control-dashboard">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row mb-3">
+					<div class="col-md-12">
+						<div class="form-group">
+							<div class="input-group mb-3">
+								<div class="input-group-append">
+									<button class="btn btn-transparent-color" type="button">
+						                <img class="img-fluid" src="../img/dashboard/twoColor/email.svg" alt="">
+						            </button>
+								</div>
+								<input type="email" class="form-control form-control-dashboard pl-0" placeholder="Email Address">
+							</div>
+						</div>
+					</div>
+					
+				</div>
+
+				<div class="row mb-3">
+					<div class="col-md-12">
+						<div class="form-group">
+							<div class="input-group mb-3">
+								<div class="input-group-append">
+									<button class="btn btn-transparent-color" type="button">
+						                <img class="img-fluid" src="../img/dashboard/twoColor/relationship.svg" alt="">
+						            </button>
+								</div>
+								<input type="text" class="form-control form-control-dashboard pl-0" placeholder="Relationship">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<hr class="my-4">
+				
+				<div class="d-flex justify-content-end">
+					<a class="btn btn-primary my-4 disabled" href="#">ADD</a>
+				</div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalChangeBirthday" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-sm from-right" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+                <p class="font-weight-bolder">Change birthday date:</p>
+                <div class="input-group date" id="date-picker" data-target-input="nearest">
+			        <input type="text" class="form-control form-control-dashboard datetimepicker-input" data-target="#date-picker" data-toggle="datetimepicker" placeholder="dd/mm/yyyy" />
+			    </div>
+                <div class="d-flex justify-content-center">
+					<a class="btn btn-primary my-4 disabled" href="#">SUBMIT</a>
+				</div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+	var player = document.getElementById('player');
+	var snapshotCanvas = document.getElementById('snapshot');
+	var captureButton = document.getElementById('capture');
+	var stopButton = document.getElementById('stop-camera');
+	var useCamera = document.getElementById('use-camera');
+	var retakeCamera = document.getElementById('retake');
+	var submitPic = document.getElementById('submit-picture');
+	var videoTracks;
+
+	var handleSuccess = function(stream) {
+		// Attach the video stream to the video element and autoplay.
+		player.srcObject = stream;
+		videoTracks = stream.getVideoTracks();
+	};
+
+	captureButton.addEventListener('click', function() {
+		var context = snapshot.getContext('2d');
+		context.drawImage(player, 0, 0, snapshotCanvas.width, snapshotCanvas.height);
+		snapshotCanvas.style.display = 'block';
+		retakeCamera.style.display = 'block';
+		captureButton.style.display = 'none';
+		submitPic.classList.remove('disabled');
+	});
+
+	stopButton.addEventListener('click', function() {
+		// Stop all video streams.
+		videoTracks.forEach(function(track) {track.stop()});
+	});
+
+
+	retake.addEventListener('click', function() {
+		snapshotCanvas.style.display = 'none';
+		retakeCamera.style.display = 'none';
+		captureButton.style.display = 'block';
+		submitPic.classList.add('disabled');
+	});
+
+	useCamera.addEventListener('click', function() {
+		navigator.mediaDevices.getUserMedia({video: true})
+		.then(handleSuccess);
+	});
+</script>                    </div>
+                    <div class="tab-pane fade" id="digital-id" role="tabpanel" aria-labelledby="digital-id-tab">
+                        <div class="row mb-5">
+    <div class="col-md-8">
+    	<h3 class="py-4">Confirm profile</h3>
+        <p>To keep Sewagi secure, enable digital contract signatures and process installment requests, we’ll need you to provide us with a picture of your <strong>ID</strong> and a <strong>selfie</strong>. Your digital identity and all related documents are classified and protected. We won’t be communicating them to any third party without your consent.</p>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between">
+                <label class="text-muted required">IDENTITY DOCUMENT</label>
+                <a href="#" class="btn btn-link" data-dismiss="modal" data-toggle="modal" data-target="#modalAddPicture2">+ Add document photo</a>
+            </div>
+            <p>Upload your identity card/passport</p>
+            <div class="doc-wrap">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <img class="id-card" src="../img/ktp.jpg" alt="">
+            </div>
+        </div>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between">
+                <label class="text-muted required">PHOTO</label>
+                <a href="#" class="btn btn-link" data-dismiss="modal" data-toggle="modal" data-target="#modalAddEmergency">+ Add document photo</a>
+            </div>
+            <p>Upload your selfie / current photo</p>
+            <div class="doc-wrap">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <h4 class="fs-14 mb-0">
+                    <span>Selfie.jpg</span>&nbsp;
+                    <label class="text-muted">(25MB)</label>
+                </h4>
+            </div>
+        </div>
+        <hr class="my-5">
+        <a href="#" class="btn btn-primary disabled">CONFIRM IDENTITY</a>
+    </div>
+</div>
+<div class="row mb-5">
+    <div class="col-md-8">
+        <hr class="my-5">
+        <div id="countdown-container">
+            <div id="countdown"></div>
+            <svg viewbox="0 0 63.66 63.66" id="timer">
+                <circle id="circle-base" cx="50%" cy="50%" r="25%" />
+                <circle id="circle-fill" cx="50%" cy="50%" r="25%" /> Sorry, your browser does not support inline SVG.
+            </svg>
+        </div>
+        <div class="text-center">
+        	<h3 class="text-dark fs-20 mb-5">We're reviewing your ID</h3>
+	        <p>Now sit back and relax. This process may take awhile</p>
+	        <p>Feel free to browse, you'll receive a dashboard and email notifications when it's done.</p>
+        </div>
+        <hr class="my-5">
+	</div>
+</div>
+<div class="row mb-5">
+    <div class="col-md-8">
+        <h3 class="py-4">Confirm profile</h3>
+        <p>To keep Sewagi secure, enable digital contract signatures and process installment requests, we’ll need you to provide us with a picture of your <strong>ID</strong> and a <strong>selfie</strong>. Your digital identity and all related documents are classified and protected. We won’t be communicating them to any third party without your consent.</p>
+        <h3 class="text-dark fs-20 my-5 text-center">“Oops! Something didn’t match”</h3>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+        	<div class="row align-items-center">
+        		<div class="col-md-8">
+        			<div class="d-flex justify-content-between">
+		                <label class="text-muted required">IDENTITY DOCUMENT</label>
+		            </div>
+		            <p>Upload your identity card/passport</p>
+        		</div>
+        		<div class="col-md-4">
+        			<div>
+		            	<span class="verified-icon">
+		            		<i class="fas fa-check"></i>
+		            	</span>
+		            	<span class="font-weight-bold">
+		            		Verified
+		            	</span>
+		            </div>
+        		</div>
+        	</div>
+        </div>
+		<hr class="my-5">
+        <div class="form-group mb-5">
+        	<div class="row align-items-center">
+        		<div class="col-md-8">
+        			<div class="d-flex justify-content-between">
+		                <label class="text-muted required">PHOTO</label>
+		            </div>
+		            <p>Upload your selfie / current photo</p>
+        		</div>
+        		<div class="col-md-4">
+        			<div>
+			        	<span class="unverified-icon">
+			        		<i class="fas fa-times"></i>
+			        	</span>
+			        	<span class="font-weight-bold">
+			        		Verification failed
+			        	</span>
+			        </div>
+        		</div>
+        	</div>
+        </div>
+        <hr class="my-5">
+        <a class="btn btn-primary" href="">DO IT AGAIN</a>
+        <p class="mt-5">Problems uploading your documents for verification? <a href="">Contact us</a> for help</p>
+    </div>
+</div>
+<div class="row mb-5">
+    <div class="col-md-8">
+    	<h3 class="py-4">Confirm profile</h3>
+        <p>To keep Sewagi secure, enable digital contract signatures and process installment requests, we’ll need you to provide us with a picture of your <strong>ID</strong> and a <strong>selfie</strong>. Your digital identity and all related documents are classified and protected. We won’t be communicating them to any third party without your consent.</p>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+        	<div class="row align-items-center">
+        		<div class="col-md-8">
+        			<div class="d-flex justify-content-between">
+		                <label class="text-muted required">IDENTITY DOCUMENT</label>
+		            </div>
+		            <p>Upload your identity card/passport</p>
+        		</div>
+        		<div class="col-md-4">
+        			<div>
+		            	<span class="verified-icon">
+		            		<i class="fas fa-check"></i>
+		            	</span>
+		            	<span class="font-weight-bold">
+		            		Verified
+		            	</span>
+		            </div>
+        		</div>
+        	</div>
+        	<div class="doc-wrap">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <img class="id-card" src="../img/ktp.jpg" alt="">
+            </div>
+        </div>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+        	<div class="row align-items-center">
+        		<div class="col-md-12">
+        			<div class="d-flex justify-content-between">
+		               	<label class="text-muted required">PHOTO</label>
+		               	<a href="#" class="btn btn-link" data-dismiss="modal" data-toggle="modal" data-target="#modalAddEmergency">+ Add new document photo</a>
+		            </div>
+		            <p>Upload your selfie / current photo</p>
+        		</div>
+        	</div>
+        	<div class="row align-items-center">
+        		<div class="col-md-8">
+        			<div class="doc-wrap">
+		                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		                    <i class="fas fa-times"></i>
+		                </button>
+		                <h4 class="fs-14 mb-0">
+		                    <span>Selfie.jpg</span>&nbsp;
+		                    <label class="text-muted">(25MB)</label>
+		                </h4>
+		            </div>
+        		</div>
+        		<div class="col-md-4">
+        			<div>
+			        	<span class="unverified-icon">
+			        		<i class="fas fa-times"></i>
+			        	</span>
+			        	<span class="font-weight-bold">
+			        		Verification failed
+			        	</span>
+			        </div>
+        		</div>
+        	</div>
+        </div>
+        <hr class="my-5">
+        <a href="#" class="btn btn-primary disabled">CONFIRM IDENTITY</a>
+    </div>
+</div>
+
+<div class="row mb-5">
+    <div class="col-md-8">
+    	<h3 class="py-4">Confirm profile</h3>
+        <p>To keep Sewagi secure, enable digital contract signatures and process installment requests, we’ll need you to provide us with a picture of your <strong>ID</strong> and a <strong>selfie</strong>. Your digital identity and all related documents are classified and protected. We won’t be communicating them to any third party without your consent.</p>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+        	<div class="row align-items-center">
+        		<div class="col-md-12">
+        			<div class="d-flex justify-content-between">
+		                <label class="text-muted required">IDENTITY DOCUMENT</label>
+		                <a href="#" class="btn btn-link" data-dismiss="modal" data-toggle="modal" data-target="#modalAddPicture2">+ Add new document photo</a>
+		            </div>
+		            <p>Upload your identity card/passport</p>
+        		</div>
+        	</div>
+        	<div class="row align-items-center">
+        		<div class="col-md-8">
+        			<div class="doc-wrap">
+		                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		                    <i class="fas fa-times"></i>
+		                </button>
+		                <img class="id-card" src="../img/ktp.jpg" alt="">
+		            </div>
+        		</div>
+        		<div class="col-md-4">
+        			<div>
+			        	<span class="unverified-icon">
+			        		<i class="fas fa-times"></i>
+			        	</span>
+			        	<span class="font-weight-bold">
+			        		Verification failed
+			        	</span>
+			        </div>
+        		</div>
+        	</div>
+        </div>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+        	<div class="row align-items-center">
+        		<div class="col-md-8">
+        			<div class="d-flex justify-content-between">
+		               	<label class="text-muted required">PHOTO</label>
+		            </div>
+		            <p>Upload your selfie / current photo</p>
+        		</div>
+        		<div class="col-md-4">
+        			<div>
+		            	<span class="verified-icon">
+		            		<i class="fas fa-check"></i>
+		            	</span>
+		            	<span class="font-weight-bold">
+		            		Verified
+		            	</span>
+		            </div>
+        		</div>
+        	</div>
+        	<div class="row align-items-center">
+        		<div class="col-md-12">
+        			<div class="doc-wrap">
+		                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		                    <i class="fas fa-times"></i>
+		                </button>
+		                <h4 class="fs-14 mb-0">
+		                    <span>Selfie.jpg</span>&nbsp;
+		                    <label class="text-muted">(25MB)</label>
+		                </h4>
+		            </div>
+        		</div>
+        	</div>
+        </div>
+        <hr class="my-5">
+        <a href="#" class="btn btn-primary disabled">CONFIRM IDENTITY</a>
+    </div>
+</div>
+
+<div class="row mb-5">
+    <div class="col-md-8">
+    	<h3 class="py-4">Confirm profile</h3>
+        <p>To keep Sewagi secure, enable digital contract signatures and process installment requests, we’ll need you to provide us with a picture of your <strong>ID</strong> and a <strong>selfie</strong>. Your digital identity and all related documents are classified and protected. We won’t be communicating them to any third party without your consent.</p>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+        	<div class="row align-items-center">
+        		<div class="col-md-12">
+        			<div class="d-flex justify-content-between">
+		                <label class="text-muted required">IDENTITY DOCUMENT</label>
+		                <a href="#" class="btn btn-link" data-dismiss="modal" data-toggle="modal" data-target="#modalAddPicture2">+ Add new document photo</a>
+		            </div>
+		            <p>Upload your identity card/passport</p>
+        		</div>
+        	</div>
+        	<div class="row align-items-center">
+        		<div class="col-md-8">
+        			<div class="doc-wrap">
+		                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		                    <i class="fas fa-times"></i>
+		                </button>
+		                <img class="id-card" src="../img/ktp.jpg" alt="">
+		            </div>
+        		</div>
+        		<div class="col-md-4">
+        			<div>
+			        	<span class="unverified-icon">
+			        		<i class="fas fa-times"></i>
+			        	</span>
+			        	<span class="font-weight-bold">
+			        		Verification failed
+			        	</span>
+			        </div>
+        		</div>
+        	</div>
+        </div>
+        <hr class="my-5">
+         <div class="form-group mb-5">
+        	<div class="row align-items-center">
+        		<div class="col-md-12">
+        			<div class="d-flex justify-content-between">
+		               	<label class="text-muted required">PHOTO</label>
+		               	<a href="#" class="btn btn-link" data-dismiss="modal" data-toggle="modal" data-target="#modalAddEmergency">+ Add new document photo</a>
+		            </div>
+		            <p>Upload your selfie / current photo</p>
+        		</div>
+        	</div>
+        	<div class="row align-items-center">
+        		<div class="col-md-8">
+        			<div class="doc-wrap">
+		                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		                    <i class="fas fa-times"></i>
+		                </button>
+		                <h4 class="fs-14 mb-0">
+		                    <span>Selfie.jpg</span>&nbsp;
+		                    <label class="text-muted">(25MB)</label>
+		                </h4>
+		            </div>
+        		</div>
+        		<div class="col-md-4">
+        			<div>
+			        	<span class="unverified-icon">
+			        		<i class="fas fa-times"></i>
+			        	</span>
+			        	<span class="font-weight-bold">
+			        		Verification failed
+			        	</span>
+			        </div>
+        		</div>
+        	</div>
+        </div>
+        <hr class="my-5">
+        <a href="#" class="btn btn-primary disabled">CONFIRM IDENTITY</a>
+    </div>
+</div>
+
+<div class="row mb-5">
+    <div class="col-md-8">
+        <h3 class="py-4">Profile confirmed</h3>
+        <p>To keep Sewagi secure, enable digital contract signatures and process installment requests, we’ll need you to provide us with a picture of your <strong>ID</strong> and a <strong>selfie</strong>. Your digital identity and all related documents are classified and protected. We won’t be communicating them to any third party without your consent.</p>
+        <h3 class="text-dark fs-20 my-5 text-center">“Your digital ID is all set!”</h3>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+        	<div class="row align-items-center">
+        		<div class="col-md-8">
+        			<div class="d-flex justify-content-between">
+		                <label class="text-muted required">IDENTITY DOCUMENT</label>
+		            </div>
+		            <p>Identity card/passport</p>
+        		</div>
+        		<div class="col-md-4">
+        			<div>
+		            	<span class="verified-icon">
+		            		<i class="fas fa-check"></i>
+		            	</span>
+		            	<span class="font-weight-bold">
+		            		Verified
+		            	</span>
+		            </div>
+        		</div>
+        	</div>
+        </div>
+		<hr class="my-5">
+        <div class="form-group mb-5">
+        	<div class="row align-items-center">
+        		<div class="col-md-8">
+        			<div class="d-flex justify-content-between">
+		                <label class="text-muted required">PHOTO</label>
+		            </div>
+		            <p>Selfie</p>
+        		</div>
+        		<div class="col-md-4">
+        			<div>
+		            	<span class="verified-icon">
+		            		<i class="fas fa-check"></i>
+		            	</span>
+		            	<span class="font-weight-bold">
+		            		Verified
+		            	</span>
+		            </div>
+        		</div>
+        	</div>
+        </div>
+        <hr class="my-5">
+    </div>
+</div>
+<div class="modal fade modal-dashboard" id="modalAddPicture2" tabindex="-1" role="dialog">
+    <div class="modal-dialog from-right" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <p class="font-weight-bolder">How do you want to add your picture?</p>
+                <div class="button-group">
+                    <a class="btn btn-primary mr-2" id="use-camera2" data-dismiss="modal" href="#" data-toggle="modal" data-target="#modalTakePicture2">Use device camera</a>
+                    <a class="btn btn-primary btn-input" href="#">
+                        Browse from file <input type="file" class="custom-file-input">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade modal-dashboard" id="modalTakePicture2" tabindex="-1" role="dialog">
+    <div class="modal-dialog from-right" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" id="stop-camera2" data-dismiss="modal" aria-label="Close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <p class="font-weight-bolder">Take your profile picture</p>
+                <div id="picture-camera-wrap2" class="mb-3">
+                    <video id="player2" width=320 height=240 autoplay></video>
+                    <canvas id="snapshot2" width=320 height=240></canvas>
+                    <div class="btn-camera-wrapper">
+                        <button id="capture2" class="btn btn-circle-icon">
+                            <i class="fas fa-camera"></i>
+                        </button>
+                        <button role="button" class="btn btn-pill btn-sm" id="retake2">Retake</button>
+                    </div>
+                </div>
+                <div class="button-group">
+                    <div>
+                        <a id="submit-picture2" class="btn btn-primary disabled mb-3" href="#">SUBMIT PICTURE</a>
+                    </div>
+                    <div>
+                        or <a class="btn btn-link btn-input" href="#">
+                            Browse from file <input type="file" class="custom-file-input">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+var player2 = document.getElementById('player2');
+var snapshotCanvas2 = document.getElementById('snapshot2');
+var captureButton2 = document.getElementById('capture2');
+var stopButton2 = document.getElementById('stop-camera2');
+var useCamera2 = document.getElementById('use-camera2');
+var retakeCamera2 = document.getElementById('retake2');
+var submitPic2 = document.getElementById('submit-picture2');
+var videoTracks2;
+
+var handleSuccess2 = function(stream) {
+    // Attach the video stream to the video element and autoplay.
+    player2.srcObject = stream;
+    videoTracks2 = stream.getVideoTracks();
+};
+
+captureButton2.addEventListener('click', function() {
+    var context2 = snapshot2.getContext('2d');
+    context2.drawImage(player2, 0, 0, snapshotCanvas2.width, snapshotCanvas2.height);
+    snapshotCanvas2.style.display = 'block';
+    retakeCamera2.style.display = 'block';
+    captureButton2.style.display = 'none';
+    submitPic2.classList.remove('disabled');
+});
+
+stopButton2.addEventListener('click', function() {
+    // Stop all video streams.
+    videoTracks2.forEach(function(track) { track.stop() });
+});
+
+
+retake.addEventListener('click', function() {
+    snapshotCanvas2.style.display = 'none';
+    retakeCamera2.style.display = 'none';
+    captureButton2.style.display = 'block';
+    submitPic2.classList.add('disabled');
+});
+
+useCamera2.addEventListener('click', function() {
+    navigator.mediaDevices.getUserMedia({ video: true })
+        .then(handleSuccess2);
+});
+
+</script>
+                    </div>
+                    <div class="tab-pane fade" id="legal-doc" role="tabpanel" aria-labelledby="legal-doc-tab">
+                        <div class="row mb-5">
+    <div class="col-md-8">
+    	<h3 class="py-4">Legal documents</h3>
+        <p>To process due diligence, tax status, compatible invoicing or using other value added services / partnership, we need you to provide us with the following legal documents.</p>
+        <p>Any related documents you provide us with are classified and protected. We won’t be communicating them to any third party without your consent.</p>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">INCORPORATION CERTIFICATE</label>
+                <a class="btn btn-link btn-input" href="#">
+                    + Add document<input type="file" class="custom-file-input">
+                </a>
+            </div>
+        </div>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">NIB</label>
+                <a class="btn btn-link btn-input" href="#">
+                    + Add document<input type="file" class="custom-file-input">
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <input type="text" class="form-control form-control-dashboard bg-white" placeholder="Enter NIB number">
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">COMPANY NPWP</label>
+                <div class="doc-wrap">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <img src="../img/close-big.png" alt="">
+                    </button>
+                    <h4 class="fs-14 mb-0">
+                        <span>Selfie.jpg</span>&nbsp;
+                        <label class="text-muted">(25MB)</label>
+                    </h4>
+                </div>
+            </div>
+             <div class="row">
+                <div class="col-md-8">
+                    <input type="text" class="form-control form-control-dashboard bg-white" placeholder="Enter Company NPWP number">
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">FOUNDER NPWP</label>
+                <a class="btn btn-link btn-input" href="#">
+                    + Add document<input type="file" class="custom-file-input">
+                </a>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <input type="text" class="form-control form-control-dashboard bg-white" placeholder="Enter Founder NPWP number">
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">PKP</label>
+                <a class="btn btn-link btn-input" href="#">
+                    + Add document<input type="file" class="custom-file-input">
+                </a>
+            </div>
+        </div>
+        <hr class="my-5">
+    </div>
+</div>
+
+<div class="row mb-5">
+    <div class="col-md-8">
+        <h3 class="py-4">Financial</h3>
+        <p>In order to process your deposit return and / or other reimbursements, please provide your bank account details.</p>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">FOREIGN BANK ACCOUNT</label>
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="foreign-switch">
+                    <label class="custom-control-label" for="foreign-switch"></label>
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">ACCOUNT HOLDER NAME</label>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <input type="text" class="form-control form-control-dashboard bg-white" placeholder="Enter account holder name">
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">BANKING ESTABLISHMENT</label>
+            </div>
+        </div>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">BANK ACCOUNT NUMBER</label>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <input type="text" class="form-control form-control-dashboard bg-white" placeholder="Enter bank account number">
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+    </div>
+</div>
+
+<div class="row mb-5">
+    <div class="col-md-8">
+        <h3 class="py-4">Financial</h3>
+        <p>In order to process your deposit return and / or other reimbursements, please provide your bank account details.</p>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">FOREIGN BANK ACCOUNT</label>
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="foreign-switch">
+                    <label class="custom-control-label" for="foreign-switch"></label>
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">ACCOUNT HOLDER NAME</label>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <input type="text" class="form-control form-control-dashboard bg-white" placeholder="Enter account holder name">
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">CURRENCY</label>
+            </div>
+        </div>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">BANK COUNTRY</label>
+            </div>
+        </div>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">BANK CITY</label>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <input type="text" class="form-control form-control-dashboard bg-white" placeholder="Enter bank city">
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">IBAN (International Bank Account Number)</label>
+            </div>
+            <p>Max 35 digit IBAN, example: CH1122222999991234567890 (Switzerland IBAN)</p>
+            <div class="row">
+                <div class="col-md-8">
+                    <input type="text" class="form-control form-control-dashboard bg-white" placeholder="Enter IBAN">
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">BENEFICIARY NAME</label>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <input type="text" class="form-control form-control-dashboard bg-white" placeholder="Enter beneficiary name">
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">BANK SWIFT CODE</label>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <input type="text" class="form-control form-control-dashboard bg-white" placeholder="Enter bank SWIFT code">
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">BANK NAME</label>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <input type="text" class="form-control form-control-dashboard bg-white" placeholder="Enter bank name">
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+    </div>
+</div>
+
+<div class="row mb-5">
+    <div class="col-md-8">
+        <h3 class="py-4">Company details</h3>
+        <p>In order to better process contracts and facilitate communications, please provide your company details.</p>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <input type="text" class="form-control form-control-dashboard bg-white" placeholder="Company name">
+                </div>
+            </div>
+        </div>
+        <div class="form-group mb-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <input type="text" class="form-control form-control-dashboard bg-white" placeholder="Enter the street address">
+                </div>
+            </div>
+        </div>
+        <div class="form-group mb-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="text" class="form-control form-control-dashboard bg-white" placeholder="Enter address number (e.g. 7, A5)">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control form-control-dashboard bg-white" placeholder="Enter details (e.g. Block, Building unit)">
+                </div>
+            </div>
+        </div>
+        <div class="form-group mb-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="text" class="form-control form-control-dashboard bg-white" placeholder="Enter city">
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control form-control-dashboard bg-white" placeholder="Enter district">
+                </div>
+            </div>
+        </div>
+        <div class="form-group mb-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <input type="text" class="form-control form-control-dashboard bg-white" placeholder="Enter post code">
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <input type="text" class="form-control form-control-dashboard bg-white" placeholder="Office phone number">
+                </div>
+            </div>
+        </div>
+        <div class="form-group mb-5">
+            <div class="row">
+                <div class="col-md-8">
+                    <input type="text" class="form-control form-control-dashboard bg-white" placeholder="Website">
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+    </div>
+</div>
+
+                    </div>
+                    <div class="tab-pane fade" id="acc-setting" role="tabpanel" aria-labelledby="acc-setting-tab">
+                        <div class="row mb-5">
+    <div class="col-md-8">
+    	<h3 class="py-4 mb-5">Security & Log in</h3>
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">Change password</label>
+                <a href="#" class="btn btn-link">Edit</a>
+            </div>
+        </div>
+
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">OLD PASSWORD</label>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="input-group input-password-group">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-transparent" type="button">
+                                <img src="../img/dashboard/twoColor/lock.svg" alt="">
+                            </button>
+                        </div>
+                        <input type="password" class="form-control form-control-dashboard form-password bg-white is-invalid" placeholder="Old password">
+                        <div class="input-group-append">
+                            <button class="btn btn-transparent btn-show-pass" type="button">
+                                <i class="far fa-eye-slash"></i>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="invalid-feedback d-flex">
+                        Oops! You have inputted the wrong password.
+                        <a class="ml-auto" data-dismiss="modal" data-toggle="modal" data-target="#modalForgotPassword" href="#">Forgot password</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">NEW PASSWORD</label>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="input-group input-password-group">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-transparent" type="button">
+                                <img src="../img/dashboard/twoColor/lock.svg" alt="">
+                            </button>
+                        </div>
+                        <input type="password" class="form-control form-control-dashboard form-password bg-white" placeholder="New password">
+                        <div class="input-group-append">
+                            <button class="btn btn-transparent btn-show-pass" type="button">
+                                <i class="far fa-eye-slash"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">CONFIRM NEW PASSWORD</label>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="input-group input-password-group">
+                        <div class="input-group-prepend">
+                            <button class="btn btn-transparent" type="button">
+                                <img src="../img/dashboard/twoColor/lock.svg" alt="">
+                            </button>
+                        </div>
+                        <input type="password" class="form-control form-control-dashboard form-password bg-white" placeholder="Confirm new password">
+                        <div class="input-group-append">
+                            <button class="btn btn-transparent btn-show-pass" type="button">
+                                <i class="far fa-eye-slash"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn btn-primary disabled">CHANGE PASSWORD</a>
+        <hr class="my-5">
+    </div>
+</div>
+
+<div class="row mb-5">
+    <div class="col-md-8">
+        <h3 class="py-4 mb-5">Notifications</h3>
+        <div class="form-group mb-5 notif-switch-group">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">RECEIVE NOTIFICATIONS ON</label>
+            </div>
+            <div class="row mb-3">
+                <div class="offset-md-3 col-md-3">
+                    Email
+                </div>
+                <div class="col-md-6">
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="email-switch" checked>
+                        <label class="custom-control-label" for="email-switch"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="offset-md-3 col-md-3">
+                    SMS
+                </div>
+                <div class="col-md-6">
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="sms-switch" checked>
+                        <label class="custom-control-label" for="sms-switch"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="offset-md-3 col-md-3">
+                    WhatsApp
+                </div>
+                <div class="col-md-6">
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="WhatsApp-switch" checked>
+                        <label class="custom-control-label" for="WhatsApp-switch"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+        <div class="form-group mb-5">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <label class="text-muted">SUBSCRIBE ME TO</label>
+            </div>
+            <div class="row mb-3">
+                <div class="offset-md-3 col-md-3">
+                    Sewagi Newsletter
+                </div>
+                <div class="col-md-6">
+                    <div class="custom-control custom-switch">
+                        <input type="checkbox" class="custom-control-input" id="newsletter-switch" checked>
+                        <label class="custom-control-label" for="newsletter-switch"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr class="my-5">
+    </div>
+</div>
+
+<div class="row mb-5">
+    <div class="col-md-8">
+        <h3 class="py-4 mb-5">Linked Accounts</h3>
+        <div class="form-group mb-4 d-flex justify-content-between align-items-center">
+            <div class="social-holder d-flex align-items-center">
+                <img class="social-img" src="../img/social-img/fb.png" alt="">
+                <h6 class="mx-3 mb-0">Facebook</h6>
+            </div>
+            <a href="#" class="btn btn-link">Link account</a>
+        </div>
+        <div class="form-group mb-4 d-flex justify-content-between align-items-center">
+            <div class="social-holder d-flex align-items-center">
+                <img class="social-img" src="../img/social-img/linkedin.png" alt="">
+                <h6 class="mx-3 mb-0">Linkedin</h6>
+            </div>
+           
+            <a href="#" class="btn btn-link">Link account</a>
+        </div>
+        <div class="form-group mb-4 d-flex justify-content-between align-items-center">
+            <div class="social-holder d-flex align-items-center">
+                <img class="social-img" src="../img/social-img/google.png" alt="">
+                <h6 class="mx-3 mb-0">Google</h6>
+                <img src="../img/ic_check.svg" alt="">
+            </div>
+            <a href="#" class="btn btn-link">Unlink</a>
+        </div>
+        <hr class="my-5">
+        <a class="btn btn-outline-primary" href="#" data-dismiss="modal" data-toggle="modal" data-target="#modalDeleteAccount">DELETE ACCOUNT</a>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalToggleWarning" tabindex="-1" role="dialog">
+    <div class="modal-dialog from-right" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" id="stop-camera2" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+                <img class="mb-5" height="200" src="../img/notif.png" alt="">
+                <p>You need to enable at least one option.</p>
+                <div class="d-flex justify-content-center">
+                    <a class="btn btn-primary my-4" href="#">GOT IT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalCantDeleteAccount" tabindex="-1" role="dialog">
+    <div class="modal-dialog from-right" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" id="stop-camera2" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+                <img class="mb-5" height="200" src="../img/warning.png" alt="">
+                <p>You can’t delete your account because someone is living in one of your listed properties.</p>
+                <div class="d-flex justify-content-center">
+                    <a class="btn btn-primary my-4" href="#" data-dismiss="modal">GOT IT</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalDeleteAccount" tabindex="-1" role="dialog">
+    <div class="modal-dialog from-right" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" id="stop-camera2" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+                <img class="mb-5" height="200" src="../img/warning.png" alt="">
+                <p>Deleting your account will cancel any scheduled tours / ongoing negotiations and delete all of your property listings. Are you sure you want to proceed?</p>
+                <div class="d-flex justify-content-center">
+                    <a class="btn btn-primary my-4 mr-4" href="#" data-dismiss="modal" data-toggle="modal" data-target="#modalThankYouAccount">YES</a>
+                    <a class="btn btn-primary my-4" data-dismiss="modal" data-toggle="modal" data-target="#modalCantDeleteAccount" href="#">NO</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalThankYouAccount" tabindex="-1" role="dialog">
+    <div class="modal-dialog from-right" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" id="stop-camera2" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+                <img class="mb-5" height="200" src="../img/thank-you.png" alt="">
+                <p>
+                    We thank you for using Sewagi for your property needs, we hope to see you again in the near future. Perhaps you might want to drop us a <a href="#">message</a> in order to better our services for you and our future customers.
+                </p>
+                <p>Don’t worry, all of your personal data will not be shared to any third party without your consent. Click <a href="#">here</a> to request deleting them permanently.</p>
+                <div class="d-flex justify-content-center">
+                    <a class="btn btn-primary my-4" href="#" data-dismiss="modal">UNDERSTOOD</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalForgotPassword" tabindex="-1" role="dialog">
+    <div class="modal-dialog from-right" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" id="stop-camera2" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+                <h3 class="mb-4">Forgot your password</h3>
+                <p class="mb-5">Don't worry. Tell us how you want to reset your password.</p>
+               
+                <a class="btn btn-outline-primary my-4 btn-block" href="#" data-dismiss="modal" data-toggle="modal" data-target="#modalForgotSMSSent">
+                    <img class="mr-2" src="../img/dashboard/twoColor/phone.svg" alt="">
+                    VIA REGISTERED PHONE
+                </a>
+                <a class="btn btn-outline-primary my-4 btn-block" href="#" data-dismiss="modal" data-toggle="modal" data-target="#modalForgotEmailSent">
+                    <img class="mr-2" src="../img/dashboard/twoColor/email.svg" alt="">
+                    VIA REGISTERED EMAIL
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalForgotSMSSent" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+
+                <img class="img-fluid" src="../img/sms.png" alt="">
+                
+                <h4 class="mb-4">SMS sent!</h4>
+                <p>We sent a text to <strong>08122392123</strong> with a link to reset <br>your password.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-dashboard" id="modalForgotEmailSent" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-body text-center">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <img src="../img/close-big.png" alt="">
+                </button>
+
+                <img class="img-fluid" src="../img/email.png" alt="">
+                
+                <h4 class="mb-4">Email sent!</h4>
+                <p>We sent an email to <strong>daniel.rki@gmail.com</strong> with<br>a link to reset your password.</p>
+            </div>
+        </div>
+    </div>
+</div>                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <!-- start: footer -->
+<footer class="section-content footer background-primary-dark pt-65 pb-33">
+  <div class="container">
+    <div class="row">
+      <div class="col-xl-2 col-md-6 col-12 footer-links mr-xl-30 mb-15">
+        <p class="text-footer-header mb-30">Services</p>
+        <ul class="list-unstyled link-item">
+          <li class="mb-10">
+            <a href="#" class="color-white">Flexible renting</a>
+          </li>
+          <li class="mb-10">
+            <a href="#" class="color-white">Property Marketing & Management</a>
+          </li>
+          <li class="mb-10">
+            <a href="#" class="color-white">Co-living</a>
+          </li>
+          <li class="mb-10">
+            <a href="#" class="color-white">Careers</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xl-2 col-md-6 col-12 footer-links mr-xl-30 mb-15">
+        <p class="text-footer-header mb-30">Company</p>
+        <ul class="list-unstyled link-item">
+          <li class="mb-10">
+            <a href="#" class="color-white">About us</a>
+          </li>
+          <li class="mb-10">
+            <a href="#" class="color-white">Ambassadors</a>
+          </li>
+          <li class="mb-10">
+            <a href="#" class="color-white">Careers</a>
+          </li>
+          <li class="mb-10">
+            <a href="#" class="color-white">Contact us</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xl-2 col-md-6 col-12 footer-links mr-xl-30 mb-15">
+        <p class="text-footer-header mb-30">FYI</p>
+        <ul class="list-unstyled link-item">
+          <li class="mb-10">
+            <a href="#" class="color-white">FAQ</a>
+          </li>
+          <li class="mb-10">
+            <a href="#" class="color-white">Terms Of Use</a>
+          </li>
+          <li class="mb-10">
+            <a href="#" class="color-white">Trust & Safety</a>
+          </li>
+          <li class="mb-10">
+            <a href="#" class="color-white">Code Of Conduct</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-xl-5 col-12 d-flex flex-column flex-wrap justify-content-start align-items-end footer-links pl-xl-50 mb-15">
+        <div class="stay-connected w-100">
+          <p class="text-footer-header mb-30">FOUND A HOME YOU LIKE BUT NOT ON THE TERMS YOU WANT?</p>
+          <a class="btn btn-primary btn-block" href="#">Share it here and we'll make it happen</a>
+          <div class="mt-30 opacity-box">
+            <p class="text-footer-header py-5 mb-0">Subscribe to our newsletter!</p>
+            <div class="form-subscribe input-group mb-10">
+              <input type="text" class="form-control" placeholder="What's your email?" aria-label="Text input with segmented dropdown button">
+              <div class="input-group-prepend">
+                <button type="button" class="btn btn-primary">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row footer-bottom pt-35">
+      <div class="col-md-7 col-12">
+        <ul class="list-inline link-item footer-bottom-list mb-md-0">
+          <li class="list-inline-item mr-50">
+            <i class="fas fa-globe-asia color-white font-size-22 mr-10"></i> <a href="#" class="color-white font-weight-light mr-15">Id</a> <a href="#" class="color-white font-weight-light">En</a>
+          </li>
+          <li class="list-inline-item">
+            <i class="fas fa-coins color-white font-size-22 mr-10"></i> <a href="#" class="color-white font-weight-light mr-15">IDR</a> <a href="#" class="color-white font-weight-light">USD</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-5 col-12 copyright color-white" id="copyright">
+        <div class="row">
+          <div class="col-6">
+            <ul class="list-inline social-items text-left mb-0">
+              <li class="list-inline-item">
+                <a href="#" class="mr-10 no-style icon icon-med">
+                  <i class="fab fa-facebook-square color-white"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="mr-10 no-style icon icon-med">
+                  <i class="fab fa-twitter color-white"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#" class="mr-10 no-style icon icon-med">
+                  <i class="fab fa-instagram color-white"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6">
+            <img class="sewagi-copy" src="../img/sewagi-logo-only.png" alt="Sewagi Brand"> Sewagi &copy; 2019
+            <!-- <script>
+                document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))
+            </script> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- end: footer -->
+    
+<script type="text/javascript" src="../js/sewagi.js"></script>
+
+<script>
+$('#modalLogin').modal('show');
+</script>
+</body>
+
+</html>

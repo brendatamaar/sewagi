@@ -1,0 +1,188 @@
+<div class="sidebase-sticky justify-content-center">
+    <div class="container booking-sticky-container booking-sticky">
+      <div class="row">
+        <div class="col-md-12">
+            <div class="booking-sticky-content">
+                <div class="btn-group-toggle d-flex border-bottom" data-toggle="buttons">
+                    <button class="btn btn-checkbox btn-outline-primary flex-fill mr-2">
+                        <input type="radio">
+                        Co-Living
+                    </button>
+                    <button class="btn btn-checkbox btn-outline-primary flex-fill">
+                        <input type="radio">
+                        Entire House
+                    </button>
+                </div>
+                <div class="d-flex">
+                    <div class="tabs-navigator" data-navi="prev"><span class="fas fa-chevron-left"></span></div>
+                    <ul class="d-flex flex-fill nav nav-tabs tabs-default tabs-fill text-uppercase btn-group-toggle" data-toggle="buttons">
+                        <li class="nav-item">
+                            <div class="nav-link btn active"><input type="radio" name="month" value="12" checked="">1 Year</div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="nav-link btn"><input type="radio" name="month" value="1">1 Month</div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="nav-link btn"><input type="radio" name="month" value="3">3 Months</div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="nav-link btn"><input type="radio" name="month" value="6">6 Months</div>
+                        </li>
+                    </ul>
+                    <div class="tabs-navigator" data-navi="next"><span class="fas fa-chevron-right"></span></div>
+                </div>
+                <div class="col btm-sticky">
+                    <div class="form-group">
+                         <select class="select2 js-select2 form-control input-aqua mb-10" placeholder="Master Bedroom">
+                            <option>Master Bedroom</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <select class="select2 js-select2-info form-control input-aqua mb-10">
+                            <option value="" data-description="A YEAR UPFRONT">IDR 120.000.000</option>
+                            <option value="" data-description="A YEAR UPFRONT">IDR 140.000.000</option>
+                        </select>
+                    </div>
+
+                    <div class="text-center font-size-12 mt-15 mb-15">
+                        Not Satisfied with the price? <a href="javascript:void(0);" class="negotiate-btn" data-dismiss="modal" data-toggle="modal" data-target="#modalLetsNego">Let's Negotiate</a><a data-toggle="popover" data-container="body" data-placement="right" role="button" data-html="true" id="payment-schedule" class="btn-block" href="javascript:void(0);">Popover 1</a>
+                    </div>
+
+                    <div class="form-group">
+                        <a href="javascript:void(0);" class="btn btn-orange btn-block" id="view-monthly-installment">
+                            VIEW MONTHLY INSTALLMENT RATE
+                        </a>
+                    </div>
+
+                    <div id="monthly-installment-holder" style="display: none;">
+                        <a href="javascript:void(0);" class="btn btn-outline-orange btn-block" id="close-monthly-installment">
+                            CLOSE MONTHLY INSTALLMENT RATES
+                        </a>
+                        <a href="#" class="btn-monthly-installment btn-white p-7 mt-7">
+                            <img src="../img/gradana.png" alt="">
+                            <h4>
+                                IDR 13.000.000
+                                <small>
+                                    PAID MONTHLY
+                                </small>
+                            </h4>
+                        </a>
+                        <a href="#" class="btn-monthly-installment btn-white p-7 mt-7">
+                            <img src="../img/cicilsewa.png" alt="">
+                            <h4>
+                                IDR 12.500.000
+                                <small>
+                                    PAID MONTHLY
+                                </small>
+                            </h4>
+                        </a>
+                    </div>
+                    
+                    <div id="popover-content-payment-schedule" class="popover-custom" style="display: none">
+                        <div class="pop-header pop-secondary">
+                            Payment schedule
+                            <div class="close-popover" data-dismiss="popover">
+                                <i class="fas fa-times pointer"></i>
+                            </div>
+                        </div>
+                        <div class="pop-body">
+                            <div>
+                                <table class="table table-bordered" border="1" style="width:100%">                
+                                    <tr>
+                                        <td scope="row">Month 1</td>
+                                        <td>IDR 12,500,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">Month 2</td>
+                                        <td>IDR 12,500,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">Month 3</td>
+                                        <td>IDR 12,500,000</td>
+                                    </tr>
+                                    <tr>
+                                        <td scope="row">Month 3</td>
+                                        <td>IDR 12,500,000</td>
+                                    </tr>  
+                                    <tr>
+                                        <th scope="row">Month 3</td>
+                                        <th>IDR 12,500,000</td>
+                                    </tr>                                    
+                                </table>
+                            </div>
+                           
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <a href="#" class="btn btn-primary btn-block px-0">
+                                    SCHEDULE<br>ONSITE TOUR
+                                </a>
+                            </div>
+                            <div class="col-md-6">
+                                <a href="#" class="btn btn-primary btn-block px-0">
+                                    SCHEDULE<br>LIVE VIRTUAL TOUR
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <a href="javascript:void(0);" class="btn btn-outline-primary btn-block" data-dismiss="modal" data-toggle="modal" data-target="#modalVisitThisProperty">
+                            BOOK NOW
+                        </a>
+                    </div>
+                    <a data-toggle="popover" data-container="body" data-placement="right" role="button" data-html="true" id="published-rates" class="font-size-12 text-center btn-block" href="javascript:void(0);">Read more about published rates</a>
+
+                    <div id="popover-content-published-rates" class="popover-custom" style="display: none">
+                        <div class="pop-header pop-primary">
+                            More about published rates
+                            <div class="close-popover" data-dismiss="popover">
+                                <i class="fas fa-times pointer"></i>
+                            </div>
+                        </div>
+                        <div class="pop-body">
+                            <div>
+                                <p><strong>
+                                    Non inclusive in published rates
+                                </strong></p>
+                                <p>Residence charge IDR 2,500,000 / Month<br>
+                                    Renter's insurance fee ~ IDR 150,000
+                                </p>
+                            </div>
+                           
+                        </div>
+                    </div>
+
+                </div>
+                <div class="d-flex">
+                    <button class="btn btn-footer flex-fill btn-white"><img src="https://sewagi-web.inspira.web.id/img/ic_logout.svg"> Share it</button>
+                    <button class="btn btn-footer flex-fill btn-white">Save It</button>
+                    <button class="btn btn-footer flex-fill btn-white"><img src="https://sewagi-web.inspira.web.id/img/ic_heart.svg"> Favorites</button>
+                </div>
+
+            </div>
+        </div>
+      </div>
+
+    </div>
+</div>
+
+<div id="schedule-modal">
+    <div class="container">
+      <div class="row">
+          <div class='col-sm-6'>
+              <div class="form-group">
+                  <div class='input-group date' id='datetimepicker1'>
+                      <input type='text' class="form-control" />
+                      <span class="input-group-addon">
+                          <span class="glyphicon glyphicon-calendar"></span>
+                      </span>
+                  </div>
+              </div>
+          </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Sewagi</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+
+<body id="list-property">
+
+    <!-- start: navbar -->
+<nav id="list-property-navbar" class="navbar navbar-expand-lg navbar-light bg-white nav-border fixed-top navbar-transparent py-4"
+    solid-on-scroll>
+    <div class="container">
+        <a class="navbar-brand" href="#" data-toggle="modal" data-target="#modalConfirmation" style="background-image: url('../images/Logo.svg');">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarListPropertyContent"
+            aria-controls="navbarListPropertyContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-between" id="navbarListPropertyContent">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item">
+                        <a href="#">
+                            <span>1</span>
+                            Basic property information
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                        <a href="#">
+                            <span>2</span>
+                            Tell us the details
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item" aria-current="page">
+                        <a class="disabled" href="#">
+                            <span>3</span>
+                            Payment preferences
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item" aria-current="page">
+                        <a class="disabled" href="#">
+                            <span>4</span>
+                            Review & Submit
+                        </a>
+                    </li>
+                </ol>
+            </nav>
+            <a class="save-draft-link" href="#">
+                Save as Draft
+            </a>
+
+
+        </div>
+    </div>
+</nav>
+<!-- end: navbar -->
+    <div class="list-property-wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <!-- Sidebar List Property -->
+<nav class="navbar-vertical navbar-light">
+
+    <ul class="navbar-nav flex-column">
+        <li class="nav-item active">
+            <a class="btn" href="#">
+                DESCRIPTION & HOUSE RULES
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="btn disabled" href="#">
+                AMENITIES & FACILITIES
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="btn disabled" href="#">
+                PHOTOS
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="btn disabled" href="#">
+                LEGAL DETAILS
+            </a>
+        </li>
+    </ul>
+
+    <a href="#" id="btn-chat">
+        <img src="../img/btn-chat.png" alt="">
+    </a>
+
+</nav>
+<!-- End Sidebar List Property -->
+                </div>
+                <div class="col-md-10">
+                    <div class="list-property-content">
+    <div class="row">
+        <div class="col-md-10">
+            <div class="mb-5">
+                <h4 class="mb-4 required">Give a title describing your property</h4>
+                <div class="form-group">
+                    <textarea class="form-control form-control-dashboard" placeholder="E.g. Amazing Cityscape - SCBD Apartment" rows="2" maxlength="60"></textarea>
+                </div>
+            </div>
+
+            <div class="mb-5">
+                <h4 class="mb-4 required">Give more details to better describe your property</h4>
+                <div class="form-group">
+                    <textarea class="form-control form-control-dashboard" placeholder="E.g. Amazing Cityscape - SCBD Apartment" rows="6" maxlength="300"></textarea>
+                </div>
+            </div>  
+            <div class="mb-5">
+                <h4 class="mb-4 required">Select design preferences best describing your property</h4>
+                <p class="text-muted fs-12">You may select up to 2 styles</p>
+                <div class="row">
+                    <div class="col-md-3 mb-3 text-center">
+                        <img src="../img/list-property/industrial.jpg" alt="" class="img-fluid my-4">
+                        <div class="btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                <input type="checkbox">+ Industrial
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3 text-center">
+                        <img src="../img/list-property/minimalist.jpg" alt="" class="img-fluid my-4">
+                        <div class="btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                <input type="checkbox">+ Minimalist
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3 text-center">
+                        <img src="../img/list-property/contemporary.jpg" alt="" class="img-fluid my-4">
+                        <div class="btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                <input type="checkbox">+ Contemporary
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3 text-center">
+                        <img src="../img/list-property/vintage.jpg" alt="" class="img-fluid my-4">
+                        <div class="btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                <input type="checkbox">+ Vintage
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3 text-center">
+                        <img src="../img/list-property/traditional.jpg" alt="" class="img-fluid my-4">
+                        <div class="btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                <input type="checkbox">+ Traditional
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3 text-center">
+                        <img src="../img/list-property/scandinavian.jpg" alt="" class="img-fluid my-4">
+                        <div class="btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                <input type="checkbox">+ Scandinavian
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3 text-center">
+                        <img src="../img/list-property/coastal.jpg" alt="" class="img-fluid my-4">
+                        <div class="btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                <input type="checkbox">+ Coastal
+                            </label>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3 text-center">
+                        <img src="../img/list-property/unconventional.jpg" alt="" class="img-fluid my-4">
+                        <div class="btn-group-toggle" data-toggle="buttons">
+                            <label class="btn btn-sm btn-checkbox btn-outline-primary">
+                                <input type="checkbox">+ Unconventional
+                            </label>
+                        </div>
+                    </div>
+
+                </div>
+            </div>  
+            <div class="mb-5">
+                <h4 class="mb-4 required">Select your property land area type</h4>
+                <div class="form-group">
+                    <select class="select2 select2-list-property" name="" id="property-land-area">
+                        <option value=""></option>
+                        <option value="Residential">Residential</option>
+                        <option value="Non Residential">Non Residential</option>
+                    </select>
+                </div>
+            </div>    
+            <div class="mb-5">
+                <h4 class="mb-4 required">Select your property arrangement</h4>
+                <div class="form-group">
+                    <select class="select2 select2-list-property" name="" id="property-arrangement">
+                        <option value=""></option>
+                        <option value="Townhouse">Townhouse</option>
+                        <option value="Standalone">Standalone</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mb-5">
+                <h4 class="mb-4 required">On which floor is your property?</h4>
+                <div class="form-group">
+                    <select class="select2 select2-list-property" name="" id="property-floor">
+                        <option value=""></option>
+                        <option value="Below 5 stories">Below 5 stories</option>
+                        <option value="Between 5-10 stories">Between 5-10 stories</option>
+                        <option value="Above 10 stories">Above 10 stories</option>
+                    </select>
+                </div>
+            </div>
+            <div class="mb-5">
+                <h4 class="mb-4">Do you have any property rules?</h4>
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-between">
+                        <p id="pet-switch-label">Pet Friendly</p>
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" id="pet-switch" checked>
+                            <label class="custom-control-label" for="pet-switch"></label>
+                        </div>   
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-10 border-top py-5 justify-content-between d-flex">
+            <a class="btn btn-link btn-prev-list-property d-flex align-items-center" href="#">
+                <i class="fas fa-long-arrow-alt-left mr-2"></i>
+                Previous
+            </a>
+            <a class="btn btn-primary btn-next-list-property" href="#">
+                Next
+                <i class="fas fa-long-arrow-alt-right ml-2"></i>
+            </a>
+        </div>
+    </div>
+</div>                </div>
+            </div>
+        </div>
+    </div>
+
+    
+<script type="text/javascript" src="../js/sewagi.js"></script>
+
+<script>
+$('#modalLogin').modal('show');
+</script>
+</body>
+
+</html>
