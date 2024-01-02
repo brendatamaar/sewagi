@@ -17,12 +17,12 @@
                 <i class="fas fa-quote-left"></i>
               </div>
               <div class="testimonial-text text-center">
-                <p class="font-size-20 mb-0">{{ getLocale($locale_recommend, 'label2', '') }}</p>
+                <p class="font-size-20 mb-0">Sewagi allows me to handle my property from anywhere. No more spending time in traffic just to sign lease contract.</p>
               </div>
               <div class="testimonial-image text-center">
                 <img class="rounded-circle" src="../img/testi.jpg" alt="testimonial User">
                 <span class="testimonial-name d-block mb-10">George Norton</span>
-                <span class="testimonial-role d-block">{{ getLocale($locale_recommend, 'label3', '') }}</span>
+                <span class="testimonial-role d-block">Homeowner</span>
               </div>
             </div>
           </div>
@@ -34,12 +34,12 @@
                 <i class="fas fa-quote-left"></i>
               </div>
               <div class="testimonial-text text-center">
-                <p class="font-size-20 mb-0">{{ getLocale($locale_recommend, 'label2', '') }}</p>
+                <p class="font-size-20 mb-0">Sewagi allows me to handle my property from anywhere. No more spending time in traffic just to sign lease contract.</p>
               </div>
               <div class="testimonial-image text-center">
                 <img class="rounded-circle" src="../img/testi.jpg" alt="testimonial User">
                 <span class="testimonial-name d-block mb-10">George Norton</span>
-                <span class="testimonial-role d-block">{{ getLocale($locale_recommend, 'label3', '') }}</span>
+                <span class="testimonial-role d-block">Homeowner</span>
               </div>
             </div>
           </div>
@@ -51,12 +51,12 @@
                 <i class="fas fa-quote-left"></i>
               </div>
               <div class="testimonial-text text-center">
-                <p class="font-size-20 mb-0">{{ getLocale($locale_recommend, 'label2', '') }}</p>
+                <p class="font-size-20 mb-0">Sewagi allows me to handle my property from anywhere. No more spending time in traffic just to sign lease contract.</p>
               </div>
               <div class="testimonial-image text-center">
                 <img class="rounded-circle" src="../img/testi.jpg" alt="testimonial User">
                 <span class="testimonial-name d-block mb-10">George Norton</span>
-                <span class="testimonial-role d-block">{{ getLocale($locale_recommend, 'label3', '') }}</span>
+                <span class="testimonial-role d-block">Homeowner</span>
               </div>
             </div>
           </div>

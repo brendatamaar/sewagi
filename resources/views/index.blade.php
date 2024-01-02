@@ -12,7 +12,7 @@
     <!-- end: cookie -->
 
     <!-- start: home -->
-    <section class="section-content d-flex flex-column flex-wrap justify-content-center align-items-center vh-min-100 background-gradient-1">
+    <section class="section-content d-flex flex-column flex-wrap justify-content-center vh-min-100 background-gradient-1">
       <div class=""></div>
       <button class="btn-chat background-primary">
         <i class="fas fa-comment-alt"></i>

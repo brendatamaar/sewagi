@@ -3,58 +3,58 @@
   <div class="container">
     <div class="row">
       <div class="col-xl-2 col-md-6 col-12 footer-links mr-xl-30 mb-15">
-        <p class="text-footer-header mb-30">{{ getLocale($locale_footer, 'label-service-1', '') }}</p>
+        <p class="text-footer-header mb-30">Services</p>
         <ul class="list-unstyled link-item">
             <li class="mb-10">
-                <a href="#" class="color-white">{{ getLocale($locale_footer, 'label-service-2', '') }}</a>
+                <a href="#" class="color-white">Flexible renting</a>
             </li>
             <li class="mb-10">
-                <a href="#" class="color-white">{{ getLocale($locale_footer, 'label-service-3', '') }}</a>
+                <a href="#" class="color-white">Property Marketing & Management</a>
             </li>
             <li class="mb-10">
-                <a href="#" class="color-white">{{ getLocale($locale_footer, 'label-service-4', '') }}</a>
+                <a href="#" class="color-white">Realty Insurance</a>
             </li>
             <li class="mb-10">
-                <a href="#" class="color-white">{{ getLocale($locale_footer, 'label-service-5', '') }}</a>
+                <a href="#" class="color-white">Co-Brokerage</a>
             </li>
         </ul>
       </div>
       <div class="col-xl-2 col-md-6 col-12 footer-links mr-xl-30 mb-15">
-        <p class="text-footer-header mb-30">{{ getLocale($locale_footer, 'label-company-1', '') }}</p>
+        <p class="text-footer-header mb-30">Company</p>
         <ul class="list-unstyled link-item">
           <li class="mb-10">
-            <a href="#" class="color-white">{{ getLocale($locale_footer, 'label-company-2', '') }}</a>
+            <a href="#" class="color-white">About</a>
           </li>
         </ul>
       </div>
       <div class="col-xl-2 col-md-6 col-12 footer-links mr-xl-30 mb-15">
-        <p class="text-footer-header mb-30">{{ getLocale($locale_footer, 'label-information-1', '') }}</p>
+        <p class="text-footer-header mb-30">FYI</p>
         <ul class="list-unstyled link-item">
           <li class="mb-10">
-            <a href="#" class="color-white">{{ getLocale($locale_footer, 'label-information-2', '') }}</a>
+            <a href="#" class="color-white">FAQ</a>
           </li>
           <li class="mb-10">
-            <a href="#" class="color-white">{{ getLocale($locale_footer, 'label-information-3', '') }}</a>
+            <a href="#" class="color-white">Terms of use</a>
           </li>
           <li class="mb-10">
-            <a href="#" class="color-white">{{ getLocale($locale_footer, 'label-information-4', '') }}</a>
+            <a href="#" class="color-white">Trust & Safety</a>
           </li>
           <li class="mb-10">
-            <a href="#" class="color-white">{{ getLocale($locale_footer, 'label-information-5', '') }}</a>
+            <a href="#" class="color-white">Code of Conduct</a>
           </li>
         </ul>
       </div>
       <div class="col-xl-5 col-12 d-flex flex-column flex-wrap justify-content-start align-items-end footer-links pl-xl-50 mb-15">
         <div class="stay-connected w-100">
                         
-            <p class="text-footer-header mb-30">{{ getLocale($locale_footer, 'label-footer-right-1', '') }}</p>
-          <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#share-it-here-modal">{{ getLocale($locale_footer, 'label-footer-right-2', '') }}</button>
+            <p class="text-footer-header mb-30">FOUND A HOME YOU LIKE BUT NOT ON THE TERMS YOU WANT?</p>
+          <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#share-it-here-modal">Share it here and we'll make it happen</button>
           <div class="mt-30">
-            <p class="text-footer-header py-5 mb-0">{{ getLocale($locale_footer, 'label-footer-right-3', '') }}</p>
+            <p class="text-footer-header py-5 mb-0">Subscribe to our newsletter!</p>
             <div class="form-get-subbed input-group mb-10">
-              <input type="text" class="form-control" placeholder="{{ getLocale($locale_footer, 'label-footer-right-4', '') }}" aria-label="Text input with segmented dropdown button">
+              <input type="text" class="form-control" placeholder="What's your email?" aria-label="Text input with segmented dropdown button">
               <div class="input-group-prepend">
-                <button type="button" class="btn btn-primary">{{ getLocale($locale_footer, 'label-footer-right-5', '') }}</button>
+                <button type="button" class="btn btn-primary">Subscribe</button>
               </div>
             </div>
           </div>
