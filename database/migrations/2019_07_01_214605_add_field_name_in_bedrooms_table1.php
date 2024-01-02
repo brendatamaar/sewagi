@@ -25,8 +25,8 @@ class AddFieldNameInBedroomsTable1 extends Migration
      */
     public function down()
     {
-        Schema::table('bedrooms_table1', function (Blueprint $table) {
-            $table->dropColumn( 'name');
-        });
+        // Schema::table('bedrooms_table', function (Blueprint $table) {
+        //     $table->dropColumn( 'name');
+        // });
     }
 }

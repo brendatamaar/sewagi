@@ -13,19 +13,19 @@ class BedroomAmenitySeeder extends Seeder
      */
     public function run()
     {
-        DB::statement('SET FOREIGN_KEY_CHECKS=0');
-        DB::table('bedroom_amenities')->truncate();
-        DB::statement('SET FOREIGN_KEY_CHECKS=1');
+        // DB::statement('SET FOREIGN_KEY_CHECKS=0');
+        // DB::table('bedroom_amenities')->truncate();
+        // DB::statement('SET FOREIGN_KEY_CHECKS=1');
 
-        $faker = Faker\Factory::create();
-        $bedroomList = Bedroom::all(); 
-        foreach ($bedroomList as $key => $value){
-            for($i = 1 ; $i <= $faker->numberBetween($min = 1, $max = 4); $i++){
-                BedroomAmenity::create([
-                    'bedroom_id' => $value->id,
-                    'amenity_id' => $i
-                ]);
-            }
-        }
+        // $faker = Faker\Factory::create();
+        // $bedroomList = Bedroom::all(); 
+        // foreach ($bedroomList as $key => $value){
+        //     for($i = 1 ; $i <= $faker->numberBetween($min = 1, $max = 4); $i++){
+        //         BedroomAmenity::create([
+        //             'bedroom_id' => $value->id,
+        //             'amenity_id' => $i
+        //         ]);
+        //     }
+        // }
     }
 }

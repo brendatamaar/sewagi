@@ -12,12 +12,12 @@ class PropertySeeder extends Seeder
      */
     public function run()
     {
-        DB::statement('SET FOREIGN_KEY_CHECKS=0');
-        Property::truncate();
-        DB::statement('SET FOREIGN_KEY_CHECKS=1');
+        // DB::statement('SET FOREIGN_KEY_CHECKS=0');
+        // Property::truncate();
+        // DB::statement('SET FOREIGN_KEY_CHECKS=1');
         
-        $this->createApartment(25);
-        $this->createHouse(25);
+        // $this->createApartment(25);
+        // $this->createHouse(25);
     }
 
     public function createApartment($count)

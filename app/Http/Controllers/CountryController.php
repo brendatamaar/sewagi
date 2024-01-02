@@ -18,7 +18,7 @@ class CountryController extends Controller
     {
         $client = new Client();
         try {
-            $response = $client->get("https://restcountries.eu/rest/v2/all");
+            $response = $client->get("https://restcountries.com/v2/all");
             if ($response->getStatusCode() == 200) {
                 $body = $response->getBody();
                 $data = json_decode($body);
