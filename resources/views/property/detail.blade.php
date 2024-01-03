@@ -3,8 +3,8 @@
 <div class="container">
     <div class="row">
         <div class="col-md-9 pt-28">
-            <h3 class="text-color-dark">{{ $detail->title }}</h3>
-            <p class="mb-0 font-size-14 text-color-gray-8">{{ $detail->district }}, {{ $detail->city }}</p>
+            <h3 class="text-color-dark">Amazing Cityspace - Cipete Utara</h3>
+            <p class="mb-0 font-size-14 text-color-gray-8">Cipete, Jakarta Selatan</p>
         </div>
     </div>
 <div class="tabs" data-background-color="white" id="shortcut-menu">
@@ -56,18 +56,14 @@
     <div class="container px-0">
         <div id="carousel-detail" class="card-img-top carousel slide carousel-watcher" data-ride="carousel">
             <div class="carousel-inner">
-                @foreach($sliderImages as $key => $value)
-                <div class="carousel-item {{ ($key == 0?' active':'') }}">
-                    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="{{ rtrim(env('AWS_URL'), '/')}}/{{ trim($value->path, '/') }}">
-                        <img class="d-block w-100" src="{{ rtrim(env('AWS_URL'), '/')}}/{{ trim($value->path, '/') }}">
+                <div class="carousel-item-active">
+                    <a class="fancybox-thumbs" data-fancybox-group="thumb" href="https://cdn.pixabay.com/photo/2016/11/18/17/46/architecture-1836070_1280.jpg">
+                        <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/11/18/17/46/architecture-1836070_1280.jpg">
                     </a>
                 </div>
-                @endforeach
             </div>
             <ol class="carousel-indicators">
-                @foreach($sliderImages as $key => $value)
-                    <li data-target="#carousel-detail" data-slide-to="{{ $key }}" class="{{ ($key == ($totalPhoto-1)?' active':'') }}"></li>
-                @endforeach
+                <li data-target="#carousel-detail" data-slide-to="1" class="active"></li>
             </ol>
             <button type="button" class="btn btn-prev btn-primary" role="button" data-target="#carousel-detail" data-slide="prev">←</button>
             <button type="button" class="btn btn-next btn-primary" role="button" data-target="#carousel-detail" data-slide="next" disabled="">→</button>
@@ -119,40 +115,23 @@
                         <div class="row mt-4">
                             <div class="col-md-12 text-color-gray-1">
                                 <div class="d-flex align-items-start font-size-14 mb-3">
-                                    @if($detail->type == 'apartment')
-                                        <img src="https://sewagi-web.inspira.web.id/img/001-home.svg" class="mr-2" width="24px">
+                                    <img src="{{ asset('img/001-home.svg') }}" class="mr-2" width="24px">
                                         <ul class="category-list dot-separator">
-                                            <li>{{$detail->unit_size}} m<sup>2</sup></li>
-                                            <li>{{ session('locale') == 'en' ? $detail->floor_range : str_replace(['above', 'between', 'below'], ['diatas', 'antara', 'dibawah'], $detail->floor_range) }} {{ session('locale') == 'en' ? 'floor' : 'lantai' }}</li>
-                                            <li>{{$detail->bedrooms}} {{ session('locale') == 'en' ? 'bedrooms' : 'kamar' }}</li>
-                                            <li>{{$detail->bathrooms}} {{ session('locale') == 'en' ? 'bathrooms' : 'kamar mandi' }}</li>
-                                            @if($detail->rented_room != 0)
-                                            <li>{{$detail->rented_room}} {{ session('locale') == 'en' ? 'Live-in Housemates' : 'kawan serumah' }}</li>
-                                            @endif
+                                            <li><b>72 m<sup>2</sup></b></li>
+                                            <li><b>below 5 stories</b></li>
+                                            <li><b>3 bedroom</b></li>
+                                            <li><b>2 bathroom</b></li>
                                         </ul>
-                                    @elseif($detail->type == 'house')
-                                        <img src="https://sewagi-web.inspira.web.id/img/001-home.svg" class="mr-2" width="24px">
-                                        <ul class="category-list dot-separator">
-                                            <li>{{$detail->land_area_type}}</li>
-                                            <li>{{$detail->arrangement}}</li>
-                                            <li>{{$detail->building_size}} m<sup>2</sup></li>
-                                            <li>{{$detail->bedrooms}} {{ session('locale') == 'en' ? 'bedrooms' : 'kamar' }}</li>
-                                            <li>{{$detail->bathrooms}} {{ session('locale') == 'en' ? 'bathrooms' : 'kamar mandi' }}</li>
-                                            @if($detail->rented_room != 0)
-                                            <li>{{$detail->rented_room}} {{ session('locale') == 'en' ? 'Live-in Housemates' : 'kawan serumah' }}</li>
-                                            @endif
-                                        </ul>
-                                    @endif
                                 </div>
                                 <div>
-                                    {{$detail->description}}
+                                    Cipete Utara is a place for dreamers to reset, reflect and create. Designed with a 'slow' pace in mind, our hope is that you enjoy every part of your stay; from making local coffee by drip in the morning, choosing the perfect record to put as the sun sets, or by relaxing in the hot tub surrounded by a starry night sky.
                                 </div>
                                 <div class="d-flex align-items-center mt-2 mb-15">
                                     <div class="text-uppercase font-size-12 text-color-gray-7 mr-1">{{ session('locale') == 'en' ? 'Style' : 'Model' }}</div>
                                     <ul class="category-list font-size-14 text-color-gray-1 font-weight-600">
-                                        @foreach($detail->stylesProperty as $style)
-                                            <li><a class="no-style" href="javascript:void(0);">#{{ !empty($style->name) ? (session('locale')=='en' ? $style->name : $style->id_name ) : '-' }}</a></li>
-                                        @endforeach
+                                        <li><a class="no-style" href="javascript:void(0);">#modern</a></li>
+                                        <li><a class="no-style" href="javascript:void(0);">#minimalist</a></li>
+                                        
                                     </ul>
                                 </div>
                             </div>
@@ -161,7 +140,6 @@
                     </div>
                 </div>
                 <hr>
-                @if(count($detail->propertyPrice) > 0)
                 <div id="inclusive-sec" class="py-50">
                     <div class="container">
                         <div class="row mt-4 mb-4">
@@ -170,85 +148,108 @@
                             </div>
                         </div>
                         <div class="row">
-                            @foreach($detail->propertyPrice as $val)
                             <div class="col-md-12">
-                                @if($val->living_condition == 'entire-space')
-                                    @if (session('locale')=='en')
-                                        <h4 class="ml-30 mt-10">Entire {{ ucfirst($detail->type) }}</h4>
-                                    @else
-                                        <h4 class="ml-30 mt-10">{{ ucfirst($detail->type)=='house' ? 'Rumah' : 'Apartemen' }} dihuni sendiri</h4>
-                                    @endif
-                                @else
-                                    <h4 class="ml-30 mt-10">{{ (session('locale')=='en') ? 'Co-Living' : 'Hunian Bersama' }} </h4>
-                                @endif
+                                <h4 class="ml-30 mt-10">Entire House</h4>
                                 <div class="row text-color-gray-1 mb-4">
-                                    @if($val->is_include_internet == 1)
                                     <div class="feature-grid">
                                         <!-- <img src="https://sewagi-web.inspira.web.id/img/001-home.svg" class="mr-2" width="24px"> -->
                                         <i class="fas fa-globe"></i>
                                         <div>{{ session('locale')=='en' ? 'Internet' : 'Internet' }}</div>
                                     </div>
-                                    @endif
-                                    @if($val->is_include_park == 1)
                                     <div class="feature-grid">
                                         <!-- <img src="https://sewagi-web.inspira.web.id/img/001-home.svg" class="mr-2" width="24px"> -->
                                         <i class="fa fa-parking"></i>
                                         <div>{{ session('locale')=='en' ? 'Private parking slot' : 'Parkir pribadi' }}</div>
                                     </div>
-                                    @endif
-                                    @if($val->is_include_tv_cable == 1)
                                     <div class="feature-grid">
                                         <!-- <img src="https://sewagi-web.inspira.web.id/img/001-home.svg" class="mr-2" width="24px"> -->
                                         <i class="fa fa-tv"></i>
                                         <div>{{ session('locale')=='en' ? 'TV cable' : 'TV kabel' }}</div>
                                     </div>
-                                    @endif
-                                    @if($val->is_include_cleaning == 1)
                                     <div class="feature-grid">
                                         <!-- <img src="https://sewagi-web.inspira.web.id/img/001-home.svg" class="mr-2" width="24px"> -->
                                         <i class="fas fa-broom"></i>
                                         <div>{{ session('locale')=='en' ? 'Cleaning service' : 'Layanan kebersihan' }}</div>
                                     </div>
-                                    @endif
-                                    @if($val->charge_fee == 1)
                                     <div class="feature-grid">
                                         <!-- <img src="https://sewagi-web.inspira.web.id/img/001-home.svg" class="mr-2" width="24px"> -->
                                         <i class="far fa-building"></i>
                                         <div>{{ session('locale')=='en' ? 'Resident service charge fee' : 'Biaya layanan warga' }}</div>
                                     </div>
-                                    @endif
+                                    
+                                </div>
+
+                                <h4 class="ml-30 mt-10">Co-Living</h4>
+                                <div class="row text-color-gray-1 mb-4">
+                                    <div class="feature-grid">
+                                        <!-- <img src="https://sewagi-web.inspira.web.id/img/001-home.svg" class="mr-2" width="24px"> -->
+                                        <i class="fas fa-globe"></i>
+                                        <div>{{ session('locale')=='en' ? 'Internet' : 'Internet' }}</div>
+                                    </div>
+                                    <div class="feature-grid">
+                                        <!-- <img src="https://sewagi-web.inspira.web.id/img/001-home.svg" class="mr-2" width="24px"> -->
+                                        <i class="fa fa-tv"></i>
+                                        <div>{{ session('locale')=='en' ? 'TV cable' : 'TV kabel' }}</div>
+                                    </div>
+                                    <div class="feature-grid">
+                                        <!-- <img src="https://sewagi-web.inspira.web.id/img/001-home.svg" class="mr-2" width="24px"> -->
+                                        <i class="fas fa-broom"></i>
+                                        <div>{{ session('locale')=='en' ? 'Cleaning service' : 'Layanan kebersihan' }}</div>
+                                    </div>
+                                    
                                 </div>
                             </div>
-                            @endforeach
                         </div>
                     </div>
                 </div>
                 <hr>
-                @endif
                 <div id="amenities" class="py-50">
                     <div class="container">
                         <div class="row mt-4 mb-4">
                             <div class="col-md-12 d-flex flex-wrap align-items-center">
                                 <h3 class="mb-0 flex-fill text-dark">{{ getLocale($locale_detail_property, 'label-title-2', 'Amenities') }}</h3>
-                                @if(count($detail->amenitiesProperty) > 9)
-                                    <a href="javascript:void(0);">{{ getLocale($locale_detail_property, 'link-1', 'See all amenities') }} →</a>
-                                @endif
+                                <a href="javascript:void(0);">{{ getLocale($locale_detail_property, 'link-1', 'See all amenities') }} →</a>
+                                
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="row text-color-gray-1">
-                                    <?php $count = 0; ?>
-                                    @foreach($detail->amenitiesProperty as $amenity)
-                                        @if($count <= 8)
-                                        <div class="feature-grid">
-                                            <!-- <img src="https://sewagi-web.inspira.web.id/img/001-home.svg" class="mr-2" width="24px"> -->
-                                            <i class="fa fa-tv"></i>
-                                            <div>{{ !empty($amenity->name) ? (session('locale')=='en' ? $amenity->name : $amenity->id_name ) : '' }}</div>
-                                        </div>
-                                        <?php $count++; ?>
-                                        @endif
-                                    @endforeach
+                                    <div class="feature-grid">
+                                        <!-- <img src="https://sewagi-web.inspira.web.id/img/001-home.svg" class="mr-2" width="24px"> -->
+                                        <i class="fa fa-tv"></i>
+                                        <div>Television</div>
+                                    </div>
+
+                                    <div class="feature-grid">
+                                        <!-- <img src="https://sewagi-web.inspira.web.id/img/001-home.svg" class="mr-2" width="24px"> -->
+                                        <i class="fa fa-wifi"></i>
+                                        <div>Wi-fi</div>
+                                    </div>
+
+                                    <div class="feature-grid">
+                                        <!-- <img src="https://sewagi-web.inspira.web.id/img/001-home.svg" class="mr-2" width="24px"> -->
+                                        <i class="fa fa-bath"></i>
+                                        <div>Bathtub</div>
+                                    </div>
+
+                                    <div class="feature-grid">
+                                        <!-- <img src="https://sewagi-web.inspira.web.id/img/001-home.svg" class="mr-2" width="24px"> -->
+                                        <i class="fa fa-car"></i>
+                                        <div>Free Parking</div>
+                                    </div>
+
+                                    <div class="feature-grid">
+                                        <!-- <img src="https://sewagi-web.inspira.web.id/img/001-home.svg" class="mr-2" width="24px"> -->
+                                        <i class="fa fa-briefcase"></i>
+                                        <div>Workspace</div>
+                                    </div>
+
+                                    <div class="feature-grid">
+                                        <!-- <img src="https://sewagi-web.inspira.web.id/img/001-home.svg" class="mr-2" width="24px"> -->
+                                        <i class="fa fa-box"></i>
+                                        <div>Deposit box</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -260,33 +261,34 @@
                         <div class="row mt-4 mb-4">
                             <div class="col-md-12 d-flex flex-wrap align-items-center">
                                 <h3 class="mb-0 flex-fill text-dark">{{ getLocale($locale_detail_property, 'label-title-3', 'Facilities') }}</h3>
-                                @if(count($detail->amenitiesProperty) > 6)
-                                    <a href="javascript:void(0);">{{ getLocale($locale_detail_property, 'link-2', 'See all facilities') }} →</a>
-                                @endif
+                                <a href="javascript:void(0);">{{ getLocale($locale_detail_property, 'link-2', 'See all facilities') }} →</a>
+                               
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="row text-color-gray-1 mb-4">
-                                <?php $count = 0; ?>
-                                @foreach($detail->facilitiesProperty as $facility)
-                                    @if($count <= 5)
                                     <div class="feature-grid">
                                         <!-- <img src="https://sewagi-web.inspira.web.id/img/001-home.svg" class="mr-2" width="24px"> -->
                                         <img src="https://img.icons8.com/wired/26/000000/elevator.png">
-                                        <div>{{ !empty($facility->name) ? (session('locale')=='en' ? $facility->name : $facility->id_name ) : '' }}</div>
+                                        <div>Elevator</div>
                                     </div>
-                                    @if($value->quantity_available > 0)
-                                    <span class="btn-group-toggle pt-15" style="display:none;" data-toggle="buttons">
-                                        <label class="btn btn-outline-primary btn-select">
-                                            <input type="checkbox">
-                                            <span>{{ session('locale')=='id' ? 'Pilih' : 'Select' }}</span>
-                                        </label>
-                                    </span>
-                                    @endif
-                                    @endif
-                                @endforeach
+                                    <div class="feature-grid">
+                                        <!-- <img src="https://sewagi-web.inspira.web.id/img/001-home.svg" class="mr-2" width="24px"> -->
+                                        <i class="fa fa-user-secret"></i>
+                                        <div>24 hours Security</div>
+                                    </div>
+                                    <div class="feature-grid">
+                                        <!-- <img src="https://sewagi-web.inspira.web.id/img/001-home.svg" class="mr-2" width="24px"> -->
+                                        <i class="fa fa-car"></i>
+                                        <div>Parking Space</div>
+                                    </div>
+                                    <div class="feature-grid">
+                                        <!-- <img src="https://sewagi-web.inspira.web.id/img/001-home.svg" class="mr-2" width="24px"> -->
+                                        <i class="fa fa-shopping-bag"></i>
+                                        <div>Shopping Area</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -298,18 +300,13 @@
                             <div class="col-md-6 offset-md-1">
                                 <h3 class="flex-fill text-dark">{{ getLocale($locale_detail_property, 'label-title-4', 'Room Arrangements') }}</h3>
                                 <div class="list-n-divider">
-                                @foreach($detail->bedroom as $key => $value)
-                                    <div class="py-30">
+                                <div class="py-30">
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div id="carousel-room-item-0" class="carousel slide text-color-white" data-ride="carousel">
                                                     <div class="carousel-inner">
-                                                    @foreach($bedroomPhoto as $key => $val)
-                                                        <div class="carousel-item active">
-                                                            <img class="d-block w-100" src="{{ rtrim(env('AWS_URL'), '/')}}/{{ trim($val->path, '/') }}">
-                                                        </div>
-                                                    @endforeach
-                                                        <!--<div class="carousel-item">
+                                                   
+                                                        <div class="carousel-item">
                                                             <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
                                                         </div>
                                                         <div class="carousel-item active">
@@ -317,7 +314,7 @@
                                                         </div>
                                                         <div class="carousel-item">
                                                             <img class="d-block w-100" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-0.3.5&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;s=0cf4ef4cb623c8a52b1a624f76eaf5bf&amp;auto=format&amp;fit=crop&amp;w=750&amp;q=80">
-                                                        </div>-->
+                                                        </div>
                                                     </div>
                                                     <ol class="carousel-indicators">
                                                         <li data-target="#carousel-room-item-0" data-slide-to="0" class=""></li>
@@ -330,57 +327,35 @@
                                             </div>
                                             <div class="col-md-8 d-flex pt-3">
                                                 <div class="flex-fill font-size-12 text-color-gray-6">
-                                                    <div><h4 class="m-0 text-dark">{{ ucfirst($value->name)}}</h4></div>
+                                                    <div><h4 class="m-0 text-dark">Master Bedroom</h4></div>
                                                     <div>
                                                         <ul class="category-list dot-separator">
-                                                            <li><i class="fa fa-expand mr-2 text-color-turqoise"></i>{{ $value->size}} m²</li>
+                                                            <li><i class="fa fa-expand mr-2 text-color-turqoise"></i>49 m²</li>
                                                         </ul>
                                                     </div>
                                                     <div>
                                                         <ul class="category-list dot-separator">
                                                             <li>
-                                                                @if (session('en'))
-                                                                    {{ $value->furniture}}
-                                                                @else
-                                                                    @switch($value->furniture)
-                                                                        @case('furnished')
-                                                                            berperabot
-                                                                            @break
-                                                                        @case('semi-furnished')
-                                                                            semi berperabot
-                                                                            @break
-                                                                        @case('unfurnished')
-                                                                            tanpa perabot
-                                                                            @break
-                                                                    @endswitch
-                                                                @endif
+                                                                Furnished
                                                             </li>
-                                                            @if($value->furniture != 'unfurnished')
-                                                                <li>{{ $value->bed_arrangement}} size bed</li>
-                                                            @endif
-                                                            @if($value->is_loft == 1)
-                                                                <li>{{ session('locale') == 'en' ? 'loft' : 'loteng' }}</li>
-                                                            @endif
+                                                           <li>King size bed</li>
                                                         </ul>
                                                         <ul class="category-list dot-separator">
-                                                            @foreach($detail->bedroom[$key]->amenitiesBedroom as $data)
-                                                            <li>{{ $data->name}}</li>
-                                                            @endforeach
+                                                            <li>Private bathroom</li>
+                                                            <li>TV</li>
+                                                            <li>Deposit Box</li>
                                                         </ul>
                                                     </div>
                                                 </div>
-                                                @if($value->quantity_available > 0)
                                                 <span class="btn-group-toggle btn-select-room-arrangement" data-toggle="buttons">
                                                     <label class="btn btn-outline-primary btn-select">
-                                                        <input type="checkbox" value="{{$value->id}}-{{$value->name}}">
+                                                        <input type="checkbox" value="1-1">
                                                         <span>Select</span>
                                                     </label>
                                                 </span>
-                                                @endif
                                             </div>
                                         </div>
                                     </div>
-                                @endforeach
                                 <div class="housemate-item d-flex font-size-12 py-10 mt-20" data-background-color="orange-2">
                                     <div class="text-color-dark mt-2 ml-3 font-weight-600">Meet your housemate</div>
                                         <div class="flex-fill">
@@ -407,7 +382,7 @@
                     <div class="container pt-5 pb-5">
                         <div class="row">
                             <div class="col-md-6 offset-md-1 accordion">
-                                <h3 class="mb-10 flex-fill">{{ getLocale($locale_detail_property, 'label-title-5', 'House rules &amp; cancellation') }}</h3>
+                                <h3 class="mb-10 flex-fill">{{ getLocale($locale_detail_property, 'label-title-5', 'House rules & cancellation') }}</h3>
                                 <div class="font-size-20 font-weight-600 pt-4 pb-3">{{ getLocale($locale_detail_property, 'label-title-5-1', 'General rules') }}</div>
                                 <div class="mb-20">
                                     <ul class="custom-list">
@@ -468,61 +443,52 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="booking-sticky-content" style="width: 337px">
-                                    <input type="hidden" id="property-id" value="{{ $detail->id }}">
-                                    <div class="btn-group-toggle d-flex border-bottom px-0 py-16 col-md-12" data-toggle="buttons">
-                                    @if($detail->is_co_living == 1)
+                                    <input type="hidden" id="property-id" value="1">
+                                    <div class="btn-group-toggle d-flex border-bottom px-9 py-16 col-md-12" data-toggle="buttons">
+                                        <button class="col-md-6 btn btn btn-checkbox btn-outline-primary flex-fill living-condition active px-0 py-6 mr-0 ml-5" style="text-transform:none" data-value="entire-space">
+                                            <input type="radio" name="living-conditions" value="entire-space">
+                                            Entire House
+                                        </button>
                                         <button class="col-md-6 btn btn-checkbox btn-outline-primary flex-fill mr-2 living-condition active px-0 py-6 mr-5 ml-16" style="text-transform:none" data-value="co-living">
                                             <input type="radio" name="living-conditions" value="co-living">
                                             Co-Living
                                         </button>
-                                    @endif
-                                    @if($detail->is_entire_space == 1)
-                                        @if($detail->rented_room == 0)
-                                        <button class="col-md-6 btn btn btn-checkbox btn-outline-primary flex-fill living-condition {{ ($detail->is_co_living != 1 ? ' active':'')}} px-0 py-6 mr-16 ml-5" style="text-transform:none" data-value="entire-space">
-                                            <input type="radio" name="living-conditions" value="entire-space">
-                                            Entire {{ ucfirst($detail->type)}}
-                                        </button>
-                                        @endif
-                                    @endif
                                     </div>
                                     <div class="d-flex" style="height: 60px">
-                                        @if(count($length) > 3)
                                         <div class="tabs-navigator left" data-navi="prev"><img src="{{ asset('img/ic_sticky_arrow_left.svg') }}" class="icon-slide" alt="slide to left"></div>
-                                        @endif
                                         <ul class="d-flex flex-fill nav nav-tabs tabs-default tabs-fill text-uppercase btn-group-toggle" data-toggle="buttons" id="lengthofstay">
-
+                                            <li class='nav-item'>
+                                                <div class='nav-link active btn'>
+                                                    <input type="radio" name="monthly" value="1" checked="checked">1 Year
+                                                </div>
+                                            </li>
+                                            <li class='nav-item'>
+                                                <div class='nav-link btn'>
+                                                    <input type="radio" name="monthly" value="1">6 Month
+                                                </div>
+                                            </li>
+                                            <li class='nav-item'>
+                                                <div class='nav-link btn'>
+                                                    <input type="radio" name="monthly" value="1">3 Month
+                                                </div>
+                                            </li>
                                         </ul>
-                                        @if(count($length) > 3)
                                         <div class="tabs-navigator right" data-navi="next"><span class="fas fa-chevron-right"></span></div>
-                                        @endif
+                                        
                                     </div>
                                     <div class="col btm-sticky px-32 pt-21 py-10">
                                         <div class="form-group mb-10 pt-0" id="bedroom-type-select">
                                             <select class="select2 js-select2 form-control input-aqua mb-10" id="bedroom-type" name="bedroom-type">
-                                                @foreach($detail->bedroom as $key => $value)
-                                                    @if($value->quantity_available > 0)
-                                                        <option value="{{ $value->id }}">{{ session('locale')=='en' ? ucfirst($value->type).' Bedroom' : 'Kamar '.ucfirst( ($value->type=='master') ? 'Utama' : ($value->type=='standard' ? 'Standar' : 'Sederhana') ) }}</option>
-                                                    @endif
-                                                @endforeach
+                                                <option value="master">Master Bedroom</option>
                                             </select>
                                         </div>
                                         <div class="form-group mb-10">
                                             <select class="select2 form-control input-aqua mb-10" id="pricepaid">
-                                                @foreach($detail->priceDetail as $key => $value)
-                                                    @if($value->paid_once != '')
-                                                        <option value="{{ $value->paid_once }}-{{ $value->length }}" data-description="PAID ONCE">{{ getLocale($locale_detail_property, 'label-idr', 'IDR') }} {{ number_format($value->paid_once) }}</option>
-                                                    @endif
-                                                    @if($value->paid_twice != '')
-                                                        <option value="{{ $value->paid_twice }}-{{ $value->length }}" data-description="PAID TWICE">{{ getLocale($locale_detail_property, 'label-idr', 'IDR') }} {{ number_format($value->paid_twice) }}</option>
-                                                    @endif
-                                                    @if($value->paid_quarterly != '')
-                                                        <option value="{{ $value->paid_quarterly }}-{{ $value->length }}" data-description="PAID QUARTERLY">{{ getLocale($locale_detail_property, 'label-idr', 'IDR') }} {{ number_format($value->paid_quarterly) }}</option>
-                                                    @endif
-                                                    @if($value->paid_monthly != '')
-                                                        <option value="{{ $value->paid_monthly }}-{{ $value->length }}" data-description="PAID MONTHLY">{{ getLocale($locale_detail_property, 'label-idr', 'IDR') }} {{ number_format($value->paid_monthly) }}</option>
-                                                    @endif
-
-                                                @endforeach
+                                                <option value="paid-1" data-description="PAID ONCE">IDR {{ number_format("120000000") }} PAID ONCE</option>
+                                                <option value="paid-1" data-description="PAID TWICE">IDR {{ number_format("70000000") }} PAID TWICE</option>
+                                                <option value="paid-1" data-description="PAID QUARTERLY">IDR {{ number_format("50000000") }} PAID QUARTERLY</option>
+                                                <option value="paid-1" data-description="PAID MONTHLY">IDR {{ number_format("13500000") }}PAID MONTHLY</option>
+                                                
                                             </select>
                                         </div>
                                         <div class="text-center font-size-12 mt-2 mb-10 lets-negotiate" style="display:none">
@@ -582,23 +548,23 @@
                                             <div class="row">
                                                 @if(!Auth::user())
                                                     <div class="col-md-6 pr-lg-5">
-                                                        <button type="button" class="btn btn-primary btn-block px-0 py-9 font-size-12" style="line-height: 13px; letter-spacing: 0px" data-toggle="modal" data-target="#modalLogin" data-value="onsite">
+                                                        <button type="button" class="btn btn-outline-primary btn-block px-0 py-9 font-size-12" style="line-height: 13px; letter-spacing: 0px" data-toggle="modal" data-target="#modalLogin" data-value="onsite">
                                                             {{ getLocale($locale_detail_property, 'label-installment-5', 'SCHEDULE') }}<br>{{ getLocale($locale_detail_property, 'label-installment-6', 'ONSITE TOUR') }}
                                                         </button>
                                                     </div>
                                                     <div class="col-md-6 pl-lg-5">
-                                                        <button type="button" class="btn btn-primary btn-block px-0 py-9 font-size-12" style="line-height: 13px; letter-spacing: 0px" data-toggle="modal" data-target="#modalLogin" data-value="virtual">
+                                                        <button type="button" class="btn btn-outline-primary btn-block px-0 py-9 font-size-12" style="line-height: 13px; letter-spacing: 0px" data-toggle="modal" data-target="#modalLogin" data-value="virtual">
                                                             {{ getLocale($locale_detail_property, 'label-installment-5', 'SCHEDULE') }}<br>{{ getLocale($locale_detail_property, 'label-installment-7', 'LIVE VIRTUAL TOUR') }}
                                                         </button>
                                                     </div>
                                                 @else
                                                     <div class="col-md-6 pr-lg-5">
-                                                        <button type="button" class="btn btn-primary btn-block px-0 py-9 schedule-btn font-size-12" style="line-height: 13px; letter-spacing: 0px" data-value="onsite">
+                                                        <button type="button" class="btn btn-outline-primary btn-block px-0 py-9 schedule-btn font-size-12" style="line-height: 13px; letter-spacing: 0px" data-value="onsite">
                                                             {{ getLocale($locale_detail_property, 'label-installment-5', 'SCHEDULE') }}<br>{{ getLocale($locale_detail_property, 'label-installment-6', 'ONSITE TOUR') }}
                                                         </button>
                                                     </div>
                                                     <div class="col-md-6 pl-lg-5">
-                                                        <button type="button" class="btn btn-primary btn-block px-0 py-9 schedule-btn font-size-12" style="line-height: 13px; letter-spacing: 0px" data-value="virtual">
+                                                        <button type="button" class="btn btn-outline-primary btn-block px-0 py-9 schedule-btn font-size-12" style="line-height: 13px; letter-spacing: 0px" data-value="virtual">
                                                             {{ getLocale($locale_detail_property, 'label-installment-5', 'SCHEDULE') }}<br>{{ getLocale($locale_detail_property, 'label-installment-7', 'LIVE VIRTUAL TOUR') }}
                                                         </button>
                                                     </div>
@@ -606,7 +572,7 @@
                                             </div>
                                         </div>
                                         <div class="form-group mb-7">
-                                            <a href="javascript:void(0);" class="btn btn-outline-primary btn-block booknow-btn" data-dismiss="modal" data-toggle="modal" data-target="#modalVisitThisProperty">
+                                            <a href="javascript:void(0);" class="btn btn-primary btn-block booknow-btn" data-dismiss="modal" data-toggle="modal" data-target="#modalVisitThisProperty">
                                                 BOOK NOW
                                             </a>
                                         </div>
@@ -638,9 +604,9 @@
                                         <!--<div class="text-center font-size-12 mt-2 mb-2 gradana" style="display:none"><a href="" data-toggle="modal" data-target="#modalGradana" class="negotiate-btn">Test Gradana</a></div>-->
                                     </div>
                                     <div class="d-flex">
-                                        <button class="btn btn-footer flex-fill btn-white"><img src="https://sewagi-web.inspira.web.id/img/ic_logout.svg"> {{ getLocale($locale_detail_property, 'label-share', 'Share it') }}</button>
-                                        <button class="btn btn-footer flex-fill btn-white">{{ getLocale($locale_detail_property, 'label-save', 'Save It') }}</button>
-                                        <button class="btn btn-footer flex-fill btn-white"><img src="https://sewagi-web.inspira.web.id/img/ic_heart.svg"> {{ getLocale($locale_detail_property, 'label-favourites', 'Favorites') }}</button>
+                                        <button class="btn btn-footer flex-fill btn-white"><img src="{{ asset('img/ic_logout.svg') }}">          {{ getLocale($locale_detail_property, 'label-share', 'Share it') }}</button>
+                                        <button class="btn btn-footer flex-fill btn-white"><img src="{{ asset('img/ic_save_it.svg') }}">          {{ getLocale($locale_detail_property, 'label-save', 'Save It') }}</button>
+                                        <button class="btn btn-footer flex-fill btn-white"><img src="{{ asset('img/ic_heart.svg') }}">          {{ getLocale($locale_detail_property, 'label-favourites', 'Favorites') }}</button>
                                     </div>
                                 </div>
                             </div>
@@ -866,20 +832,15 @@
 
                 <!-- end: property item -->
                     <div class="owl-stage-outer">
-                        <div class="owl-stage" style="transform: translate3d(-2302px, 0px, 0px); transition: all 0s ease 0s; width: 3838px;">
-                            @foreach($similarListing as $key => $value)
-                            <div class="owl-item" style="width: 342.5px; margin-right: 425px;">
+                        <div class="owl-stage" style="transform: translate3d(-2302px, 0px, 0px); transition: all 0s ease 0s;">
+                            <div class="owl-item" style="width: 342.5px; margin-right: 425px;margin-left: 111px">
                                 <div class="col-12 property-wrapper">
                                     <div class="property-item">
                                         <div id="" class="pp-images position-relative">
                                             <div class="image-wrapper-2">
                                                 <div class="image-sizing-2">
-                                                    @isset($value->photos[0]->thumb_images)
-                                                    @foreach($value->photos[0]->thumb_images as $k => $v)
-                                                        <img src="{{ env('AWS_URL')}}{{ substr($v->path,1) }}" alt="image">
-                                                    @endforeach
-                                                    @endisset
-                                                   <span class="main-tag">#{{ $value->stylesProperty[0]->name}}</span>
+                                                        <img src="https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_1280.jpg" alt="image">
+                                                    <span class="main-tag">#minimalist</span>
                                                 </div>
                                             </div>
                                             <div class="position-absolute">
@@ -893,21 +854,13 @@
                                                 <div class="col-md-12 col-12">
                                                     <div class="pp-highlight border-bottom">
                                                         <div class="pp-tags">
-                                                            @if($value->is_co_living == 1)
-                                                                <span class="card-tag">{{ session('locale')=='en' ? 'Co-Living' : 'Hunian Bersama' }}</span>
-                                                            @endif
-                                                            @if($value->is_entire_space == 1)
-                                                                @if (session('locale')=='en')
-                                                                    <span class="card-tag card-tag-outline">Entire {{ $value->type}}</span>
-                                                                @else
-                                                                    <span class="card-tag card-tag-outline">{{ ucfirst($value->type)=='house' ? 'Rumah' : 'Apartemen' }} dihuni sendiri</span>
-                                                                @endif
-                                                            @endif
+                                                            <span class="card-tag">{{ session('locale')=='en' ? 'Co-Living' : 'Hunian Bersama' }}</span>
+                                                            <span class="card-tag card-tag-outline">Entire House</span>
                                                         </div>
                                                         <div class="row">
                                                             <div class="col-md-12">
-                                                                <h4 class="pp-title">{{ $value->title}}</h4>
-                                                                <p class="pp-location">{{ $value->district}}, {{ $value->city}}</p>
+                                                                <h4 class="pp-title">Gading Icon</h4>
+                                                                <p class="pp-location">Kebayoran Baru, South Jakarta</p>
                                                                 <p class="pp-price">{{ getLocale($locale_detail_property, 'label-starting-from', 'Starting from') }} <strong>{{ getLocale($locale_detail_property, 'label-idr', 'IDR') }} 5,260,000 per {{ strtolower(getLocale($locale_detail_property, 'label-month', 'Month')) }}</strong></p>
                                                             </div>
                                                         </div>
@@ -922,7 +875,7 @@
                                                         </span>-->
                                                         <!--<span class="pp-landsize d-flex flex-row flex-wrap justify-content-start align-items-center">
                                                             <img src="/img/pp-landsize.jpg" alt="Landsize">
-                                                            <span>{{ $value->unit_size }}m<sup>2</sup></span>
+                                                            <span>m<sup>2</sup></span>
                                                         </span>-->
                                                         <span class="pp-room d-flex flex-row flex-wrap justify-content-start align-items-center">
                                                             <img src="/img/pp-room.jpg" alt="Room">
@@ -931,7 +884,7 @@
                                                         </span>
                                                         <span class="pp-bed d-flex flex-row flex-wrap justify-content-start align-items-center">
                                                             <img src="/img/pp-bed.jpg" alt="Bed">
-                                                            <span>{{ $value->bedrooms}}</span>
+                                                            <span>2</span>
                                                         </span>
                                                     </div>
                                                 </div>
@@ -940,7 +893,128 @@
                                     </div>
                                 </div>
                             </div>
-                            @endforeach
+
+                            <div class="owl-item" style="width: 342.5px; margin-right: 425px;margin-left: 111px">
+                                <div class="col-12 property-wrapper">
+                                    <div class="property-item">
+                                        <div id="" class="pp-images position-relative">
+                                            <div class="image-wrapper-2">
+                                                <div class="image-sizing-2">
+                                                        <img src="https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_1280.jpg" alt="image">
+                                                    <span class="main-tag">#minimalist</span>
+                                                </div>
+                                            </div>
+                                            <div class="position-absolute">
+                                                <button class="btn btn-icon-small btn-favorite background-white mb-auto mt-md-40">
+                                                    <i class="far fa-heart icon icon-small"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="pp-detail">
+                                            <div class="row">
+                                                <div class="col-md-12 col-12">
+                                                    <div class="pp-highlight border-bottom">
+                                                        <div class="pp-tags">
+                                                            <span class="card-tag">{{ session('locale')=='en' ? 'Co-Living' : 'Hunian Bersama' }}</span>
+                                                            <span class="card-tag card-tag-outline">Entire House</span>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <h4 class="pp-title">Gading Icon</h4>
+                                                                <p class="pp-location">Kebayoran Baru, South Jakarta</p>
+                                                                <p class="pp-price">{{ getLocale($locale_detail_property, 'label-starting-from', 'Starting from') }} <strong>{{ getLocale($locale_detail_property, 'label-idr', 'IDR') }} 5,260,000 per {{ strtolower(getLocale($locale_detail_property, 'label-month', 'Month')) }}</strong></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 col-12 d-flex flex-md-column flex-row flex-wrap align-items-md-end align-items-center justify-content-md-end justify-content-between mt-md-0 mt-10">
+                                                    <div class="pp-spec d-flex flex-row flex-wrap w-100 justify-content-end">
+                                                        <!--<span class="pp-rates">
+                                                            <span class="pp-stars">4.5</span>
+                                                            <i class="fas fa-star text-color-orange"></i>
+                                                            <span class="pp-raters color-light-brown pl-2">(35)</span>
+                                                        </span>-->
+                                                        <!--<span class="pp-landsize d-flex flex-row flex-wrap justify-content-start align-items-center">
+                                                            <img src="/img/pp-landsize.jpg" alt="Landsize">
+                                                            <span>m<sup>2</sup></span>
+                                                        </span>-->
+                                                        <span class="pp-room d-flex flex-row flex-wrap justify-content-start align-items-center">
+                                                            <img src="/img/pp-room.jpg" alt="Room">
+                                                            <span class="font-weight-bold">2</span>/
+                                                            <span>8</span>
+                                                        </span>
+                                                        <span class="pp-bed d-flex flex-row flex-wrap justify-content-start align-items-center">
+                                                            <img src="/img/pp-bed.jpg" alt="Bed">
+                                                            <span>2</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="owl-item" style="width: 342.5px; margin-right: 425px;margin-left: 111px">
+                                <div class="col-12 property-wrapper">
+                                    <div class="property-item">
+                                        <div id="" class="pp-images position-relative">
+                                            <div class="image-wrapper-2">
+                                                <div class="image-sizing-2">
+                                                        <img src="https://cdn.pixabay.com/photo/2014/07/10/17/18/large-home-389271_1280.jpg" alt="image">
+                                                    <span class="main-tag">#minimalist</span>
+                                                </div>
+                                            </div>
+                                            <div class="position-absolute">
+                                                <button class="btn btn-icon-small btn-favorite background-white mb-auto mt-md-40">
+                                                    <i class="far fa-heart icon icon-small"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="pp-detail">
+                                            <div class="row">
+                                                <div class="col-md-12 col-12">
+                                                    <div class="pp-highlight border-bottom">
+                                                        <div class="pp-tags">
+                                                            <span class="card-tag">{{ session('locale')=='en' ? 'Co-Living' : 'Hunian Bersama' }}</span>
+                                                            <span class="card-tag card-tag-outline">Entire House</span>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <h4 class="pp-title">Gading Icon</h4>
+                                                                <p class="pp-location">Kebayoran Baru, South Jakarta</p>
+                                                                <p class="pp-price">{{ getLocale($locale_detail_property, 'label-starting-from', 'Starting from') }} <strong>{{ getLocale($locale_detail_property, 'label-idr', 'IDR') }} 5,260,000 per {{ strtolower(getLocale($locale_detail_property, 'label-month', 'Month')) }}</strong></p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12 col-12 d-flex flex-md-column flex-row flex-wrap align-items-md-end align-items-center justify-content-md-end justify-content-between mt-md-0 mt-10">
+                                                    <div class="pp-spec d-flex flex-row flex-wrap w-100 justify-content-end">
+                                                        <!--<span class="pp-rates">
+                                                            <span class="pp-stars">4.5</span>
+                                                            <i class="fas fa-star text-color-orange"></i>
+                                                            <span class="pp-raters color-light-brown pl-2">(35)</span>
+                                                        </span>-->
+                                                        <!--<span class="pp-landsize d-flex flex-row flex-wrap justify-content-start align-items-center">
+                                                            <img src="/img/pp-landsize.jpg" alt="Landsize">
+                                                            <span>m<sup>2</sup></span>
+                                                        </span>-->
+                                                        <span class="pp-room d-flex flex-row flex-wrap justify-content-start align-items-center">
+                                                            <img src="/img/pp-room.jpg" alt="Room">
+                                                            <span class="font-weight-bold">2</span>/
+                                                            <span>8</span>
+                                                        </span>
+                                                        <span class="pp-bed d-flex flex-row flex-wrap justify-content-start align-items-center">
+                                                            <img src="/img/pp-bed.jpg" alt="Bed">
+                                                            <span>2</span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="owl-nav">
