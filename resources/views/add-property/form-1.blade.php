@@ -9,8 +9,8 @@
                 <div class="form-group">
                     <select id="estate-type" class="select2 select2-list-property" name="type">
                         <option value="">{{ getLocale($locale_form1, 'label-2', 'Select estate type') }}</option>
-                        <option value="apartment" {{ isset($property) ? ($property->type == 'apartment' ? "selected" : '') : '' }} {{ old('type') == 'apartment' ? 'selected' : '' }}>{{ session('locale')=='en' ? 'Apartment' : 'Apartemen' }}</option>
-                        <option value="house" {{ isset($property) ? ($property->type == 'house' ? 'selected' : '') : "" }} {{ old('type') == 'house' ? 'selected' : '' }}>{{ session('locale')=='en' ? 'House' : 'Rumah' }}</option>
+                        <option value="apartment" {{ isset($property) ? ($property->type == 'apartment' ? "selected" : '') : '' }} {{ old('type') == 'apartment' ? 'selected' : '' }}>{{ session('locale')=='en' ? 'Apartemen' : 'Apartment' }}</option>
+                        <option value="house" {{ isset($property) ? ($property->type == 'house' ? 'selected' : '') : "" }} {{ old('type') == 'house' ? 'selected' : '' }}>{{ session('locale')=='en' ? 'Rumah' : 'House' }}</option>
                     </select>
                 </div>
                 @if ($errors->has('type'))

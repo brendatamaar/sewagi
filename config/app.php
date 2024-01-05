@@ -162,7 +162,8 @@ return [
         Laratrust\LaratrustServiceProvider::class,
         Yajra\Datatables\DatatablesServiceProvider::class,
         Cornford\Googlmapper\MapperServiceProvider::class,
-
+        Laravel\Scout\ScoutServiceProvider::class,
+        ScoutElastic\ScoutElasticServiceProvider::class,
 
 
         /*
